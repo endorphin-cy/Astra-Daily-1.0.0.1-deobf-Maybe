@@ -1,0 +1,1642 @@
+
+.\outputs\Astra-Daily-1.0.0.1-deobf\native-recovered\kbox-native-stage-decrypted.bin:	file format coff-x86-64
+
+Disassembly of section .text:
+
+00000003afb4f959 <Java_com_kbox_runtime_NativeCrypto_decryptString0>:
+3afb4f959: 41 57                       	push	r15
+3afb4f95b: 41 56                       	push	r14
+3afb4f95d: 41 55                       	push	r13
+3afb4f95f: 41 54                       	push	r12
+3afb4f961: 55                          	push	rbp
+3afb4f962: 57                          	push	rdi
+3afb4f963: 56                          	push	rsi
+3afb4f964: 53                          	push	rbx
+3afb4f965: 48 83 ec 78                 	sub	rsp, 0x78
+3afb4f969: 49 89 cc                    	mov	r12, rcx
+3afb4f96c: 4c 89 84 24 d0 00 00 00     	mov	qword ptr [rsp + 0xd0], r8
+3afb4f974: 4d 89 cf                    	mov	r15, r9
+3afb4f977: bd 00 00 00 00              	mov	ebp, 0x0
+3afb4f97c: 4d 85 c0                    	test	r8, r8
+3afb4f97f: 74 0e                       	je	0x3afb4f98f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x36>
+3afb4f981: 48 8b 01                    	mov	rax, qword ptr [rcx]
+3afb4f984: 4c 89 c2                    	mov	rdx, r8
+3afb4f987: ff 90 58 05 00 00           	call	qword ptr [rax + 0x558]
+3afb4f98d: 89 c5                       	mov	ebp, eax
+3afb4f98f: 4c 89 fb                    	mov	rbx, r15
+3afb4f992: 4d 85 ff                    	test	r15, r15
+3afb4f995: 0f 84 1d 01 00 00           	je	0x3afb4fab8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x15f>
+3afb4f99b: 49 8b 04 24                 	mov	rax, qword ptr [r12]
+3afb4f99f: 4c 89 fa                    	mov	rdx, r15
+3afb4f9a2: 4c 89 e1                    	mov	rcx, r12
+3afb4f9a5: ff 90 58 05 00 00           	call	qword ptr [rax + 0x558]
+3afb4f9ab: 83 fd 0f                    	cmp	ebp, 0xf
+3afb4f9ae: 0f 8e ba 06 00 00           	jle	0x3afb5006e <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x715>
+3afb4f9b4: 83 f8 20                    	cmp	eax, 0x20
+3afb4f9b7: 0f 85 b1 06 00 00           	jne	0x3afb5006e <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x715>
+3afb4f9bd: 49 8b 04 24                 	mov	rax, qword ptr [r12]
+3afb4f9c1: 41 b8 00 00 00 00           	mov	r8d, 0x0
+3afb4f9c7: 48 8b 94 24 d0 00 00 00     	mov	rdx, qword ptr [rsp + 0xd0]
+3afb4f9cf: 4c 89 e1                    	mov	rcx, r12
+3afb4f9d2: ff 90 c0 05 00 00           	call	qword ptr [rax + 0x5c0]
+3afb4f9d8: 48 89 c7                    	mov	rdi, rax
+3afb4f9db: 48 89 44 24 20              	mov	qword ptr [rsp + 0x20], rax
+3afb4f9e0: 49 8b 04 24                 	mov	rax, qword ptr [r12]
+3afb4f9e4: 41 b8 00 00 00 00           	mov	r8d, 0x0
+3afb4f9ea: 4c 89 fa                    	mov	rdx, r15
+3afb4f9ed: 4c 89 e1                    	mov	rcx, r12
+3afb4f9f0: ff 90 c0 05 00 00           	call	qword ptr [rax + 0x5c0]
+3afb4f9f6: 49 89 c5                    	mov	r13, rax
+3afb4f9f9: 48 85 ff                    	test	rdi, rdi
+3afb4f9fc: 0f 84 ca 00 00 00           	je	0x3afb4facc <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x173>
+3afb4fa02: 48 85 c0                    	test	rax, rax
+3afb4fa05: 0f 84 c1 00 00 00           	je	0x3afb4facc <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x173>
+3afb4fa0b: 8d 75 f0                    	lea	esi, [rbp - 0x10]
+3afb4fa0e: 89 74 24 48                 	mov	dword ptr [rsp + 0x48], esi
+3afb4fa12: 85 f6                       	test	esi, esi
+3afb4fa14: b8 01 00 00 00              	mov	eax, 0x1
+3afb4fa19: 0f 4f c6                    	cmovg	eax, esi
+3afb4fa1c: 48 98                       	cdqe
+3afb4fa1e: 48 89 44 24 40              	mov	qword ptr [rsp + 0x40], rax
+3afb4fa23: 48 89 c1                    	mov	rcx, rax
+3afb4fa26: e8 ca ee ff ff              	call	0x3afb4e8f5 <.text+0x8f5>
+3afb4fa2b: 48 89 c7                    	mov	rdi, rax
+3afb4fa2e: 48 89 44 24 28              	mov	qword ptr [rsp + 0x28], rax
+3afb4fa33: b9 f0 00 00 00              	mov	ecx, 0xf0
+3afb4fa38: e8 b8 ee ff ff              	call	0x3afb4e8f5 <.text+0x8f5>
+3afb4fa3d: 48 89 c3                    	mov	rbx, rax
+3afb4fa40: 48 85 ff                    	test	rdi, rdi
+3afb4fa43: 74 09                       	je	0x3afb4fa4e <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xf5>
+3afb4fa45: 48 85 c0                    	test	rax, rax
+3afb4fa48: 0f 85 cb 00 00 00           	jne	0x3afb4fb19 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1c0>
+3afb4fa4e: 48 85 db                    	test	rbx, rbx
+3afb4fa51: 74 15                       	je	0x3afb4fa68 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x10f>
+3afb4fa53: bf 00 00 00 00              	mov	edi, 0x0
+3afb4fa58: ba f0 00 00 00              	mov	edx, 0xf0
+3afb4fa5d: 48 89 d9                    	mov	rcx, rbx
+3afb4fa60: e8 da ee ff ff              	call	0x3afb4e93f <.text+0x93f>
+3afb4fa65: 48 89 fb                    	mov	rbx, rdi
+3afb4fa68: 48 8b 44 24 28              	mov	rax, qword ptr [rsp + 0x28]
+3afb4fa6d: 48 85 c0                    	test	rax, rax
+3afb4fa70: 74 0d                       	je	0x3afb4fa7f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x126>
+3afb4fa72: 48 8b 54 24 40              	mov	rdx, qword ptr [rsp + 0x40]
+3afb4fa77: 48 89 c1                    	mov	rcx, rax
+3afb4fa7a: e8 c0 ee ff ff              	call	0x3afb4e93f <.text+0x93f>
+3afb4fa7f: 49 8b 04 24                 	mov	rax, qword ptr [r12]
+3afb4fa83: 41 b9 02 00 00 00           	mov	r9d, 0x2
+3afb4fa89: 4d 89 e8                    	mov	r8, r13
+3afb4fa8c: 4c 89 fa                    	mov	rdx, r15
+3afb4fa8f: 4c 89 e1                    	mov	rcx, r12
+3afb4fa92: ff 90 00 06 00 00           	call	qword ptr [rax + 0x600]
+3afb4fa98: 49 8b 04 24                 	mov	rax, qword ptr [r12]
+3afb4fa9c: 41 b9 02 00 00 00           	mov	r9d, 0x2
+3afb4faa2: 4c 8b 44 24 20              	mov	r8, qword ptr [rsp + 0x20]
+3afb4faa7: 48 8b 94 24 d0 00 00 00     	mov	rdx, qword ptr [rsp + 0xd0]
+3afb4faaf: 4c 89 e1                    	mov	rcx, r12
+3afb4fab2: ff 90 00 06 00 00           	call	qword ptr [rax + 0x600]
+3afb4fab8: 48 89 d8                    	mov	rax, rbx
+3afb4fabb: 48 83 c4 78                 	add	rsp, 0x78
+3afb4fabf: 5b                          	pop	rbx
+3afb4fac0: 5e                          	pop	rsi
+3afb4fac1: 5f                          	pop	rdi
+3afb4fac2: 5d                          	pop	rbp
+3afb4fac3: 41 5c                       	pop	r12
+3afb4fac5: 41 5d                       	pop	r13
+3afb4fac7: 41 5e                       	pop	r14
+3afb4fac9: 41 5f                       	pop	r15
+3afb4facb: c3                          	ret
+3afb4facc: 4c 8b 44 24 20              	mov	r8, qword ptr [rsp + 0x20]
+3afb4fad1: 4d 85 c0                    	test	r8, r8
+3afb4fad4: 74 1b                       	je	0x3afb4faf1 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x198>
+3afb4fad6: 49 8b 04 24                 	mov	rax, qword ptr [r12]
+3afb4fada: 41 b9 02 00 00 00           	mov	r9d, 0x2
+3afb4fae0: 48 8b 94 24 d0 00 00 00     	mov	rdx, qword ptr [rsp + 0xd0]
+3afb4fae8: 4c 89 e1                    	mov	rcx, r12
+3afb4faeb: ff 90 00 06 00 00           	call	qword ptr [rax + 0x600]
+3afb4faf1: 4c 89 eb                    	mov	rbx, r13
+3afb4faf4: 4d 85 ed                    	test	r13, r13
+3afb4faf7: 74 bf                       	je	0x3afb4fab8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x15f>
+3afb4faf9: 49 8b 04 24                 	mov	rax, qword ptr [r12]
+3afb4fafd: 41 b9 02 00 00 00           	mov	r9d, 0x2
+3afb4fb03: 4d 89 e8                    	mov	r8, r13
+3afb4fb06: 4c 89 fa                    	mov	rdx, r15
+3afb4fb09: 4c 89 e1                    	mov	rcx, r12
+3afb4fb0c: ff 90 00 06 00 00           	call	qword ptr [rax + 0x600]
+3afb4fb12: bb 00 00 00 00              	mov	ebx, 0x0
+3afb4fb17: eb 9f                       	jmp	0x3afb4fab8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x15f>
+3afb4fb19: 48 8b 44 24 20              	mov	rax, qword ptr [rsp + 0x20]
+3afb4fb1e: f3 0f 6f 00                 	movdqu	xmm0, xmmword ptr [rax]
+3afb4fb22: 0f 11 44 24 30              	movups	xmmword ptr [rsp + 0x30], xmm0
+3afb4fb27: 0f 11 44 24 50              	movups	xmmword ptr [rsp + 0x50], xmm0
+3afb4fb2c: ba 00 00 00 00              	mov	edx, 0x0
+3afb4fb31: 0f 1f 40 00                 	nop	dword ptr [rax]
+3afb4fb35: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb4fb40: 41 0f b6 44 15 00           	movzx	eax, byte ptr [r13 + rdx]
+3afb4fb46: c1 e0 18                    	shl	eax, 0x18
+3afb4fb49: 41 0f b6 4c 15 01           	movzx	ecx, byte ptr [r13 + rdx + 0x1]
+3afb4fb4f: c1 e1 10                    	shl	ecx, 0x10
+3afb4fb52: 09 c8                       	or	eax, ecx
+3afb4fb54: 41 0f b6 4c 15 03           	movzx	ecx, byte ptr [r13 + rdx + 0x3]
+3afb4fb5a: 09 c8                       	or	eax, ecx
+3afb4fb5c: 41 0f b6 4c 15 02           	movzx	ecx, byte ptr [r13 + rdx + 0x2]
+3afb4fb62: c1 e1 08                    	shl	ecx, 0x8
+3afb4fb65: 09 c8                       	or	eax, ecx
+3afb4fb67: 89 04 13                    	mov	dword ptr [rbx + rdx], eax
+3afb4fb6a: 48 83 c2 04                 	add	rdx, 0x4
+3afb4fb6e: 48 83 fa 20                 	cmp	rdx, 0x20
+3afb4fb72: 75 cc                       	jne	0x3afb4fb40 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1e7>
+3afb4fb74: ba 08 00 00 00              	mov	edx, 0x8
+3afb4fb79: 48 8d 0d a0 34 00 00        	lea	rcx, [rip + 0x34a0]     # 0x3afb53020
+3afb4fb80: 4c 8d 05 79 34 00 00        	lea	r8, [rip + 0x3479]      # 0x3afb53000
+3afb4fb87: eb 1f                       	jmp	0x3afb4fba8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x24f>
+3afb4fb89: 41 83 f9 04                 	cmp	r9d, 0x4
+3afb4fb8d: 0f 84 85 00 00 00           	je	0x3afb4fc18 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x2bf>
+3afb4fb93: 33 44 93 e0                 	xor	eax, dword ptr [rbx + 4*rdx - 0x20]
+3afb4fb97: 89 04 93                    	mov	dword ptr [rbx + 4*rdx], eax
+3afb4fb9a: 48 83 c2 01                 	add	rdx, 0x1
+3afb4fb9e: 48 83 fa 3c                 	cmp	rdx, 0x3c
+3afb4fba2: 0f 84 b8 00 00 00           	je	0x3afb4fc60 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x307>
+3afb4fba8: 8b 44 93 fc                 	mov	eax, dword ptr [rbx + 4*rdx - 0x4]
+3afb4fbac: 41 89 d1                    	mov	r9d, edx
+3afb4fbaf: 41 83 e1 07                 	and	r9d, 0x7
+3afb4fbb3: 75 d4                       	jne	0x3afb4fb89 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x230>
+3afb4fbb5: 44 0f b6 c8                 	movzx	r9d, al
+3afb4fbb9: 46 0f b6 0c 09              	movzx	r9d, byte ptr [rcx + r9]
+3afb4fbbe: 41 c1 e1 08                 	shl	r9d, 0x8
+3afb4fbc2: 41 89 c2                    	mov	r10d, eax
+3afb4fbc5: 41 c1 ea 18                 	shr	r10d, 0x18
+3afb4fbc9: 45 89 d2                    	mov	r10d, r10d
+3afb4fbcc: 46 0f b6 14 11              	movzx	r10d, byte ptr [rcx + r10]
+3afb4fbd1: 45 09 d1                    	or	r9d, r10d
+3afb4fbd4: 41 89 c2                    	mov	r10d, eax
+3afb4fbd7: 41 c1 ea 10                 	shr	r10d, 0x10
+3afb4fbdb: 45 0f b6 d2                 	movzx	r10d, r10b
+3afb4fbdf: 46 0f b6 14 11              	movzx	r10d, byte ptr [rcx + r10]
+3afb4fbe4: 41 c1 e2 18                 	shl	r10d, 0x18
+3afb4fbe8: 45 09 d1                    	or	r9d, r10d
+3afb4fbeb: 0f b6 c4                    	movzx	eax, ah
+3afb4fbee: 0f b6 04 01                 	movzx	eax, byte ptr [rcx + rax]
+3afb4fbf2: c1 e0 10                    	shl	eax, 0x10
+3afb4fbf5: 41 09 c1                    	or	r9d, eax
+3afb4fbf8: 8d 42 07                    	lea	eax, [rdx + 0x7]
+3afb4fbfb: 85 d2                       	test	edx, edx
+3afb4fbfd: 0f 49 c2                    	cmovns	eax, edx
+3afb4fc00: c1 f8 03                    	sar	eax, 0x3
+3afb4fc03: 83 e8 01                    	sub	eax, 0x1
+3afb4fc06: 48 98                       	cdqe
+3afb4fc08: 41 0f b6 04 00              	movzx	eax, byte ptr [r8 + rax]
+3afb4fc0d: c1 e0 18                    	shl	eax, 0x18
+3afb4fc10: 44 31 c8                    	xor	eax, r9d
+3afb4fc13: e9 7b ff ff ff              	jmp	0x3afb4fb93 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x23a>
+3afb4fc18: 41 89 c1                    	mov	r9d, eax
+3afb4fc1b: 41 c1 e9 18                 	shr	r9d, 0x18
+3afb4fc1f: 45 89 c9                    	mov	r9d, r9d
+3afb4fc22: 46 0f b6 0c 09              	movzx	r9d, byte ptr [rcx + r9]
+3afb4fc27: 41 c1 e1 18                 	shl	r9d, 0x18
+3afb4fc2b: 44 0f b6 d0                 	movzx	r10d, al
+3afb4fc2f: 46 0f b6 14 11              	movzx	r10d, byte ptr [rcx + r10]
+3afb4fc34: 45 09 d1                    	or	r9d, r10d
+3afb4fc37: 41 89 c2                    	mov	r10d, eax
+3afb4fc3a: 41 c1 ea 10                 	shr	r10d, 0x10
+3afb4fc3e: 45 0f b6 d2                 	movzx	r10d, r10b
+3afb4fc42: 46 0f b6 14 11              	movzx	r10d, byte ptr [rcx + r10]
+3afb4fc47: 41 c1 e2 10                 	shl	r10d, 0x10
+3afb4fc4b: 45 09 d1                    	or	r9d, r10d
+3afb4fc4e: 0f b6 c4                    	movzx	eax, ah
+3afb4fc51: 0f b6 04 01                 	movzx	eax, byte ptr [rcx + rax]
+3afb4fc55: c1 e0 08                    	shl	eax, 0x8
+3afb4fc58: 44 09 c8                    	or	eax, r9d
+3afb4fc5b: e9 33 ff ff ff              	jmp	0x3afb4fb93 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x23a>
+3afb4fc60: 83 7c 24 48 0f              	cmp	dword ptr [rsp + 0x48], 0xf
+3afb4fc65: 0f 8e 0f 01 00 00           	jle	0x3afb4fd7a <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x421>
+3afb4fc6b: 48 8b 7c 24 20              	mov	rdi, qword ptr [rsp + 0x20]
+3afb4fc70: 48 8b 74 24 28              	mov	rsi, qword ptr [rsp + 0x28]
+3afb4fc75: 8d 45 e0                    	lea	eax, [rbp - 0x20]
+3afb4fc78: 83 e0 f0                    	and	eax, -0x10
+3afb4fc7b: 8d 48 20                    	lea	ecx, [rax + 0x20]
+3afb4fc7e: 41 be 10 00 00 00           	mov	r14d, 0x10
+3afb4fc84: 48 8d 54 24 60              	lea	rdx, [rsp + 0x60]
+3afb4fc89: 4c 8d 5c 24 50              	lea	r11, [rsp + 0x50]
+3afb4fc8e: 48 8d 6c 24 40              	lea	rbp, [rsp + 0x40]
+3afb4fc93: 4c 89 6c 24 30              	mov	qword ptr [rsp + 0x30], r13
+3afb4fc98: 89 44 24 4c                 	mov	dword ptr [rsp + 0x4c], eax
+3afb4fc9c: 41 89 cd                    	mov	r13d, ecx
+3afb4fc9f: 4c 89 a4 24 c0 00 00 00     	mov	qword ptr [rsp + 0xc0], r12
+3afb4fca7: 4c 89 bc 24 d8 00 00 00     	mov	qword ptr [rsp + 0xd8], r15
+3afb4fcaf: 49 89 d4                    	mov	r12, rdx
+3afb4fcb2: 4d 89 df                    	mov	r15, r11
+3afb4fcb5: eb 11                       	jmp	0x3afb4fcc8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x36f>
+3afb4fcb7: 41 83 c6 10                 	add	r14d, 0x10
+3afb4fcbb: 48 83 c7 10                 	add	rdi, 0x10
+3afb4fcbf: 48 83 c6 10                 	add	rsi, 0x10
+3afb4fcc3: 45 39 ee                    	cmp	r14d, r13d
+3afb4fcc6: 74 51                       	je	0x3afb4fd19 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x3c0>
+3afb4fcc8: 4d 89 e0                    	mov	r8, r12
+3afb4fccb: 4c 89 fa                    	mov	rdx, r15
+3afb4fcce: 48 89 d9                    	mov	rcx, rbx
+3afb4fcd1: e8 c0 ec ff ff              	call	0x3afb4e996 <.text+0x996>
+3afb4fcd6: 4c 89 e1                    	mov	rcx, r12
+3afb4fcd9: b8 00 00 00 00              	mov	eax, 0x0
+3afb4fcde: 66 90                       	nop
+3afb4fce0: 0f b6 54 07 10              	movzx	edx, byte ptr [rdi + rax + 0x10]
+3afb4fce5: 32 11                       	xor	dl, byte ptr [rcx]
+3afb4fce7: 88 14 06                    	mov	byte ptr [rsi + rax], dl
+3afb4fcea: 48 83 c0 01                 	add	rax, 0x1
+3afb4fcee: 48 83 c1 01                 	add	rcx, 0x1
+3afb4fcf2: 48 83 f8 10                 	cmp	rax, 0x10
+3afb4fcf6: 75 e8                       	jne	0x3afb4fce0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x387>
+3afb4fcf8: 48 8d 54 24 50              	lea	rdx, [rsp + 0x50]
+3afb4fcfd: 0f 1f 00                    	nop	dword ptr [rax]
+3afb4fd00: 0f b6 42 0f                 	movzx	eax, byte ptr [rdx + 0xf]
+3afb4fd04: 83 c0 01                    	add	eax, 0x1
+3afb4fd07: 88 42 0f                    	mov	byte ptr [rdx + 0xf], al
+3afb4fd0a: 84 c0                       	test	al, al
+3afb4fd0c: 75 a9                       	jne	0x3afb4fcb7 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x35e>
+3afb4fd0e: 48 83 ea 01                 	sub	rdx, 0x1
+3afb4fd12: 48 39 ea                    	cmp	rdx, rbp
+3afb4fd15: 75 e9                       	jne	0x3afb4fd00 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x3a7>
+3afb4fd17: eb 9e                       	jmp	0x3afb4fcb7 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x35e>
+3afb4fd19: 4c 8b 6c 24 30              	mov	r13, qword ptr [rsp + 0x30]
+3afb4fd1e: 8b 44 24 4c                 	mov	eax, dword ptr [rsp + 0x4c]
+3afb4fd22: 4c 8b a4 24 c0 00 00 00     	mov	r12, qword ptr [rsp + 0xc0]
+3afb4fd2a: 4c 8b bc 24 d8 00 00 00     	mov	r15, qword ptr [rsp + 0xd8]
+3afb4fd32: 8d 70 10                    	lea	esi, [rax + 0x10]
+3afb4fd35: 39 74 24 48                 	cmp	dword ptr [rsp + 0x48], esi
+3afb4fd39: 7f 46                       	jg	0x3afb4fd81 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x428>
+3afb4fd3b: 48 63 74 24 48              	movsxd	rsi, dword ptr [rsp + 0x48]
+3afb4fd40: 48 8d 2c b5 02 00 00 00     	lea	rbp, [4*rsi + 0x2]
+3afb4fd48: 48 89 e9                    	mov	rcx, rbp
+3afb4fd4b: e8 a5 eb ff ff              	call	0x3afb4e8f5 <.text+0x8f5>
+3afb4fd50: 48 89 c7                    	mov	rdi, rax
+3afb4fd53: 48 85 c0                    	test	rax, rax
+3afb4fd56: 0f 84 fc fc ff ff           	je	0x3afb4fa58 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xff>
+3afb4fd5c: 48 85 f6                    	test	rsi, rsi
+3afb4fd5f: 0f 84 02 03 00 00           	je	0x3afb50067 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x70e>
+3afb4fd65: 41 b8 00 00 00 00           	mov	r8d, 0x0
+3afb4fd6b: ba 00 00 00 00              	mov	edx, 0x0
+3afb4fd70: 48 8b 4c 24 28              	mov	rcx, qword ptr [rsp + 0x28]
+3afb4fd75: e9 cb 00 00 00              	jmp	0x3afb4fe45 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4ec>
+3afb4fd7a: be 00 00 00 00              	mov	esi, 0x0
+3afb4fd7f: eb b4                       	jmp	0x3afb4fd35 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x3dc>
+3afb4fd81: 8b 6c 24 48                 	mov	ebp, dword ptr [rsp + 0x48]
+3afb4fd85: 29 f5                       	sub	ebp, esi
+3afb4fd87: 48 8d 7c 24 60              	lea	rdi, [rsp + 0x60]
+3afb4fd8c: 48 8d 54 24 50              	lea	rdx, [rsp + 0x50]
+3afb4fd91: 49 89 f8                    	mov	r8, rdi
+3afb4fd94: 48 89 d9                    	mov	rcx, rbx
+3afb4fd97: e8 fa eb ff ff              	call	0x3afb4e996 <.text+0x996>
+3afb4fd9c: 48 63 ed                    	movsxd	rbp, ebp
+3afb4fd9f: b8 00 00 00 00              	mov	eax, 0x0
+3afb4fda4: 48 63 ce                    	movsxd	rcx, esi
+3afb4fda7: 48 8b 74 24 28              	mov	rsi, qword ptr [rsp + 0x28]
+3afb4fdac: 4c 8d 04 0e                 	lea	r8, [rsi + rcx]
+3afb4fdb0: 48 8b 74 24 20              	mov	rsi, qword ptr [rsp + 0x20]
+3afb4fdb5: 48 01 f1                    	add	rcx, rsi
+3afb4fdb8: 0f 1f 84 00 00 00 00 00     	nop	dword ptr [rax + rax]
+3afb4fdc0: 0f b6 54 01 10              	movzx	edx, byte ptr [rcx + rax + 0x10]
+3afb4fdc5: 32 17                       	xor	dl, byte ptr [rdi]
+3afb4fdc7: 41 88 14 00                 	mov	byte ptr [r8 + rax], dl
+3afb4fdcb: 48 83 c0 01                 	add	rax, 0x1
+3afb4fdcf: 48 83 c7 01                 	add	rdi, 0x1
+3afb4fdd3: 48 39 c5                    	cmp	rbp, rax
+3afb4fdd6: 75 e8                       	jne	0x3afb4fdc0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x467>
+3afb4fdd8: 48 63 74 24 48              	movsxd	rsi, dword ptr [rsp + 0x48]
+3afb4fddd: 48 8d 2c b5 02 00 00 00     	lea	rbp, [4*rsi + 0x2]
+3afb4fde5: 48 89 e9                    	mov	rcx, rbp
+3afb4fde8: e8 08 eb ff ff              	call	0x3afb4e8f5 <.text+0x8f5>
+3afb4fded: 48 89 c7                    	mov	rdi, rax
+3afb4fdf0: 48 85 c0                    	test	rax, rax
+3afb4fdf3: 0f 85 6c ff ff ff           	jne	0x3afb4fd65 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x40c>
+3afb4fdf9: e9 5a fc ff ff              	jmp	0x3afb4fa58 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xff>
+3afb4fdfe: 41 89 c1                    	mov	r9d, eax
+3afb4fe01: 41 83 e1 e0                 	and	r9d, -0x20
+3afb4fe05: 41 80 f9 c0                 	cmp	r9b, -0x40
+3afb4fe09: 74 54                       	je	0x3afb4fe5f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x506>
+3afb4fe0b: 41 89 c1                    	mov	r9d, eax
+3afb4fe0e: 41 83 e1 f0                 	and	r9d, -0x10
+3afb4fe12: 41 80 f9 e0                 	cmp	r9b, -0x20
+3afb4fe16: 0f 84 a6 00 00 00           	je	0x3afb4fec2 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x569>
+3afb4fe1c: 41 89 c1                    	mov	r9d, eax
+3afb4fe1f: 41 83 e1 f8                 	and	r9d, -0x8
+3afb4fe23: 41 80 f9 f0                 	cmp	r9b, -0x10
+3afb4fe27: 0f 84 3f 01 00 00           	je	0x3afb4ff6c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x613>
+3afb4fe2d: 66 42 c7 04 47 fd ff        	mov	word ptr [rdi + 2*r8], 0xfffd
+3afb4fe34: 48 83 c2 01                 	add	rdx, 0x1
+3afb4fe38: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4fe3c: 48 39 f2                    	cmp	rdx, rsi
+3afb4fe3f: 0f 83 f2 01 00 00           	jae	0x3afb50037 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x6de>
+3afb4fe45: 0f b6 04 11                 	movzx	eax, byte ptr [rcx + rdx]
+3afb4fe49: 84 c0                       	test	al, al
+3afb4fe4b: 78 b1                       	js	0x3afb4fdfe <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4a5>
+3afb4fe4d: 0f b6 c0                    	movzx	eax, al
+3afb4fe50: 66 42 89 04 47              	mov	word ptr [rdi + 2*r8], ax
+3afb4fe55: 48 83 c2 01                 	add	rdx, 0x1
+3afb4fe59: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4fe5d: eb dd                       	jmp	0x3afb4fe3c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4e3>
+3afb4fe5f: 4c 8d 4a 01                 	lea	r9, [rdx + 0x1]
+3afb4fe63: 49 39 f1                    	cmp	r9, rsi
+3afb4fe66: 73 13                       	jae	0x3afb4fe7b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x522>
+3afb4fe68: 44 0f b6 54 11 01           	movzx	r10d, byte ptr [rcx + rdx + 0x1]
+3afb4fe6e: 45 89 d3                    	mov	r11d, r10d
+3afb4fe71: 41 83 e3 c0                 	and	r11d, -0x40
+3afb4fe75: 41 80 fb 80                 	cmp	r11b, -0x80
+3afb4fe79: 74 10                       	je	0x3afb4fe8b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x532>
+3afb4fe7b: 66 42 c7 04 47 fd ff        	mov	word ptr [rdi + 2*r8], 0xfffd
+3afb4fe82: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4fe86: 4c 89 ca                    	mov	rdx, r9
+3afb4fe89: eb b1                       	jmp	0x3afb4fe3c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4e3>
+3afb4fe8b: c1 e0 06                    	shl	eax, 0x6
+3afb4fe8e: 25 c0 07 00 00              	and	eax, 0x7c0
+3afb4fe93: 41 83 e2 3f                 	and	r10d, 0x3f
+3afb4fe97: 44 09 d0                    	or	eax, r10d
+3afb4fe9a: 83 f8 7f                    	cmp	eax, 0x7f
+3afb4fe9d: 76 0f                       	jbe	0x3afb4feae <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x555>
+3afb4fe9f: 66 42 89 04 47              	mov	word ptr [rdi + 2*r8], ax
+3afb4fea4: 48 83 c2 02                 	add	rdx, 0x2
+3afb4fea8: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4feac: eb 8e                       	jmp	0x3afb4fe3c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4e3>
+3afb4feae: 66 42 c7 04 47 fd ff        	mov	word ptr [rdi + 2*r8], 0xfffd
+3afb4feb5: 48 83 c2 02                 	add	rdx, 0x2
+3afb4feb9: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4febd: e9 7a ff ff ff              	jmp	0x3afb4fe3c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4e3>
+3afb4fec2: 4c 8d 4a 02                 	lea	r9, [rdx + 0x2]
+3afb4fec6: 49 39 f1                    	cmp	r9, rsi
+3afb4fec9: 73 13                       	jae	0x3afb4fede <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x585>
+3afb4fecb: 44 0f b6 4c 11 01           	movzx	r9d, byte ptr [rcx + rdx + 0x1]
+3afb4fed1: 45 89 ca                    	mov	r10d, r9d
+3afb4fed4: 41 83 e2 c0                 	and	r10d, -0x40
+3afb4fed8: 41 80 fa 80                 	cmp	r10b, -0x80
+3afb4fedc: 74 14                       	je	0x3afb4fef2 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x599>
+3afb4fede: 66 42 c7 04 47 fd ff        	mov	word ptr [rdi + 2*r8], 0xfffd
+3afb4fee5: 48 83 c2 01                 	add	rdx, 0x1
+3afb4fee9: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4feed: e9 4a ff ff ff              	jmp	0x3afb4fe3c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4e3>
+3afb4fef2: 44 0f b6 54 11 02           	movzx	r10d, byte ptr [rcx + rdx + 0x2]
+3afb4fef8: 45 89 d3                    	mov	r11d, r10d
+3afb4fefb: 41 83 e3 c0                 	and	r11d, -0x40
+3afb4feff: 41 80 fb 80                 	cmp	r11b, -0x80
+3afb4ff03: 75 d9                       	jne	0x3afb4fede <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x585>
+3afb4ff05: c1 e0 0c                    	shl	eax, 0xc
+3afb4ff08: 25 00 f0 00 00              	and	eax, 0xf000
+3afb4ff0d: 41 83 e2 3f                 	and	r10d, 0x3f
+3afb4ff11: 44 09 d0                    	or	eax, r10d
+3afb4ff14: 41 c1 e1 06                 	shl	r9d, 0x6
+3afb4ff18: 41 81 e1 c0 0f 00 00        	and	r9d, 0xfc0
+3afb4ff1f: 44 09 c8                    	or	eax, r9d
+3afb4ff22: 44 8d 88 00 f8 ff ff        	lea	r9d, [rax - 0x800]
+3afb4ff29: 41 81 f9 ff cf 00 00        	cmp	r9d, 0xcfff
+3afb4ff30: 77 12                       	ja	0x3afb4ff44 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x5eb>
+3afb4ff32: 66 42 89 04 47              	mov	word ptr [rdi + 2*r8], ax
+3afb4ff37: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4ff3b: 48 83 c2 03                 	add	rdx, 0x3
+3afb4ff3f: e9 f8 fe ff ff              	jmp	0x3afb4fe3c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4e3>
+3afb4ff44: 44 8d 88 00 20 ff ff        	lea	r9d, [rax - 0xe000]
+3afb4ff4b: 41 81 f9 ff 1f 00 00        	cmp	r9d, 0x1fff
+3afb4ff52: 77 0b                       	ja	0x3afb4ff5f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x606>
+3afb4ff54: 66 42 89 04 47              	mov	word ptr [rdi + 2*r8], ax
+3afb4ff59: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4ff5d: eb dc                       	jmp	0x3afb4ff3b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x5e2>
+3afb4ff5f: 66 42 c7 04 47 fd ff        	mov	word ptr [rdi + 2*r8], 0xfffd
+3afb4ff66: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4ff6a: eb cf                       	jmp	0x3afb4ff3b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x5e2>
+3afb4ff6c: 4c 8d 4a 03                 	lea	r9, [rdx + 0x3]
+3afb4ff70: 49 39 f1                    	cmp	r9, rsi
+3afb4ff73: 73 13                       	jae	0x3afb4ff88 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x62f>
+3afb4ff75: 44 0f b6 54 11 01           	movzx	r10d, byte ptr [rcx + rdx + 0x1]
+3afb4ff7b: 45 89 d1                    	mov	r9d, r10d
+3afb4ff7e: 41 83 e1 c0                 	and	r9d, -0x40
+3afb4ff82: 41 80 f9 80                 	cmp	r9b, -0x80
+3afb4ff86: 74 14                       	je	0x3afb4ff9c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x643>
+3afb4ff88: 66 42 c7 04 47 fd ff        	mov	word ptr [rdi + 2*r8], 0xfffd
+3afb4ff8f: 48 83 c2 01                 	add	rdx, 0x1
+3afb4ff93: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb4ff97: e9 a0 fe ff ff              	jmp	0x3afb4fe3c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4e3>
+3afb4ff9c: 44 0f b6 4c 11 02           	movzx	r9d, byte ptr [rcx + rdx + 0x2]
+3afb4ffa2: 45 89 cb                    	mov	r11d, r9d
+3afb4ffa5: 41 83 e3 c0                 	and	r11d, -0x40
+3afb4ffa9: 41 80 fb 80                 	cmp	r11b, -0x80
+3afb4ffad: 75 d9                       	jne	0x3afb4ff88 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x62f>
+3afb4ffaf: 44 0f b6 5c 11 03           	movzx	r11d, byte ptr [rcx + rdx + 0x3]
+3afb4ffb5: 45 89 de                    	mov	r14d, r11d
+3afb4ffb8: 41 83 e6 c0                 	and	r14d, -0x40
+3afb4ffbc: 41 80 fe 80                 	cmp	r14b, -0x80
+3afb4ffc0: 75 c6                       	jne	0x3afb4ff88 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x62f>
+3afb4ffc2: c1 e0 12                    	shl	eax, 0x12
+3afb4ffc5: 25 00 00 1c 00              	and	eax, 0x1c0000
+3afb4ffca: 41 83 e3 3f                 	and	r11d, 0x3f
+3afb4ffce: 44 09 d8                    	or	eax, r11d
+3afb4ffd1: 41 c1 e2 0c                 	shl	r10d, 0xc
+3afb4ffd5: 41 81 e2 00 f0 03 00        	and	r10d, 0x3f000
+3afb4ffdc: 44 09 d0                    	or	eax, r10d
+3afb4ffdf: 41 c1 e1 06                 	shl	r9d, 0x6
+3afb4ffe3: 41 81 e1 c0 0f 00 00        	and	r9d, 0xfc0
+3afb4ffea: 44 09 c8                    	or	eax, r9d
+3afb4ffed: 2d 00 00 01 00              	sub	eax, 0x10000
+3afb4fff2: 3d ff ff 0f 00              	cmp	eax, 0xfffff
+3afb4fff7: 77 31                       	ja	0x3afb5002a <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x6d1>
+3afb4fff9: 4f 8d 14 00                 	lea	r10, [r8 + r8]
+3afb4fffd: 41 89 c1                    	mov	r9d, eax
+3afb50000: 41 c1 e9 0a                 	shr	r9d, 0xa
+3afb50004: 66 41 81 c9 00 d8           	or	r9w, 0xd800
+3afb5000a: 66 46 89 0c 17              	mov	word ptr [rdi + r10], r9w
+3afb5000f: 49 83 c0 02                 	add	r8, 0x2
+3afb50013: 66 25 ff 03                 	and	ax, 0x3ff
+3afb50017: 66 0d 00 dc                 	or	ax, 0xdc00
+3afb5001b: 66 42 89 44 17 02           	mov	word ptr [rdi + r10 + 0x2], ax
+3afb50021: 48 83 c2 04                 	add	rdx, 0x4
+3afb50025: e9 12 fe ff ff              	jmp	0x3afb4fe3c <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x4e3>
+3afb5002a: 66 42 c7 04 47 fd ff        	mov	word ptr [rdi + 2*r8], 0xfffd
+3afb50031: 4d 8d 40 01                 	lea	r8, [r8 + 0x1]
+3afb50035: eb ea                       	jmp	0x3afb50021 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x6c8>
+3afb50037: be 00 00 00 00              	mov	esi, 0x0
+3afb5003c: 4d 85 c0                    	test	r8, r8
+3afb5003f: 74 13                       	je	0x3afb50054 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x6fb>
+3afb50041: 49 8b 04 24                 	mov	rax, qword ptr [r12]
+3afb50045: 48 89 fa                    	mov	rdx, rdi
+3afb50048: 4c 89 e1                    	mov	rcx, r12
+3afb5004b: ff 90 18 05 00 00           	call	qword ptr [rax + 0x518]
+3afb50051: 48 89 c6                    	mov	rsi, rax
+3afb50054: 48 89 ea                    	mov	rdx, rbp
+3afb50057: 48 89 f9                    	mov	rcx, rdi
+3afb5005a: e8 e0 e8 ff ff              	call	0x3afb4e93f <.text+0x93f>
+3afb5005f: 48 89 f7                    	mov	rdi, rsi
+3afb50062: e9 f1 f9 ff ff              	jmp	0x3afb4fa58 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xff>
+3afb50067: be 00 00 00 00              	mov	esi, 0x0
+3afb5006c: eb e6                       	jmp	0x3afb50054 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x6fb>
+3afb5006e: bb 00 00 00 00              	mov	ebx, 0x0
+3afb50073: e9 40 fa ff ff              	jmp	0x3afb4fab8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x15f>
+3afb50078: 90                          	nop
+3afb50079: 90                          	nop
+3afb5007a: 90                          	nop
+3afb5007b: 90                          	nop
+3afb5007c: 90                          	nop
+3afb5007d: 90                          	nop
+3afb5007e: 90                          	nop
+3afb5007f: 90                          	nop
+3afb50080: 48 83 ec 28                 	sub	rsp, 0x28
+3afb50084: 48 8b 05 85 1f 00 00        	mov	rax, qword ptr [rip + 0x1f85] # 0x3afb52010
+3afb5008b: 48 8b 00                    	mov	rax, qword ptr [rax]
+3afb5008e: 48 85 c0                    	test	rax, rax
+3afb50091: 74 2a                       	je	0x3afb500bd <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x764>
+3afb50093: 66 90                       	nop
+3afb50095: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb500a0: ff d0                       	call	rax
+3afb500a2: 48 8b 05 67 1f 00 00        	mov	rax, qword ptr [rip + 0x1f67] # 0x3afb52010
+3afb500a9: 48 8d 50 08                 	lea	rdx, [rax + 0x8]
+3afb500ad: 48 8b 40 08                 	mov	rax, qword ptr [rax + 0x8]
+3afb500b1: 48 89 15 58 1f 00 00        	mov	qword ptr [rip + 0x1f58], rdx # 0x3afb52010
+3afb500b8: 48 85 c0                    	test	rax, rax
+3afb500bb: 75 e3                       	jne	0x3afb500a0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x747>
+3afb500bd: 48 83 c4 28                 	add	rsp, 0x28
+3afb500c1: c3                          	ret
+3afb500c2: 0f 1f 00                    	nop	dword ptr [rax]
+3afb500c5: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb500d0: 56                          	push	rsi
+3afb500d1: 53                          	push	rbx
+3afb500d2: 48 83 ec 28                 	sub	rsp, 0x28
+3afb500d6: 48 8b 15 b3 34 00 00        	mov	rdx, qword ptr [rip + 0x34b3] # 0x3afb53590
+3afb500dd: 48 8b 02                    	mov	rax, qword ptr [rdx]
+3afb500e0: 89 c1                       	mov	ecx, eax
+3afb500e2: 83 f8 ff                    	cmp	eax, -0x1
+3afb500e5: 74 39                       	je	0x3afb50120 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x7c7>
+3afb500e7: 85 c9                       	test	ecx, ecx
+3afb500e9: 74 20                       	je	0x3afb5010b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x7b2>
+3afb500eb: 89 c8                       	mov	eax, ecx
+3afb500ed: 83 e9 01                    	sub	ecx, 0x1
+3afb500f0: 48 8d 1c c2                 	lea	rbx, [rdx + 8*rax]
+3afb500f4: 48 29 c8                    	sub	rax, rcx
+3afb500f7: 48 8d 74 c2 f8              	lea	rsi, [rdx + 8*rax - 0x8]
+3afb500fc: 0f 1f 40 00                 	nop	dword ptr [rax]
+3afb50100: ff 13                       	call	qword ptr [rbx]
+3afb50102: 48 83 eb 08                 	sub	rbx, 0x8
+3afb50106: 48 39 f3                    	cmp	rbx, rsi
+3afb50109: 75 f5                       	jne	0x3afb50100 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x7a7>
+3afb5010b: 48 8d 0d 6e ff ff ff        	lea	rcx, [rip - 0x92]       # 0x3afb50080 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x727>
+3afb50112: 48 83 c4 28                 	add	rsp, 0x28
+3afb50116: 5b                          	pop	rbx
+3afb50117: 5e                          	pop	rsi
+3afb50118: e9 13 e2 ff ff              	jmp	0x3afb4e330 <.text+0x330>
+3afb5011d: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50120: 31 c0                       	xor	eax, eax
+3afb50122: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50125: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb50130: 44 8d 40 01                 	lea	r8d, [rax + 0x1]
+3afb50134: 89 c1                       	mov	ecx, eax
+3afb50136: 4c 89 c0                    	mov	rax, r8
+3afb50139: 4a 83 3c c2 00              	cmp	qword ptr [rdx + 8*r8], 0x0
+3afb5013e: 75 f0                       	jne	0x3afb50130 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x7d7>
+3afb50140: eb a5                       	jmp	0x3afb500e7 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x78e>
+3afb50142: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50145: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb50150: 8b 05 8a 60 00 00           	mov	eax, dword ptr [rip + 0x608a] # 0x3afb561e0
+3afb50156: 85 c0                       	test	eax, eax
+3afb50158: 74 06                       	je	0x3afb50160 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x807>
+3afb5015a: c3                          	ret
+3afb5015b: 0f 1f 44 00 00              	nop	dword ptr [rax + rax]
+3afb50160: c7 05 76 60 00 00 01 00 00 00       	mov	dword ptr [rip + 0x6076], 0x1 # 0x3afb561e0
+3afb5016a: e9 61 ff ff ff              	jmp	0x3afb500d0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x777>
+3afb5016f: 90                          	nop
+3afb50170: 83 fa 03                    	cmp	edx, 0x3
+3afb50173: 74 0b                       	je	0x3afb50180 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x827>
+3afb50175: 85 d2                       	test	edx, edx
+3afb50177: 74 07                       	je	0x3afb50180 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x827>
+3afb50179: c3                          	ret
+3afb5017a: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+3afb50180: e9 8b 07 00 00              	jmp	0x3afb50910 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfb7>
+3afb50185: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb50190: 56                          	push	rsi
+3afb50191: 53                          	push	rbx
+3afb50192: 48 83 ec 28                 	sub	rsp, 0x28
+3afb50196: 48 8b 05 e3 33 00 00        	mov	rax, qword ptr [rip + 0x33e3] # 0x3afb53580
+3afb5019d: 83 38 02                    	cmp	dword ptr [rax], 0x2
+3afb501a0: 74 06                       	je	0x3afb501a8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x84f>
+3afb501a2: c7 00 02 00 00 00           	mov	dword ptr [rax], 0x2
+3afb501a8: 83 fa 02                    	cmp	edx, 0x2
+3afb501ab: 74 13                       	je	0x3afb501c0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x867>
+3afb501ad: 83 fa 01                    	cmp	edx, 0x1
+3afb501b0: 74 4e                       	je	0x3afb50200 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x8a7>
+3afb501b2: 48 83 c4 28                 	add	rsp, 0x28
+3afb501b6: 5b                          	pop	rbx
+3afb501b7: 5e                          	pop	rsi
+3afb501b8: c3                          	ret
+3afb501b9: 0f 1f 80 00 00 00 00        	nop	dword ptr [rax]
+3afb501c0: 48 8d 1d f9 38 00 00        	lea	rbx, [rip + 0x38f9]     # 0x3afb53ac0
+3afb501c7: 48 8d 35 f2 38 00 00        	lea	rsi, [rip + 0x38f2]     # 0x3afb53ac0
+3afb501ce: 48 39 f3                    	cmp	rbx, rsi
+3afb501d1: 74 df                       	je	0x3afb501b2 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x859>
+3afb501d3: 66 90                       	nop
+3afb501d5: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb501e0: 48 8b 03                    	mov	rax, qword ptr [rbx]
+3afb501e3: 48 85 c0                    	test	rax, rax
+3afb501e6: 74 02                       	je	0x3afb501ea <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x891>
+3afb501e8: ff d0                       	call	rax
+3afb501ea: 48 83 c3 08                 	add	rbx, 0x8
+3afb501ee: 48 39 f3                    	cmp	rbx, rsi
+3afb501f1: 75 ed                       	jne	0x3afb501e0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x887>
+3afb501f3: 48 83 c4 28                 	add	rsp, 0x28
+3afb501f7: 5b                          	pop	rbx
+3afb501f8: 5e                          	pop	rsi
+3afb501f9: c3                          	ret
+3afb501fa: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+3afb50200: 48 83 c4 28                 	add	rsp, 0x28
+3afb50204: 5b                          	pop	rbx
+3afb50205: 5e                          	pop	rsi
+3afb50206: e9 05 07 00 00              	jmp	0x3afb50910 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfb7>
+3afb5020b: 0f 1f 44 00 00              	nop	dword ptr [rax + rax]
+3afb50210: 31 c0                       	xor	eax, eax
+3afb50212: c3                          	ret
+3afb50213: 90                          	nop
+3afb50214: 90                          	nop
+3afb50215: 90                          	nop
+3afb50216: 90                          	nop
+3afb50217: 90                          	nop
+3afb50218: 90                          	nop
+3afb50219: 90                          	nop
+3afb5021a: 90                          	nop
+3afb5021b: 90                          	nop
+3afb5021c: 90                          	nop
+3afb5021d: 90                          	nop
+3afb5021e: 90                          	nop
+3afb5021f: 90                          	nop
+3afb50220: 56                          	push	rsi
+3afb50221: 53                          	push	rbx
+3afb50222: 48 83 ec 38                 	sub	rsp, 0x38
+3afb50226: 48 89 cb                    	mov	rbx, rcx
+3afb50229: 48 8d 44 24 58              	lea	rax, [rsp + 0x58]
+3afb5022e: b9 02 00 00 00              	mov	ecx, 0x2
+3afb50233: 4c 89 44 24 60              	mov	qword ptr [rsp + 0x60], r8
+3afb50238: 4c 89 4c 24 68              	mov	qword ptr [rsp + 0x68], r9
+3afb5023d: 48 89 54 24 58              	mov	qword ptr [rsp + 0x58], rdx
+3afb50242: 48 89 44 24 28              	mov	qword ptr [rsp + 0x28], rax
+3afb50247: e8 14 0d 00 00              	call	0x3afb50f60 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1607>
+3afb5024c: 48 8d 15 ad 31 00 00        	lea	rdx, [rip + 0x31ad]     # 0x3afb53400
+3afb50253: 48 89 c1                    	mov	rcx, rax
+3afb50256: e8 55 0c 00 00              	call	0x3afb50eb0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1557>
+3afb5025b: 48 8b 74 24 28              	mov	rsi, qword ptr [rsp + 0x28]
+3afb50260: b9 02 00 00 00              	mov	ecx, 0x2
+3afb50265: e8 f6 0c 00 00              	call	0x3afb50f60 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1607>
+3afb5026a: 48 89 da                    	mov	rdx, rbx
+3afb5026d: 49 89 f0                    	mov	r8, rsi
+3afb50270: 48 89 c1                    	mov	rcx, rax
+3afb50273: e8 f8 0b 00 00              	call	0x3afb50e70 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1517>
+3afb50278: e8 23 0d 00 00              	call	0x3afb50fa0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1647>
+3afb5027d: 90                          	nop
+3afb5027e: 66 90                       	nop
+3afb50280: 57                          	push	rdi
+3afb50281: 56                          	push	rsi
+3afb50282: 53                          	push	rbx
+3afb50283: 48 83 ec 50                 	sub	rsp, 0x50
+3afb50287: 48 63 35 96 5f 00 00        	movsxd	rsi, dword ptr [rip + 0x5f96] # 0x3afb56224
+3afb5028e: 48 89 cb                    	mov	rbx, rcx
+3afb50291: 85 f6                       	test	esi, esi
+3afb50293: 0f 8e 17 01 00 00           	jle	0x3afb503b0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xa57>
+3afb50299: 48 8b 05 88 5f 00 00        	mov	rax, qword ptr [rip + 0x5f88] # 0x3afb56228
+3afb502a0: 45 31 c9                    	xor	r9d, r9d
+3afb502a3: 48 83 c0 18                 	add	rax, 0x18
+3afb502a7: 66 0f 1f 84 00 00 00 00 00  	nop	word ptr [rax + rax]
+3afb502b0: 4c 8b 00                    	mov	r8, qword ptr [rax]
+3afb502b3: 4c 39 c3                    	cmp	rbx, r8
+3afb502b6: 72 13                       	jb	0x3afb502cb <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x972>
+3afb502b8: 48 8b 50 08                 	mov	rdx, qword ptr [rax + 0x8]
+3afb502bc: 8b 52 08                    	mov	edx, dword ptr [rdx + 0x8]
+3afb502bf: 49 01 d0                    	add	r8, rdx
+3afb502c2: 4c 39 c3                    	cmp	rbx, r8
+3afb502c5: 0f 82 8a 00 00 00           	jb	0x3afb50355 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x9fc>
+3afb502cb: 41 83 c1 01                 	add	r9d, 0x1
+3afb502cf: 48 83 c0 28                 	add	rax, 0x28
+3afb502d3: 41 39 f1                    	cmp	r9d, esi
+3afb502d6: 75 d8                       	jne	0x3afb502b0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x957>
+3afb502d8: 48 89 d9                    	mov	rcx, rbx
+3afb502db: e8 70 08 00 00              	call	0x3afb50b50 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x11f7>
+3afb502e0: 48 89 c7                    	mov	rdi, rax
+3afb502e3: 48 85 c0                    	test	rax, rax
+3afb502e6: 0f 84 e6 00 00 00           	je	0x3afb503d2 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xa79>
+3afb502ec: 48 8b 05 35 5f 00 00        	mov	rax, qword ptr [rip + 0x5f35] # 0x3afb56228
+3afb502f3: 48 8d 1c b6                 	lea	rbx, [rsi + 4*rsi]
+3afb502f7: 48 c1 e3 03                 	shl	rbx, 0x3
+3afb502fb: 48 01 d8                    	add	rax, rbx
+3afb502fe: 48 89 78 20                 	mov	qword ptr [rax + 0x20], rdi
+3afb50302: c7 00 00 00 00 00           	mov	dword ptr [rax], 0x0
+3afb50308: e8 83 09 00 00              	call	0x3afb50c90 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1337>
+3afb5030d: 8b 57 0c                    	mov	edx, dword ptr [rdi + 0xc]
+3afb50310: 41 b8 30 00 00 00           	mov	r8d, 0x30
+3afb50316: 48 8d 0c 10                 	lea	rcx, [rax + rdx]
+3afb5031a: 48 8b 05 07 5f 00 00        	mov	rax, qword ptr [rip + 0x5f07] # 0x3afb56228
+3afb50321: 48 8d 54 24 20              	lea	rdx, [rsp + 0x20]
+3afb50326: 48 89 4c 18 18              	mov	qword ptr [rax + rbx + 0x18], rcx
+3afb5032b: ff 15 9f 7e 00 00           	call	qword ptr [rip + 0x7e9f] # 0x3afb581d0
+3afb50331: 48 85 c0                    	test	rax, rax
+3afb50334: 0f 84 7d 00 00 00           	je	0x3afb503b7 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xa5e>
+3afb5033a: 8b 44 24 44                 	mov	eax, dword ptr [rsp + 0x44]
+3afb5033e: 8d 50 fc                    	lea	edx, [rax - 0x4]
+3afb50341: 83 e2 fb                    	and	edx, -0x5
+3afb50344: 74 08                       	je	0x3afb5034e <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x9f5>
+3afb50346: 8d 50 c0                    	lea	edx, [rax - 0x40]
+3afb50349: 83 e2 bf                    	and	edx, -0x41
+3afb5034c: 75 12                       	jne	0x3afb50360 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xa07>
+3afb5034e: 83 05 cf 5e 00 00 01        	add	dword ptr [rip + 0x5ecf], 0x1 # 0x3afb56224
+3afb50355: 48 83 c4 50                 	add	rsp, 0x50
+3afb50359: 5b                          	pop	rbx
+3afb5035a: 5e                          	pop	rsi
+3afb5035b: 5f                          	pop	rdi
+3afb5035c: c3                          	ret
+3afb5035d: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50360: 83 f8 02                    	cmp	eax, 0x2
+3afb50363: 48 8b 4c 24 20              	mov	rcx, qword ptr [rsp + 0x20]
+3afb50368: 48 8b 54 24 38              	mov	rdx, qword ptr [rsp + 0x38]
+3afb5036d: 41 b8 40 00 00 00           	mov	r8d, 0x40
+3afb50373: b8 04 00 00 00              	mov	eax, 0x4
+3afb50378: 44 0f 44 c0                 	cmove	r8d, eax
+3afb5037c: 48 03 1d a5 5e 00 00        	add	rbx, qword ptr [rip + 0x5ea5] # 0x3afb56228
+3afb50383: 48 89 4b 08                 	mov	qword ptr [rbx + 0x8], rcx
+3afb50387: 49 89 d9                    	mov	r9, rbx
+3afb5038a: 48 89 53 10                 	mov	qword ptr [rbx + 0x10], rdx
+3afb5038e: ff 15 34 7e 00 00           	call	qword ptr [rip + 0x7e34] # 0x3afb581c8
+3afb50394: 85 c0                       	test	eax, eax
+3afb50396: 75 b6                       	jne	0x3afb5034e <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x9f5>
+3afb50398: ff 15 02 7e 00 00           	call	qword ptr [rip + 0x7e02] # 0x3afb581a0
+3afb5039e: 48 8d 0d d3 30 00 00        	lea	rcx, [rip + 0x30d3]     # 0x3afb53478
+3afb503a5: 89 c2                       	mov	edx, eax
+3afb503a7: e8 74 fe ff ff              	call	0x3afb50220 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x8c7>
+3afb503ac: 0f 1f 40 00                 	nop	dword ptr [rax]
+3afb503b0: 31 f6                       	xor	esi, esi
+3afb503b2: e9 21 ff ff ff              	jmp	0x3afb502d8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x97f>
+3afb503b7: 48 8b 05 6a 5e 00 00        	mov	rax, qword ptr [rip + 0x5e6a] # 0x3afb56228
+3afb503be: 8b 57 08                    	mov	edx, dword ptr [rdi + 0x8]
+3afb503c1: 48 8d 0d 78 30 00 00        	lea	rcx, [rip + 0x3078]     # 0x3afb53440
+3afb503c8: 4c 8b 44 18 18              	mov	r8, qword ptr [rax + rbx + 0x18]
+3afb503cd: e8 4e fe ff ff              	call	0x3afb50220 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x8c7>
+3afb503d2: 48 89 da                    	mov	rdx, rbx
+3afb503d5: 48 8d 0d 44 30 00 00        	lea	rcx, [rip + 0x3044]     # 0x3afb53420
+3afb503dc: e8 3f fe ff ff              	call	0x3afb50220 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x8c7>
+3afb503e1: 90                          	nop
+3afb503e2: 0f 1f 00                    	nop	dword ptr [rax]
+3afb503e5: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb503f0: 55                          	push	rbp
+3afb503f1: 41 57                       	push	r15
+3afb503f3: 41 56                       	push	r14
+3afb503f5: 41 55                       	push	r13
+3afb503f7: 41 54                       	push	r12
+3afb503f9: 57                          	push	rdi
+3afb503fa: 56                          	push	rsi
+3afb503fb: 53                          	push	rbx
+3afb503fc: 48 83 ec 48                 	sub	rsp, 0x48
+3afb50400: 48 8d 6c 24 40              	lea	rbp, [rsp + 0x40]
+3afb50405: 8b 35 15 5e 00 00           	mov	esi, dword ptr [rip + 0x5e15] # 0x3afb56220
+3afb5040b: 85 f6                       	test	esi, esi
+3afb5040d: 74 11                       	je	0x3afb50420 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xac7>
+3afb5040f: 48 8d 65 08                 	lea	rsp, [rbp + 0x8]
+3afb50413: 5b                          	pop	rbx
+3afb50414: 5e                          	pop	rsi
+3afb50415: 5f                          	pop	rdi
+3afb50416: 41 5c                       	pop	r12
+3afb50418: 41 5d                       	pop	r13
+3afb5041a: 41 5e                       	pop	r14
+3afb5041c: 41 5f                       	pop	r15
+3afb5041e: 5d                          	pop	rbp
+3afb5041f: c3                          	ret
+3afb50420: c7 05 f6 5d 00 00 01 00 00 00       	mov	dword ptr [rip + 0x5df6], 0x1 # 0x3afb56220
+3afb5042a: e8 a1 07 00 00              	call	0x3afb50bd0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1277>
+3afb5042f: 48 98                       	cdqe
+3afb50431: 48 8d 04 80                 	lea	rax, [rax + 4*rax]
+3afb50435: 48 8d 04 c5 0f 00 00 00     	lea	rax, [8*rax + 0xf]
+3afb5043d: 48 83 e0 f0                 	and	rax, -0x10
+3afb50441: e8 da 09 00 00              	call	0x3afb50e20 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x14c7>
+3afb50446: 48 8b 3d 63 31 00 00        	mov	rdi, qword ptr [rip + 0x3163] # 0x3afb535b0
+3afb5044d: 48 8b 1d 6c 31 00 00        	mov	rbx, qword ptr [rip + 0x316c] # 0x3afb535c0
+3afb50454: 48 29 c4                    	sub	rsp, rax
+3afb50457: c7 05 c3 5d 00 00 00 00 00 00       	mov	dword ptr [rip + 0x5dc3], 0x0 # 0x3afb56224
+3afb50461: 48 8d 44 24 30              	lea	rax, [rsp + 0x30]
+3afb50466: 48 89 05 bb 5d 00 00        	mov	qword ptr [rip + 0x5dbb], rax # 0x3afb56228
+3afb5046d: 48 89 f8                    	mov	rax, rdi
+3afb50470: 48 29 d8                    	sub	rax, rbx
+3afb50473: 48 83 f8 07                 	cmp	rax, 0x7
+3afb50477: 7e 96                       	jle	0x3afb5040f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xab6>
+3afb50479: 48 83 f8 0b                 	cmp	rax, 0xb
+3afb5047d: 0f 8f 85 01 00 00           	jg	0x3afb50608 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xcaf>
+3afb50483: 8b 13                       	mov	edx, dword ptr [rbx]
+3afb50485: 85 d2                       	test	edx, edx
+3afb50487: 0f 85 90 01 00 00           	jne	0x3afb5061d <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xcc4>
+3afb5048d: 8b 43 04                    	mov	eax, dword ptr [rbx + 0x4]
+3afb50490: 85 c0                       	test	eax, eax
+3afb50492: 0f 85 85 01 00 00           	jne	0x3afb5061d <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xcc4>
+3afb50498: 8b 53 08                    	mov	edx, dword ptr [rbx + 0x8]
+3afb5049b: 83 fa 01                    	cmp	edx, 0x1
+3afb5049e: 0f 85 cf 02 00 00           	jne	0x3afb50773 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe1a>
+3afb504a4: 48 83 c3 0c                 	add	rbx, 0xc
+3afb504a8: 4c 8b 35 f1 30 00 00        	mov	r14, qword ptr [rip + 0x30f1] # 0x3afb535a0
+3afb504af: 4c 8d 65 f8                 	lea	r12, [rbp - 0x8]
+3afb504b3: 48 39 fb                    	cmp	rbx, rdi
+3afb504b6: 72 7c                       	jb	0x3afb50534 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xbdb>
+3afb504b8: e9 52 ff ff ff              	jmp	0x3afb5040f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xab6>
+3afb504bd: 0f 1f 00                    	nop	dword ptr [rax]
+3afb504c0: 83 fa 08                    	cmp	edx, 0x8
+3afb504c3: 0f 84 1f 02 00 00           	je	0x3afb506e8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xd8f>
+3afb504c9: 83 fa 10                    	cmp	edx, 0x10
+3afb504cc: 0f 85 79 02 00 00           	jne	0x3afb5074b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xdf2>
+3afb504d2: 41 0f b7 07                 	movzx	eax, word ptr [r15]
+3afb504d6: 66 85 c0                    	test	ax, ax
+3afb504d9: 79 06                       	jns	0x3afb504e1 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xb88>
+3afb504db: 48 0d 00 00 ff ff           	or	rax, -0x10000
+3afb504e1: 4c 29 c0                    	sub	rax, r8
+3afb504e4: 4c 01 c8                    	add	rax, r9
+3afb504e7: 81 e1 c0 00 00 00           	and	ecx, 0xc0
+3afb504ed: 48 89 45 f8                 	mov	qword ptr [rbp - 0x8], rax
+3afb504f1: 75 18                       	jne	0x3afb5050b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xbb2>
+3afb504f3: 48 3d ff ff 00 00           	cmp	rax, 0xffff
+3afb504f9: 0f 8f 60 02 00 00           	jg	0x3afb5075f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe06>
+3afb504ff: 48 3d 00 80 ff ff           	cmp	rax, -0x8000
+3afb50505: 0f 8c 54 02 00 00           	jl	0x3afb5075f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe06>
+3afb5050b: 4c 89 f9                    	mov	rcx, r15
+3afb5050e: 4d 89 e5                    	mov	r13, r12
+3afb50511: e8 6a fd ff ff              	call	0x3afb50280 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x927>
+3afb50516: 41 b8 02 00 00 00           	mov	r8d, 0x2
+3afb5051c: 4c 89 e2                    	mov	rdx, r12
+3afb5051f: 4c 89 f9                    	mov	rcx, r15
+3afb50522: e8 89 0a 00 00              	call	0x3afb50fb0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1657>
+3afb50527: 48 83 c3 0c                 	add	rbx, 0xc
+3afb5052b: 48 39 fb                    	cmp	rbx, rdi
+3afb5052e: 0f 83 7c 00 00 00           	jae	0x3afb505b0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xc57>
+3afb50534: 44 8b 03                    	mov	r8d, dword ptr [rbx]
+3afb50537: 8b 4b 08                    	mov	ecx, dword ptr [rbx + 0x8]
+3afb5053a: 44 8b 7b 04                 	mov	r15d, dword ptr [rbx + 0x4]
+3afb5053e: 4d 01 f0                    	add	r8, r14
+3afb50541: 0f b6 d1                    	movzx	edx, cl
+3afb50544: 4d 8b 08                    	mov	r9, qword ptr [r8]
+3afb50547: 4d 01 f7                    	add	r15, r14
+3afb5054a: 83 fa 20                    	cmp	edx, 0x20
+3afb5054d: 0f 84 2d 01 00 00           	je	0x3afb50680 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xd27>
+3afb50553: 0f 86 67 ff ff ff           	jbe	0x3afb504c0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xb67>
+3afb50559: 83 fa 40                    	cmp	edx, 0x40
+3afb5055c: 0f 85 e9 01 00 00           	jne	0x3afb5074b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xdf2>
+3afb50562: 49 8b 07                    	mov	rax, qword ptr [r15]
+3afb50565: 4c 29 c0                    	sub	rax, r8
+3afb50568: 4c 01 c8                    	add	rax, r9
+3afb5056b: 81 e1 c0 00 00 00           	and	ecx, 0xc0
+3afb50571: 48 89 45 f8                 	mov	qword ptr [rbp - 0x8], rax
+3afb50575: 75 09                       	jne	0x3afb50580 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xc27>
+3afb50577: 48 85 c0                    	test	rax, rax
+3afb5057a: 0f 89 df 01 00 00           	jns	0x3afb5075f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe06>
+3afb50580: 4c 89 f9                    	mov	rcx, r15
+3afb50583: 48 83 c3 0c                 	add	rbx, 0xc
+3afb50587: 4d 89 e5                    	mov	r13, r12
+3afb5058a: e8 f1 fc ff ff              	call	0x3afb50280 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x927>
+3afb5058f: 41 b8 08 00 00 00           	mov	r8d, 0x8
+3afb50595: 4c 89 e2                    	mov	rdx, r12
+3afb50598: 4c 89 f9                    	mov	rcx, r15
+3afb5059b: e8 10 0a 00 00              	call	0x3afb50fb0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1657>
+3afb505a0: 48 39 fb                    	cmp	rbx, rdi
+3afb505a3: 72 8f                       	jb	0x3afb50534 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xbdb>
+3afb505a5: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb505b0: 8b 05 6e 5c 00 00           	mov	eax, dword ptr [rip + 0x5c6e] # 0x3afb56224
+3afb505b6: 85 c0                       	test	eax, eax
+3afb505b8: 0f 8e 51 fe ff ff           	jle	0x3afb5040f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xab6>
+3afb505be: 48 8b 3d 03 7c 00 00        	mov	rdi, qword ptr [rip + 0x7c03] # 0x3afb581c8
+3afb505c5: 31 db                       	xor	ebx, ebx
+3afb505c7: 66 0f 1f 84 00 00 00 00 00  	nop	word ptr [rax + rax]
+3afb505d0: 48 8b 05 51 5c 00 00        	mov	rax, qword ptr [rip + 0x5c51] # 0x3afb56228
+3afb505d7: 48 01 d8                    	add	rax, rbx
+3afb505da: 44 8b 00                    	mov	r8d, dword ptr [rax]
+3afb505dd: 45 85 c0                    	test	r8d, r8d
+3afb505e0: 74 0d                       	je	0x3afb505ef <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xc96>
+3afb505e2: 48 8b 50 10                 	mov	rdx, qword ptr [rax + 0x10]
+3afb505e6: 48 8b 48 08                 	mov	rcx, qword ptr [rax + 0x8]
+3afb505ea: 4d 89 e9                    	mov	r9, r13
+3afb505ed: ff d7                       	call	rdi
+3afb505ef: 83 c6 01                    	add	esi, 0x1
+3afb505f2: 48 83 c3 28                 	add	rbx, 0x28
+3afb505f6: 3b 35 28 5c 00 00           	cmp	esi, dword ptr [rip + 0x5c28] # 0x3afb56224
+3afb505fc: 7c d2                       	jl	0x3afb505d0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xc77>
+3afb505fe: e9 0c fe ff ff              	jmp	0x3afb5040f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xab6>
+3afb50603: 0f 1f 44 00 00              	nop	dword ptr [rax + rax]
+3afb50608: 44 8b 0b                    	mov	r9d, dword ptr [rbx]
+3afb5060b: 45 85 c9                    	test	r9d, r9d
+3afb5060e: 75 0d                       	jne	0x3afb5061d <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xcc4>
+3afb50610: 44 8b 43 04                 	mov	r8d, dword ptr [rbx + 0x4]
+3afb50614: 45 85 c0                    	test	r8d, r8d
+3afb50617: 0f 84 1a 01 00 00           	je	0x3afb50737 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xdde>
+3afb5061d: 48 39 fb                    	cmp	rbx, rdi
+3afb50620: 0f 83 e9 fd ff ff           	jae	0x3afb5040f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xab6>
+3afb50626: 4c 8b 35 73 2f 00 00        	mov	r14, qword ptr [rip + 0x2f73] # 0x3afb535a0
+3afb5062d: 4c 8d 6d f8                 	lea	r13, [rbp - 0x8]
+3afb50631: 0f 1f 40 00                 	nop	dword ptr [rax]
+3afb50635: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb50640: 44 8b 63 04                 	mov	r12d, dword ptr [rbx + 0x4]
+3afb50644: 8b 03                       	mov	eax, dword ptr [rbx]
+3afb50646: 48 83 c3 08                 	add	rbx, 0x8
+3afb5064a: 43 03 04 26                 	add	eax, dword ptr [r14 + r12]
+3afb5064e: 4b 8d 0c 34                 	lea	rcx, [r12 + r14]
+3afb50652: 89 45 f8                    	mov	dword ptr [rbp - 0x8], eax
+3afb50655: e8 26 fc ff ff              	call	0x3afb50280 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x927>
+3afb5065a: 41 b8 04 00 00 00           	mov	r8d, 0x4
+3afb50660: 4c 89 ea                    	mov	rdx, r13
+3afb50663: 4b 8d 0c 34                 	lea	rcx, [r12 + r14]
+3afb50667: e8 44 09 00 00              	call	0x3afb50fb0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1657>
+3afb5066c: 48 39 fb                    	cmp	rbx, rdi
+3afb5066f: 72 cf                       	jb	0x3afb50640 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xce7>
+3afb50671: e9 3a ff ff ff              	jmp	0x3afb505b0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xc57>
+3afb50676: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+3afb50680: 41 8b 07                    	mov	eax, dword ptr [r15]
+3afb50683: 85 c0                       	test	eax, eax
+3afb50685: 79 0d                       	jns	0x3afb50694 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xd3b>
+3afb50687: 49 bb 00 00 00 00 ff ff ff ff       	movabs	r11, -0x100000000
+3afb50691: 4c 09 d8                    	or	rax, r11
+3afb50694: 4c 29 c0                    	sub	rax, r8
+3afb50697: 4c 01 c8                    	add	rax, r9
+3afb5069a: 81 e1 c0 00 00 00           	and	ecx, 0xc0
+3afb506a0: 48 89 45 f8                 	mov	qword ptr [rbp - 0x8], rax
+3afb506a4: 75 1a                       	jne	0x3afb506c0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xd67>
+3afb506a6: b9 ff ff ff ff              	mov	ecx, 0xffffffff
+3afb506ab: 48 39 c8                    	cmp	rax, rcx
+3afb506ae: 0f 8f ab 00 00 00           	jg	0x3afb5075f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe06>
+3afb506b4: 48 3d 00 00 00 80           	cmp	rax, -0x80000000
+3afb506ba: 0f 8c 9f 00 00 00           	jl	0x3afb5075f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe06>
+3afb506c0: 4c 89 f9                    	mov	rcx, r15
+3afb506c3: 4d 89 e5                    	mov	r13, r12
+3afb506c6: e8 b5 fb ff ff              	call	0x3afb50280 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x927>
+3afb506cb: 41 b8 04 00 00 00           	mov	r8d, 0x4
+3afb506d1: 4c 89 e2                    	mov	rdx, r12
+3afb506d4: 4c 89 f9                    	mov	rcx, r15
+3afb506d7: e8 d4 08 00 00              	call	0x3afb50fb0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1657>
+3afb506dc: e9 46 fe ff ff              	jmp	0x3afb50527 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xbce>
+3afb506e1: 0f 1f 80 00 00 00 00        	nop	dword ptr [rax]
+3afb506e8: 41 0f b6 07                 	movzx	eax, byte ptr [r15]
+3afb506ec: 84 c0                       	test	al, al
+3afb506ee: 79 06                       	jns	0x3afb506f6 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xd9d>
+3afb506f0: 48 0d 00 ff ff ff           	or	rax, -0x100
+3afb506f6: 4c 29 c0                    	sub	rax, r8
+3afb506f9: 4c 01 c8                    	add	rax, r9
+3afb506fc: 81 e1 c0 00 00 00           	and	ecx, 0xc0
+3afb50702: 48 89 45 f8                 	mov	qword ptr [rbp - 0x8], rax
+3afb50706: 75 0e                       	jne	0x3afb50716 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xdbd>
+3afb50708: 48 3d ff 00 00 00           	cmp	rax, 0xff
+3afb5070e: 7f 4f                       	jg	0x3afb5075f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe06>
+3afb50710: 48 83 f8 80                 	cmp	rax, -0x80
+3afb50714: 7c 49                       	jl	0x3afb5075f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe06>
+3afb50716: 4c 89 f9                    	mov	rcx, r15
+3afb50719: 4d 89 e5                    	mov	r13, r12
+3afb5071c: e8 5f fb ff ff              	call	0x3afb50280 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x927>
+3afb50721: 41 b8 01 00 00 00           	mov	r8d, 0x1
+3afb50727: 4c 89 e2                    	mov	rdx, r12
+3afb5072a: 4c 89 f9                    	mov	rcx, r15
+3afb5072d: e8 7e 08 00 00              	call	0x3afb50fb0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1657>
+3afb50732: e9 f0 fd ff ff              	jmp	0x3afb50527 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xbce>
+3afb50737: 8b 4b 08                    	mov	ecx, dword ptr [rbx + 0x8]
+3afb5073a: 85 c9                       	test	ecx, ecx
+3afb5073c: 0f 85 56 fd ff ff           	jne	0x3afb50498 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xb3f>
+3afb50742: 48 83 c3 0c                 	add	rbx, 0xc
+3afb50746: e9 38 fd ff ff              	jmp	0x3afb50483 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xb2a>
+3afb5074b: 48 8d 0d 86 2d 00 00        	lea	rcx, [rip + 0x2d86]     # 0x3afb534d8
+3afb50752: 48 c7 45 f8 00 00 00 00     	mov	qword ptr [rbp - 0x8], 0x0
+3afb5075a: e8 c1 fa ff ff              	call	0x3afb50220 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x8c7>
+3afb5075f: 48 89 44 24 20              	mov	qword ptr [rsp + 0x20], rax
+3afb50764: 4d 89 f8                    	mov	r8, r15
+3afb50767: 48 8d 0d 9a 2d 00 00        	lea	rcx, [rip + 0x2d9a]     # 0x3afb53508
+3afb5076e: e8 ad fa ff ff              	call	0x3afb50220 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x8c7>
+3afb50773: 48 8d 0d 26 2d 00 00        	lea	rcx, [rip + 0x2d26]     # 0x3afb534a0
+3afb5077a: e8 a1 fa ff ff              	call	0x3afb50220 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x8c7>
+3afb5077f: 90                          	nop
+3afb50780: 55                          	push	rbp
+3afb50781: 57                          	push	rdi
+3afb50782: 56                          	push	rsi
+3afb50783: 53                          	push	rbx
+3afb50784: 48 83 ec 28                 	sub	rsp, 0x28
+3afb50788: 48 8d 0d d1 5a 00 00        	lea	rcx, [rip + 0x5ad1]     # 0x3afb56260
+3afb5078f: ff 15 03 7a 00 00           	call	qword ptr [rip + 0x7a03] # 0x3afb58198
+3afb50795: 48 8b 1d a4 5a 00 00        	mov	rbx, qword ptr [rip + 0x5aa4] # 0x3afb56240
+3afb5079c: 48 85 db                    	test	rbx, rbx
+3afb5079f: 74 33                       	je	0x3afb507d4 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe7b>
+3afb507a1: 48 8b 2d 18 7a 00 00        	mov	rbp, qword ptr [rip + 0x7a18] # 0x3afb581c0
+3afb507a8: 48 8b 3d f1 79 00 00        	mov	rdi, qword ptr [rip + 0x79f1] # 0x3afb581a0
+3afb507af: 90                          	nop
+3afb507b0: 8b 0b                       	mov	ecx, dword ptr [rbx]
+3afb507b2: ff d5                       	call	rbp
+3afb507b4: 48 89 c6                    	mov	rsi, rax
+3afb507b7: ff d7                       	call	rdi
+3afb507b9: 48 85 f6                    	test	rsi, rsi
+3afb507bc: 74 0d                       	je	0x3afb507cb <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe72>
+3afb507be: 85 c0                       	test	eax, eax
+3afb507c0: 75 09                       	jne	0x3afb507cb <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe72>
+3afb507c2: 48 8b 43 08                 	mov	rax, qword ptr [rbx + 0x8]
+3afb507c6: 48 89 f1                    	mov	rcx, rsi
+3afb507c9: ff d0                       	call	rax
+3afb507cb: 48 8b 5b 10                 	mov	rbx, qword ptr [rbx + 0x10]
+3afb507cf: 48 85 db                    	test	rbx, rbx
+3afb507d2: 75 dc                       	jne	0x3afb507b0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe57>
+3afb507d4: 48 8d 0d 85 5a 00 00        	lea	rcx, [rip + 0x5a85]     # 0x3afb56260
+3afb507db: 48 83 c4 28                 	add	rsp, 0x28
+3afb507df: 5b                          	pop	rbx
+3afb507e0: 5e                          	pop	rsi
+3afb507e1: 5f                          	pop	rdi
+3afb507e2: 5d                          	pop	rbp
+3afb507e3: 48 ff 25 c6 79 00 00        	jmp	qword ptr [rip + 0x79c6] # 0x3afb581b0
+3afb507ea: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+3afb507f0: 48 83 ec 38                 	sub	rsp, 0x38
+3afb507f4: 8b 05 4e 5a 00 00           	mov	eax, dword ptr [rip + 0x5a4e] # 0x3afb56248
+3afb507fa: 41 89 c9                    	mov	r9d, ecx
+3afb507fd: 85 c0                       	test	eax, eax
+3afb507ff: 75 0f                       	jne	0x3afb50810 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xeb7>
+3afb50801: 31 c0                       	xor	eax, eax
+3afb50803: 48 83 c4 38                 	add	rsp, 0x38
+3afb50807: c3                          	ret
+3afb50808: 0f 1f 84 00 00 00 00 00     	nop	dword ptr [rax + rax]
+3afb50810: 48 89 54 24 48              	mov	qword ptr [rsp + 0x48], rdx
+3afb50815: b9 01 00 00 00              	mov	ecx, 0x1
+3afb5081a: ba 18 00 00 00              	mov	edx, 0x18
+3afb5081f: 44 89 4c 24 40              	mov	dword ptr [rsp + 0x40], r9d
+3afb50824: e8 97 07 00 00              	call	0x3afb50fc0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1667>
+3afb50829: 48 85 c0                    	test	rax, rax
+3afb5082c: 74 49                       	je	0x3afb50877 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xf1e>
+3afb5082e: 44 8b 4c 24 40              	mov	r9d, dword ptr [rsp + 0x40]
+3afb50833: 4c 8b 44 24 48              	mov	r8, qword ptr [rsp + 0x48]
+3afb50838: 48 89 44 24 28              	mov	qword ptr [rsp + 0x28], rax
+3afb5083d: 48 8d 0d 1c 5a 00 00        	lea	rcx, [rip + 0x5a1c]     # 0x3afb56260
+3afb50844: 44 89 08                    	mov	dword ptr [rax], r9d
+3afb50847: 4c 89 40 08                 	mov	qword ptr [rax + 0x8], r8
+3afb5084b: ff 15 47 79 00 00           	call	qword ptr [rip + 0x7947] # 0x3afb58198
+3afb50851: 48 8b 15 e8 59 00 00        	mov	rdx, qword ptr [rip + 0x59e8] # 0x3afb56240
+3afb50858: 48 8b 44 24 28              	mov	rax, qword ptr [rsp + 0x28]
+3afb5085d: 48 8d 0d fc 59 00 00        	lea	rcx, [rip + 0x59fc]     # 0x3afb56260
+3afb50864: 48 89 50 10                 	mov	qword ptr [rax + 0x10], rdx
+3afb50868: 48 89 05 d1 59 00 00        	mov	qword ptr [rip + 0x59d1], rax # 0x3afb56240
+3afb5086f: ff 15 3b 79 00 00           	call	qword ptr [rip + 0x793b] # 0x3afb581b0
+3afb50875: eb 8a                       	jmp	0x3afb50801 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xea8>
+3afb50877: b8 ff ff ff ff              	mov	eax, 0xffffffff
+3afb5087c: eb 85                       	jmp	0x3afb50803 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xeaa>
+3afb5087e: 66 90                       	nop
+3afb50880: 48 83 ec 28                 	sub	rsp, 0x28
+3afb50884: 8b 05 be 59 00 00           	mov	eax, dword ptr [rip + 0x59be] # 0x3afb56248
+3afb5088a: 85 c0                       	test	eax, eax
+3afb5088c: 75 0a                       	jne	0x3afb50898 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xf3f>
+3afb5088e: 31 c0                       	xor	eax, eax
+3afb50890: 48 83 c4 28                 	add	rsp, 0x28
+3afb50894: c3                          	ret
+3afb50895: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50898: 89 4c 24 30                 	mov	dword ptr [rsp + 0x30], ecx
+3afb5089c: 48 8d 0d bd 59 00 00        	lea	rcx, [rip + 0x59bd]     # 0x3afb56260
+3afb508a3: ff 15 ef 78 00 00           	call	qword ptr [rip + 0x78ef] # 0x3afb58198
+3afb508a9: 48 8b 0d 90 59 00 00        	mov	rcx, qword ptr [rip + 0x5990] # 0x3afb56240
+3afb508b0: 48 85 c9                    	test	rcx, rcx
+3afb508b3: 74 2e                       	je	0x3afb508e3 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xf8a>
+3afb508b5: 8b 54 24 30                 	mov	edx, dword ptr [rsp + 0x30]
+3afb508b9: 45 31 c0                    	xor	r8d, r8d
+3afb508bc: eb 0d                       	jmp	0x3afb508cb <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xf72>
+3afb508be: 66 90                       	nop
+3afb508c0: 49 89 c8                    	mov	r8, rcx
+3afb508c3: 48 85 c0                    	test	rax, rax
+3afb508c6: 74 1b                       	je	0x3afb508e3 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xf8a>
+3afb508c8: 48 89 c1                    	mov	rcx, rax
+3afb508cb: 8b 01                       	mov	eax, dword ptr [rcx]
+3afb508cd: 39 d0                       	cmp	eax, edx
+3afb508cf: 48 8b 41 10                 	mov	rax, qword ptr [rcx + 0x10]
+3afb508d3: 75 eb                       	jne	0x3afb508c0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xf67>
+3afb508d5: 4d 85 c0                    	test	r8, r8
+3afb508d8: 74 26                       	je	0x3afb50900 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfa7>
+3afb508da: 49 89 40 10                 	mov	qword ptr [r8 + 0x10], rax
+3afb508de: e8 e5 06 00 00              	call	0x3afb50fc8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x166f>
+3afb508e3: 48 8d 0d 76 59 00 00        	lea	rcx, [rip + 0x5976]     # 0x3afb56260
+3afb508ea: ff 15 c0 78 00 00           	call	qword ptr [rip + 0x78c0] # 0x3afb581b0
+3afb508f0: 31 c0                       	xor	eax, eax
+3afb508f2: 48 83 c4 28                 	add	rsp, 0x28
+3afb508f6: c3                          	ret
+3afb508f7: 66 0f 1f 84 00 00 00 00 00  	nop	word ptr [rax + rax]
+3afb50900: 48 89 05 39 59 00 00        	mov	qword ptr [rip + 0x5939], rax # 0x3afb56240
+3afb50907: eb d5                       	jmp	0x3afb508de <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xf85>
+3afb50909: 0f 1f 80 00 00 00 00        	nop	dword ptr [rax]
+3afb50910: 48 83 ec 38                 	sub	rsp, 0x38
+3afb50914: 83 fa 02                    	cmp	edx, 0x2
+3afb50917: 0f 84 bb 00 00 00           	je	0x3afb509d8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x107f>
+3afb5091d: 77 29                       	ja	0x3afb50948 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfef>
+3afb5091f: 85 d2                       	test	edx, edx
+3afb50921: 74 3d                       	je	0x3afb50960 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1007>
+3afb50923: 8b 05 1f 59 00 00           	mov	eax, dword ptr [rip + 0x591f] # 0x3afb56248
+3afb50929: 85 c0                       	test	eax, eax
+3afb5092b: 0f 84 cf 00 00 00           	je	0x3afb50a00 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x10a7>
+3afb50931: c7 05 0d 59 00 00 01 00 00 00       	mov	dword ptr [rip + 0x590d], 0x1 # 0x3afb56248
+3afb5093b: b8 01 00 00 00              	mov	eax, 0x1
+3afb50940: 48 83 c4 38                 	add	rsp, 0x38
+3afb50944: c3                          	ret
+3afb50945: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50948: 83 fa 03                    	cmp	edx, 0x3
+3afb5094b: 75 ee                       	jne	0x3afb5093b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfe2>
+3afb5094d: 8b 05 f5 58 00 00           	mov	eax, dword ptr [rip + 0x58f5] # 0x3afb56248
+3afb50953: 85 c0                       	test	eax, eax
+3afb50955: 74 e4                       	je	0x3afb5093b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfe2>
+3afb50957: e8 24 fe ff ff              	call	0x3afb50780 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe27>
+3afb5095c: eb dd                       	jmp	0x3afb5093b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfe2>
+3afb5095e: 66 90                       	nop
+3afb50960: 8b 05 e2 58 00 00           	mov	eax, dword ptr [rip + 0x58e2] # 0x3afb56248
+3afb50966: 85 c0                       	test	eax, eax
+3afb50968: 0f 85 82 00 00 00           	jne	0x3afb509f0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1097>
+3afb5096e: 8b 05 d4 58 00 00           	mov	eax, dword ptr [rip + 0x58d4] # 0x3afb56248
+3afb50974: 83 f8 01                    	cmp	eax, 0x1
+3afb50977: 75 c2                       	jne	0x3afb5093b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfe2>
+3afb50979: 48 8b 05 c0 58 00 00        	mov	rax, qword ptr [rip + 0x58c0] # 0x3afb56240
+3afb50980: 48 85 c0                    	test	rax, rax
+3afb50983: 74 26                       	je	0x3afb509ab <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1052>
+3afb50985: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb50990: 48 89 c1                    	mov	rcx, rax
+3afb50993: 48 8b 40 10                 	mov	rax, qword ptr [rax + 0x10]
+3afb50997: 48 89 44 24 28              	mov	qword ptr [rsp + 0x28], rax
+3afb5099c: e8 27 06 00 00              	call	0x3afb50fc8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x166f>
+3afb509a1: 48 8b 44 24 28              	mov	rax, qword ptr [rsp + 0x28]
+3afb509a6: 48 85 c0                    	test	rax, rax
+3afb509a9: 75 e5                       	jne	0x3afb50990 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1037>
+3afb509ab: 48 8d 0d ae 58 00 00        	lea	rcx, [rip + 0x58ae]     # 0x3afb56260
+3afb509b2: 48 c7 05 83 58 00 00 00 00 00 00    	mov	qword ptr [rip + 0x5883], 0x0 # 0x3afb56240
+3afb509bd: c7 05 81 58 00 00 00 00 00 00       	mov	dword ptr [rip + 0x5881], 0x0 # 0x3afb56248
+3afb509c7: ff 15 c3 77 00 00           	call	qword ptr [rip + 0x77c3] # 0x3afb58190
+3afb509cd: e9 69 ff ff ff              	jmp	0x3afb5093b <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfe2>
+3afb509d2: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+3afb509d8: e8 43 00 00 00              	call	0x3afb50a20 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x10c7>
+3afb509dd: b8 01 00 00 00              	mov	eax, 0x1
+3afb509e2: 48 83 c4 38                 	add	rsp, 0x38
+3afb509e6: c3                          	ret
+3afb509e7: 66 0f 1f 84 00 00 00 00 00  	nop	word ptr [rax + rax]
+3afb509f0: e8 8b fd ff ff              	call	0x3afb50780 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xe27>
+3afb509f5: e9 74 ff ff ff              	jmp	0x3afb5096e <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1015>
+3afb509fa: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+3afb50a00: 48 8d 0d 59 58 00 00        	lea	rcx, [rip + 0x5859]     # 0x3afb56260
+3afb50a07: ff 15 9b 77 00 00           	call	qword ptr [rip + 0x779b] # 0x3afb581a8
+3afb50a0d: e9 1f ff ff ff              	jmp	0x3afb50931 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0xfd8>
+3afb50a12: 90                          	nop
+3afb50a13: 90                          	nop
+3afb50a14: 90                          	nop
+3afb50a15: 90                          	nop
+3afb50a16: 90                          	nop
+3afb50a17: 90                          	nop
+3afb50a18: 90                          	nop
+3afb50a19: 90                          	nop
+3afb50a1a: 90                          	nop
+3afb50a1b: 90                          	nop
+3afb50a1c: 90                          	nop
+3afb50a1d: 90                          	nop
+3afb50a1e: 90                          	nop
+3afb50a1f: 90                          	nop
+3afb50a20: db e3                       	fninit
+3afb50a22: c3                          	ret
+3afb50a23: 90                          	nop
+3afb50a24: 90                          	nop
+3afb50a25: 90                          	nop
+3afb50a26: 90                          	nop
+3afb50a27: 90                          	nop
+3afb50a28: 90                          	nop
+3afb50a29: 90                          	nop
+3afb50a2a: 90                          	nop
+3afb50a2b: 90                          	nop
+3afb50a2c: 90                          	nop
+3afb50a2d: 90                          	nop
+3afb50a2e: 90                          	nop
+3afb50a2f: 90                          	nop
+3afb50a30: 31 c0                       	xor	eax, eax
+3afb50a32: 66 81 39 4d 5a              	cmp	word ptr [rcx], 0x5a4d
+3afb50a37: 75 0f                       	jne	0x3afb50a48 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x10ef>
+3afb50a39: 48 63 51 3c                 	movsxd	rdx, dword ptr [rcx + 0x3c]
+3afb50a3d: 48 01 d1                    	add	rcx, rdx
+3afb50a40: 81 39 50 45 00 00           	cmp	dword ptr [rcx], 0x4550
+3afb50a46: 74 08                       	je	0x3afb50a50 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x10f7>
+3afb50a48: c3                          	ret
+3afb50a49: 0f 1f 80 00 00 00 00        	nop	dword ptr [rax]
+3afb50a50: 31 c0                       	xor	eax, eax
+3afb50a52: 66 81 79 18 0b 02           	cmp	word ptr [rcx + 0x18], 0x20b
+3afb50a58: 0f 94 c0                    	sete	al
+3afb50a5b: c3                          	ret
+3afb50a5c: 0f 1f 40 00                 	nop	dword ptr [rax]
+3afb50a60: 48 63 41 3c                 	movsxd	rax, dword ptr [rcx + 0x3c]
+3afb50a64: 48 01 c8                    	add	rax, rcx
+3afb50a67: 0f b7 48 06                 	movzx	ecx, word ptr [rax + 0x6]
+3afb50a6b: 66 85 c9                    	test	cx, cx
+3afb50a6e: 74 3d                       	je	0x3afb50aad <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1154>
+3afb50a70: 44 0f b7 40 14              	movzx	r8d, word ptr [rax + 0x14]
+3afb50a75: 83 e9 01                    	sub	ecx, 0x1
+3afb50a78: 48 8d 0c 89                 	lea	rcx, [rcx + 4*rcx]
+3afb50a7c: 4a 8d 44 00 18              	lea	rax, [rax + r8 + 0x18]
+3afb50a81: 4c 8d 4c c8 28              	lea	r9, [rax + 8*rcx + 0x28]
+3afb50a86: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+3afb50a90: 44 8b 40 0c                 	mov	r8d, dword ptr [rax + 0xc]
+3afb50a94: 4c 89 c1                    	mov	rcx, r8
+3afb50a97: 4c 39 c2                    	cmp	rdx, r8
+3afb50a9a: 72 08                       	jb	0x3afb50aa4 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x114b>
+3afb50a9c: 03 48 08                    	add	ecx, dword ptr [rax + 0x8]
+3afb50a9f: 48 39 ca                    	cmp	rdx, rcx
+3afb50aa2: 72 0b                       	jb	0x3afb50aaf <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1156>
+3afb50aa4: 48 83 c0 28                 	add	rax, 0x28
+3afb50aa8: 4c 39 c8                    	cmp	rax, r9
+3afb50aab: 75 e3                       	jne	0x3afb50a90 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1137>
+3afb50aad: 31 c0                       	xor	eax, eax
+3afb50aaf: c3                          	ret
+3afb50ab0: 55                          	push	rbp
+3afb50ab1: 57                          	push	rdi
+3afb50ab2: 56                          	push	rsi
+3afb50ab3: 53                          	push	rbx
+3afb50ab4: 48 83 ec 28                 	sub	rsp, 0x28
+3afb50ab8: 48 89 cf                    	mov	rdi, rcx
+3afb50abb: e8 90 04 00 00              	call	0x3afb50f50 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x15f7>
+3afb50ac0: 48 83 f8 08                 	cmp	rax, 0x8
+3afb50ac4: 77 0e                       	ja	0x3afb50ad4 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x117b>
+3afb50ac6: 48 8b 05 d3 2a 00 00        	mov	rax, qword ptr [rip + 0x2ad3] # 0x3afb535a0
+3afb50acd: 66 81 38 4d 5a              	cmp	word ptr [rax], 0x5a4d
+3afb50ad2: 74 14                       	je	0x3afb50ae8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x118f>
+3afb50ad4: 31 db                       	xor	ebx, ebx
+3afb50ad6: 48 89 d8                    	mov	rax, rbx
+3afb50ad9: 48 83 c4 28                 	add	rsp, 0x28
+3afb50add: 5b                          	pop	rbx
+3afb50ade: 5e                          	pop	rsi
+3afb50adf: 5f                          	pop	rdi
+3afb50ae0: 5d                          	pop	rbp
+3afb50ae1: c3                          	ret
+3afb50ae2: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+3afb50ae8: 48 63 68 3c                 	movsxd	rbp, dword ptr [rax + 0x3c]
+3afb50aec: 48 01 c5                    	add	rbp, rax
+3afb50aef: 81 7d 00 50 45 00 00        	cmp	dword ptr [rbp], 0x4550
+3afb50af6: 75 dc                       	jne	0x3afb50ad4 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x117b>
+3afb50af8: 66 81 7d 18 0b 02           	cmp	word ptr [rbp + 0x18], 0x20b
+3afb50afe: 75 d4                       	jne	0x3afb50ad4 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x117b>
+3afb50b00: 66 83 7d 06 00              	cmp	word ptr [rbp + 0x6], 0x0
+3afb50b05: 74 cd                       	je	0x3afb50ad4 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x117b>
+3afb50b07: 0f b7 45 14                 	movzx	eax, word ptr [rbp + 0x14]
+3afb50b0b: 31 f6                       	xor	esi, esi
+3afb50b0d: 48 8d 5c 05 18              	lea	rbx, [rbp + rax + 0x18]
+3afb50b12: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50b15: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb50b20: 41 b8 08 00 00 00           	mov	r8d, 0x8
+3afb50b26: 48 89 fa                    	mov	rdx, rdi
+3afb50b29: 48 89 d9                    	mov	rcx, rbx
+3afb50b2c: e8 27 04 00 00              	call	0x3afb50f58 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x15ff>
+3afb50b31: 85 c0                       	test	eax, eax
+3afb50b33: 74 a1                       	je	0x3afb50ad6 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x117d>
+3afb50b35: 0f b7 45 06                 	movzx	eax, word ptr [rbp + 0x6]
+3afb50b39: 83 c6 01                    	add	esi, 0x1
+3afb50b3c: 48 83 c3 28                 	add	rbx, 0x28
+3afb50b40: 39 c6                       	cmp	esi, eax
+3afb50b42: 72 dc                       	jb	0x3afb50b20 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x11c7>
+3afb50b44: eb 8e                       	jmp	0x3afb50ad4 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x117b>
+3afb50b46: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+3afb50b50: 48 8b 15 49 2a 00 00        	mov	rdx, qword ptr [rip + 0x2a49] # 0x3afb535a0
+3afb50b57: 31 c0                       	xor	eax, eax
+3afb50b59: 66 81 3a 4d 5a              	cmp	word ptr [rdx], 0x5a4d
+3afb50b5e: 75 10                       	jne	0x3afb50b70 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1217>
+3afb50b60: 4c 63 42 3c                 	movsxd	r8, dword ptr [rdx + 0x3c]
+3afb50b64: 49 01 d0                    	add	r8, rdx
+3afb50b67: 41 81 38 50 45 00 00        	cmp	dword ptr [r8], 0x4550
+3afb50b6e: 74 08                       	je	0x3afb50b78 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x121f>
+3afb50b70: c3                          	ret
+3afb50b71: 0f 1f 80 00 00 00 00        	nop	dword ptr [rax]
+3afb50b78: 66 41 81 78 18 0b 02        	cmp	word ptr [r8 + 0x18], 0x20b
+3afb50b7f: 75 ef                       	jne	0x3afb50b70 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1217>
+3afb50b81: 45 0f b7 48 06              	movzx	r9d, word ptr [r8 + 0x6]
+3afb50b86: 66 45 85 c9                 	test	r9w, r9w
+3afb50b8a: 74 e4                       	je	0x3afb50b70 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1217>
+3afb50b8c: 41 0f b7 40 14              	movzx	eax, word ptr [r8 + 0x14]
+3afb50b91: 48 29 d1                    	sub	rcx, rdx
+3afb50b94: 41 8d 51 ff                 	lea	edx, [r9 - 0x1]
+3afb50b98: 48 8d 14 92                 	lea	rdx, [rdx + 4*rdx]
+3afb50b9c: 49 8d 44 00 18              	lea	rax, [r8 + rax + 0x18]
+3afb50ba1: 4c 8d 4c d0 28              	lea	r9, [rax + 8*rdx + 0x28]
+3afb50ba6: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+3afb50bb0: 44 8b 40 0c                 	mov	r8d, dword ptr [rax + 0xc]
+3afb50bb4: 4c 89 c2                    	mov	rdx, r8
+3afb50bb7: 4c 39 c1                    	cmp	rcx, r8
+3afb50bba: 72 08                       	jb	0x3afb50bc4 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x126b>
+3afb50bbc: 03 50 08                    	add	edx, dword ptr [rax + 0x8]
+3afb50bbf: 48 39 d1                    	cmp	rcx, rdx
+3afb50bc2: 72 ac                       	jb	0x3afb50b70 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1217>
+3afb50bc4: 48 83 c0 28                 	add	rax, 0x28
+3afb50bc8: 4c 39 c8                    	cmp	rax, r9
+3afb50bcb: 75 e3                       	jne	0x3afb50bb0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1257>
+3afb50bcd: 31 c0                       	xor	eax, eax
+3afb50bcf: c3                          	ret
+3afb50bd0: 48 8b 05 c9 29 00 00        	mov	rax, qword ptr [rip + 0x29c9] # 0x3afb535a0
+3afb50bd7: 31 c9                       	xor	ecx, ecx
+3afb50bd9: 66 81 38 4d 5a              	cmp	word ptr [rax], 0x5a4d
+3afb50bde: 75 0f                       	jne	0x3afb50bef <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1296>
+3afb50be0: 48 63 50 3c                 	movsxd	rdx, dword ptr [rax + 0x3c]
+3afb50be4: 48 01 d0                    	add	rax, rdx
+3afb50be7: 81 38 50 45 00 00           	cmp	dword ptr [rax], 0x4550
+3afb50bed: 74 09                       	je	0x3afb50bf8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x129f>
+3afb50bef: 89 c8                       	mov	eax, ecx
+3afb50bf1: c3                          	ret
+3afb50bf2: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+3afb50bf8: 66 81 78 18 0b 02           	cmp	word ptr [rax + 0x18], 0x20b
+3afb50bfe: 75 ef                       	jne	0x3afb50bef <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1296>
+3afb50c00: 0f b7 48 06                 	movzx	ecx, word ptr [rax + 0x6]
+3afb50c04: 89 c8                       	mov	eax, ecx
+3afb50c06: c3                          	ret
+3afb50c07: 66 0f 1f 84 00 00 00 00 00  	nop	word ptr [rax + rax]
+3afb50c10: 4c 8b 05 89 29 00 00        	mov	r8, qword ptr [rip + 0x2989] # 0x3afb535a0
+3afb50c17: 31 c0                       	xor	eax, eax
+3afb50c19: 66 41 81 38 4d 5a           	cmp	word ptr [r8], 0x5a4d
+3afb50c1f: 75 0f                       	jne	0x3afb50c30 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x12d7>
+3afb50c21: 49 63 50 3c                 	movsxd	rdx, dword ptr [r8 + 0x3c]
+3afb50c25: 4c 01 c2                    	add	rdx, r8
+3afb50c28: 81 3a 50 45 00 00           	cmp	dword ptr [rdx], 0x4550
+3afb50c2e: 74 08                       	je	0x3afb50c38 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x12df>
+3afb50c30: c3                          	ret
+3afb50c31: 0f 1f 80 00 00 00 00        	nop	dword ptr [rax]
+3afb50c38: 66 81 7a 18 0b 02           	cmp	word ptr [rdx + 0x18], 0x20b
+3afb50c3e: 75 f0                       	jne	0x3afb50c30 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x12d7>
+3afb50c40: 44 0f b7 42 06              	movzx	r8d, word ptr [rdx + 0x6]
+3afb50c45: 66 45 85 c0                 	test	r8w, r8w
+3afb50c49: 74 e5                       	je	0x3afb50c30 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x12d7>
+3afb50c4b: 0f b7 42 14                 	movzx	eax, word ptr [rdx + 0x14]
+3afb50c4f: 48 8d 44 02 18              	lea	rax, [rdx + rax + 0x18]
+3afb50c54: 41 8d 50 ff                 	lea	edx, [r8 - 0x1]
+3afb50c58: 48 8d 14 92                 	lea	rdx, [rdx + 4*rdx]
+3afb50c5c: 48 8d 54 d0 28              	lea	rdx, [rax + 8*rdx + 0x28]
+3afb50c61: 0f 1f 40 00                 	nop	dword ptr [rax]
+3afb50c65: 66 66 2e 0f 1f 84 00 00 00 00 00    	nop	word ptr cs:[rax + rax]
+3afb50c70: f6 40 27 20                 	test	byte ptr [rax + 0x27], 0x20
+3afb50c74: 74 09                       	je	0x3afb50c7f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1326>
+3afb50c76: 48 85 c9                    	test	rcx, rcx
+3afb50c79: 74 b5                       	je	0x3afb50c30 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x12d7>
+3afb50c7b: 48 83 e9 01                 	sub	rcx, 0x1
+3afb50c7f: 48 83 c0 28                 	add	rax, 0x28
+3afb50c83: 48 39 c2                    	cmp	rdx, rax
+3afb50c86: 75 e8                       	jne	0x3afb50c70 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1317>
+3afb50c88: 31 c0                       	xor	eax, eax
+3afb50c8a: c3                          	ret
+3afb50c8b: 0f 1f 44 00 00              	nop	dword ptr [rax + rax]
+3afb50c90: 48 8b 05 09 29 00 00        	mov	rax, qword ptr [rip + 0x2909] # 0x3afb535a0
+3afb50c97: 31 d2                       	xor	edx, edx
+3afb50c99: 66 81 38 4d 5a              	cmp	word ptr [rax], 0x5a4d
+3afb50c9e: 75 0f                       	jne	0x3afb50caf <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1356>
+3afb50ca0: 48 63 48 3c                 	movsxd	rcx, dword ptr [rax + 0x3c]
+3afb50ca4: 48 01 c1                    	add	rcx, rax
+3afb50ca7: 81 39 50 45 00 00           	cmp	dword ptr [rcx], 0x4550
+3afb50cad: 74 09                       	je	0x3afb50cb8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x135f>
+3afb50caf: 48 89 d0                    	mov	rax, rdx
+3afb50cb2: c3                          	ret
+3afb50cb3: 0f 1f 44 00 00              	nop	dword ptr [rax + rax]
+3afb50cb8: 66 81 79 18 0b 02           	cmp	word ptr [rcx + 0x18], 0x20b
+3afb50cbe: 48 0f 44 d0                 	cmove	rdx, rax
+3afb50cc2: 48 89 d0                    	mov	rax, rdx
+3afb50cc5: c3                          	ret
+3afb50cc6: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+3afb50cd0: 48 8b 15 c9 28 00 00        	mov	rdx, qword ptr [rip + 0x28c9] # 0x3afb535a0
+3afb50cd7: 31 c0                       	xor	eax, eax
+3afb50cd9: 66 81 3a 4d 5a              	cmp	word ptr [rdx], 0x5a4d
+3afb50cde: 75 10                       	jne	0x3afb50cf0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1397>
+3afb50ce0: 4c 63 42 3c                 	movsxd	r8, dword ptr [rdx + 0x3c]
+3afb50ce4: 49 01 d0                    	add	r8, rdx
+3afb50ce7: 41 81 38 50 45 00 00        	cmp	dword ptr [r8], 0x4550
+3afb50cee: 74 08                       	je	0x3afb50cf8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x139f>
+3afb50cf0: c3                          	ret
+3afb50cf1: 0f 1f 80 00 00 00 00        	nop	dword ptr [rax]
+3afb50cf8: 66 41 81 78 18 0b 02        	cmp	word ptr [r8 + 0x18], 0x20b
+3afb50cff: 75 ef                       	jne	0x3afb50cf0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1397>
+3afb50d01: 45 0f b7 48 06              	movzx	r9d, word ptr [r8 + 0x6]
+3afb50d06: 66 45 85 c9                 	test	r9w, r9w
+3afb50d0a: 74 e4                       	je	0x3afb50cf0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1397>
+3afb50d0c: 41 0f b7 40 14              	movzx	eax, word ptr [r8 + 0x14]
+3afb50d11: 48 29 d1                    	sub	rcx, rdx
+3afb50d14: 41 8d 51 ff                 	lea	edx, [r9 - 0x1]
+3afb50d18: 48 8d 14 92                 	lea	rdx, [rdx + 4*rdx]
+3afb50d1c: 49 8d 44 00 18              	lea	rax, [r8 + rax + 0x18]
+3afb50d21: 4c 8d 4c d0 28              	lea	r9, [rax + 8*rdx + 0x28]
+3afb50d26: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+3afb50d30: 44 8b 40 0c                 	mov	r8d, dword ptr [rax + 0xc]
+3afb50d34: 4c 89 c2                    	mov	rdx, r8
+3afb50d37: 4c 39 c1                    	cmp	rcx, r8
+3afb50d3a: 72 08                       	jb	0x3afb50d44 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x13eb>
+3afb50d3c: 03 50 08                    	add	edx, dword ptr [rax + 0x8]
+3afb50d3f: 48 39 d1                    	cmp	rcx, rdx
+3afb50d42: 72 0c                       	jb	0x3afb50d50 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x13f7>
+3afb50d44: 48 83 c0 28                 	add	rax, 0x28
+3afb50d48: 49 39 c1                    	cmp	r9, rax
+3afb50d4b: 75 e3                       	jne	0x3afb50d30 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x13d7>
+3afb50d4d: 31 c0                       	xor	eax, eax
+3afb50d4f: c3                          	ret
+3afb50d50: 8b 40 24                    	mov	eax, dword ptr [rax + 0x24]
+3afb50d53: f7 d0                       	not	eax
+3afb50d55: c1 e8 1f                    	shr	eax, 0x1f
+3afb50d58: c3                          	ret
+3afb50d59: 0f 1f 80 00 00 00 00        	nop	dword ptr [rax]
+3afb50d60: 4c 8b 1d 39 28 00 00        	mov	r11, qword ptr [rip + 0x2839] # 0x3afb535a0
+3afb50d67: 45 31 c0                    	xor	r8d, r8d
+3afb50d6a: 66 41 81 3b 4d 5a           	cmp	word ptr [r11], 0x5a4d
+3afb50d70: 75 0f                       	jne	0x3afb50d81 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1428>
+3afb50d72: 49 63 53 3c                 	movsxd	rdx, dword ptr [r11 + 0x3c]
+3afb50d76: 4c 01 da                    	add	rdx, r11
+3afb50d79: 81 3a 50 45 00 00           	cmp	dword ptr [rdx], 0x4550
+3afb50d7f: 74 07                       	je	0x3afb50d88 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x142f>
+3afb50d81: 4c 89 c0                    	mov	rax, r8
+3afb50d84: c3                          	ret
+3afb50d85: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50d88: 66 81 7a 18 0b 02           	cmp	word ptr [rdx + 0x18], 0x20b
+3afb50d8e: 75 f1                       	jne	0x3afb50d81 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1428>
+3afb50d90: 8b 82 90 00 00 00           	mov	eax, dword ptr [rdx + 0x90]
+3afb50d96: 85 c0                       	test	eax, eax
+3afb50d98: 74 e7                       	je	0x3afb50d81 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1428>
+3afb50d9a: 44 0f b7 4a 06              	movzx	r9d, word ptr [rdx + 0x6]
+3afb50d9f: 66 45 85 c9                 	test	r9w, r9w
+3afb50da3: 74 dc                       	je	0x3afb50d81 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1428>
+3afb50da5: 44 0f b7 42 14              	movzx	r8d, word ptr [rdx + 0x14]
+3afb50daa: 4a 8d 54 02 18              	lea	rdx, [rdx + r8 + 0x18]
+3afb50daf: 45 8d 41 ff                 	lea	r8d, [r9 - 0x1]
+3afb50db3: 4f 8d 04 80                 	lea	r8, [r8 + 4*r8]
+3afb50db7: 4e 8d 54 c2 28              	lea	r10, [rdx + 8*r8 + 0x28]
+3afb50dbc: 0f 1f 40 00                 	nop	dword ptr [rax]
+3afb50dc0: 44 8b 4a 0c                 	mov	r9d, dword ptr [rdx + 0xc]
+3afb50dc4: 4d 89 c8                    	mov	r8, r9
+3afb50dc7: 4c 39 c8                    	cmp	rax, r9
+3afb50dca: 72 09                       	jb	0x3afb50dd5 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x147c>
+3afb50dcc: 44 03 42 08                 	add	r8d, dword ptr [rdx + 0x8]
+3afb50dd0: 4c 39 c0                    	cmp	rax, r8
+3afb50dd3: 72 13                       	jb	0x3afb50de8 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x148f>
+3afb50dd5: 48 83 c2 28                 	add	rdx, 0x28
+3afb50dd9: 49 39 d2                    	cmp	r10, rdx
+3afb50ddc: 75 e2                       	jne	0x3afb50dc0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1467>
+3afb50dde: 45 31 c0                    	xor	r8d, r8d
+3afb50de1: 4c 89 c0                    	mov	rax, r8
+3afb50de4: c3                          	ret
+3afb50de5: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50de8: 4c 01 d8                    	add	rax, r11
+3afb50deb: eb 0a                       	jmp	0x3afb50df7 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x149e>
+3afb50ded: 0f 1f 00                    	nop	dword ptr [rax]
+3afb50df0: 83 e9 01                    	sub	ecx, 0x1
+3afb50df3: 48 83 c0 14                 	add	rax, 0x14
+3afb50df7: 44 8b 40 04                 	mov	r8d, dword ptr [rax + 0x4]
+3afb50dfb: 45 85 c0                    	test	r8d, r8d
+3afb50dfe: 75 07                       	jne	0x3afb50e07 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x14ae>
+3afb50e00: 8b 50 0c                    	mov	edx, dword ptr [rax + 0xc]
+3afb50e03: 85 d2                       	test	edx, edx
+3afb50e05: 74 d7                       	je	0x3afb50dde <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1485>
+3afb50e07: 85 c9                       	test	ecx, ecx
+3afb50e09: 7f e5                       	jg	0x3afb50df0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1497>
+3afb50e0b: 44 8b 40 0c                 	mov	r8d, dword ptr [rax + 0xc]
+3afb50e0f: 4d 01 d8                    	add	r8, r11
+3afb50e12: 4c 89 c0                    	mov	rax, r8
+3afb50e15: c3                          	ret
+3afb50e16: 90                          	nop
+3afb50e17: 90                          	nop
+3afb50e18: 90                          	nop
+3afb50e19: 90                          	nop
+3afb50e1a: 90                          	nop
+3afb50e1b: 90                          	nop
+3afb50e1c: 90                          	nop
+3afb50e1d: 90                          	nop
+3afb50e1e: 90                          	nop
+3afb50e1f: 90                          	nop
+3afb50e20: 51                          	push	rcx
+3afb50e21: 50                          	push	rax
+3afb50e22: 48 3d 00 10 00 00           	cmp	rax, 0x1000
+3afb50e28: 48 8d 4c 24 18              	lea	rcx, [rsp + 0x18]
+3afb50e2d: 72 19                       	jb	0x3afb50e48 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x14ef>
+3afb50e2f: 48 81 e9 00 10 00 00        	sub	rcx, 0x1000
+3afb50e36: 48 83 09 00                 	or	qword ptr [rcx], 0x0
+3afb50e3a: 48 2d 00 10 00 00           	sub	rax, 0x1000
+3afb50e40: 48 3d 00 10 00 00           	cmp	rax, 0x1000
+3afb50e46: 77 e7                       	ja	0x3afb50e2f <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x14d6>
+3afb50e48: 48 29 c1                    	sub	rcx, rax
+3afb50e4b: 48 83 09 00                 	or	qword ptr [rcx], 0x0
+3afb50e4f: 58                          	pop	rax
+3afb50e50: 59                          	pop	rcx
+3afb50e51: c3                          	ret
+3afb50e52: 90                          	nop
+3afb50e53: 90                          	nop
+3afb50e54: 90                          	nop
+3afb50e55: 90                          	nop
+3afb50e56: 90                          	nop
+3afb50e57: 90                          	nop
+3afb50e58: 90                          	nop
+3afb50e59: 90                          	nop
+3afb50e5a: 90                          	nop
+3afb50e5b: 90                          	nop
+3afb50e5c: 90                          	nop
+3afb50e5d: 90                          	nop
+3afb50e5e: 90                          	nop
+3afb50e5f: 90                          	nop
+3afb50e60: e9 9b 71 ff ff              	jmp	0x3afb48000
+3afb50e65: c3                          	ret
+3afb50e66: 90                          	nop
+3afb50e67: 90                          	nop
+3afb50e68: 90                          	nop
+3afb50e69: 90                          	nop
+3afb50e6a: 90                          	nop
+3afb50e6b: 90                          	nop
+3afb50e6c: 90                          	nop
+3afb50e6d: 90                          	nop
+3afb50e6e: 90                          	nop
+3afb50e6f: 90                          	nop
+3afb50e70: 57                          	push	rdi
+3afb50e71: 56                          	push	rsi
+3afb50e72: 53                          	push	rbx
+3afb50e73: 48 83 ec 30                 	sub	rsp, 0x30
+3afb50e77: 48 89 cb                    	mov	rbx, rcx
+3afb50e7a: 48 89 d6                    	mov	rsi, rdx
+3afb50e7d: 4c 89 c7                    	mov	rdi, r8
+3afb50e80: e8 7b 00 00 00              	call	0x3afb50f00 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x15a7>
+3afb50e85: 45 31 c9                    	xor	r9d, r9d
+3afb50e88: 49 89 f0                    	mov	r8, rsi
+3afb50e8b: 48 89 da                    	mov	rdx, rbx
+3afb50e8e: 48 8b 08                    	mov	rcx, qword ptr [rax]
+3afb50e91: 48 89 7c 24 20              	mov	qword ptr [rsp + 0x20], rdi
+3afb50e96: e8 cd 00 00 00              	call	0x3afb50f68 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x160f>
+3afb50e9b: 48 83 c4 30                 	add	rsp, 0x30
+3afb50e9f: 5b                          	pop	rbx
+3afb50ea0: 5e                          	pop	rsi
+3afb50ea1: 5f                          	pop	rdi
+3afb50ea2: c3                          	ret
+3afb50ea3: 90                          	nop
+3afb50ea4: 90                          	nop
+3afb50ea5: 90                          	nop
+3afb50ea6: 90                          	nop
+3afb50ea7: 90                          	nop
+3afb50ea8: 90                          	nop
+3afb50ea9: 90                          	nop
+3afb50eaa: 90                          	nop
+3afb50eab: 90                          	nop
+3afb50eac: 90                          	nop
+3afb50ead: 90                          	nop
+3afb50eae: 90                          	nop
+3afb50eaf: 90                          	nop
+3afb50eb0: 57                          	push	rdi
+3afb50eb1: 56                          	push	rsi
+3afb50eb2: 53                          	push	rbx
+3afb50eb3: 48 83 ec 40                 	sub	rsp, 0x40
+3afb50eb7: 48 8d 7c 24 70              	lea	rdi, [rsp + 0x70]
+3afb50ebc: 48 89 cb                    	mov	rbx, rcx
+3afb50ebf: 48 89 d6                    	mov	rsi, rdx
+3afb50ec2: 4c 89 44 24 70              	mov	qword ptr [rsp + 0x70], r8
+3afb50ec7: 4c 89 4c 24 78              	mov	qword ptr [rsp + 0x78], r9
+3afb50ecc: 48 89 7c 24 38              	mov	qword ptr [rsp + 0x38], rdi
+3afb50ed1: e8 2a 00 00 00              	call	0x3afb50f00 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x15a7>
+3afb50ed6: 45 31 c9                    	xor	r9d, r9d
+3afb50ed9: 49 89 f0                    	mov	r8, rsi
+3afb50edc: 48 89 da                    	mov	rdx, rbx
+3afb50edf: 48 8b 08                    	mov	rcx, qword ptr [rax]
+3afb50ee2: 48 89 7c 24 20              	mov	qword ptr [rsp + 0x20], rdi
+3afb50ee7: e8 7c 00 00 00              	call	0x3afb50f68 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x160f>
+3afb50eec: 48 83 c4 40                 	add	rsp, 0x40
+3afb50ef0: 5b                          	pop	rbx
+3afb50ef1: 5e                          	pop	rsi
+3afb50ef2: 5f                          	pop	rdi
+3afb50ef3: c3                          	ret
+3afb50ef4: 90                          	nop
+3afb50ef5: 90                          	nop
+3afb50ef6: 90                          	nop
+3afb50ef7: 90                          	nop
+3afb50ef8: 90                          	nop
+3afb50ef9: 90                          	nop
+3afb50efa: 90                          	nop
+3afb50efb: 90                          	nop
+3afb50efc: 90                          	nop
+3afb50efd: 90                          	nop
+3afb50efe: 90                          	nop
+3afb50eff: 90                          	nop
+3afb50f00: 48 8d 05 39 11 00 00        	lea	rax, [rip + 0x1139]     # 0x3afb52040
+3afb50f07: c3                          	ret
+3afb50f08: 90                          	nop
+3afb50f09: 90                          	nop
+3afb50f0a: 90                          	nop
+3afb50f0b: 90                          	nop
+3afb50f0c: 90                          	nop
+3afb50f0d: 90                          	nop
+3afb50f0e: 90                          	nop
+3afb50f0f: 90                          	nop
+3afb50f10: 53                          	push	rbx
+3afb50f11: 48 83 ec 20                 	sub	rsp, 0x20
+3afb50f15: 89 cb                       	mov	ebx, ecx
+3afb50f17: b9 02 00 00 00              	mov	ecx, 0x2
+3afb50f1c: e8 3f 00 00 00              	call	0x3afb50f60 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1607>
+3afb50f21: 41 89 d8                    	mov	r8d, ebx
+3afb50f24: 48 8d 15 35 26 00 00        	lea	rdx, [rip + 0x2635]     # 0x3afb53560
+3afb50f2b: 48 89 c1                    	mov	rcx, rax
+3afb50f2e: e8 7d ff ff ff              	call	0x3afb50eb0 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x1557>
+3afb50f33: b9 ff 00 00 00              	mov	ecx, 0xff
+3afb50f38: e8 3b 00 00 00              	call	0x3afb50f78 <Java_com_kbox_runtime_NativeCrypto_decryptString0+0x161f>
+3afb50f3d: 90                          	nop
+3afb50f3e: 90                          	nop
+3afb50f3f: 90                          	nop
+3afb50f40: ff 25 22 73 00 00           	jmp	qword ptr [rip + 0x7322] # 0x3afb58268
+3afb50f46: 90                          	nop
+3afb50f47: 90                          	nop
+3afb50f48: ff 25 22 73 00 00           	jmp	qword ptr [rip + 0x7322] # 0x3afb58270
+3afb50f4e: 90                          	nop
+3afb50f4f: 90                          	nop
+3afb50f50: ff 25 22 73 00 00           	jmp	qword ptr [rip + 0x7322] # 0x3afb58278
+3afb50f56: 90                          	nop
+3afb50f57: 90                          	nop
+3afb50f58: ff 25 22 73 00 00           	jmp	qword ptr [rip + 0x7322] # 0x3afb58280
+3afb50f5e: 90                          	nop
+3afb50f5f: 90                          	nop
+3afb50f60: ff 25 ea 72 00 00           	jmp	qword ptr [rip + 0x72ea] # 0x3afb58250
+3afb50f66: 90                          	nop
+3afb50f67: 90                          	nop
+3afb50f68: ff 25 ea 72 00 00           	jmp	qword ptr [rip + 0x72ea] # 0x3afb58258
+3afb50f6e: 90                          	nop
+3afb50f6f: 90                          	nop
+3afb50f70: ff 25 9a 72 00 00           	jmp	qword ptr [rip + 0x729a] # 0x3afb58210
+3afb50f76: 90                          	nop
+3afb50f77: 90                          	nop
+3afb50f78: ff 25 9a 72 00 00           	jmp	qword ptr [rip + 0x729a] # 0x3afb58218
+3afb50f7e: 90                          	nop
+3afb50f7f: 90                          	nop
+3afb50f80: ff 25 9a 72 00 00           	jmp	qword ptr [rip + 0x729a] # 0x3afb58220
+3afb50f86: 90                          	nop
+3afb50f87: 90                          	nop
+3afb50f88: ff 25 9a 72 00 00           	jmp	qword ptr [rip + 0x729a] # 0x3afb58228
+3afb50f8e: 90                          	nop
+3afb50f8f: 90                          	nop
+3afb50f90: ff 25 9a 72 00 00           	jmp	qword ptr [rip + 0x729a] # 0x3afb58230
+3afb50f96: 90                          	nop
+3afb50f97: 90                          	nop
+3afb50f98: ff 25 9a 72 00 00           	jmp	qword ptr [rip + 0x729a] # 0x3afb58238
+3afb50f9e: 90                          	nop
+3afb50f9f: 90                          	nop
+3afb50fa0: ff 25 9a 72 00 00           	jmp	qword ptr [rip + 0x729a] # 0x3afb58240
+3afb50fa6: 90                          	nop
+3afb50fa7: 90                          	nop
+3afb50fa8: 0f 1f 84 00 00 00 00 00     	nop	dword ptr [rax + rax]
+3afb50fb0: ff 25 42 72 00 00           	jmp	qword ptr [rip + 0x7242] # 0x3afb581f8
+3afb50fb6: 90                          	nop
+3afb50fb7: 90                          	nop
+3afb50fb8: ff 25 42 72 00 00           	jmp	qword ptr [rip + 0x7242] # 0x3afb58200
+3afb50fbe: 90                          	nop
+3afb50fbf: 90                          	nop
+3afb50fc0: ff 25 1a 72 00 00           	jmp	qword ptr [rip + 0x721a] # 0x3afb581e0
+3afb50fc6: 90                          	nop
+3afb50fc7: 90                          	nop
+3afb50fc8: ff 25 1a 72 00 00           	jmp	qword ptr [rip + 0x721a] # 0x3afb581e8
+3afb50fce: 90                          	nop
+3afb50fcf: 90                          	nop
+3afb50fd0: ff 25 fa 71 00 00           	jmp	qword ptr [rip + 0x71fa] # 0x3afb581d0
+3afb50fd6: 90                          	nop
+3afb50fd7: 90                          	nop
+3afb50fd8: ff 25 ea 71 00 00           	jmp	qword ptr [rip + 0x71ea] # 0x3afb581c8
+3afb50fde: 90                          	nop
+3afb50fdf: 90                          	nop
+3afb50fe0: ff 25 da 71 00 00           	jmp	qword ptr [rip + 0x71da] # 0x3afb581c0
+3afb50fe6: 90                          	nop
+3afb50fe7: 90                          	nop
+3afb50fe8: ff 25 ca 71 00 00           	jmp	qword ptr [rip + 0x71ca] # 0x3afb581b8
+3afb50fee: 90                          	nop
+3afb50fef: 90                          	nop
+3afb50ff0: ff 25 ba 71 00 00           	jmp	qword ptr [rip + 0x71ba] # 0x3afb581b0
+3afb50ff6: 90                          	nop
+3afb50ff7: 90                          	nop
+3afb50ff8: ff 25 aa 71 00 00           	jmp	qword ptr [rip + 0x71aa] # 0x3afb581a8
+3afb50ffe: 90                          	nop
+3afb50fff: 90                          	nop
+3afb51000: ff 25 9a 71 00 00           	jmp	qword ptr [rip + 0x719a] # 0x3afb581a0
+3afb51006: 90                          	nop
+3afb51007: 90                          	nop
+3afb51008: ff 25 8a 71 00 00           	jmp	qword ptr [rip + 0x718a] # 0x3afb58198
+3afb5100e: 90                          	nop
+3afb5100f: 90                          	nop
+3afb51010: ff 25 7a 71 00 00           	jmp	qword ptr [rip + 0x717a] # 0x3afb58190
+3afb51016: 90                          	nop
+3afb51017: 90                          	nop
+3afb51018: 0f 1f 84 00 00 00 00 00     	nop	dword ptr [rax + rax]
+3afb51020: e9 1b d3 ff ff              	jmp	0x3afb4e340 <.text+0x340>
+3afb51025: 90                          	nop
+3afb51026: 90                          	nop
+3afb51027: 90                          	nop
+3afb51028: 90                          	nop
+3afb51029: 90                          	nop
+3afb5102a: 90                          	nop
+3afb5102b: 90                          	nop
+3afb5102c: 90                          	nop
+3afb5102d: 90                          	nop
+3afb5102e: 90                          	nop
+3afb5102f: 90                          	nop

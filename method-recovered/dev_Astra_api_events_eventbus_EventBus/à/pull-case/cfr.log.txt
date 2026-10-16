@@ -1,0 +1,12 @@
+COMMAND:
+java -jar C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\cfr-0.152.jar C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\raw-jar\dev\Astra\api\events\eventbus\EventBus.class --outputdir C:\Users\Administrator\Documents\Codex\2026-10-05\src\outputs\Astra-Daily-1.0.0.1-deobf\method-recovered\dev_Astra_api_events_eventbus_EventBus\à\pull-case --methodname à --lenient true --ignoreexceptions true --recover false --allowmalformedswitch true --decodestringswitch false --pullcodecase true --reducecondscope true --forcetopsort true --antiobf true
+
+STDOUT:
+
+
+STDERR:
+Processing dev.Astra.api.events.eventbus.EventBus
+java.lang.IllegalArgumentException: No such method '��'.
+org.benf.cfr.reader.Driver.doClass(Driver.java:103)
+org.benf.cfr.reader.CfrDriverImpl.analyse(CfrDriverImpl.java:78)
+org.benf.cfr.reader.Main.main(Main.java:54)

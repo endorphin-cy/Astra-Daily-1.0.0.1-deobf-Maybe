@@ -1,0 +1,1109 @@
+
+outputs\Astra-Daily-1.0.0.1-deobf\native-recovered\j2cc-x86_64-windows.bin:	file format coff-x86-64
+
+Disassembly of section .text:
+
+00000001800b5750 <Java_j2cc_internal_Loader_bootstrap>:
+1800b5750: 55                          	push	rbp
+1800b5751: 41 57                       	push	r15
+1800b5753: 41 56                       	push	r14
+1800b5755: 56                          	push	rsi
+1800b5756: 57                          	push	rdi
+1800b5757: 53                          	push	rbx
+1800b5758: 48 81 ec b8 02 00 00        	sub	rsp, 0x2b8
+1800b575f: 48 8d ac 24 80 00 00 00     	lea	rbp, [rsp + 0x80]
+1800b5767: 4c 89 c6                    	mov	rsi, r8
+1800b576a: 48 89 cf                    	mov	rdi, rcx
+1800b576d: 48 8d 15 1c 96 03 00        	lea	rdx, [rip + 0x3961c]    # 0x1800eed90
+1800b5774: 48 8d 5d b0                 	lea	rbx, [rbp - 0x50]
+1800b5778: 41 b8 42 02 00 00           	mov	r8d, 0x242
+1800b577e: 48 89 d9                    	mov	rcx, rbx
+1800b5781: e8 3a 2d 00 00              	call	0x1800b84c0 <Java_j2cc_internal_Loader_bootstrap+0x2d70>
+1800b5786: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5789: c7 44 24 20 42 02 00 00     	mov	dword ptr [rsp + 0x20], 0x242
+1800b5791: 48 89 f9                    	mov	rcx, rdi
+1800b5794: 31 d2                       	xor	edx, edx
+1800b5796: 45 31 c0                    	xor	r8d, r8d
+1800b5799: 49 89 d9                    	mov	r9, rbx
+1800b579c: ff 50 28                    	call	qword ptr [rax + 0x28]
+1800b579f: 4c 8b 3d e2 a8 02 00        	mov	r15, qword ptr [rip + 0x2a8e2] # 0x1800e0088
+1800b57a6: 49 83 3f 00                 	cmp	qword ptr [r15], 0x0
+1800b57aa: 0f 84 90 00 00 00           	je	0x1800b5840 <Java_j2cc_internal_Loader_bootstrap+0xf0>
+1800b57b0: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b57b3: 48 8d 9d 00 02 00 00        	lea	rbx, [rbp + 0x200]
+1800b57ba: 48 89 5c 24 20              	mov	qword ptr [rsp + 0x20], rbx
+1800b57bf: 48 89 f9                    	mov	rcx, rdi
+1800b57c2: 48 89 f2                    	mov	rdx, rsi
+1800b57c5: 45 31 c0                    	xor	r8d, r8d
+1800b57c8: 41 b9 30 00 00 00           	mov	r9d, 0x30
+1800b57ce: ff 90 40 06 00 00           	call	qword ptr [rax + 0x640]
+1800b57d4: 49 8b 07                    	mov	rax, qword ptr [r15]
+1800b57d7: 48 8b 78 08                 	mov	rdi, qword ptr [rax + 0x8]
+1800b57db: 48 83 c7 3f                 	add	rdi, 0x3f
+1800b57df: 49 89 fe                    	mov	r14, rdi
+1800b57e2: 49 83 e6 c0                 	and	r14, -0x40
+1800b57e6: 4c 89 f1                    	mov	rcx, r14
+1800b57e9: e8 62 1f 00 00              	call	0x1800b7750 <Java_j2cc_internal_Loader_bootstrap+0x2000>
+1800b57ee: 48 89 c6                    	mov	rsi, rax
+1800b57f1: 48 89 c1                    	mov	rcx, rax
+1800b57f4: 31 d2                       	xor	edx, edx
+1800b57f6: 4d 89 f0                    	mov	r8, r14
+1800b57f9: e8 92 28 00 00              	call	0x1800b8090 <Java_j2cc_internal_Loader_bootstrap+0x2940>
+1800b57fe: 48 c1 ef 06                 	shr	rdi, 0x6
+1800b5802: 48 89 d9                    	mov	rcx, rbx
+1800b5805: 48 89 f2                    	mov	rdx, rsi
+1800b5808: 49 89 f8                    	mov	r8, rdi
+1800b580b: e8 50 13 00 00              	call	0x1800b6b60 <Java_j2cc_internal_Loader_bootstrap+0x1410>
+1800b5810: 49 8b 07                    	mov	rax, qword ptr [r15]
+1800b5813: 48 83 78 08 00              	cmp	qword ptr [rax + 0x8], 0x0
+1800b5818: 74 1d                       	je	0x1800b5837 <Java_j2cc_internal_Loader_bootstrap+0xe7>
+1800b581a: 31 c9                       	xor	ecx, ecx
+1800b581c: 0f 1f 40 00                 	nop	dword ptr [rax]
+1800b5820: 48 8b 00                    	mov	rax, qword ptr [rax]
+1800b5823: 0f b6 14 0e                 	movzx	edx, byte ptr [rsi + rcx]
+1800b5827: 30 14 08                    	xor	byte ptr [rax + rcx], dl
+1800b582a: 48 83 c1 01                 	add	rcx, 0x1
+1800b582e: 49 8b 07                    	mov	rax, qword ptr [r15]
+1800b5831: 48 3b 48 08                 	cmp	rcx, qword ptr [rax + 0x8]
+1800b5835: 72 e9                       	jb	0x1800b5820 <Java_j2cc_internal_Loader_bootstrap+0xd0>
+1800b5837: 48 89 f1                    	mov	rcx, rsi
+1800b583a: e8 31 1f 00 00              	call	0x1800b7770 <Java_j2cc_internal_Loader_bootstrap+0x2020>
+1800b583f: 90                          	nop
+1800b5840: 48 81 c4 b8 02 00 00        	add	rsp, 0x2b8
+1800b5847: 5b                          	pop	rbx
+1800b5848: 5f                          	pop	rdi
+1800b5849: 5e                          	pop	rsi
+1800b584a: 41 5e                       	pop	r14
+1800b584c: 41 5f                       	pop	r15
+1800b584e: 5d                          	pop	rbp
+1800b584f: c3                          	ret
+1800b5850: 55                          	push	rbp
+1800b5851: 48 83 ec 20                 	sub	rsp, 0x20
+1800b5855: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b585a: 48 8d 0d c7 d6 04 00        	lea	rcx, [rip + 0x4d6c7]    # 0x180102f28
+1800b5861: e8 ea 26 00 00              	call	0x1800b7f50 <Java_j2cc_internal_Loader_bootstrap+0x2800>
+1800b5866: 48 8d 0d d3 ea ff ff        	lea	rcx, [rip - 0x152d]     # 0x1800b4340 <.text+0xb3340>
+1800b586d: 48 83 c4 20                 	add	rsp, 0x20
+1800b5871: 5d                          	pop	rbp
+1800b5872: e9 49 17 00 00              	jmp	0x1800b6fc0 <Java_j2cc_internal_Loader_bootstrap+0x1870>
+1800b5877: cc                          	int3
+1800b5878: cc                          	int3
+1800b5879: cc                          	int3
+1800b587a: cc                          	int3
+1800b587b: cc                          	int3
+1800b587c: cc                          	int3
+1800b587d: cc                          	int3
+1800b587e: cc                          	int3
+1800b587f: cc                          	int3
+1800b5880: 55                          	push	rbp
+1800b5881: 56                          	push	rsi
+1800b5882: 57                          	push	rdi
+1800b5883: 48 83 ec 20                 	sub	rsp, 0x20
+1800b5887: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b588c: 48 89 d6                    	mov	rsi, rdx
+1800b588f: 48 89 cf                    	mov	rdi, rcx
+1800b5892: 48 89 d1                    	mov	rcx, rdx
+1800b5895: e8 a6 27 00 00              	call	0x1800b8040 <Java_j2cc_internal_Loader_bootstrap+0x28f0>
+1800b589a: 0f b6 17                    	movzx	edx, byte ptr [rdi]
+1800b589d: f6 c2 01                    	test	dl, 0x1
+1800b58a0: 74 0d                       	je	0x1800b58af <Java_j2cc_internal_Loader_bootstrap+0x15f>
+1800b58a2: 4c 8b 47 08                 	mov	r8, qword ptr [rdi + 0x8]
+1800b58a6: 4c 39 c0                    	cmp	rax, r8
+1800b58a9: 74 13                       	je	0x1800b58be <Java_j2cc_internal_Loader_bootstrap+0x16e>
+1800b58ab: 31 c0                       	xor	eax, eax
+1800b58ad: eb 37                       	jmp	0x1800b58e6 <Java_j2cc_internal_Loader_bootstrap+0x196>
+1800b58af: 41 89 d0                    	mov	r8d, edx
+1800b58b2: 41 d0 e8                    	shr	r8b
+1800b58b5: 45 0f b6 c0                 	movzx	r8d, r8b
+1800b58b9: 4c 39 c0                    	cmp	rax, r8
+1800b58bc: 75 ed                       	jne	0x1800b58ab <Java_j2cc_internal_Loader_bootstrap+0x15b>
+1800b58be: 48 83 f8 ff                 	cmp	rax, -0x1
+1800b58c2: 74 2a                       	je	0x1800b58ee <Java_j2cc_internal_Loader_bootstrap+0x19e>
+1800b58c4: f6 c2 01                    	test	dl, 0x1
+1800b58c7: 74 06                       	je	0x1800b58cf <Java_j2cc_internal_Loader_bootstrap+0x17f>
+1800b58c9: 48 8b 7f 10                 	mov	rdi, qword ptr [rdi + 0x10]
+1800b58cd: eb 04                       	jmp	0x1800b58d3 <Java_j2cc_internal_Loader_bootstrap+0x183>
+1800b58cf: 48 83 c7 01                 	add	rdi, 0x1
+1800b58d3: 48 89 f9                    	mov	rcx, rdi
+1800b58d6: 48 89 f2                    	mov	rdx, rsi
+1800b58d9: 49 89 c0                    	mov	r8, rax
+1800b58dc: e8 7f 27 00 00              	call	0x1800b8060 <Java_j2cc_internal_Loader_bootstrap+0x2910>
+1800b58e1: 85 c0                       	test	eax, eax
+1800b58e3: 0f 94 c0                    	sete	al
+1800b58e6: 48 83 c4 20                 	add	rsp, 0x20
+1800b58ea: 5f                          	pop	rdi
+1800b58eb: 5e                          	pop	rsi
+1800b58ec: 5d                          	pop	rbp
+1800b58ed: c3                          	ret
+1800b58ee: e8 0d 00 00 00              	call	0x1800b5900 <Java_j2cc_internal_Loader_bootstrap+0x1b0>
+1800b58f3: cc                          	int3
+1800b58f4: cc                          	int3
+1800b58f5: cc                          	int3
+1800b58f6: cc                          	int3
+1800b58f7: cc                          	int3
+1800b58f8: cc                          	int3
+1800b58f9: cc                          	int3
+1800b58fa: cc                          	int3
+1800b58fb: cc                          	int3
+1800b58fc: cc                          	int3
+1800b58fd: cc                          	int3
+1800b58fe: cc                          	int3
+1800b58ff: cc                          	int3
+1800b5900: 55                          	push	rbp
+1800b5901: 48 83 ec 20                 	sub	rsp, 0x20
+1800b5905: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b590a: 48 8d 0d c1 96 03 00        	lea	rcx, [rip + 0x396c1]    # 0x1800eefd2
+1800b5911: e8 0a 00 00 00              	call	0x1800b5920 <Java_j2cc_internal_Loader_bootstrap+0x1d0>
+1800b5916: cc                          	int3
+1800b5917: cc                          	int3
+1800b5918: cc                          	int3
+1800b5919: cc                          	int3
+1800b591a: cc                          	int3
+1800b591b: cc                          	int3
+1800b591c: cc                          	int3
+1800b591d: cc                          	int3
+1800b591e: cc                          	int3
+1800b591f: cc                          	int3
+1800b5920: 55                          	push	rbp
+1800b5921: 48 83 ec 20                 	sub	rsp, 0x20
+1800b5925: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b592a: 48 89 ca                    	mov	rdx, rcx
+1800b592d: 48 8d 0d ab 96 03 00        	lea	rcx, [rip + 0x396ab]    # 0x1800eefdf
+1800b5934: e8 b7 26 00 00              	call	0x1800b7ff0 <Java_j2cc_internal_Loader_bootstrap+0x28a0>
+1800b5939: cc                          	int3
+1800b593a: cc                          	int3
+1800b593b: cc                          	int3
+1800b593c: cc                          	int3
+1800b593d: cc                          	int3
+1800b593e: cc                          	int3
+1800b593f: cc                          	int3
+1800b5940: 55                          	push	rbp
+1800b5941: 48 89 e5                    	mov	rbp, rsp
+1800b5944: 48 8d 0d 05 d6 04 00        	lea	rcx, [rip + 0x4d605]    # 0x180102f50
+1800b594b: 5d                          	pop	rbp
+1800b594c: e9 2f 26 00 00              	jmp	0x1800b7f80 <Java_j2cc_internal_Loader_bootstrap+0x2830>
+1800b5951: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+1800b595b: 0f 1f 44 00 00              	nop	dword ptr [rax + rax]
+1800b5960: 55                          	push	rbp
+1800b5961: 56                          	push	rsi
+1800b5962: 48 83 ec 28                 	sub	rsp, 0x28
+1800b5966: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b596b: 48 89 ce                    	mov	rsi, rcx
+1800b596e: 48 8b 05 03 d6 04 00        	mov	rax, qword ptr [rip + 0x4d603] # 0x180102f78
+1800b5975: 48 85 c0                    	test	rax, rax
+1800b5978: 74 11                       	je	0x1800b598b <Java_j2cc_internal_Loader_bootstrap+0x23b>
+1800b597a: 48 83 3d fe d5 04 00 00     	cmp	qword ptr [rip + 0x4d5fe], 0x0 # 0x180102f80
+1800b5982: 74 38                       	je	0x1800b59bc <Java_j2cc_internal_Loader_bootstrap+0x26c>
+1800b5984: 48 83 c4 28                 	add	rsp, 0x28
+1800b5988: 5e                          	pop	rsi
+1800b5989: 5d                          	pop	rbp
+1800b598a: c3                          	ret
+1800b598b: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b598e: 48 8d 15 8c 96 03 00        	lea	rdx, [rip + 0x3968c]    # 0x1800ef021
+1800b5995: 48 89 f1                    	mov	rcx, rsi
+1800b5998: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b599b: 4c 8b 06                    	mov	r8, qword ptr [rsi]
+1800b599e: 48 89 f1                    	mov	rcx, rsi
+1800b59a1: 48 89 c2                    	mov	rdx, rax
+1800b59a4: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b59ab: 48 89 05 c6 d5 04 00        	mov	qword ptr [rip + 0x4d5c6], rax # 0x180102f78
+1800b59b2: 48 83 3d c6 d5 04 00 00     	cmp	qword ptr [rip + 0x4d5c6], 0x0 # 0x180102f80
+1800b59ba: 75 c8                       	jne	0x1800b5984 <Java_j2cc_internal_Loader_bootstrap+0x234>
+1800b59bc: 4c 8b 16                    	mov	r10, qword ptr [rsi]
+1800b59bf: 4c 8d 05 6b 96 03 00        	lea	r8, [rip + 0x3966b]     # 0x1800ef031
+1800b59c6: 4c 8d 0d 6c 96 03 00        	lea	r9, [rip + 0x3966c]     # 0x1800ef039
+1800b59cd: 48 89 f1                    	mov	rcx, rsi
+1800b59d0: 48 89 c2                    	mov	rdx, rax
+1800b59d3: 41 ff 92 08 01 00 00        	call	qword ptr [r10 + 0x108]
+1800b59da: 48 89 05 9f d5 04 00        	mov	qword ptr [rip + 0x4d59f], rax # 0x180102f80
+1800b59e1: eb a1                       	jmp	0x1800b5984 <Java_j2cc_internal_Loader_bootstrap+0x234>
+1800b59e3: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+1800b59ed: 0f 1f 00                    	nop	dword ptr [rax]
+1800b59f0: 55                          	push	rbp
+1800b59f1: 41 57                       	push	r15
+1800b59f3: 41 56                       	push	r14
+1800b59f5: 41 55                       	push	r13
+1800b59f7: 41 54                       	push	r12
+1800b59f9: 56                          	push	rsi
+1800b59fa: 57                          	push	rdi
+1800b59fb: 53                          	push	rbx
+1800b59fc: 48 83 ec 28                 	sub	rsp, 0x28
+1800b5a00: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b5a05: 4c 89 cf                    	mov	rdi, r9
+1800b5a08: 4d 89 c6                    	mov	r14, r8
+1800b5a0b: 48 89 d3                    	mov	rbx, rdx
+1800b5a0e: 48 89 ce                    	mov	rsi, rcx
+1800b5a11: 48 8b 05 60 d5 04 00        	mov	rax, qword ptr [rip + 0x4d560] # 0x180102f78
+1800b5a18: 48 85 c0                    	test	rax, rax
+1800b5a1b: 75 27                       	jne	0x1800b5a44 <Java_j2cc_internal_Loader_bootstrap+0x2f4>
+1800b5a1d: 48 8b 03                    	mov	rax, qword ptr [rbx]
+1800b5a20: 48 8d 15 fa 95 03 00        	lea	rdx, [rip + 0x395fa]    # 0x1800ef021
+1800b5a27: 48 89 d9                    	mov	rcx, rbx
+1800b5a2a: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b5a2d: 4c 8b 03                    	mov	r8, qword ptr [rbx]
+1800b5a30: 48 89 d9                    	mov	rcx, rbx
+1800b5a33: 48 89 c2                    	mov	rdx, rax
+1800b5a36: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b5a3d: 48 89 05 34 d5 04 00        	mov	qword ptr [rip + 0x4d534], rax # 0x180102f78
+1800b5a44: 4c 8b 05 35 d5 04 00        	mov	r8, qword ptr [rip + 0x4d535] # 0x180102f80
+1800b5a4b: 4d 85 c0                    	test	r8, r8
+1800b5a4e: 75 28                       	jne	0x1800b5a78 <Java_j2cc_internal_Loader_bootstrap+0x328>
+1800b5a50: 4c 8b 13                    	mov	r10, qword ptr [rbx]
+1800b5a53: 4c 8d 05 d7 95 03 00        	lea	r8, [rip + 0x395d7]     # 0x1800ef031
+1800b5a5a: 4c 8d 0d d8 95 03 00        	lea	r9, [rip + 0x395d8]     # 0x1800ef039
+1800b5a61: 48 89 d9                    	mov	rcx, rbx
+1800b5a64: 48 89 c2                    	mov	rdx, rax
+1800b5a67: 41 ff 92 08 01 00 00        	call	qword ptr [r10 + 0x108]
+1800b5a6e: 49 89 c0                    	mov	r8, rax
+1800b5a71: 48 89 05 08 d5 04 00        	mov	qword ptr [rip + 0x4d508], rax # 0x180102f80
+1800b5a78: 48 89 d9                    	mov	rcx, rbx
+1800b5a7b: 4c 89 f2                    	mov	rdx, r14
+1800b5a7e: e8 2d 63 f5 ff              	call	0x18000bdb0 <.text+0xadb0>
+1800b5a83: 49 89 c6                    	mov	r14, rax
+1800b5a86: 48 8b 03                    	mov	rax, qword ptr [rbx]
+1800b5a89: 48 89 d9                    	mov	rcx, rbx
+1800b5a8c: ff 90 20 07 00 00           	call	qword ptr [rax + 0x720]
+1800b5a92: 84 c0                       	test	al, al
+1800b5a94: 74 0d                       	je	0x1800b5aa3 <Java_j2cc_internal_Loader_bootstrap+0x353>
+1800b5a96: c6 07 00                    	mov	byte ptr [rdi], 0x0
+1800b5a99: 66 c7 06 00 00              	mov	word ptr [rsi], 0x0
+1800b5a9e: e9 a1 00 00 00              	jmp	0x1800b5b44 <Java_j2cc_internal_Loader_bootstrap+0x3f4>
+1800b5aa3: 48 8b 03                    	mov	rax, qword ptr [rbx]
+1800b5aa6: 48 89 d9                    	mov	rcx, rbx
+1800b5aa9: 4c 89 f2                    	mov	rdx, r14
+1800b5aac: 45 31 c0                    	xor	r8d, r8d
+1800b5aaf: ff 90 48 05 00 00           	call	qword ptr [rax + 0x548]
+1800b5ab5: 49 89 c7                    	mov	r15, rax
+1800b5ab8: 48 89 c1                    	mov	rcx, rax
+1800b5abb: e8 80 25 00 00              	call	0x1800b8040 <Java_j2cc_internal_Loader_bootstrap+0x28f0>
+1800b5ac0: 48 83 f8 f7                 	cmp	rax, -0x9
+1800b5ac4: 0f 83 8e 00 00 00           	jae	0x1800b5b58 <Java_j2cc_internal_Loader_bootstrap+0x408>
+1800b5aca: 49 89 c4                    	mov	r12, rax
+1800b5acd: 48 83 f8 16                 	cmp	rax, 0x16
+1800b5ad1: 77 0e                       	ja	0x1800b5ae1 <Java_j2cc_internal_Loader_bootstrap+0x391>
+1800b5ad3: 44 89 e0                    	mov	eax, r12d
+1800b5ad6: 44 00 e0                    	add	al, r12b
+1800b5ad9: 88 06                       	mov	byte ptr [rsi], al
+1800b5adb: 4c 8d 6e 01                 	lea	r13, [rsi + 0x1]
+1800b5adf: eb 3a                       	jmp	0x1800b5b1b <Java_j2cc_internal_Loader_bootstrap+0x3cb>
+1800b5ae1: 4c 89 e0                    	mov	rax, r12
+1800b5ae4: 48 83 e0 f8                 	and	rax, -0x8
+1800b5ae8: 48 83 c0 08                 	add	rax, 0x8
+1800b5aec: 48 83 f8 18                 	cmp	rax, 0x18
+1800b5af0: 48 89 7d 00                 	mov	qword ptr [rbp], rdi
+1800b5af4: bf 1a 00 00 00              	mov	edi, 0x1a
+1800b5af9: 48 0f 45 f8                 	cmovne	rdi, rax
+1800b5afd: 48 89 f9                    	mov	rcx, rdi
+1800b5b00: e8 db 1b 00 00              	call	0x1800b76e0 <Java_j2cc_internal_Loader_bootstrap+0x1f90>
+1800b5b05: 49 89 c5                    	mov	r13, rax
+1800b5b08: 48 83 cf 01                 	or	rdi, 0x1
+1800b5b0c: 48 89 3e                    	mov	qword ptr [rsi], rdi
+1800b5b0f: 48 8b 7d 00                 	mov	rdi, qword ptr [rbp]
+1800b5b13: 4c 89 66 08                 	mov	qword ptr [rsi + 0x8], r12
+1800b5b17: 48 89 46 10                 	mov	qword ptr [rsi + 0x10], rax
+1800b5b1b: 4c 89 e9                    	mov	rcx, r13
+1800b5b1e: 4c 89 fa                    	mov	rdx, r15
+1800b5b21: 4d 89 e0                    	mov	r8, r12
+1800b5b24: e8 d7 26 00 00              	call	0x1800b8200 <Java_j2cc_internal_Loader_bootstrap+0x2ab0>
+1800b5b29: 43 c6 44 25 00 00           	mov	byte ptr [r13 + r12], 0x0
+1800b5b2f: 48 8b 03                    	mov	rax, qword ptr [rbx]
+1800b5b32: 48 89 d9                    	mov	rcx, rbx
+1800b5b35: 4c 89 f2                    	mov	rdx, r14
+1800b5b38: 4d 89 f8                    	mov	r8, r15
+1800b5b3b: ff 90 50 05 00 00           	call	qword ptr [rax + 0x550]
+1800b5b41: c6 07 01                    	mov	byte ptr [rdi], 0x1
+1800b5b44: 48 89 f0                    	mov	rax, rsi
+1800b5b47: 48 83 c4 28                 	add	rsp, 0x28
+1800b5b4b: 5b                          	pop	rbx
+1800b5b4c: 5f                          	pop	rdi
+1800b5b4d: 5e                          	pop	rsi
+1800b5b4e: 41 5c                       	pop	r12
+1800b5b50: 41 5d                       	pop	r13
+1800b5b52: 41 5e                       	pop	r14
+1800b5b54: 41 5f                       	pop	r15
+1800b5b56: 5d                          	pop	rbp
+1800b5b57: c3                          	ret
+1800b5b58: e8 b3 16 f6 ff              	call	0x180017210 <.text+0x16210>
+1800b5b5d: cc                          	int3
+1800b5b5e: 66 90                       	nop
+1800b5b60: 55                          	push	rbp
+1800b5b61: 48 89 e5                    	mov	rbp, rsp
+1800b5b64: 48 63 c1                    	movsxd	rax, ecx
+1800b5b67: 48 8d 0d 22 d4 04 00        	lea	rcx, [rip + 0x4d422]    # 0x180102f90
+1800b5b6e: 48 8b 04 c1                 	mov	rax, qword ptr [rcx + 8*rax]
+1800b5b72: 48 85 c0                    	test	rax, rax
+1800b5b75: 74 03                       	je	0x1800b5b7a <Java_j2cc_internal_Loader_bootstrap+0x42a>
+1800b5b77: 48 89 02                    	mov	qword ptr [rdx], rax
+1800b5b7a: 48 85 c0                    	test	rax, rax
+1800b5b7d: 0f 95 c0                    	setne	al
+1800b5b80: 5d                          	pop	rbp
+1800b5b81: c3                          	ret
+1800b5b82: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+1800b5b8c: 0f 1f 40 00                 	nop	dword ptr [rax]
+1800b5b90: 55                          	push	rbp
+1800b5b91: 48 89 e5                    	mov	rbp, rsp
+1800b5b94: 48 63 c1                    	movsxd	rax, ecx
+1800b5b97: 48 8d 0d f2 d3 04 00        	lea	rcx, [rip + 0x4d3f2]    # 0x180102f90
+1800b5b9e: 48 89 14 c1                 	mov	qword ptr [rcx + 8*rax], rdx
+1800b5ba2: 5d                          	pop	rbp
+1800b5ba3: c3                          	ret
+1800b5ba4: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+1800b5bae: 66 90                       	nop
+1800b5bb0: 55                          	push	rbp
+1800b5bb1: 41 57                       	push	r15
+1800b5bb3: 41 56                       	push	r14
+1800b5bb5: 56                          	push	rsi
+1800b5bb6: 57                          	push	rdi
+1800b5bb7: 53                          	push	rbx
+1800b5bb8: 48 83 ec 28                 	sub	rsp, 0x28
+1800b5bbc: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b5bc1: 44 89 c7                    	mov	edi, r8d
+1800b5bc4: 48 89 d3                    	mov	rbx, rdx
+1800b5bc7: 48 89 ce                    	mov	rsi, rcx
+1800b5bca: 48 8d 0d 7f d3 04 00        	lea	rcx, [rip + 0x4d37f]    # 0x180102f50
+1800b5bd1: e8 ca 23 00 00              	call	0x1800b7fa0 <Java_j2cc_internal_Loader_bootstrap+0x2850>
+1800b5bd6: 4c 63 f7                    	movsxd	r14, edi
+1800b5bd9: 4c 8d 3d f0 d3 04 00        	lea	r15, [rip + 0x4d3f0]    # 0x180102fd0
+1800b5be0: 4b 8b 3c f7                 	mov	rdi, qword ptr [r15 + 8*r14]
+1800b5be4: 48 85 ff                    	test	rdi, rdi
+1800b5be7: 74 1c                       	je	0x1800b5c05 <Java_j2cc_internal_Loader_bootstrap+0x4b5>
+1800b5be9: 48 8d 0d 60 d3 04 00        	lea	rcx, [rip + 0x4d360]    # 0x180102f50
+1800b5bf0: e8 db 23 00 00              	call	0x1800b7fd0 <Java_j2cc_internal_Loader_bootstrap+0x2880>
+1800b5bf5: 48 89 f8                    	mov	rax, rdi
+1800b5bf8: 48 83 c4 28                 	add	rsp, 0x28
+1800b5bfc: 5b                          	pop	rbx
+1800b5bfd: 5f                          	pop	rdi
+1800b5bfe: 5e                          	pop	rsi
+1800b5bff: 41 5e                       	pop	r14
+1800b5c01: 41 5f                       	pop	r15
+1800b5c03: 5d                          	pop	rbp
+1800b5c04: c3                          	ret
+1800b5c05: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b5c08: 48 89 f1                    	mov	rcx, rsi
+1800b5c0b: 48 89 da                    	mov	rdx, rbx
+1800b5c0e: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b5c11: 48 89 c3                    	mov	rbx, rax
+1800b5c14: 48 85 c0                    	test	rax, rax
+1800b5c17: 74 21                       	je	0x1800b5c3a <Java_j2cc_internal_Loader_bootstrap+0x4ea>
+1800b5c19: 4b 8b 3c f7                 	mov	rdi, qword ptr [r15 + 8*r14]
+1800b5c1d: 48 85 ff                    	test	rdi, rdi
+1800b5c20: 75 c7                       	jne	0x1800b5be9 <Java_j2cc_internal_Loader_bootstrap+0x499>
+1800b5c22: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b5c25: 48 89 f1                    	mov	rcx, rsi
+1800b5c28: 48 89 da                    	mov	rdx, rbx
+1800b5c2b: ff 90 a8 00 00 00           	call	qword ptr [rax + 0xa8]
+1800b5c31: 48 89 c7                    	mov	rdi, rax
+1800b5c34: 4b 89 04 f7                 	mov	qword ptr [r15 + 8*r14], rax
+1800b5c38: eb af                       	jmp	0x1800b5be9 <Java_j2cc_internal_Loader_bootstrap+0x499>
+1800b5c3a: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b5c3d: 48 89 f1                    	mov	rcx, rsi
+1800b5c40: ff 90 20 07 00 00           	call	qword ptr [rax + 0x720]
+1800b5c46: 84 c0                       	test	al, al
+1800b5c48: 74 cf                       	je	0x1800b5c19 <Java_j2cc_internal_Loader_bootstrap+0x4c9>
+1800b5c4a: 31 ff                       	xor	edi, edi
+1800b5c4c: eb 9b                       	jmp	0x1800b5be9 <Java_j2cc_internal_Loader_bootstrap+0x499>
+1800b5c4e: 66 90                       	nop
+1800b5c50: 55                          	push	rbp
+1800b5c51: 41 57                       	push	r15
+1800b5c53: 41 56                       	push	r14
+1800b5c55: 41 55                       	push	r13
+1800b5c57: 41 54                       	push	r12
+1800b5c59: 56                          	push	rsi
+1800b5c5a: 57                          	push	rdi
+1800b5c5b: 53                          	push	rbx
+1800b5c5c: 48 83 ec 28                 	sub	rsp, 0x28
+1800b5c60: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b5c65: 4c 89 cb                    	mov	rbx, r9
+1800b5c68: 4d 89 c6                    	mov	r14, r8
+1800b5c6b: 49 89 d7                    	mov	r15, rdx
+1800b5c6e: 48 89 cf                    	mov	rdi, rcx
+1800b5c71: 4c 63 65 70                 	movsxd	r12, dword ptr [rbp + 0x70]
+1800b5c75: 48 8d 0d dc d8 04 00        	lea	rcx, [rip + 0x4d8dc]    # 0x180103558
+1800b5c7c: e8 7f 22 00 00              	call	0x1800b7f00 <Java_j2cc_internal_Loader_bootstrap+0x27b0>
+1800b5c81: 4c 8d 2d d8 d8 04 00        	lea	r13, [rip + 0x4d8d8]    # 0x180103560
+1800b5c88: 4b 8b 74 e5 00              	mov	rsi, qword ptr [r13 + 8*r12]
+1800b5c8d: 48 85 f6                    	test	rsi, rsi
+1800b5c90: 74 20                       	je	0x1800b5cb2 <Java_j2cc_internal_Loader_bootstrap+0x562>
+1800b5c92: 48 8d 0d bf d8 04 00        	lea	rcx, [rip + 0x4d8bf]    # 0x180103558
+1800b5c99: e8 92 22 00 00              	call	0x1800b7f30 <Java_j2cc_internal_Loader_bootstrap+0x27e0>
+1800b5c9e: 48 89 f0                    	mov	rax, rsi
+1800b5ca1: 48 83 c4 28                 	add	rsp, 0x28
+1800b5ca5: 5b                          	pop	rbx
+1800b5ca6: 5f                          	pop	rdi
+1800b5ca7: 5e                          	pop	rsi
+1800b5ca8: 41 5c                       	pop	r12
+1800b5caa: 41 5d                       	pop	r13
+1800b5cac: 41 5e                       	pop	r14
+1800b5cae: 41 5f                       	pop	r15
+1800b5cb0: 5d                          	pop	rbp
+1800b5cb1: c3                          	ret
+1800b5cb2: 49 8b 17                    	mov	rdx, qword ptr [r15]
+1800b5cb5: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5cb8: 48 89 f9                    	mov	rcx, rdi
+1800b5cbb: 4d 89 f0                    	mov	r8, r14
+1800b5cbe: 49 89 d9                    	mov	r9, rbx
+1800b5cc1: ff 90 f0 02 00 00           	call	qword ptr [rax + 0x2f0]
+1800b5cc7: 48 89 c6                    	mov	rsi, rax
+1800b5cca: 48 85 c0                    	test	rax, rax
+1800b5ccd: 74 07                       	je	0x1800b5cd6 <Java_j2cc_internal_Loader_bootstrap+0x586>
+1800b5ccf: 4b 89 74 e5 00              	mov	qword ptr [r13 + 8*r12], rsi
+1800b5cd4: eb bc                       	jmp	0x1800b5c92 <Java_j2cc_internal_Loader_bootstrap+0x542>
+1800b5cd6: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5cd9: 48 89 f9                    	mov	rcx, rdi
+1800b5cdc: ff 90 20 07 00 00           	call	qword ptr [rax + 0x720]
+1800b5ce2: 84 c0                       	test	al, al
+1800b5ce4: 74 e9                       	je	0x1800b5ccf <Java_j2cc_internal_Loader_bootstrap+0x57f>
+1800b5ce6: 31 f6                       	xor	esi, esi
+1800b5ce8: eb a8                       	jmp	0x1800b5c92 <Java_j2cc_internal_Loader_bootstrap+0x542>
+1800b5cea: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+1800b5cf0: 55                          	push	rbp
+1800b5cf1: 41 57                       	push	r15
+1800b5cf3: 41 56                       	push	r14
+1800b5cf5: 41 55                       	push	r13
+1800b5cf7: 41 54                       	push	r12
+1800b5cf9: 56                          	push	rsi
+1800b5cfa: 57                          	push	rdi
+1800b5cfb: 53                          	push	rbx
+1800b5cfc: 48 83 ec 28                 	sub	rsp, 0x28
+1800b5d00: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b5d05: 4c 89 cb                    	mov	rbx, r9
+1800b5d08: 4d 89 c6                    	mov	r14, r8
+1800b5d0b: 49 89 d7                    	mov	r15, rdx
+1800b5d0e: 48 89 cf                    	mov	rdi, rcx
+1800b5d11: 4c 63 65 70                 	movsxd	r12, dword ptr [rbp + 0x70]
+1800b5d15: 48 8d 0d 3c d8 04 00        	lea	rcx, [rip + 0x4d83c]    # 0x180103558
+1800b5d1c: e8 df 21 00 00              	call	0x1800b7f00 <Java_j2cc_internal_Loader_bootstrap+0x27b0>
+1800b5d21: 4c 8d 2d 38 d8 04 00        	lea	r13, [rip + 0x4d838]    # 0x180103560
+1800b5d28: 4b 8b 74 e5 00              	mov	rsi, qword ptr [r13 + 8*r12]
+1800b5d2d: 48 85 f6                    	test	rsi, rsi
+1800b5d30: 74 20                       	je	0x1800b5d52 <Java_j2cc_internal_Loader_bootstrap+0x602>
+1800b5d32: 48 8d 0d 1f d8 04 00        	lea	rcx, [rip + 0x4d81f]    # 0x180103558
+1800b5d39: e8 f2 21 00 00              	call	0x1800b7f30 <Java_j2cc_internal_Loader_bootstrap+0x27e0>
+1800b5d3e: 48 89 f0                    	mov	rax, rsi
+1800b5d41: 48 83 c4 28                 	add	rsp, 0x28
+1800b5d45: 5b                          	pop	rbx
+1800b5d46: 5f                          	pop	rdi
+1800b5d47: 5e                          	pop	rsi
+1800b5d48: 41 5c                       	pop	r12
+1800b5d4a: 41 5d                       	pop	r13
+1800b5d4c: 41 5e                       	pop	r14
+1800b5d4e: 41 5f                       	pop	r15
+1800b5d50: 5d                          	pop	rbp
+1800b5d51: c3                          	ret
+1800b5d52: 49 8b 17                    	mov	rdx, qword ptr [r15]
+1800b5d55: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5d58: 48 89 f9                    	mov	rcx, rdi
+1800b5d5b: 4d 89 f0                    	mov	r8, r14
+1800b5d5e: 49 89 d9                    	mov	r9, rbx
+1800b5d61: ff 90 80 04 00 00           	call	qword ptr [rax + 0x480]
+1800b5d67: 48 89 c6                    	mov	rsi, rax
+1800b5d6a: 48 85 c0                    	test	rax, rax
+1800b5d6d: 74 07                       	je	0x1800b5d76 <Java_j2cc_internal_Loader_bootstrap+0x626>
+1800b5d6f: 4b 89 74 e5 00              	mov	qword ptr [r13 + 8*r12], rsi
+1800b5d74: eb bc                       	jmp	0x1800b5d32 <Java_j2cc_internal_Loader_bootstrap+0x5e2>
+1800b5d76: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5d79: 48 89 f9                    	mov	rcx, rdi
+1800b5d7c: ff 90 20 07 00 00           	call	qword ptr [rax + 0x720]
+1800b5d82: 84 c0                       	test	al, al
+1800b5d84: 74 e9                       	je	0x1800b5d6f <Java_j2cc_internal_Loader_bootstrap+0x61f>
+1800b5d86: 31 f6                       	xor	esi, esi
+1800b5d88: eb a8                       	jmp	0x1800b5d32 <Java_j2cc_internal_Loader_bootstrap+0x5e2>
+1800b5d8a: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+1800b5d90: 55                          	push	rbp
+1800b5d91: 41 57                       	push	r15
+1800b5d93: 41 56                       	push	r14
+1800b5d95: 41 55                       	push	r13
+1800b5d97: 41 54                       	push	r12
+1800b5d99: 56                          	push	rsi
+1800b5d9a: 57                          	push	rdi
+1800b5d9b: 53                          	push	rbx
+1800b5d9c: 48 83 ec 28                 	sub	rsp, 0x28
+1800b5da0: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b5da5: 4c 89 cb                    	mov	rbx, r9
+1800b5da8: 4d 89 c6                    	mov	r14, r8
+1800b5dab: 49 89 d7                    	mov	r15, rdx
+1800b5dae: 48 89 cf                    	mov	rdi, rcx
+1800b5db1: 4c 63 65 70                 	movsxd	r12, dword ptr [rbp + 0x70]
+1800b5db5: 48 8d 0d bc e0 04 00        	lea	rcx, [rip + 0x4e0bc]    # 0x180103e78
+1800b5dbc: e8 3f 21 00 00              	call	0x1800b7f00 <Java_j2cc_internal_Loader_bootstrap+0x27b0>
+1800b5dc1: 4c 8d 2d b8 e0 04 00        	lea	r13, [rip + 0x4e0b8]    # 0x180103e80
+1800b5dc8: 4b 8b 74 e5 00              	mov	rsi, qword ptr [r13 + 8*r12]
+1800b5dcd: 48 85 f6                    	test	rsi, rsi
+1800b5dd0: 74 20                       	je	0x1800b5df2 <Java_j2cc_internal_Loader_bootstrap+0x6a2>
+1800b5dd2: 48 8d 0d 9f e0 04 00        	lea	rcx, [rip + 0x4e09f]    # 0x180103e78
+1800b5dd9: e8 52 21 00 00              	call	0x1800b7f30 <Java_j2cc_internal_Loader_bootstrap+0x27e0>
+1800b5dde: 48 89 f0                    	mov	rax, rsi
+1800b5de1: 48 83 c4 28                 	add	rsp, 0x28
+1800b5de5: 5b                          	pop	rbx
+1800b5de6: 5f                          	pop	rdi
+1800b5de7: 5e                          	pop	rsi
+1800b5de8: 41 5c                       	pop	r12
+1800b5dea: 41 5d                       	pop	r13
+1800b5dec: 41 5e                       	pop	r14
+1800b5dee: 41 5f                       	pop	r15
+1800b5df0: 5d                          	pop	rbp
+1800b5df1: c3                          	ret
+1800b5df2: 49 8b 17                    	mov	rdx, qword ptr [r15]
+1800b5df5: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5df8: 48 89 f9                    	mov	rcx, rdi
+1800b5dfb: 4d 89 f0                    	mov	r8, r14
+1800b5dfe: 49 89 d9                    	mov	r9, rbx
+1800b5e01: ff 90 08 01 00 00           	call	qword ptr [rax + 0x108]
+1800b5e07: 48 89 c6                    	mov	rsi, rax
+1800b5e0a: 48 85 c0                    	test	rax, rax
+1800b5e0d: 74 07                       	je	0x1800b5e16 <Java_j2cc_internal_Loader_bootstrap+0x6c6>
+1800b5e0f: 4b 89 74 e5 00              	mov	qword ptr [r13 + 8*r12], rsi
+1800b5e14: eb bc                       	jmp	0x1800b5dd2 <Java_j2cc_internal_Loader_bootstrap+0x682>
+1800b5e16: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5e19: 48 89 f9                    	mov	rcx, rdi
+1800b5e1c: ff 90 20 07 00 00           	call	qword ptr [rax + 0x720]
+1800b5e22: 84 c0                       	test	al, al
+1800b5e24: 74 e9                       	je	0x1800b5e0f <Java_j2cc_internal_Loader_bootstrap+0x6bf>
+1800b5e26: 31 f6                       	xor	esi, esi
+1800b5e28: eb a8                       	jmp	0x1800b5dd2 <Java_j2cc_internal_Loader_bootstrap+0x682>
+1800b5e2a: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+1800b5e30: 55                          	push	rbp
+1800b5e31: 41 57                       	push	r15
+1800b5e33: 41 56                       	push	r14
+1800b5e35: 41 55                       	push	r13
+1800b5e37: 41 54                       	push	r12
+1800b5e39: 56                          	push	rsi
+1800b5e3a: 57                          	push	rdi
+1800b5e3b: 53                          	push	rbx
+1800b5e3c: 48 83 ec 28                 	sub	rsp, 0x28
+1800b5e40: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b5e45: 4c 89 cb                    	mov	rbx, r9
+1800b5e48: 4d 89 c6                    	mov	r14, r8
+1800b5e4b: 49 89 d7                    	mov	r15, rdx
+1800b5e4e: 48 89 cf                    	mov	rdi, rcx
+1800b5e51: 4c 63 65 70                 	movsxd	r12, dword ptr [rbp + 0x70]
+1800b5e55: 48 8d 0d 1c e0 04 00        	lea	rcx, [rip + 0x4e01c]    # 0x180103e78
+1800b5e5c: e8 9f 20 00 00              	call	0x1800b7f00 <Java_j2cc_internal_Loader_bootstrap+0x27b0>
+1800b5e61: 4c 8d 2d 18 e0 04 00        	lea	r13, [rip + 0x4e018]    # 0x180103e80
+1800b5e68: 4b 8b 74 e5 00              	mov	rsi, qword ptr [r13 + 8*r12]
+1800b5e6d: 48 85 f6                    	test	rsi, rsi
+1800b5e70: 74 20                       	je	0x1800b5e92 <Java_j2cc_internal_Loader_bootstrap+0x742>
+1800b5e72: 48 8d 0d ff df 04 00        	lea	rcx, [rip + 0x4dfff]    # 0x180103e78
+1800b5e79: e8 b2 20 00 00              	call	0x1800b7f30 <Java_j2cc_internal_Loader_bootstrap+0x27e0>
+1800b5e7e: 48 89 f0                    	mov	rax, rsi
+1800b5e81: 48 83 c4 28                 	add	rsp, 0x28
+1800b5e85: 5b                          	pop	rbx
+1800b5e86: 5f                          	pop	rdi
+1800b5e87: 5e                          	pop	rsi
+1800b5e88: 41 5c                       	pop	r12
+1800b5e8a: 41 5d                       	pop	r13
+1800b5e8c: 41 5e                       	pop	r14
+1800b5e8e: 41 5f                       	pop	r15
+1800b5e90: 5d                          	pop	rbp
+1800b5e91: c3                          	ret
+1800b5e92: 49 8b 17                    	mov	rdx, qword ptr [r15]
+1800b5e95: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5e98: 48 89 f9                    	mov	rcx, rdi
+1800b5e9b: 4d 89 f0                    	mov	r8, r14
+1800b5e9e: 49 89 d9                    	mov	r9, rbx
+1800b5ea1: ff 90 88 03 00 00           	call	qword ptr [rax + 0x388]
+1800b5ea7: 48 89 c6                    	mov	rsi, rax
+1800b5eaa: 48 85 c0                    	test	rax, rax
+1800b5ead: 74 07                       	je	0x1800b5eb6 <Java_j2cc_internal_Loader_bootstrap+0x766>
+1800b5eaf: 4b 89 74 e5 00              	mov	qword ptr [r13 + 8*r12], rsi
+1800b5eb4: eb bc                       	jmp	0x1800b5e72 <Java_j2cc_internal_Loader_bootstrap+0x722>
+1800b5eb6: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5eb9: 48 89 f9                    	mov	rcx, rdi
+1800b5ebc: ff 90 20 07 00 00           	call	qword ptr [rax + 0x720]
+1800b5ec2: 84 c0                       	test	al, al
+1800b5ec4: 74 e9                       	je	0x1800b5eaf <Java_j2cc_internal_Loader_bootstrap+0x75f>
+1800b5ec6: 31 f6                       	xor	esi, esi
+1800b5ec8: eb a8                       	jmp	0x1800b5e72 <Java_j2cc_internal_Loader_bootstrap+0x722>
+1800b5eca: 66 0f 1f 44 00 00           	nop	word ptr [rax + rax]
+1800b5ed0: 55                          	push	rbp
+1800b5ed1: 56                          	push	rsi
+1800b5ed2: 48 83 ec 28                 	sub	rsp, 0x28
+1800b5ed6: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b5edb: 80 3d 1e ea 04 00 00        	cmp	byte ptr [rip + 0x4ea1e], 0x0 # 0x180104900
+1800b5ee2: 0f 85 f1 00 00 00           	jne	0x1800b5fd9 <Java_j2cc_internal_Loader_bootstrap+0x889>
+1800b5ee8: c6 05 11 ea 04 00 01        	mov	byte ptr [rip + 0x4ea11], 0x1 # 0x180104900
+1800b5eef: 48 8b 01                    	mov	rax, qword ptr [rcx]
+1800b5ef2: 48 8d 15 55 91 03 00        	lea	rdx, [rip + 0x39155]    # 0x1800ef04e
+1800b5ef9: 48 89 ce                    	mov	rsi, rcx
+1800b5efc: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b5eff: 4c 8b 06                    	mov	r8, qword ptr [rsi]
+1800b5f02: 48 89 f1                    	mov	rcx, rsi
+1800b5f05: 48 89 c2                    	mov	rdx, rax
+1800b5f08: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b5f0f: 48 89 05 f2 e9 04 00        	mov	qword ptr [rip + 0x4e9f2], rax # 0x180104908
+1800b5f16: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b5f19: 48 8d 15 4d 91 03 00        	lea	rdx, [rip + 0x3914d]    # 0x1800ef06d
+1800b5f20: 48 89 f1                    	mov	rcx, rsi
+1800b5f23: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b5f26: 4c 8b 06                    	mov	r8, qword ptr [rsi]
+1800b5f29: 48 89 f1                    	mov	rcx, rsi
+1800b5f2c: 48 89 c2                    	mov	rdx, rax
+1800b5f2f: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b5f36: 48 89 05 d3 e9 04 00        	mov	qword ptr [rip + 0x4e9d3], rax # 0x180104910
+1800b5f3d: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b5f40: 48 8d 15 37 91 03 00        	lea	rdx, [rip + 0x39137]    # 0x1800ef07e
+1800b5f47: 48 89 f1                    	mov	rcx, rsi
+1800b5f4a: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b5f4d: 4c 8b 06                    	mov	r8, qword ptr [rsi]
+1800b5f50: 48 89 f1                    	mov	rcx, rsi
+1800b5f53: 48 89 c2                    	mov	rdx, rax
+1800b5f56: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b5f5d: 48 89 05 b4 e9 04 00        	mov	qword ptr [rip + 0x4e9b4], rax # 0x180104918
+1800b5f64: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b5f67: 48 8d 15 2f 91 03 00        	lea	rdx, [rip + 0x3912f]    # 0x1800ef09d
+1800b5f6e: 48 89 f1                    	mov	rcx, rsi
+1800b5f71: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b5f74: 4c 8b 06                    	mov	r8, qword ptr [rsi]
+1800b5f77: 48 89 f1                    	mov	rcx, rsi
+1800b5f7a: 48 89 c2                    	mov	rdx, rax
+1800b5f7d: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b5f84: 48 89 05 95 e9 04 00        	mov	qword ptr [rip + 0x4e995], rax # 0x180104920
+1800b5f8b: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b5f8e: 48 8d 15 1a 91 03 00        	lea	rdx, [rip + 0x3911a]    # 0x1800ef0af
+1800b5f95: 48 89 f1                    	mov	rcx, rsi
+1800b5f98: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b5f9b: 4c 8b 06                    	mov	r8, qword ptr [rsi]
+1800b5f9e: 48 89 f1                    	mov	rcx, rsi
+1800b5fa1: 48 89 c2                    	mov	rdx, rax
+1800b5fa4: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b5fab: 48 89 05 76 e9 04 00        	mov	qword ptr [rip + 0x4e976], rax # 0x180104928
+1800b5fb2: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b5fb5: 48 8d 15 07 91 03 00        	lea	rdx, [rip + 0x39107]    # 0x1800ef0c3
+1800b5fbc: 48 89 f1                    	mov	rcx, rsi
+1800b5fbf: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b5fc2: 4c 8b 06                    	mov	r8, qword ptr [rsi]
+1800b5fc5: 48 89 f1                    	mov	rcx, rsi
+1800b5fc8: 48 89 c2                    	mov	rdx, rax
+1800b5fcb: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b5fd2: 48 89 05 57 e9 04 00        	mov	qword ptr [rip + 0x4e957], rax # 0x180104930
+1800b5fd9: 48 83 c4 28                 	add	rsp, 0x28
+1800b5fdd: 5e                          	pop	rsi
+1800b5fde: 5d                          	pop	rbp
+1800b5fdf: c3                          	ret
+1800b5fe0: 55                          	push	rbp
+1800b5fe1: 56                          	push	rsi
+1800b5fe2: 57                          	push	rdi
+1800b5fe3: 48 83 ec 20                 	sub	rsp, 0x20
+1800b5fe7: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b5fec: 48 85 d2                    	test	rdx, rdx
+1800b5fef: 75 28                       	jne	0x1800b6019 <Java_j2cc_internal_Loader_bootstrap+0x8c9>
+1800b5ff1: 48 89 ce                    	mov	rsi, rcx
+1800b5ff4: 48 89 d7                    	mov	rdi, rdx
+1800b5ff7: e8 d4 fe ff ff              	call	0x1800b5ed0 <Java_j2cc_internal_Loader_bootstrap+0x780>
+1800b5ffc: 48 8b 15 05 e9 04 00        	mov	rdx, qword ptr [rip + 0x4e905] # 0x180104908
+1800b6003: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b6006: 4c 8d 05 d9 90 03 00        	lea	r8, [rip + 0x390d9]     # 0x1800ef0e6
+1800b600d: 48 89 f1                    	mov	rcx, rsi
+1800b6010: ff 50 70                    	call	qword ptr [rax + 0x70]
+1800b6013: 48 89 f1                    	mov	rcx, rsi
+1800b6016: 48 89 fa                    	mov	rdx, rdi
+1800b6019: 48 8b 01                    	mov	rax, qword ptr [rcx]
+1800b601c: 48 8b 80 f8 00 00 00        	mov	rax, qword ptr [rax + 0xf8]
+1800b6023: 48 83 c4 20                 	add	rsp, 0x20
+1800b6027: 5f                          	pop	rdi
+1800b6028: 5e                          	pop	rsi
+1800b6029: 5d                          	pop	rbp
+1800b602a: 48 ff e0                    	jmp	rax
+1800b602d: 0f 1f 00                    	nop	dword ptr [rax]
+1800b6030: 55                          	push	rbp
+1800b6031: 56                          	push	rsi
+1800b6032: 57                          	push	rdi
+1800b6033: 48 83 ec 20                 	sub	rsp, 0x20
+1800b6037: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b603c: 48 85 d2                    	test	rdx, rdx
+1800b603f: 75 28                       	jne	0x1800b6069 <Java_j2cc_internal_Loader_bootstrap+0x919>
+1800b6041: 48 89 ce                    	mov	rsi, rcx
+1800b6044: 48 89 d7                    	mov	rdi, rdx
+1800b6047: e8 84 fe ff ff              	call	0x1800b5ed0 <Java_j2cc_internal_Loader_bootstrap+0x780>
+1800b604c: 48 8b 15 b5 e8 04 00        	mov	rdx, qword ptr [rip + 0x4e8b5] # 0x180104908
+1800b6053: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b6056: 4c 8d 05 a9 90 03 00        	lea	r8, [rip + 0x390a9]     # 0x1800ef106
+1800b605d: 48 89 f1                    	mov	rcx, rsi
+1800b6060: ff 50 70                    	call	qword ptr [rax + 0x70]
+1800b6063: 48 89 f1                    	mov	rcx, rsi
+1800b6066: 48 89 fa                    	mov	rdx, rdi
+1800b6069: 48 8b 01                    	mov	rax, qword ptr [rcx]
+1800b606c: 48 8b 80 20 05 00 00        	mov	rax, qword ptr [rax + 0x520]
+1800b6073: 48 83 c4 20                 	add	rsp, 0x20
+1800b6077: 5f                          	pop	rdi
+1800b6078: 5e                          	pop	rsi
+1800b6079: 5d                          	pop	rbp
+1800b607a: 48 ff e0                    	jmp	rax
+1800b607d: 0f 1f 00                    	nop	dword ptr [rax]
+1800b6080: 55                          	push	rbp
+1800b6081: 56                          	push	rsi
+1800b6082: 57                          	push	rdi
+1800b6083: 48 83 ec 20                 	sub	rsp, 0x20
+1800b6087: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b608c: 48 85 d2                    	test	rdx, rdx
+1800b608f: 75 28                       	jne	0x1800b60b9 <Java_j2cc_internal_Loader_bootstrap+0x969>
+1800b6091: 48 89 ce                    	mov	rsi, rcx
+1800b6094: 48 89 d7                    	mov	rdi, rdx
+1800b6097: e8 34 fe ff ff              	call	0x1800b5ed0 <Java_j2cc_internal_Loader_bootstrap+0x780>
+1800b609c: 48 8b 15 65 e8 04 00        	mov	rdx, qword ptr [rip + 0x4e865] # 0x180104908
+1800b60a3: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b60a6: 4c 8d 05 81 90 03 00        	lea	r8, [rip + 0x39081]     # 0x1800ef12e
+1800b60ad: 48 89 f1                    	mov	rcx, rsi
+1800b60b0: ff 50 70                    	call	qword ptr [rax + 0x70]
+1800b60b3: 48 89 f1                    	mov	rcx, rsi
+1800b60b6: 48 89 fa                    	mov	rdx, rdi
+1800b60b9: 48 8b 01                    	mov	rax, qword ptr [rcx]
+1800b60bc: ff 90 20 05 00 00           	call	qword ptr [rax + 0x520]
+1800b60c2: 85 c0                       	test	eax, eax
+1800b60c4: 0f 94 c0                    	sete	al
+1800b60c7: 48 83 c4 20                 	add	rsp, 0x20
+1800b60cb: 5f                          	pop	rdi
+1800b60cc: 5e                          	pop	rsi
+1800b60cd: 5d                          	pop	rbp
+1800b60ce: c3                          	ret
+1800b60cf: 90                          	nop
+1800b60d0: 55                          	push	rbp
+1800b60d1: 41 57                       	push	r15
+1800b60d3: 41 56                       	push	r14
+1800b60d5: 41 54                       	push	r12
+1800b60d7: 56                          	push	rsi
+1800b60d8: 57                          	push	rdi
+1800b60d9: 53                          	push	rbx
+1800b60da: 48 83 ec 20                 	sub	rsp, 0x20
+1800b60de: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b60e3: 4c 89 c6                    	mov	rsi, r8
+1800b60e6: 48 89 d3                    	mov	rbx, rdx
+1800b60e9: 48 89 cf                    	mov	rdi, rcx
+1800b60ec: 48 85 d2                    	test	rdx, rdx
+1800b60ef: 75 1f                       	jne	0x1800b6110 <Java_j2cc_internal_Loader_bootstrap+0x9c0>
+1800b60f1: 48 89 f9                    	mov	rcx, rdi
+1800b60f4: e8 d7 fd ff ff              	call	0x1800b5ed0 <Java_j2cc_internal_Loader_bootstrap+0x780>
+1800b60f9: 48 8b 15 08 e8 04 00        	mov	rdx, qword ptr [rip + 0x4e808] # 0x180104908
+1800b6100: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b6103: 4c 8d 05 4d 90 03 00        	lea	r8, [rip + 0x3904d]     # 0x1800ef157
+1800b610a: 48 89 f9                    	mov	rcx, rdi
+1800b610d: ff 50 70                    	call	qword ptr [rax + 0x70]
+1800b6110: 48 89 f9                    	mov	rcx, rdi
+1800b6113: e8 b8 fd ff ff              	call	0x1800b5ed0 <Java_j2cc_internal_Loader_bootstrap+0x780>
+1800b6118: 4c 8b 05 f1 e7 04 00        	mov	r8, qword ptr [rip + 0x4e7f1] # 0x180104910
+1800b611f: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b6122: 48 89 f9                    	mov	rcx, rdi
+1800b6125: 48 89 da                    	mov	rdx, rbx
+1800b6128: ff 90 00 01 00 00           	call	qword ptr [rax + 0x100]
+1800b612e: 84 c0                       	test	al, al
+1800b6130: 74 78                       	je	0x1800b61aa <Java_j2cc_internal_Loader_bootstrap+0xa5a>
+1800b6132: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b6135: 48 89 f9                    	mov	rcx, rdi
+1800b6138: 48 89 da                    	mov	rdx, rbx
+1800b613b: ff 90 20 05 00 00           	call	qword ptr [rax + 0x520]
+1800b6141: 41 89 c4                    	mov	r12d, eax
+1800b6144: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b6147: 48 89 f9                    	mov	rcx, rdi
+1800b614a: 48 89 f2                    	mov	rdx, rsi
+1800b614d: ff 90 20 05 00 00           	call	qword ptr [rax + 0x520]
+1800b6153: 41 39 c4                    	cmp	r12d, eax
+1800b6156: 75 52                       	jne	0x1800b61aa <Java_j2cc_internal_Loader_bootstrap+0xa5a>
+1800b6158: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b615b: 48 89 f9                    	mov	rcx, rdi
+1800b615e: 48 89 da                    	mov	rdx, rbx
+1800b6161: 45 31 c0                    	xor	r8d, r8d
+1800b6164: ff 90 00 07 00 00           	call	qword ptr [rax + 0x700]
+1800b616a: 49 89 c6                    	mov	r14, rax
+1800b616d: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b6170: 48 89 f9                    	mov	rcx, rdi
+1800b6173: 48 89 f2                    	mov	rdx, rsi
+1800b6176: 45 31 c0                    	xor	r8d, r8d
+1800b6179: ff 90 00 07 00 00           	call	qword ptr [rax + 0x700]
+1800b617f: 49 89 c7                    	mov	r15, rax
+1800b6182: 45 85 e4                    	test	r12d, r12d
+1800b6185: 7e 1e                       	jle	0x1800b61a5 <Java_j2cc_internal_Loader_bootstrap+0xa55>
+1800b6187: 44 89 e0                    	mov	eax, r12d
+1800b618a: 31 c9                       	xor	ecx, ecx
+1800b618c: 0f 1f 40 00                 	nop	dword ptr [rax]
+1800b6190: 41 0f b7 14 4e              	movzx	edx, word ptr [r14 + 2*rcx]
+1800b6195: 66 41 3b 14 4f              	cmp	dx, word ptr [r15 + 2*rcx]
+1800b619a: 75 12                       	jne	0x1800b61ae <Java_j2cc_internal_Loader_bootstrap+0xa5e>
+1800b619c: 48 83 c1 01                 	add	rcx, 0x1
+1800b61a0: 48 39 c8                    	cmp	rax, rcx
+1800b61a3: 75 eb                       	jne	0x1800b6190 <Java_j2cc_internal_Loader_bootstrap+0xa40>
+1800b61a5: 41 b4 01                    	mov	r12b, 0x1
+1800b61a8: eb 07                       	jmp	0x1800b61b1 <Java_j2cc_internal_Loader_bootstrap+0xa61>
+1800b61aa: 31 c0                       	xor	eax, eax
+1800b61ac: eb 2a                       	jmp	0x1800b61d8 <Java_j2cc_internal_Loader_bootstrap+0xa88>
+1800b61ae: 45 31 e4                    	xor	r12d, r12d
+1800b61b1: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b61b4: 48 89 f9                    	mov	rcx, rdi
+1800b61b7: 48 89 da                    	mov	rdx, rbx
+1800b61ba: 4d 89 f0                    	mov	r8, r14
+1800b61bd: ff 90 08 07 00 00           	call	qword ptr [rax + 0x708]
+1800b61c3: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b61c6: 48 89 f9                    	mov	rcx, rdi
+1800b61c9: 48 89 f2                    	mov	rdx, rsi
+1800b61cc: 4d 89 f8                    	mov	r8, r15
+1800b61cf: ff 90 08 07 00 00           	call	qword ptr [rax + 0x708]
+1800b61d5: 44 89 e0                    	mov	eax, r12d
+1800b61d8: 48 83 c4 20                 	add	rsp, 0x20
+1800b61dc: 5b                          	pop	rbx
+1800b61dd: 5f                          	pop	rdi
+1800b61de: 5e                          	pop	rsi
+1800b61df: 41 5c                       	pop	r12
+1800b61e1: 41 5e                       	pop	r14
+1800b61e3: 41 5f                       	pop	r15
+1800b61e5: 5d                          	pop	rbp
+1800b61e6: c3                          	ret
+1800b61e7: 66 0f 1f 84 00 00 00 00 00  	nop	word ptr [rax + rax]
+1800b61f0: 55                          	push	rbp
+1800b61f1: 41 57                       	push	r15
+1800b61f3: 41 56                       	push	r14
+1800b61f5: 56                          	push	rsi
+1800b61f6: 57                          	push	rdi
+1800b61f7: 53                          	push	rbx
+1800b61f8: 48 83 ec 28                 	sub	rsp, 0x28
+1800b61fc: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b6201: 89 d7                       	mov	edi, edx
+1800b6203: 48 89 ce                    	mov	rsi, rcx
+1800b6206: e8 c5 fc ff ff              	call	0x1800b5ed0 <Java_j2cc_internal_Loader_bootstrap+0x780>
+1800b620b: 8b 05 27 e7 04 00           	mov	eax, dword ptr [rip + 0x4e727] # 0x180104938
+1800b6211: 85 c0                       	test	eax, eax
+1800b6213: 0f 85 d6 00 00 00           	jne	0x1800b62ef <Java_j2cc_internal_Loader_bootstrap+0xb9f>
+1800b6219: 48 8b 15 f8 e6 04 00        	mov	rdx, qword ptr [rip + 0x4e6f8] # 0x180104918
+1800b6220: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b6223: 4c 8d 05 5b 8f 03 00        	lea	r8, [rip + 0x38f5b]     # 0x1800ef185
+1800b622a: 4c 8d 35 58 8f 03 00        	lea	r14, [rip + 0x38f58]    # 0x1800ef189
+1800b6231: 48 89 f1                    	mov	rcx, rsi
+1800b6234: 4d 89 f1                    	mov	r9, r14
+1800b6237: ff 90 80 04 00 00           	call	qword ptr [rax + 0x480]
+1800b623d: 48 89 c3                    	mov	rbx, rax
+1800b6240: 48 8b 15 d1 e6 04 00        	mov	rdx, qword ptr [rip + 0x4e6d1] # 0x180104918
+1800b6247: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b624a: 4c 8d 05 3a 8f 03 00        	lea	r8, [rip + 0x38f3a]     # 0x1800ef18b
+1800b6251: 48 89 f1                    	mov	rcx, rsi
+1800b6254: 4d 89 f1                    	mov	r9, r14
+1800b6257: ff 90 80 04 00 00           	call	qword ptr [rax + 0x480]
+1800b625d: 49 89 c6                    	mov	r14, rax
+1800b6260: 48 8b 15 b1 e6 04 00        	mov	rdx, qword ptr [rip + 0x4e6b1] # 0x180104918
+1800b6267: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b626a: 4c 8d 05 1f 8f 03 00        	lea	r8, [rip + 0x38f1f]     # 0x1800ef190
+1800b6271: 4c 8d 0d 1e 8f 03 00        	lea	r9, [rip + 0x38f1e]     # 0x1800ef196
+1800b6278: 48 89 f1                    	mov	rcx, rsi
+1800b627b: ff 90 80 04 00 00           	call	qword ptr [rax + 0x480]
+1800b6281: 49 89 c7                    	mov	r15, rax
+1800b6284: 48 8b 15 8d e6 04 00        	mov	rdx, qword ptr [rip + 0x4e68d] # 0x180104918
+1800b628b: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b628e: 48 89 f1                    	mov	rcx, rsi
+1800b6291: 49 89 d8                    	mov	r8, rbx
+1800b6294: ff 90 b0 04 00 00           	call	qword ptr [rax + 0x4b0]
+1800b629a: 89 05 98 e6 04 00           	mov	dword ptr [rip + 0x4e698], eax # 0x180104938
+1800b62a0: 48 8b 15 71 e6 04 00        	mov	rdx, qword ptr [rip + 0x4e671] # 0x180104918
+1800b62a7: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b62aa: 48 89 f1                    	mov	rcx, rsi
+1800b62ad: 4d 89 f0                    	mov	r8, r14
+1800b62b0: ff 90 b0 04 00 00           	call	qword ptr [rax + 0x4b0]
+1800b62b6: 89 05 80 e6 04 00           	mov	dword ptr [rip + 0x4e680], eax # 0x18010493c
+1800b62bc: 48 8b 15 55 e6 04 00        	mov	rdx, qword ptr [rip + 0x4e655] # 0x180104918
+1800b62c3: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b62c6: 48 89 f1                    	mov	rcx, rsi
+1800b62c9: 4d 89 f8                    	mov	r8, r15
+1800b62cc: ff 90 88 04 00 00           	call	qword ptr [rax + 0x488]
+1800b62d2: 4c 8b 06                    	mov	r8, qword ptr [rsi]
+1800b62d5: 48 89 f1                    	mov	rcx, rsi
+1800b62d8: 48 89 c2                    	mov	rdx, rax
+1800b62db: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b62e2: 48 89 05 57 e6 04 00        	mov	qword ptr [rip + 0x4e657], rax # 0x180104940
+1800b62e9: 8b 05 49 e6 04 00           	mov	eax, dword ptr [rip + 0x4e649] # 0x180104938
+1800b62ef: 41 89 f8                    	mov	r8d, edi
+1800b62f2: 41 29 c0                    	sub	r8d, eax
+1800b62f5: 7c 2b                       	jl	0x1800b6322 <Java_j2cc_internal_Loader_bootstrap+0xbd2>
+1800b62f7: 3b 3d 3f e6 04 00           	cmp	edi, dword ptr [rip + 0x4e63f] # 0x18010493c
+1800b62fd: 7f 23                       	jg	0x1800b6322 <Java_j2cc_internal_Loader_bootstrap+0xbd2>
+1800b62ff: 48 8b 15 3a e6 04 00        	mov	rdx, qword ptr [rip + 0x4e63a] # 0x180104940
+1800b6306: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b6309: 48 8b 80 68 05 00 00        	mov	rax, qword ptr [rax + 0x568]
+1800b6310: 48 89 f1                    	mov	rcx, rsi
+1800b6313: 48 83 c4 28                 	add	rsp, 0x28
+1800b6317: 5b                          	pop	rbx
+1800b6318: 5f                          	pop	rdi
+1800b6319: 5e                          	pop	rsi
+1800b631a: 41 5e                       	pop	r14
+1800b631c: 41 5f                       	pop	r15
+1800b631e: 5d                          	pop	rbp
+1800b631f: 48 ff e0                    	jmp	rax
+1800b6322: 48 8b 1d f7 e5 04 00        	mov	rbx, qword ptr [rip + 0x4e5f7] # 0x180104920
+1800b6329: 48 8b 06                    	mov	rax, qword ptr [rsi]
+1800b632c: 4c 8d 05 78 8e 03 00        	lea	r8, [rip + 0x38e78]     # 0x1800ef1ab
+1800b6333: 4c 8d 0d 78 8e 03 00        	lea	r9, [rip + 0x38e78]     # 0x1800ef1b2
+1800b633a: 48 89 f1                    	mov	rcx, rsi
+1800b633d: 48 89 da                    	mov	rdx, rbx
+1800b6340: ff 90 08 01 00 00           	call	qword ptr [rax + 0x108]
+1800b6346: 48 89 f1                    	mov	rcx, rsi
+1800b6349: 48 89 da                    	mov	rdx, rbx
+1800b634c: 49 89 c0                    	mov	r8, rax
+1800b634f: 41 89 f9                    	mov	r9d, edi
+1800b6352: e8 29 01 00 00              	call	0x1800b6480 <Java_j2cc_internal_Loader_bootstrap+0xd30>
+1800b6357: 90                          	nop
+1800b6358: 48 83 c4 28                 	add	rsp, 0x28
+1800b635c: 5b                          	pop	rbx
+1800b635d: 5f                          	pop	rdi
+1800b635e: 5e                          	pop	rsi
+1800b635f: 41 5e                       	pop	r14
+1800b6361: 41 5f                       	pop	r15
+1800b6363: 5d                          	pop	rbp
+1800b6364: c3                          	ret
+1800b6365: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+1800b636f: 90                          	nop
+1800b6370: 55                          	push	rbp
+1800b6371: 56                          	push	rsi
+1800b6372: 57                          	push	rdi
+1800b6373: 53                          	push	rbx
+1800b6374: 48 83 ec 28                 	sub	rsp, 0x28
+1800b6378: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b637d: 89 d6                       	mov	esi, edx
+1800b637f: 48 89 cf                    	mov	rdi, rcx
+1800b6382: e8 49 fb ff ff              	call	0x1800b5ed0 <Java_j2cc_internal_Loader_bootstrap+0x780>
+1800b6387: 0f b7 f6                    	movzx	esi, si
+1800b638a: 66 83 fe 7f                 	cmp	si, 0x7f
+1800b638e: 77 79                       	ja	0x1800b6409 <Java_j2cc_internal_Loader_bootstrap+0xcb9>
+1800b6390: 48 8b 15 b1 e5 04 00        	mov	rdx, qword ptr [rip + 0x4e5b1] # 0x180104948
+1800b6397: 48 85 d2                    	test	rdx, rdx
+1800b639a: 75 52                       	jne	0x1800b63ee <Java_j2cc_internal_Loader_bootstrap+0xc9e>
+1800b639c: 48 8b 15 8d e5 04 00        	mov	rdx, qword ptr [rip + 0x4e58d] # 0x180104930
+1800b63a3: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b63a6: 4c 8d 05 e3 8d 03 00        	lea	r8, [rip + 0x38de3]     # 0x1800ef190
+1800b63ad: 4c 8d 0d 03 8e 03 00        	lea	r9, [rip + 0x38e03]     # 0x1800ef1b7
+1800b63b4: 48 89 f9                    	mov	rcx, rdi
+1800b63b7: ff 90 80 04 00 00           	call	qword ptr [rax + 0x480]
+1800b63bd: 48 8b 15 6c e5 04 00        	mov	rdx, qword ptr [rip + 0x4e56c] # 0x180104930
+1800b63c4: 4c 8b 0f                    	mov	r9, qword ptr [rdi]
+1800b63c7: 48 89 f9                    	mov	rcx, rdi
+1800b63ca: 49 89 c0                    	mov	r8, rax
+1800b63cd: 41 ff 91 88 04 00 00        	call	qword ptr [r9 + 0x488]
+1800b63d4: 4c 8b 07                    	mov	r8, qword ptr [rdi]
+1800b63d7: 48 89 f9                    	mov	rcx, rdi
+1800b63da: 48 89 c2                    	mov	rdx, rax
+1800b63dd: 41 ff 90 a8 00 00 00        	call	qword ptr [r8 + 0xa8]
+1800b63e4: 48 89 c2                    	mov	rdx, rax
+1800b63e7: 48 89 05 5a e5 04 00        	mov	qword ptr [rip + 0x4e55a], rax # 0x180104948
+1800b63ee: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b63f1: 48 8b 80 68 05 00 00        	mov	rax, qword ptr [rax + 0x568]
+1800b63f8: 48 89 f9                    	mov	rcx, rdi
+1800b63fb: 41 89 f0                    	mov	r8d, esi
+1800b63fe: 48 83 c4 28                 	add	rsp, 0x28
+1800b6402: 5b                          	pop	rbx
+1800b6403: 5f                          	pop	rdi
+1800b6404: 5e                          	pop	rsi
+1800b6405: 5d                          	pop	rbp
+1800b6406: 48 ff e0                    	jmp	rax
+1800b6409: 48 8b 1d 18 e5 04 00        	mov	rbx, qword ptr [rip + 0x4e518] # 0x180104928
+1800b6410: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b6413: 4c 8d 05 91 8d 03 00        	lea	r8, [rip + 0x38d91]     # 0x1800ef1ab
+1800b641a: 4c 8d 0d ad 8d 03 00        	lea	r9, [rip + 0x38dad]     # 0x1800ef1ce
+1800b6421: 48 89 f9                    	mov	rcx, rdi
+1800b6424: 48 89 da                    	mov	rdx, rbx
+1800b6427: ff 90 08 01 00 00           	call	qword ptr [rax + 0x108]
+1800b642d: 48 89 f9                    	mov	rcx, rdi
+1800b6430: 48 89 da                    	mov	rdx, rbx
+1800b6433: 49 89 c0                    	mov	r8, rax
+1800b6436: 41 89 f1                    	mov	r9d, esi
+1800b6439: e8 42 00 00 00              	call	0x1800b6480 <Java_j2cc_internal_Loader_bootstrap+0xd30>
+1800b643e: 90                          	nop
+1800b643f: 48 83 c4 28                 	add	rsp, 0x28
+1800b6443: 5b                          	pop	rbx
+1800b6444: 5f                          	pop	rdi
+1800b6445: 5e                          	pop	rsi
+1800b6446: 5d                          	pop	rbp
+1800b6447: c3                          	ret
+1800b6448: 0f 1f 84 00 00 00 00 00     	nop	dword ptr [rax + rax]
+1800b6450: 55                          	push	rbp
+1800b6451: 48 83 ec 20                 	sub	rsp, 0x20
+1800b6455: 48 8d 6c 24 20              	lea	rbp, [rsp + 0x20]
+1800b645a: 48 8d 0d ef ca 04 00        	lea	rcx, [rip + 0x4caef]    # 0x180102f50
+1800b6461: e8 ea 1a 00 00              	call	0x1800b7f50 <Java_j2cc_internal_Loader_bootstrap+0x2800>
+1800b6466: 48 8d 0d d3 f4 ff ff        	lea	rcx, [rip - 0xb2d]      # 0x1800b5940 <Java_j2cc_internal_Loader_bootstrap+0x1f0>
+1800b646d: 48 83 c4 20                 	add	rsp, 0x20
+1800b6471: 5d                          	pop	rbp
+1800b6472: e9 49 0b 00 00              	jmp	0x1800b6fc0 <Java_j2cc_internal_Loader_bootstrap+0x1870>
+1800b6477: cc                          	int3
+1800b6478: cc                          	int3
+1800b6479: cc                          	int3
+1800b647a: cc                          	int3
+1800b647b: cc                          	int3
+1800b647c: cc                          	int3
+1800b647d: cc                          	int3
+1800b647e: cc                          	int3
+1800b647f: cc                          	int3
+1800b6480: 55                          	push	rbp
+1800b6481: 48 83 ec 30                 	sub	rsp, 0x30
+1800b6485: 48 8d 6c 24 30              	lea	rbp, [rsp + 0x30]
+1800b648a: 4c 89 4d 28                 	mov	qword ptr [rbp + 0x28], r9
+1800b648e: 4c 8d 4d 28                 	lea	r9, [rbp + 0x28]
+1800b6492: 4c 89 4d f8                 	mov	qword ptr [rbp - 0x8], r9
+1800b6496: 48 8b 01                    	mov	rax, qword ptr [rcx]
+1800b6499: ff 90 e8 00 00 00           	call	qword ptr [rax + 0xe8]
+1800b649f: 90                          	nop
+1800b64a0: 48 83 c4 30                 	add	rsp, 0x30
+1800b64a4: 5d                          	pop	rbp
+1800b64a5: c3                          	ret
+1800b64a6: cc                          	int3
+1800b64a7: cc                          	int3
+1800b64a8: cc                          	int3
+1800b64a9: cc                          	int3
+1800b64aa: cc                          	int3
+1800b64ab: cc                          	int3
+1800b64ac: cc                          	int3
+1800b64ad: cc                          	int3
+1800b64ae: cc                          	int3
+1800b64af: cc                          	int3
+1800b64b0: 55                          	push	rbp
+1800b64b1: 41 57                       	push	r15
+1800b64b3: 41 56                       	push	r14
+1800b64b5: 41 55                       	push	r13
+1800b64b7: 41 54                       	push	r12
+1800b64b9: 56                          	push	rsi
+1800b64ba: 57                          	push	rdi
+1800b64bb: 53                          	push	rbx
+1800b64bc: 48 81 ec b8 01 00 00        	sub	rsp, 0x1b8
+1800b64c3: 48 8d ac 24 80 00 00 00     	lea	rbp, [rsp + 0x80]
+1800b64cb: 0f 29 b5 20 01 00 00        	movaps	xmmword ptr [rbp + 0x120], xmm6
+1800b64d2: 48 89 8d 10 01 00 00        	mov	qword ptr [rbp + 0x110], rcx
+1800b64d9: 48 8b 39                    	mov	rdi, qword ptr [rcx]
+1800b64dc: 4c 8b 3d 6d e4 04 00        	mov	r15, qword ptr [rip + 0x4e46d] # 0x180104950
+1800b64e3: 4d 85 ff                    	test	r15, r15
+1800b64e6: 0f 84 12 01 00 00           	je	0x1800b65fe <Java_j2cc_internal_Loader_bootstrap+0xeae>
+1800b64ec: bb 04 00 00 00              	mov	ebx, 0x4
+1800b64f1: 0f 57 f6                    	xorps	xmm6, xmm6
+1800b64f4: 4c 8d 75 c0                 	lea	r14, [rbp - 0x40]
+1800b64f8: 4c 89 bd 08 01 00 00        	mov	qword ptr [rbp + 0x108], r15
+1800b64ff: 48 8b b5 10 01 00 00        	mov	rsi, qword ptr [rbp + 0x110]
+1800b6506: eb 19                       	jmp	0x1800b6521 <Java_j2cc_internal_Loader_bootstrap+0xdd1>
+1800b6508: 0f 1f 84 00 00 00 00 00     	nop	dword ptr [rax + rax]
+1800b6510: 48 83 c3 01                 	add	rbx, 0x1
+1800b6514: 48 81 fb eb 00 00 00        	cmp	rbx, 0xeb
+1800b651b: 0f 84 21 03 00 00           	je	0x1800b6842 <Java_j2cc_internal_Loader_bootstrap+0x10f2>
+1800b6521: 48 8b 0c df                 	mov	rcx, qword ptr [rdi + 8*rbx]
+1800b6525: 49 3b 0c df                 	cmp	rcx, qword ptr [r15 + 8*rbx]
+1800b6529: 74 e5                       	je	0x1800b6510 <Java_j2cc_internal_Loader_bootstrap+0xdc0>
+1800b652b: 0f 29 b5 e0 00 00 00        	movaps	xmmword ptr [rbp + 0xe0], xmm6
+1800b6532: 0f 29 b5 d0 00 00 00        	movaps	xmmword ptr [rbp + 0xd0], xmm6
+1800b6539: 0f 29 b5 c0 00 00 00        	movaps	xmmword ptr [rbp + 0xc0], xmm6
+1800b6540: 41 b8 30 00 00 00           	mov	r8d, 0x30
+1800b6546: 48 8d 95 c0 00 00 00        	lea	rdx, [rbp + 0xc0]
+1800b654d: ff 15 4d 2d 04 00           	call	qword ptr [rip + 0x42d4d] # 0x1800f92a0
+1800b6553: 48 85 c0                    	test	rax, rax
+1800b6556: 74 b8                       	je	0x1800b6510 <Java_j2cc_internal_Loader_bootstrap+0xdc0>
+1800b6558: 48 8b 8d c8 00 00 00        	mov	rcx, qword ptr [rbp + 0xc8]
+1800b655f: 4c 89 f2                    	mov	rdx, r14
+1800b6562: 41 b8 00 01 00 00           	mov	r8d, 0x100
+1800b6568: ff 15 ca 2c 04 00           	call	qword ptr [rip + 0x42cca] # 0x1800f9238
+1800b656e: 85 c0                       	test	eax, eax
+1800b6570: 0f 84 cc 02 00 00           	je	0x1800b6842 <Java_j2cc_internal_Loader_bootstrap+0x10f2>
+1800b6576: 48 8b 05 d3 e3 04 00        	mov	rax, qword ptr [rip + 0x4e3d3] # 0x180104950
+1800b657d: 48 89 f1                    	mov	rcx, rsi
+1800b6580: 4c 8d 2d 9b 8c 03 00        	lea	r13, [rip + 0x38c9b]    # 0x1800ef222
+1800b6587: 4c 89 ea                    	mov	rdx, r13
+1800b658a: ff 50 30                    	call	qword ptr [rax + 0x30]
+1800b658d: 49 89 c4                    	mov	r12, rax
+1800b6590: 48 8b 05 b9 e3 04 00        	mov	rax, qword ptr [rip + 0x4e3b9] # 0x180104950
+1800b6597: 48 89 f1                    	mov	rcx, rsi
+1800b659a: 4c 89 e2                    	mov	rdx, r12
+1800b659d: 4d 89 e8                    	mov	r8, r13
+1800b65a0: 4c 8d 0d 82 8c 03 00        	lea	r9, [rip + 0x38c82]     # 0x1800ef229
+1800b65a7: ff 90 88 03 00 00           	call	qword ptr [rax + 0x388]
+1800b65ad: 49 89 c5                    	mov	r13, rax
+1800b65b0: 48 8b 05 99 e3 04 00        	mov	rax, qword ptr [rip + 0x4e399] # 0x180104950
+1800b65b7: 49 89 ff                    	mov	r15, rdi
+1800b65ba: 48 8b b8 68 04 00 00        	mov	rdi, qword ptr [rax + 0x468]

@@ -1,0 +1,36 @@
+{
+  "input": "C:\\Users\\Administrator\\Downloads\\Astra-Daily-1.0.0.1-obf.jar",
+  "seed_sha256": "c10f0cec0624e947fc39df294a670de660d9a667d17af37134e115d63c70ba65",
+  "kbox": {
+    "format": "PE",
+    "domain_tag": "0xdd5a5335",
+    "compressed_size": 56507,
+    "raw_size": 72704,
+    "sha256": "74798cbaa4ea467756a365642851e90e32b2c94dea1f7ea64c7807552c0f367c"
+  },
+  "j2cc": [
+    {
+      "prefix": "x86_64-windows",
+      "offset": 0,
+      "size": 1063936,
+      "format": "PE",
+      "sha256": "9b2870b909983d9712deecb4c1b097c21e7d5cf2c6004926d983bb5ee3d6f13e",
+      "bootstrap_sha256": "c8347bfde073614b0dc23b2870ab3b4fe3c43062d6814655ed5ef9ed92b52129"
+    }
+  ],
+  "method_epd_hex": "3178d88500000000",
+  "executed_sample_or_native": false,
+  "static_analysis": {
+    "java_native_declarations": 131,
+    "j2cc_register_natives_recovered": 126,
+    "j2cc_registered_classes": 18,
+    "j2cc_loader_exports": [
+      "Java_j2cc_internal_Loader_bootstrap",
+      "Java_j2cc_internal_Loader_initClass"
+    ],
+    "kbox_nativecrypto_declarations": 3,
+    "kbox_per_function_c_reconstruction": "not_claimed_runtime_decrypted_payload",
+    "tool": "LLVM llvm-readobj/llvm-objdump plus custom PE/JNI table parser",
+    "analysis_date": "2026-10-05"
+  }
+}

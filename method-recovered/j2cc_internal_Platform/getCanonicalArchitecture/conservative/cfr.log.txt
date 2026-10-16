@@ -1,0 +1,8 @@
+COMMAND:
+java -jar C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\cfr-0.152.jar C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\raw-jar\j2cc\internal\Platform.class --outputdir C:\Users\Administrator\Documents\Codex\2026-10-05\src\outputs\Astra-Daily-1.0.0.1-deobf\method-recovered\j2cc_internal_Platform\getCanonicalArchitecture\conservative --methodname getCanonicalArchitecture --lenient true --ignoreexceptions true --recover false --allowmalformedswitch true --decodestringswitch false --antiobf true
+
+STDOUT:
+
+
+STDERR:
+Processing j2cc.internal.Platform

@@ -1,0 +1,101 @@
+{
+  "input_sha256": "74798cbaa4ea467756a365642851e90e32b2c94dea1f7ea64c7807552c0f367c",
+  "output_sha256": "a1f31f79e98ed1f78dd0684c1051cf6de270cd75713584c8686739a4447ea3bf",
+  "image_size": 110592,
+  "ezyBFL_seed": "0x68b7c94b",
+  "kbox_version": 1,
+  "code_offset": "0x1000",
+  "entry_offset": "0xe1f0",
+  "manifest_offset": "0x8010",
+  "manifest_size": 1192,
+  "manifest_sha256": "bf1934150daa79817a55419cdc40162edeb7e7aa74edb80e42592a32b0805e92",
+  "descriptors": [
+    {
+      "index": 0,
+      "offset": "0xe000",
+      "size": 12800,
+      "counter": 0,
+      "nonce": "00000000fb9f8db1b1f9e5a5",
+      "flags": "0x0",
+      "decrypted": true
+    },
+    {
+      "index": 1,
+      "offset": "0x12000",
+      "size": 512,
+      "counter": 0,
+      "nonce": "01000000b4ccb994cead1254",
+      "flags": "0x0",
+      "decrypted": true
+    },
+    {
+      "index": 2,
+      "offset": "0x13000",
+      "size": 3072,
+      "counter": 0,
+      "nonce": "02000000b9c83052ab586709",
+      "flags": "0x0",
+      "decrypted": true
+    },
+    {
+      "index": 3,
+      "offset": "0x14000",
+      "size": 1024,
+      "counter": 0,
+      "nonce": "030000000c187d3b5dd7fa21",
+      "flags": "0x0",
+      "decrypted": true
+    },
+    {
+      "index": 4,
+      "offset": "0x15000",
+      "size": 512,
+      "counter": 0,
+      "nonce": "040000003f8bcde1cd96977e",
+      "flags": "0x0",
+      "decrypted": true
+    },
+    {
+      "index": 5,
+      "offset": "0x17000",
+      "size": 512,
+      "counter": 0,
+      "nonce": "05000000e38aaa77c133545c",
+      "flags": "0x0",
+      "decrypted": true
+    },
+    {
+      "index": 6,
+      "offset": "0x18000",
+      "size": 1536,
+      "counter": 0,
+      "nonce": "06000000fe7a61135a86baf4",
+      "flags": "0x0",
+      "decrypted": true
+    },
+    {
+      "index": 7,
+      "offset": "0x19000",
+      "size": 512,
+      "counter": 0,
+      "nonce": "070000006781f0e9fc3036f0",
+      "flags": "0x0",
+      "decrypted": true
+    },
+    {
+      "index": 8,
+      "offset": "0x1a000",
+      "size": 512,
+      "counter": 0,
+      "nonce": "08000000e1c83738a21cc418",
+      "flags": "0x0",
+      "decrypted": true
+    }
+  ],
+  "exports": [
+    "Java_com_kbox_runtime_NativeCrypto_decryptByteAt0",
+    "Java_com_kbox_runtime_NativeCrypto_decryptString0",
+    "Java_com_kbox_runtime_NativeCrypto_hkdfSha2560"
+  ],
+  "executed": false
+}

@@ -1,0 +1,3657 @@
+{
+  "policy": "Aliases are annotations; original class/member names and evidence are retained.",
+  "native_declarations": 131,
+  "classes_with_native_declarations": 20,
+  "j2cc_bindings": 126,
+  "declarations": [
+    {
+      "source": "com/kbox/runtime/NativeCrypto.java",
+      "class": "com.kbox.runtime.NativeCrypto",
+      "class_alias": "NativeCrypto",
+      "class_confidence": "high",
+      "method": "hkdfSha2560",
+      "method_alias": "hkdfSha256",
+      "method_confidence": "high",
+      "return_type": "byte[]",
+      "parameters": "byte[] var0, byte[] var1, byte[] var2, int var3",
+      "jni_bindings": []
+    },
+    {
+      "source": "com/kbox/runtime/NativeCrypto.java",
+      "class": "com.kbox.runtime.NativeCrypto",
+      "class_alias": "NativeCrypto",
+      "class_confidence": "high",
+      "method": "decryptByteAt0",
+      "method_alias": "decryptByteAt",
+      "method_confidence": "high",
+      "return_type": "byte",
+      "parameters": "byte[] var0, int var1, byte[] var2",
+      "jni_bindings": []
+    },
+    {
+      "source": "com/kbox/runtime/NativeCrypto.java",
+      "class": "com.kbox.runtime.NativeCrypto",
+      "class_alias": "NativeCrypto",
+      "class_confidence": "high",
+      "method": "decryptString0",
+      "method_alias": "decryptString",
+      "method_confidence": "high",
+      "return_type": "String",
+      "parameters": "byte[] var0, byte[] var1",
+      "jni_bindings": []
+    },
+    {
+      "source": "dev/Astra/api/utils/math/AnimateUtil.java",
+      "class": "dev.Astra.api.utils.math.AnimateUtil",
+      "class_alias": "AnimateUtil",
+      "class_confidence": "high",
+      "method": "animate",
+      "method_alias": "animateTowards",
+      "method_confidence": "high",
+      "return_type": "double",
+      "parameters": "double var0, double var2, double var4",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.api.utils.math.AnimateUtil",
+          "class_string_va": "0x1800eebd0",
+          "method": "animate",
+          "descriptor": "(DDD)D",
+          "function_va": "0x1800b4060",
+          "function_rva": "0xb4060",
+          "function_end_rva": "0xb4309"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/api/utils/math/DamageUtils.java",
+      "class": "dev.Astra.api.utils.math.DamageUtils",
+      "class_alias": "DamageUtils",
+      "class_confidence": "high",
+      "method": "resistanceReduction",
+      "method_alias": "computeResistanceReduction",
+      "method_confidence": "high",
+      "return_type": "float",
+      "parameters": "class_1309 var0, float var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.api.utils.math.DamageUtils",
+          "class_string_va": "0x1800ee0cf",
+          "method": "resistanceReduction",
+          "descriptor": "(Lnet/minecraft/class_1309;F)F",
+          "function_va": "0x1800b3c60",
+          "function_rva": "0xb3c60",
+          "function_end_rva": "0xb400a"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/api/utils/math/MathUtil.java",
+      "class": "dev.Astra.api.utils.math.MathUtil",
+      "class_alias": "MathUtil",
+      "class_confidence": "high",
+      "method": "getPointToBoxFromBottom",
+      "method_alias": "selectPointWithinBoxFromBottom",
+      "method_confidence": "high",
+      "return_type": "class_243",
+      "parameters": "class_243 var0, class_243 var1, double var2, double var4, double var6",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.api.utils.math.MathUtil",
+          "class_string_va": "0x1800eecf6",
+          "method": "getPointToBoxFromBottom",
+          "descriptor": "(Lnet/minecraft/class_243;Lnet/minecraft/class_243;DDD)Lnet/minecraft/class_243;",
+          "function_va": "0x1800b2d40",
+          "function_rva": "0xb2d40",
+          "function_end_rva": "0xb3c0e"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AntiPhase.java",
+      "class": "dev.Astra.mod.modules.impl.d.AntiPhase",
+      "class_alias": "AntiPhase",
+      "class_confidence": "high",
+      "method": "targetFacing",
+      "method_alias": "chooseTargetFacing",
+      "method_confidence": "high",
+      "return_type": "class_2350",
+      "parameters": "class_243 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AntiPhase",
+          "class_string_va": "0x1800ededa",
+          "method": "targetFacing",
+          "descriptor": "(Lnet/minecraft/class_243;)Lnet/minecraft/class_2350;",
+          "function_va": "0x1800b0d00",
+          "function_rva": "0xb0d00",
+          "function_end_rva": "0xb2ce8"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Aura.java",
+      "class": "dev.Astra.mod.modules.impl.d.Aura",
+      "class_alias": "Aura",
+      "class_confidence": "high",
+      "method": "getTarget",
+      "method_alias": "selectCombatTarget",
+      "method_confidence": "high",
+      "return_type": "class_1297",
+      "parameters": "double var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Aura",
+          "class_string_va": "0x1800ee9d1",
+          "method": "getTarget",
+          "descriptor": "(D)Lnet/minecraft/class_1297;",
+          "function_va": "0x1800aa190",
+          "function_rva": "0xaa190",
+          "function_end_rva": "0xb0ca9"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "findEnderChest",
+      "method_alias": "findEnderChest",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "findEnderChest",
+          "descriptor": "()I",
+          "function_va": "0x180095fe0",
+          "function_rva": "0x95fe0",
+          "function_end_rva": "0x9699a"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "closeScreenSafely",
+      "method_alias": "closeScreenSafely",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "closeScreenSafely",
+          "descriptor": "()V",
+          "function_va": "0x1800969f0",
+          "function_rva": "0x969f0",
+          "function_end_rva": "0x96e2d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "doTake",
+      "method_alias": "doTake",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "doTake",
+          "descriptor": "()Z",
+          "function_va": "0x180096e80",
+          "function_rva": "0x96e80",
+          "function_end_rva": "0x9817d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "timeoutToDisable",
+      "method_alias": "timeoutToDisable",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "timeoutToDisable",
+          "descriptor": "()V",
+          "function_va": "0x1800981d0",
+          "function_rva": "0x981d0",
+          "function_end_rva": "0x98652"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "distanceTo",
+      "method_alias": "distanceTo",
+      "method_confidence": "medium",
+      "return_type": "double",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "distanceTo",
+          "descriptor": "(Lnet/minecraft/class_2338;)D",
+          "function_va": "0x1800986b0",
+          "function_rva": "0x986b0",
+          "function_end_rva": "0x990bf"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "findOpenableEnderChest",
+      "method_alias": "findOpenableEnderChest",
+      "method_confidence": "medium",
+      "return_type": "class_2338",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "findOpenableEnderChest",
+          "descriptor": "()Lnet/minecraft/class_2338;",
+          "function_va": "0x180099110",
+          "function_rva": "0x99110",
+          "function_end_rva": "0x9a364"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "doPlace",
+      "method_alias": "doPlace",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "doPlace",
+          "descriptor": "()V",
+          "function_va": "0x18009a3c0",
+          "function_rva": "0x9a3c0",
+          "function_end_rva": "0x9eee4"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "attemptPlace",
+      "method_alias": "attemptPlace",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "attemptPlace",
+          "descriptor": "()V",
+          "function_va": "0x18009ef40",
+          "function_rva": "0x9ef40",
+          "function_end_rva": "0x9fc20"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "shouldTakeFromEnder",
+      "method_alias": "shouldTakeFromEnder",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_1799 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "shouldTakeFromEnder",
+          "descriptor": "(Lnet/minecraft/class_1799;)Z",
+          "function_va": "0x18009fc70",
+          "function_rva": "0x9fc70",
+          "function_end_rva": "0xa0a71"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "trySwapFromEnder",
+      "method_alias": "trySwapFromEnder",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "trySwapFromEnder",
+          "descriptor": "()Z",
+          "function_va": "0x1800a0ad0",
+          "function_rva": "0xa0ad0",
+          "function_end_rva": "0xa20c1"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "swapFromEnder",
+      "method_alias": "swapFromEnder",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_1707 var1, int var2, int var3",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "swapFromEnder",
+          "descriptor": "(Lnet/minecraft/class_1707;II)V",
+          "function_va": "0x1800a2120",
+          "function_rva": "0xa2120",
+          "function_end_rva": "0xa3369"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "pickTargetInvSlot",
+      "method_alias": "pickTargetInvSlot",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "pickTargetInvSlot",
+          "descriptor": "()I",
+          "function_va": "0x1800a33c0",
+          "function_rva": "0xa33c0",
+          "function_end_rva": "0xa3bbc"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "countMissingSlots",
+      "method_alias": "countMissingSlots",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "class_1799 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "countMissingSlots",
+          "descriptor": "(Lnet/minecraft/class_1799;)I",
+          "function_va": "0x1800a3c10",
+          "function_rva": "0xa3c10",
+          "function_end_rva": "0xa7940"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "isShulkerBox",
+      "method_alias": "isShulkerBox",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_1799 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "isShulkerBox",
+          "descriptor": "(Lnet/minecraft/class_1799;)Z",
+          "function_va": "0x1800a7990",
+          "function_rva": "0xa7990",
+          "function_end_rva": "0xa7d38"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "invToScreen",
+      "method_alias": "invToScreen",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "int var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "invToScreen",
+          "descriptor": "(I)I",
+          "function_va": "0x1800a7d90",
+          "function_rva": "0xa7d90",
+          "function_end_rva": "0xa7da5"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "openContainer",
+      "method_alias": "openContainer",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "openContainer",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x1800a7e00",
+          "function_rva": "0xa7e00",
+          "function_end_rva": "0xa8f77"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "class_alias": "AutoEnderChest",
+      "class_confidence": "high",
+      "method": "placeBlock",
+      "method_alias": "placeBlock",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+          "class_string_va": "0x1800eea75",
+          "method": "placeBlock",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x1800a8fd0",
+          "function_rva": "0xa8fd0",
+          "function_end_rva": "0xaa13c"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/DropAntiRegear.java",
+      "class": "dev.Astra.mod.modules.impl.d.DropAntiRegear",
+      "class_alias": "DropAntiRegear",
+      "class_confidence": "high",
+      "method": "dropShulkerItems",
+      "method_alias": "dropShulkerItems",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.DropAntiRegear",
+          "class_string_va": "0x1800ee127",
+          "method": "dropShulkerItems",
+          "descriptor": "()V",
+          "function_va": "0x180093e30",
+          "function_rva": "0x93e30",
+          "function_end_rva": "0x95227"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/DropAntiRegear.java",
+      "class": "dev.Astra.mod.modules.impl.d.DropAntiRegear",
+      "class_alias": "DropAntiRegear",
+      "class_confidence": "high",
+      "method": "findNearbyShulker",
+      "method_alias": "findNearbyShulker",
+      "method_confidence": "medium",
+      "return_type": "class_2338",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.DropAntiRegear",
+          "class_string_va": "0x1800ee127",
+          "method": "findNearbyShulker",
+          "descriptor": "()Lnet/minecraft/class_2338;",
+          "function_va": "0x180095280",
+          "function_rva": "0x95280",
+          "function_end_rva": "0x95f8e"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Offhand.java",
+      "class": "dev.Astra.mod.modules.impl.d.Offhand",
+      "class_alias": "Offhand",
+      "class_confidence": "high",
+      "method": "lethalCrystal",
+      "method_alias": "lethalCrystal",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Offhand",
+          "class_string_va": "0x1800eea1b",
+          "method": "lethalCrystal",
+          "descriptor": "()Z",
+          "function_va": "0x18008f850",
+          "function_rva": "0x8f850",
+          "function_end_rva": "0x90d3e"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Offhand.java",
+      "class": "dev.Astra.mod.modules.impl.d.Offhand",
+      "class_alias": "Offhand",
+      "class_confidence": "high",
+      "method": "hasNearbyPlayers",
+      "method_alias": "hasNearbyPlayers",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Offhand",
+          "class_string_va": "0x1800eea1b",
+          "method": "hasNearbyPlayers",
+          "descriptor": "()Z",
+          "function_va": "0x180090d90",
+          "function_rva": "0x90d90",
+          "function_end_rva": "0x91c44"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Offhand.java",
+      "class": "dev.Astra.mod.modules.impl.d.Offhand",
+      "class_alias": "Offhand",
+      "class_confidence": "high",
+      "method": "findItemInventorySlot",
+      "method_alias": "findItemInventorySlot",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "class_1792 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Offhand",
+          "class_string_va": "0x1800eea1b",
+          "method": "findItemInventorySlot",
+          "descriptor": "(Lnet/minecraft/class_1792;)I",
+          "function_va": "0x180091ca0",
+          "function_rva": "0x91ca0",
+          "function_end_rva": "0x93dd7"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "selfIntersectPos",
+      "method_alias": "selfIntersectPos",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_2338 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "selfIntersectPos",
+          "descriptor": "(Lnet/minecraft/class_2338;)Z",
+          "function_va": "0x1800802a0",
+          "function_rva": "0x802a0",
+          "function_end_rva": "0x80711"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "getRotationTo",
+      "method_alias": "getRotationTo",
+      "method_confidence": "medium",
+      "return_type": "class_241",
+      "parameters": "class_243 var0, class_243 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "getRotationTo",
+          "descriptor": "(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_241;",
+          "function_va": "0x180080770",
+          "function_rva": "0x80770",
+          "function_end_rva": "0x8091d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "getRotationFromVec",
+      "method_alias": "getRotationFromVec",
+      "method_confidence": "medium",
+      "return_type": "class_241",
+      "parameters": "class_243 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "getRotationFromVec",
+          "descriptor": "(Lnet/minecraft/class_243;)Lnet/minecraft/class_241;",
+          "function_va": "0x180080970",
+          "function_rva": "0x80970",
+          "function_end_rva": "0x81435"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "normalizeAngle",
+      "method_alias": "normalizeAngle",
+      "method_confidence": "medium",
+      "return_type": "double",
+      "parameters": "double var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "normalizeAngle",
+          "descriptor": "(D)D",
+          "function_va": "0x180081490",
+          "function_rva": "0x81490",
+          "function_end_rva": "0x814ff"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "shouldYawStep",
+      "method_alias": "shouldYawStep",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "shouldYawStep",
+          "descriptor": "()Z",
+          "function_va": "0x180081550",
+          "function_rva": "0x81550",
+          "function_end_rva": "0x81ea3"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "doSurround",
+      "method_alias": "doSurround",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "doSurround",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x180081f00",
+          "function_rva": "0x81f00",
+          "function_end_rva": "0x85fbe"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "faceVector",
+      "method_alias": "faceVector",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_243 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "faceVector",
+          "descriptor": "(Lnet/minecraft/class_243;)Z",
+          "function_va": "0x180086010",
+          "function_rva": "0x86010",
+          "function_end_rva": "0x86a0c"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "clickDown",
+      "method_alias": "clickDown",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "clickDown",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x180086a60",
+          "function_rva": "0x86a60",
+          "function_end_rva": "0x89e1f"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "tryPlaceBlock",
+      "method_alias": "tryPlaceBlock",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "tryPlaceBlock",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x180089e70",
+          "function_rva": "0x89e70",
+          "function_end_rva": "0x8d940"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "doSwap",
+      "method_alias": "doSwap",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "int var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "doSwap",
+          "descriptor": "(I)V",
+          "function_va": "0x18008d990",
+          "function_rva": "0x8d990",
+          "function_end_rva": "0x8e011"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "getBlock",
+      "method_alias": "getBlock",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "getBlock",
+          "descriptor": "()I",
+          "function_va": "0x18008e070",
+          "function_rva": "0x8e070",
+          "function_end_rva": "0x8eb8c"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "class_alias": "SelfTrap",
+      "class_confidence": "high",
+      "method": "getHelperPos",
+      "method_alias": "getHelperPos",
+      "method_confidence": "medium",
+      "return_type": "class_2338",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+          "class_string_va": "0x1800ee37c",
+          "method": "getHelperPos",
+          "descriptor": "(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2338;",
+          "function_va": "0x18008ebe0",
+          "function_rva": "0x8ebe0",
+          "function_end_rva": "0x8f7f5"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "closeScreenSafely",
+      "method_alias": "closeScreenSafely",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "closeScreenSafely",
+          "descriptor": "()V",
+          "function_va": "0x18005d7b0",
+          "function_rva": "0x5d7b0",
+          "function_end_rva": "0x5dbed"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "doTake",
+      "method_alias": "doTake",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "doTake",
+          "descriptor": "()Z",
+          "function_va": "0x18005dc40",
+          "function_rva": "0x5dc40",
+          "function_end_rva": "0x60ef9"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "calculateStealCount",
+      "method_alias": "calculateStealCount",
+      "method_confidence": "medium",
+      "return_type": "int[]",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "calculateStealCount",
+          "descriptor": "()[I",
+          "function_va": "0x180060f50",
+          "function_rva": "0x60f50",
+          "function_end_rva": "0x63dca"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "getMissing",
+      "method_alias": "getMissing",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "class_1792 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "getMissing",
+          "descriptor": "(Lnet/minecraft/class_1792;)I",
+          "function_va": "0x180063e20",
+          "function_rva": "0x63e20",
+          "function_end_rva": "0x64af1"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "needSteal",
+      "method_alias": "needSteal",
+      "method_confidence": "medium",
+      "return_type": "a\\u0301",
+      "parameters": "class_1799 var1, int[] var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "needSteal",
+          "descriptor": "(Lnet/minecraft/class_1799;[I)Ldev/Astra/mod/modules/impl/d/ShulkerReplenish$á;",
+          "function_va": "0x180064b50",
+          "function_rva": "0x64b50",
+          "function_end_rva": "0x6abc4"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "doPlaceOnce",
+      "method_alias": "doPlaceOnce",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "doPlaceOnce",
+          "descriptor": "()V",
+          "function_va": "0x18006ac20",
+          "function_rva": "0x6ac20",
+          "function_end_rva": "0x79b6d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "attemptPlace",
+      "method_alias": "attemptPlace",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "attemptPlace",
+          "descriptor": "()V",
+          "function_va": "0x180079bc0",
+          "function_rva": "0x79bc0",
+          "function_end_rva": "0x7a8a0"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "findPlacePos",
+      "method_alias": "findPlacePos",
+      "method_confidence": "medium",
+      "return_type": "class_2338",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "findPlacePos",
+          "descriptor": "()Lnet/minecraft/class_2338;",
+          "function_va": "0x18007a8f0",
+          "function_rva": "0x7a8f0",
+          "function_end_rva": "0x7c7b2"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "distanceTo",
+      "method_alias": "distanceTo",
+      "method_confidence": "medium",
+      "return_type": "double",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "distanceTo",
+          "descriptor": "(Lnet/minecraft/class_2338;)D",
+          "function_va": "0x18007c810",
+          "function_rva": "0x7c810",
+          "function_end_rva": "0x7d24c"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "findShulker",
+      "method_alias": "findShulker",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "findShulker",
+          "descriptor": "()I",
+          "function_va": "0x18007d2a0",
+          "function_rva": "0x7d2a0",
+          "function_end_rva": "0x7dab2"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "isShulkerBox",
+      "method_alias": "isShulkerBox",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_1799 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "isShulkerBox",
+          "descriptor": "(Lnet/minecraft/class_1799;)Z",
+          "function_va": "0x18007db10",
+          "function_rva": "0x7db10",
+          "function_end_rva": "0x7deb8"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "openBlock",
+      "method_alias": "openBlock",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "openBlock",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x18007df10",
+          "function_rva": "0x7df10",
+          "function_end_rva": "0x7f087"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "class_alias": "ShulkerReplenish",
+      "class_confidence": "high",
+      "method": "placeBlock",
+      "method_alias": "placeBlock",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+          "class_string_va": "0x1800ee3ac",
+          "method": "placeBlock",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x18007f0e0",
+          "function_rva": "0x7f0e0",
+          "function_end_rva": "0x8024c"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "selfIntersectPos",
+      "method_alias": "selfIntersectPos",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_2338 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "selfIntersectPos",
+          "descriptor": "(Lnet/minecraft/class_2338;)Z",
+          "function_va": "0x180051c10",
+          "function_rva": "0x51c10",
+          "function_end_rva": "0x52081"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "otherIntersectPos",
+      "method_alias": "otherIntersectPos",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_2338 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "otherIntersectPos",
+          "descriptor": "(Lnet/minecraft/class_2338;)Z",
+          "function_va": "0x1800520e0",
+          "function_rva": "0x520e0",
+          "function_end_rva": "0x52898"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "getRotationTo",
+      "method_alias": "getRotationTo",
+      "method_confidence": "medium",
+      "return_type": "class_241",
+      "parameters": "class_243 var0, class_243 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "getRotationTo",
+          "descriptor": "(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_241;",
+          "function_va": "0x1800528f0",
+          "function_rva": "0x528f0",
+          "function_end_rva": "0x52a9d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "getRotationFromVec",
+      "method_alias": "getRotationFromVec",
+      "method_confidence": "medium",
+      "return_type": "class_241",
+      "parameters": "class_243 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "getRotationFromVec",
+          "descriptor": "(Lnet/minecraft/class_243;)Lnet/minecraft/class_241;",
+          "function_va": "0x180052af0",
+          "function_rva": "0x52af0",
+          "function_end_rva": "0x535b5"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "normalizeAngle",
+      "method_alias": "normalizeAngle",
+      "method_confidence": "medium",
+      "return_type": "double",
+      "parameters": "double var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "normalizeAngle",
+          "descriptor": "(D)D",
+          "function_va": "0x180053610",
+          "function_rva": "0x53610",
+          "function_end_rva": "0x5367f"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "doSurround",
+      "method_alias": "doSurround",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "doSurround",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x1800536d0",
+          "function_rva": "0x536d0",
+          "function_end_rva": "0x55590"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "shouldYawStep",
+      "method_alias": "shouldYawStep",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "shouldYawStep",
+          "descriptor": "()Z",
+          "function_va": "0x1800555e0",
+          "function_rva": "0x555e0",
+          "function_end_rva": "0x55f64"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "tryPlaceBlock",
+      "method_alias": "tryPlaceBlock",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "tryPlaceBlock",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x180055fc0",
+          "function_rva": "0x55fc0",
+          "function_end_rva": "0x5ae3e"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "faceVector",
+      "method_alias": "faceVector",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_243 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "faceVector",
+          "descriptor": "(Lnet/minecraft/class_243;)Z",
+          "function_va": "0x18005ae90",
+          "function_rva": "0x5ae90",
+          "function_end_rva": "0x5b88c"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "doSwap",
+      "method_alias": "doSwap",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "int var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "doSwap",
+          "descriptor": "(I)V",
+          "function_va": "0x18005b8e0",
+          "function_rva": "0x5b8e0",
+          "function_end_rva": "0x5bf61"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "getBlock",
+      "method_alias": "getBlock",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "getBlock",
+          "descriptor": "()I",
+          "function_va": "0x18005bfc0",
+          "function_rva": "0x5bfc0",
+          "function_end_rva": "0x5cae3"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "class_alias": "Surround",
+      "class_confidence": "high",
+      "method": "getHelperPos",
+      "method_alias": "getHelperPos",
+      "method_confidence": "medium",
+      "return_type": "class_2338",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+          "class_string_va": "0x1800ee193",
+          "method": "getHelperPos",
+          "descriptor": "(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2338;",
+          "function_va": "0x18005cb40",
+          "function_rva": "0x5cb40",
+          "function_end_rva": "0x5d755"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/f/AutoEZ.java",
+      "class": "dev.Astra.mod.modules.impl.f.AutoEZ",
+      "class_alias": "AutoEZ",
+      "class_confidence": "high",
+      "method": "generateRandomString",
+      "method_alias": "generateRandomString",
+      "method_confidence": "medium",
+      "return_type": "String",
+      "parameters": "int var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.f.AutoEZ",
+          "class_string_va": "0x1800ede00",
+          "method": "generateRandomString",
+          "descriptor": "(I)Ljava/lang/String;",
+          "function_va": "0x180047260",
+          "function_rva": "0x47260",
+          "function_end_rva": "0x51bbd"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "recastElytra",
+      "method_alias": "recastElytra",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_746 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "recastElytra",
+          "descriptor": "(Lnet/minecraft/class_746;)Z",
+          "function_va": "0x18003a850",
+          "function_rva": "0x3a850",
+          "function_end_rva": "0x3b276"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "checkConditions",
+      "method_alias": "checkConditions",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_746 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "checkConditions",
+          "descriptor": "(Lnet/minecraft/class_746;)Z",
+          "function_va": "0x18003b2d0",
+          "function_rva": "0x3b2d0",
+          "function_end_rva": "0x3bac9"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "ignoreGround",
+      "method_alias": "ignoreGround",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_746 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "ignoreGround",
+          "descriptor": "(Lnet/minecraft/class_746;)Z",
+          "function_va": "0x18003bb20",
+          "function_rva": "0x3bb20",
+          "function_end_rva": "0x3c274"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "boost",
+      "method_alias": "boost",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "boost",
+          "descriptor": "()V",
+          "function_va": "0x18003c2d0",
+          "function_rva": "0x3c2d0",
+          "function_end_rva": "0x3d38c"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "getRotationVector",
+      "method_alias": "getRotationVector",
+      "method_confidence": "medium",
+      "return_type": "class_243",
+      "parameters": "float var1, float var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "getRotationVector",
+          "descriptor": "(FF)Lnet/minecraft/class_243;",
+          "function_va": "0x18003d3e0",
+          "function_rva": "0x3d3e0",
+          "function_end_rva": "0x3d823"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "getRotationVec",
+      "method_alias": "getRotationVec",
+      "method_confidence": "medium",
+      "return_type": "class_243",
+      "parameters": "float var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "getRotationVec",
+          "descriptor": "(F)Lnet/minecraft/class_243;",
+          "function_va": "0x18003d880",
+          "function_rva": "0x3d880",
+          "function_end_rva": "0x3de03"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "calculatePlayerSpeed",
+      "method_alias": "calculatePlayerSpeed",
+      "method_confidence": "medium",
+      "return_type": "double",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "calculatePlayerSpeed",
+          "descriptor": "()D",
+          "function_va": "0x18003de60",
+          "function_rva": "0x3de60",
+          "function_end_rva": "0x3f0c2"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "shouldTriggerFirework",
+      "method_alias": "shouldTriggerFirework",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "double var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "shouldTriggerFirework",
+          "descriptor": "(D)Z",
+          "function_va": "0x18003f120",
+          "function_rva": "0x3f120",
+          "function_end_rva": "0x406a6"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "calculateFlyMotion",
+      "method_alias": "calculateFlyMotion",
+      "method_confidence": "medium",
+      "return_type": "class_243",
+      "parameters": "class_243 var1, double var2, double var4",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "calculateFlyMotion",
+          "descriptor": "(Lnet/minecraft/class_243;DD)Lnet/minecraft/class_243;",
+          "function_va": "0x180040700",
+          "function_rva": "0x40700",
+          "function_end_rva": "0x437b3"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "calculateRotationPitch",
+      "method_alias": "calculateRotationPitch",
+      "method_confidence": "medium",
+      "return_type": "float",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "calculateRotationPitch",
+          "descriptor": "()F",
+          "function_va": "0x180043810",
+          "function_rva": "0x43810",
+          "function_end_rva": "0x44792"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "getInfinitePitch",
+      "method_alias": "getInfinitePitch",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "getInfinitePitch",
+          "descriptor": "()V",
+          "function_va": "0x1800447f0",
+          "function_rva": "0x447f0",
+          "function_end_rva": "0x4688d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "class_alias": "ElytraFly",
+      "class_confidence": "high",
+      "method": "isFallFlying",
+      "method_alias": "isFallFlying",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+          "class_string_va": "0x1800edf44",
+          "method": "isFallFlying",
+          "descriptor": "()Z",
+          "function_va": "0x1800468e0",
+          "function_rva": "0x468e0",
+          "function_end_rva": "0x4720d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/NoSlow.java",
+      "class": "dev.Astra.mod.modules.impl.i.NoSlow",
+      "class_alias": "NoSlow",
+      "class_confidence": "high",
+      "method": "getMovementMultiplier",
+      "method_alias": "getMovementMultiplier",
+      "method_confidence": "medium",
+      "return_type": "float",
+      "parameters": "boolean var0, boolean var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.NoSlow",
+          "class_string_va": "0x1800eeb76",
+          "method": "getMovementMultiplier",
+          "descriptor": "(ZZ)F",
+          "function_va": "0x180039780",
+          "function_rva": "0x39780",
+          "function_end_rva": "0x397a4"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/NoSlow.java",
+      "class": "dev.Astra.mod.modules.impl.i.NoSlow",
+      "class_alias": "NoSlow",
+      "class_confidence": "high",
+      "method": "shouldNoSlowGrimV3",
+      "method_alias": "shouldNoSlowGrimV3",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.NoSlow",
+          "class_string_va": "0x1800eeb76",
+          "method": "shouldNoSlowGrimV3",
+          "descriptor": "()Z",
+          "function_va": "0x180039800",
+          "function_rva": "0x39800",
+          "function_end_rva": "0x3a16d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/NoSlow.java",
+      "class": "dev.Astra.mod.modules.impl.i.NoSlow",
+      "class_alias": "NoSlow",
+      "class_confidence": "high",
+      "method": "noSlow",
+      "method_alias": "noSlow",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.NoSlow",
+          "class_string_va": "0x1800eeb76",
+          "method": "noSlow",
+          "descriptor": "()Z",
+          "function_va": "0x18003a1c0",
+          "function_rva": "0x3a1c0",
+          "function_end_rva": "0x3a7f2"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/Velocity.java",
+      "class": "dev.Astra.mod.modules.impl.i.Velocity",
+      "class_alias": "Velocity",
+      "class_confidence": "high",
+      "method": "isInsideBlock",
+      "method_alias": "isInsideBlock",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.Velocity",
+          "class_string_va": "0x1800ede4f",
+          "method": "isInsideBlock",
+          "descriptor": "()Z",
+          "function_va": "0x180036c90",
+          "function_rva": "0x36c90",
+          "function_end_rva": "0x383f0"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/Velocity.java",
+      "class": "dev.Astra.mod.modules.impl.i.Velocity",
+      "class_alias": "Velocity",
+      "class_confidence": "high",
+      "method": "isWallsTrapped",
+      "method_alias": "isWallsTrapped",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.Velocity",
+          "class_string_va": "0x1800ede4f",
+          "method": "isWallsTrapped",
+          "descriptor": "()Z",
+          "function_va": "0x180038440",
+          "function_rva": "0x38440",
+          "function_end_rva": "0x38ded"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/i/Velocity.java",
+      "class": "dev.Astra.mod.modules.impl.i.Velocity",
+      "class_alias": "Velocity",
+      "class_confidence": "high",
+      "method": "applyScale",
+      "method_alias": "applyScale",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "EntityVelocityUpdateEvent var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.i.Velocity",
+          "class_string_va": "0x1800ede4f",
+          "method": "applyScale",
+          "descriptor": "(Ldev/Astra/api/events/impl/EntityVelocityUpdateEvent;)V",
+          "function_va": "0x180038e40",
+          "function_rva": "0x38e40",
+          "function_end_rva": "0x39725"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/AutoPot.java",
+      "class": "dev.Astra.mod.modules.impl.l.AutoPot",
+      "class_alias": "AutoPot",
+      "class_confidence": "high",
+      "method": "findPotionInventorySlot",
+      "method_alias": "findPotionInventorySlot",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "class_1291 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.AutoPot",
+          "class_string_va": "0x1800ee942",
+          "method": "findPotionInventorySlot",
+          "descriptor": "(Lnet/minecraft/class_1291;)I",
+          "function_va": "0x180032e50",
+          "function_rva": "0x32e50",
+          "function_end_rva": "0x33d7b"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/AutoPot.java",
+      "class": "dev.Astra.mod.modules.impl.l.AutoPot",
+      "class_alias": "AutoPot",
+      "class_confidence": "high",
+      "method": "findPotion",
+      "method_alias": "findPotion",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "class_1291 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.AutoPot",
+          "class_string_va": "0x1800ee942",
+          "method": "findPotion",
+          "descriptor": "(Lnet/minecraft/class_1291;)I",
+          "function_va": "0x180033dd0",
+          "function_rva": "0x33dd0",
+          "function_end_rva": "0x34cf5"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/AutoPot.java",
+      "class": "dev.Astra.mod.modules.impl.l.AutoPot",
+      "class_alias": "AutoPot",
+      "class_confidence": "high",
+      "method": "hasNearbyPlayer",
+      "method_alias": "hasNearbyPlayer",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.AutoPot",
+          "class_string_va": "0x1800ee942",
+          "method": "hasNearbyPlayer",
+          "descriptor": "()Z",
+          "function_va": "0x180034d50",
+          "function_rva": "0x34d50",
+          "function_end_rva": "0x35b4e"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/AutoPot.java",
+      "class": "dev.Astra.mod.modules.impl.l.AutoPot",
+      "class_alias": "AutoPot",
+      "class_confidence": "high",
+      "method": "hasNearbyPlayerWithTotem",
+      "method_alias": "hasNearbyPlayerWithTotem",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.AutoPot",
+          "class_string_va": "0x1800ee942",
+          "method": "hasNearbyPlayerWithTotem",
+          "descriptor": "()Z",
+          "function_va": "0x180035ba0",
+          "function_rva": "0x35ba0",
+          "function_end_rva": "0x36c3a"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/InstantReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+      "class_alias": "InstantReplenish",
+      "class_confidence": "high",
+      "method": "closeScreenSafely",
+      "method_alias": "closeScreenSafely",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+          "class_string_va": "0x1800eec04",
+          "method": "closeScreenSafely",
+          "descriptor": "()V",
+          "function_va": "0x1800289c0",
+          "function_rva": "0x289c0",
+          "function_end_rva": "0x28df6"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/InstantReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+      "class_alias": "InstantReplenish",
+      "class_confidence": "high",
+      "method": "takeItems",
+      "method_alias": "takeItems",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+          "class_string_va": "0x1800eec04",
+          "method": "takeItems",
+          "descriptor": "()V",
+          "function_va": "0x180028e50",
+          "function_rva": "0x28e50",
+          "function_end_rva": "0x2b242"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/InstantReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+      "class_alias": "InstantReplenish",
+      "class_confidence": "high",
+      "method": "moveToBox",
+      "method_alias": "moveToBox",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_1733 var1, int var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+          "class_string_va": "0x1800eec04",
+          "method": "moveToBox",
+          "descriptor": "(Lnet/minecraft/class_1733;I)Z",
+          "function_va": "0x18002b2a0",
+          "function_rva": "0x2b2a0",
+          "function_end_rva": "0x2c628"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/InstantReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+      "class_alias": "InstantReplenish",
+      "class_confidence": "high",
+      "method": "fillFromBox",
+      "method_alias": "fillFromBox",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_1733 var1, int var2, class_1792 var3, int var4",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+          "class_string_va": "0x1800eec04",
+          "method": "fillFromBox",
+          "descriptor": "(Lnet/minecraft/class_1733;ILnet/minecraft/class_1792;I)V",
+          "function_va": "0x18002c680",
+          "function_rva": "0x2c680",
+          "function_end_rva": "0x2e6fe"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/InstantReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+      "class_alias": "InstantReplenish",
+      "class_confidence": "high",
+      "method": "invToScreen",
+      "method_alias": "invToScreen",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "int var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+          "class_string_va": "0x1800eec04",
+          "method": "invToScreen",
+          "descriptor": "(I)I",
+          "function_va": "0x18002e750",
+          "function_rva": "0x2e750",
+          "function_end_rva": "0x2e765"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/InstantReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+      "class_alias": "InstantReplenish",
+      "class_confidence": "high",
+      "method": "readLastKitName",
+      "method_alias": "readLastKitName",
+      "method_confidence": "medium",
+      "return_type": "String",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+          "class_string_va": "0x1800eec04",
+          "method": "readLastKitName",
+          "descriptor": "()Ljava/lang/String;",
+          "function_va": "0x18002e7c0",
+          "function_rva": "0x2e7c0",
+          "function_end_rva": "0x2f603"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/InstantReplenish.java",
+      "class": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+      "class_alias": "InstantReplenish",
+      "class_confidence": "high",
+      "method": "loadKitFromFile",
+      "method_alias": "loadKitFromFile",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "String var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+          "class_string_va": "0x1800eec04",
+          "method": "loadKitFromFile",
+          "descriptor": "(Ljava/lang/String;)Z",
+          "function_va": "0x18002f660",
+          "function_rva": "0x2f660",
+          "function_end_rva": "0x32dfd"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "updateCompleteState",
+      "method_alias": "updateCompleteState",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "updateCompleteState",
+          "descriptor": "()V",
+          "function_va": "0x180001020",
+          "function_rva": "0x1020",
+          "function_end_rva": "0x16f0"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "updateSecondPos",
+      "method_alias": "updateSecondPos",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "updateSecondPos",
+          "descriptor": "()V",
+          "function_va": "0x180001740",
+          "function_rva": "0x1740",
+          "function_end_rva": "0x2e1c"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "resetMiningState",
+      "method_alias": "resetMiningState",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "resetMiningState",
+          "descriptor": "()V",
+          "function_va": "0x180002e70",
+          "function_rva": "0x2e70",
+          "function_end_rva": "0x32b8"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "shouldAbortMining",
+      "method_alias": "shouldAbortMining",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "shouldAbortMining",
+          "descriptor": "()Z",
+          "function_va": "0x180003310",
+          "function_rva": "0x3310",
+          "function_end_rva": "0x3ec9"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "abortCurrentMining",
+      "method_alias": "abortCurrentMining",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "abortCurrentMining",
+          "descriptor": "()V",
+          "function_va": "0x180003f20",
+          "function_rva": "0x3f20",
+          "function_end_rva": "0x4610"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "handleUnbreakable",
+      "method_alias": "handleUnbreakable",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "handleUnbreakable",
+          "descriptor": "()V",
+          "function_va": "0x180004660",
+          "function_rva": "0x4660",
+          "function_end_rva": "0x4c29"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "passPreconditionChecks",
+      "method_alias": "passPreconditionChecks",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_1657 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "passPreconditionChecks",
+          "descriptor": "(Lnet/minecraft/class_1657;)Z",
+          "function_va": "0x180004c80",
+          "function_rva": "0x4c80",
+          "function_end_rva": "0x6888"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "executeStopPacket",
+      "method_alias": "executeStopPacket",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_1657 var1, int var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "executeStopPacket",
+          "descriptor": "(Lnet/minecraft/class_1657;I)V",
+          "function_va": "0x1800068e0",
+          "function_rva": "0x68e0",
+          "function_end_rva": "0x81ab"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "doStopPacket",
+      "method_alias": "doStopPacket",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_1657 var1, int var2, int var3, boolean var4",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "doStopPacket",
+          "descriptor": "(Lnet/minecraft/class_1657;IIZ)V",
+          "function_va": "0x180008200",
+          "function_rva": "0x8200",
+          "function_end_rva": "0xbd4f"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "executeStartPacket",
+      "method_alias": "executeStartPacket",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_1657 var1, int var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "executeStartPacket",
+          "descriptor": "(Lnet/minecraft/class_1657;I)V",
+          "function_va": "0x18000be00",
+          "function_rva": "0xbe00",
+          "function_end_rva": "0xffe1"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "isValidAttackTarget",
+      "method_alias": "isValidAttackTarget",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_1657 var1, class_2338 var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "isValidAttackTarget",
+          "descriptor": "(Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;)Z",
+          "function_va": "0x180010040",
+          "function_rva": "0x10040",
+          "function_end_rva": "0x10940"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "cancelPreviousPacket",
+      "method_alias": "cancelPreviousPacket",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "cancelPreviousPacket",
+          "descriptor": "()V",
+          "function_va": "0x180010990",
+          "function_rva": "0x10990",
+          "function_end_rva": "0x11e37"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "resetAttackState",
+      "method_alias": "resetAttackState",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "resetAttackState",
+          "descriptor": "(Lnet/minecraft/class_2338;)V",
+          "function_va": "0x180011e90",
+          "function_rva": "0x11e90",
+          "function_end_rva": "0x127cc"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "prepareDoubleBreak",
+      "method_alias": "prepareDoubleBreak",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_1657 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "prepareDoubleBreak",
+          "descriptor": "(Lnet/minecraft/class_1657;)V",
+          "function_va": "0x180012820",
+          "function_rva": "0x12820",
+          "function_end_rva": "0x13a51"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "sendStartPacket",
+      "method_alias": "sendStartPacket",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2350 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "sendStartPacket",
+          "descriptor": "(Lnet/minecraft/class_2350;)V",
+          "function_va": "0x180013ab0",
+          "function_rva": "0x13ab0",
+          "function_end_rva": "0x15296"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "sendFastBypassPackets",
+      "method_alias": "sendFastBypassPackets",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "sendFastBypassPackets",
+          "descriptor": "()V",
+          "function_va": "0x1800152f0",
+          "function_rva": "0x152f0",
+          "function_end_rva": "0x17070"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "faceVector",
+      "method_alias": "faceVector",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_243 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "faceVector",
+          "descriptor": "(Lnet/minecraft/class_243;)Z",
+          "function_va": "0x180017270",
+          "function_rva": "0x17270",
+          "function_end_rva": "0x17d81"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getEfficiencyLevel",
+      "method_alias": "getEfficiencyLevel",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "class_1799 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getEfficiencyLevel",
+          "descriptor": "(Lnet/minecraft/class_1799;)I",
+          "function_va": "0x180017de0",
+          "function_rva": "0x17de0",
+          "function_end_rva": "0x18958"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getFillBox",
+      "method_alias": "getFillBox",
+      "method_confidence": "medium",
+      "return_type": "class_238",
+      "parameters": "class_2338 var1, double var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getFillBox",
+          "descriptor": "(Lnet/minecraft/class_2338;D)Lnet/minecraft/class_238;",
+          "function_va": "0x1800189b0",
+          "function_rva": "0x189b0",
+          "function_end_rva": "0x19bf5"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getOutlineBox",
+      "method_alias": "getOutlineBox",
+      "method_confidence": "medium",
+      "return_type": "class_238",
+      "parameters": "class_2338 var1, double var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getOutlineBox",
+          "descriptor": "(Lnet/minecraft/class_2338;D)Lnet/minecraft/class_238;",
+          "function_va": "0x180019c50",
+          "function_rva": "0x19c50",
+          "function_end_rva": "0x1b16b"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "shouldBypassGround",
+      "method_alias": "shouldBypassGround",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "shouldBypassGround",
+          "descriptor": "()Z",
+          "function_va": "0x18001b1c0",
+          "function_rva": "0x1b1c0",
+          "function_end_rva": "0x1cb31"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "handlePlayerAction",
+      "method_alias": "handlePlayerAction",
+      "method_confidence": "medium",
+      "return_type": "void",
+      "parameters": "class_2846 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "handlePlayerAction",
+          "descriptor": "(Lnet/minecraft/class_2846;)V",
+          "function_va": "0x18001cb90",
+          "function_rva": "0x1cb90",
+          "function_end_rva": "0x1dabc"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getBreakTime",
+      "method_alias": "getBreakTime",
+      "method_confidence": "medium",
+      "return_type": "double",
+      "parameters": "class_2338 var1, int var2, double var3",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getBreakTime",
+          "descriptor": "(Lnet/minecraft/class_2338;ID)D",
+          "function_va": "0x18001db10",
+          "function_rva": "0x1db10",
+          "function_end_rva": "0x1e2fe"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getBlockStrength",
+      "method_alias": "getBlockStrength",
+      "method_confidence": "medium",
+      "return_type": "float",
+      "parameters": "class_2338 var1, class_1799 var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getBlockStrength",
+          "descriptor": "(Lnet/minecraft/class_2338;Lnet/minecraft/class_1799;)F",
+          "function_va": "0x18001e350",
+          "function_rva": "0x1e350",
+          "function_end_rva": "0x1ef27"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getDigSpeed",
+      "method_alias": "getDigSpeed",
+      "method_confidence": "medium",
+      "return_type": "float",
+      "parameters": "class_2680 var1, class_1799 var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getDigSpeed",
+          "descriptor": "(Lnet/minecraft/class_2680;Lnet/minecraft/class_1799;)F",
+          "function_va": "0x18001ef80",
+          "function_rva": "0x1ef80",
+          "function_end_rva": "0x21e36"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getDestroySpeed",
+      "method_alias": "getDestroySpeed",
+      "method_confidence": "medium",
+      "return_type": "float",
+      "parameters": "class_2680 var1, class_1799 var2",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getDestroySpeed",
+          "descriptor": "(Lnet/minecraft/class_2680;Lnet/minecraft/class_1799;)F",
+          "function_va": "0x180021e90",
+          "function_rva": "0x21e90",
+          "function_end_rva": "0x2207d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getColor",
+      "method_alias": "getColor",
+      "method_confidence": "medium",
+      "return_type": "Color",
+      "parameters": "double var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getColor",
+          "descriptor": "(D)Ljava/awt/Color;",
+          "function_va": "0x1800220d0",
+          "function_rva": "0x220d0",
+          "function_end_rva": "0x2365d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getOutlineColor",
+      "method_alias": "getOutlineColor",
+      "method_confidence": "medium",
+      "return_type": "Color",
+      "parameters": "double var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getOutlineColor",
+          "descriptor": "(D)Ljava/awt/Color;",
+          "function_va": "0x1800236b0",
+          "function_rva": "0x236b0",
+          "function_end_rva": "0x24c3d"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "getTool",
+      "method_alias": "getTool",
+      "method_confidence": "medium",
+      "return_type": "int",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "getTool",
+          "descriptor": "(Lnet/minecraft/class_2338;)I",
+          "function_va": "0x180024c90",
+          "function_rva": "0x24c90",
+          "function_end_rva": "0x26dd2"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "shouldYawStep",
+      "method_alias": "shouldYawStep",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "shouldYawStep",
+          "descriptor": "()Z",
+          "function_va": "0x180026e30",
+          "function_rva": "0x26e30",
+          "function_end_rva": "0x27abf"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "isAir",
+      "method_alias": "isAir",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_2338 var1",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "isAir",
+          "descriptor": "(Lnet/minecraft/class_2338;)Z",
+          "function_va": "0x180027b10",
+          "function_rva": "0x27b10",
+          "function_end_rva": "0x281a9"
+        }
+      ]
+    },
+    {
+      "source": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "class_alias": "PacketMine",
+      "class_confidence": "high",
+      "method": "unbreakable",
+      "method_alias": "unbreakable",
+      "method_confidence": "medium",
+      "return_type": "boolean",
+      "parameters": "class_2338 var0",
+      "jni_bindings": [
+        {
+          "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+          "class_string_va": "0x1800ee52c",
+          "method": "unbreakable",
+          "descriptor": "(Lnet/minecraft/class_2338;)Z",
+          "function_va": "0x180028200",
+          "function_rva": "0x28200",
+          "function_end_rva": "0x2896e"
+        }
+      ]
+    },
+    {
+      "source": "j2cc/internal/Loader.java",
+      "class": "j2cc.internal.Loader",
+      "class_alias": "Loader",
+      "class_confidence": "high",
+      "method": "bootstrap",
+      "method_alias": "bootstrapNativeRuntime",
+      "method_confidence": "high",
+      "return_type": "void",
+      "parameters": "byte[] var0",
+      "jni_bindings": []
+    },
+    {
+      "source": "j2cc/internal/Loader.java",
+      "class": "j2cc.internal.Loader",
+      "class_alias": "Loader",
+      "class_confidence": "high",
+      "method": "initClass",
+      "method_alias": "initializeNativeClass",
+      "method_confidence": "high",
+      "return_type": "void",
+      "parameters": "Class<?> var0",
+      "jni_bindings": []
+    }
+  ],
+  "class_summary": [
+    {
+      "class": "com.kbox.runtime.NativeCrypto",
+      "count": 3,
+      "alias": "NativeCrypto",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "hkdfSha2560",
+          "alias": "hkdfSha256",
+          "confidence": "high"
+        },
+        {
+          "original": "decryptByteAt0",
+          "alias": "decryptByteAt",
+          "confidence": "high"
+        },
+        {
+          "original": "decryptString0",
+          "alias": "decryptString",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.api.utils.math.AnimateUtil",
+      "count": 1,
+      "alias": "AnimateUtil",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "animate",
+          "alias": "animateTowards",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.api.utils.math.DamageUtils",
+      "count": 1,
+      "alias": "DamageUtils",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "resistanceReduction",
+          "alias": "computeResistanceReduction",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.api.utils.math.MathUtil",
+      "count": 1,
+      "alias": "MathUtil",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "getPointToBoxFromBottom",
+          "alias": "selectPointWithinBoxFromBottom",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.d.AntiPhase",
+      "count": 1,
+      "alias": "AntiPhase",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "targetFacing",
+          "alias": "chooseTargetFacing",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.d.Aura",
+      "count": 1,
+      "alias": "Aura",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "getTarget",
+          "alias": "selectCombatTarget",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+      "count": 17,
+      "alias": "AutoEnderChest",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "findEnderChest",
+          "alias": "findEnderChest",
+          "confidence": "medium"
+        },
+        {
+          "original": "closeScreenSafely",
+          "alias": "closeScreenSafely",
+          "confidence": "medium"
+        },
+        {
+          "original": "doTake",
+          "alias": "doTake",
+          "confidence": "medium"
+        },
+        {
+          "original": "timeoutToDisable",
+          "alias": "timeoutToDisable",
+          "confidence": "medium"
+        },
+        {
+          "original": "distanceTo",
+          "alias": "distanceTo",
+          "confidence": "medium"
+        },
+        {
+          "original": "findOpenableEnderChest",
+          "alias": "findOpenableEnderChest",
+          "confidence": "medium"
+        },
+        {
+          "original": "doPlace",
+          "alias": "doPlace",
+          "confidence": "medium"
+        },
+        {
+          "original": "attemptPlace",
+          "alias": "attemptPlace",
+          "confidence": "medium"
+        },
+        {
+          "original": "shouldTakeFromEnder",
+          "alias": "shouldTakeFromEnder",
+          "confidence": "medium"
+        },
+        {
+          "original": "trySwapFromEnder",
+          "alias": "trySwapFromEnder",
+          "confidence": "medium"
+        },
+        {
+          "original": "swapFromEnder",
+          "alias": "swapFromEnder",
+          "confidence": "medium"
+        },
+        {
+          "original": "pickTargetInvSlot",
+          "alias": "pickTargetInvSlot",
+          "confidence": "medium"
+        },
+        {
+          "original": "countMissingSlots",
+          "alias": "countMissingSlots",
+          "confidence": "medium"
+        },
+        {
+          "original": "isShulkerBox",
+          "alias": "isShulkerBox",
+          "confidence": "medium"
+        },
+        {
+          "original": "invToScreen",
+          "alias": "invToScreen",
+          "confidence": "medium"
+        },
+        {
+          "original": "openContainer",
+          "alias": "openContainer",
+          "confidence": "medium"
+        },
+        {
+          "original": "placeBlock",
+          "alias": "placeBlock",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.d.DropAntiRegear",
+      "count": 2,
+      "alias": "DropAntiRegear",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "dropShulkerItems",
+          "alias": "dropShulkerItems",
+          "confidence": "medium"
+        },
+        {
+          "original": "findNearbyShulker",
+          "alias": "findNearbyShulker",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.d.Offhand",
+      "count": 3,
+      "alias": "Offhand",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "lethalCrystal",
+          "alias": "lethalCrystal",
+          "confidence": "medium"
+        },
+        {
+          "original": "hasNearbyPlayers",
+          "alias": "hasNearbyPlayers",
+          "confidence": "medium"
+        },
+        {
+          "original": "findItemInventorySlot",
+          "alias": "findItemInventorySlot",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.d.SelfTrap",
+      "count": 12,
+      "alias": "SelfTrap",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "selfIntersectPos",
+          "alias": "selfIntersectPos",
+          "confidence": "medium"
+        },
+        {
+          "original": "getRotationTo",
+          "alias": "getRotationTo",
+          "confidence": "medium"
+        },
+        {
+          "original": "getRotationFromVec",
+          "alias": "getRotationFromVec",
+          "confidence": "medium"
+        },
+        {
+          "original": "normalizeAngle",
+          "alias": "normalizeAngle",
+          "confidence": "medium"
+        },
+        {
+          "original": "shouldYawStep",
+          "alias": "shouldYawStep",
+          "confidence": "medium"
+        },
+        {
+          "original": "doSurround",
+          "alias": "doSurround",
+          "confidence": "medium"
+        },
+        {
+          "original": "faceVector",
+          "alias": "faceVector",
+          "confidence": "medium"
+        },
+        {
+          "original": "clickDown",
+          "alias": "clickDown",
+          "confidence": "medium"
+        },
+        {
+          "original": "tryPlaceBlock",
+          "alias": "tryPlaceBlock",
+          "confidence": "medium"
+        },
+        {
+          "original": "doSwap",
+          "alias": "doSwap",
+          "confidence": "medium"
+        },
+        {
+          "original": "getBlock",
+          "alias": "getBlock",
+          "confidence": "medium"
+        },
+        {
+          "original": "getHelperPos",
+          "alias": "getHelperPos",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+      "count": 13,
+      "alias": "ShulkerReplenish",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "closeScreenSafely",
+          "alias": "closeScreenSafely",
+          "confidence": "medium"
+        },
+        {
+          "original": "doTake",
+          "alias": "doTake",
+          "confidence": "medium"
+        },
+        {
+          "original": "calculateStealCount",
+          "alias": "calculateStealCount",
+          "confidence": "medium"
+        },
+        {
+          "original": "getMissing",
+          "alias": "getMissing",
+          "confidence": "medium"
+        },
+        {
+          "original": "needSteal",
+          "alias": "needSteal",
+          "confidence": "medium"
+        },
+        {
+          "original": "doPlaceOnce",
+          "alias": "doPlaceOnce",
+          "confidence": "medium"
+        },
+        {
+          "original": "attemptPlace",
+          "alias": "attemptPlace",
+          "confidence": "medium"
+        },
+        {
+          "original": "findPlacePos",
+          "alias": "findPlacePos",
+          "confidence": "medium"
+        },
+        {
+          "original": "distanceTo",
+          "alias": "distanceTo",
+          "confidence": "medium"
+        },
+        {
+          "original": "findShulker",
+          "alias": "findShulker",
+          "confidence": "medium"
+        },
+        {
+          "original": "isShulkerBox",
+          "alias": "isShulkerBox",
+          "confidence": "medium"
+        },
+        {
+          "original": "openBlock",
+          "alias": "openBlock",
+          "confidence": "medium"
+        },
+        {
+          "original": "placeBlock",
+          "alias": "placeBlock",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.d.Surround",
+      "count": 12,
+      "alias": "Surround",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "selfIntersectPos",
+          "alias": "selfIntersectPos",
+          "confidence": "medium"
+        },
+        {
+          "original": "otherIntersectPos",
+          "alias": "otherIntersectPos",
+          "confidence": "medium"
+        },
+        {
+          "original": "getRotationTo",
+          "alias": "getRotationTo",
+          "confidence": "medium"
+        },
+        {
+          "original": "getRotationFromVec",
+          "alias": "getRotationFromVec",
+          "confidence": "medium"
+        },
+        {
+          "original": "normalizeAngle",
+          "alias": "normalizeAngle",
+          "confidence": "medium"
+        },
+        {
+          "original": "doSurround",
+          "alias": "doSurround",
+          "confidence": "medium"
+        },
+        {
+          "original": "shouldYawStep",
+          "alias": "shouldYawStep",
+          "confidence": "medium"
+        },
+        {
+          "original": "tryPlaceBlock",
+          "alias": "tryPlaceBlock",
+          "confidence": "medium"
+        },
+        {
+          "original": "faceVector",
+          "alias": "faceVector",
+          "confidence": "medium"
+        },
+        {
+          "original": "doSwap",
+          "alias": "doSwap",
+          "confidence": "medium"
+        },
+        {
+          "original": "getBlock",
+          "alias": "getBlock",
+          "confidence": "medium"
+        },
+        {
+          "original": "getHelperPos",
+          "alias": "getHelperPos",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.f.AutoEZ",
+      "count": 1,
+      "alias": "AutoEZ",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "generateRandomString",
+          "alias": "generateRandomString",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.i.ElytraFly",
+      "count": 12,
+      "alias": "ElytraFly",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "recastElytra",
+          "alias": "recastElytra",
+          "confidence": "medium"
+        },
+        {
+          "original": "checkConditions",
+          "alias": "checkConditions",
+          "confidence": "medium"
+        },
+        {
+          "original": "ignoreGround",
+          "alias": "ignoreGround",
+          "confidence": "medium"
+        },
+        {
+          "original": "boost",
+          "alias": "boost",
+          "confidence": "medium"
+        },
+        {
+          "original": "getRotationVector",
+          "alias": "getRotationVector",
+          "confidence": "medium"
+        },
+        {
+          "original": "getRotationVec",
+          "alias": "getRotationVec",
+          "confidence": "medium"
+        },
+        {
+          "original": "calculatePlayerSpeed",
+          "alias": "calculatePlayerSpeed",
+          "confidence": "medium"
+        },
+        {
+          "original": "shouldTriggerFirework",
+          "alias": "shouldTriggerFirework",
+          "confidence": "medium"
+        },
+        {
+          "original": "calculateFlyMotion",
+          "alias": "calculateFlyMotion",
+          "confidence": "medium"
+        },
+        {
+          "original": "calculateRotationPitch",
+          "alias": "calculateRotationPitch",
+          "confidence": "medium"
+        },
+        {
+          "original": "getInfinitePitch",
+          "alias": "getInfinitePitch",
+          "confidence": "medium"
+        },
+        {
+          "original": "isFallFlying",
+          "alias": "isFallFlying",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.i.NoSlow",
+      "count": 3,
+      "alias": "NoSlow",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "getMovementMultiplier",
+          "alias": "getMovementMultiplier",
+          "confidence": "medium"
+        },
+        {
+          "original": "shouldNoSlowGrimV3",
+          "alias": "shouldNoSlowGrimV3",
+          "confidence": "medium"
+        },
+        {
+          "original": "noSlow",
+          "alias": "noSlow",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.i.Velocity",
+      "count": 3,
+      "alias": "Velocity",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "isInsideBlock",
+          "alias": "isInsideBlock",
+          "confidence": "medium"
+        },
+        {
+          "original": "isWallsTrapped",
+          "alias": "isWallsTrapped",
+          "confidence": "medium"
+        },
+        {
+          "original": "applyScale",
+          "alias": "applyScale",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.l.AutoPot",
+      "count": 4,
+      "alias": "AutoPot",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "findPotionInventorySlot",
+          "alias": "findPotionInventorySlot",
+          "confidence": "medium"
+        },
+        {
+          "original": "findPotion",
+          "alias": "findPotion",
+          "confidence": "medium"
+        },
+        {
+          "original": "hasNearbyPlayer",
+          "alias": "hasNearbyPlayer",
+          "confidence": "medium"
+        },
+        {
+          "original": "hasNearbyPlayerWithTotem",
+          "alias": "hasNearbyPlayerWithTotem",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+      "count": 7,
+      "alias": "InstantReplenish",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "closeScreenSafely",
+          "alias": "closeScreenSafely",
+          "confidence": "medium"
+        },
+        {
+          "original": "takeItems",
+          "alias": "takeItems",
+          "confidence": "medium"
+        },
+        {
+          "original": "moveToBox",
+          "alias": "moveToBox",
+          "confidence": "medium"
+        },
+        {
+          "original": "fillFromBox",
+          "alias": "fillFromBox",
+          "confidence": "medium"
+        },
+        {
+          "original": "invToScreen",
+          "alias": "invToScreen",
+          "confidence": "medium"
+        },
+        {
+          "original": "readLastKitName",
+          "alias": "readLastKitName",
+          "confidence": "medium"
+        },
+        {
+          "original": "loadKitFromFile",
+          "alias": "loadKitFromFile",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "dev.Astra.mod.modules.impl.l.PacketMine",
+      "count": 32,
+      "alias": "PacketMine",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "updateCompleteState",
+          "alias": "updateCompleteState",
+          "confidence": "medium"
+        },
+        {
+          "original": "updateSecondPos",
+          "alias": "updateSecondPos",
+          "confidence": "medium"
+        },
+        {
+          "original": "resetMiningState",
+          "alias": "resetMiningState",
+          "confidence": "medium"
+        },
+        {
+          "original": "shouldAbortMining",
+          "alias": "shouldAbortMining",
+          "confidence": "medium"
+        },
+        {
+          "original": "abortCurrentMining",
+          "alias": "abortCurrentMining",
+          "confidence": "medium"
+        },
+        {
+          "original": "handleUnbreakable",
+          "alias": "handleUnbreakable",
+          "confidence": "medium"
+        },
+        {
+          "original": "passPreconditionChecks",
+          "alias": "passPreconditionChecks",
+          "confidence": "medium"
+        },
+        {
+          "original": "executeStopPacket",
+          "alias": "executeStopPacket",
+          "confidence": "medium"
+        },
+        {
+          "original": "doStopPacket",
+          "alias": "doStopPacket",
+          "confidence": "medium"
+        },
+        {
+          "original": "executeStartPacket",
+          "alias": "executeStartPacket",
+          "confidence": "medium"
+        },
+        {
+          "original": "isValidAttackTarget",
+          "alias": "isValidAttackTarget",
+          "confidence": "medium"
+        },
+        {
+          "original": "cancelPreviousPacket",
+          "alias": "cancelPreviousPacket",
+          "confidence": "medium"
+        },
+        {
+          "original": "resetAttackState",
+          "alias": "resetAttackState",
+          "confidence": "medium"
+        },
+        {
+          "original": "prepareDoubleBreak",
+          "alias": "prepareDoubleBreak",
+          "confidence": "medium"
+        },
+        {
+          "original": "sendStartPacket",
+          "alias": "sendStartPacket",
+          "confidence": "medium"
+        },
+        {
+          "original": "sendFastBypassPackets",
+          "alias": "sendFastBypassPackets",
+          "confidence": "medium"
+        },
+        {
+          "original": "faceVector",
+          "alias": "faceVector",
+          "confidence": "medium"
+        },
+        {
+          "original": "getEfficiencyLevel",
+          "alias": "getEfficiencyLevel",
+          "confidence": "medium"
+        },
+        {
+          "original": "getFillBox",
+          "alias": "getFillBox",
+          "confidence": "medium"
+        },
+        {
+          "original": "getOutlineBox",
+          "alias": "getOutlineBox",
+          "confidence": "medium"
+        },
+        {
+          "original": "shouldBypassGround",
+          "alias": "shouldBypassGround",
+          "confidence": "medium"
+        },
+        {
+          "original": "handlePlayerAction",
+          "alias": "handlePlayerAction",
+          "confidence": "medium"
+        },
+        {
+          "original": "getBreakTime",
+          "alias": "getBreakTime",
+          "confidence": "medium"
+        },
+        {
+          "original": "getBlockStrength",
+          "alias": "getBlockStrength",
+          "confidence": "medium"
+        },
+        {
+          "original": "getDigSpeed",
+          "alias": "getDigSpeed",
+          "confidence": "medium"
+        },
+        {
+          "original": "getDestroySpeed",
+          "alias": "getDestroySpeed",
+          "confidence": "medium"
+        },
+        {
+          "original": "getColor",
+          "alias": "getColor",
+          "confidence": "medium"
+        },
+        {
+          "original": "getOutlineColor",
+          "alias": "getOutlineColor",
+          "confidence": "medium"
+        },
+        {
+          "original": "getTool",
+          "alias": "getTool",
+          "confidence": "medium"
+        },
+        {
+          "original": "shouldYawStep",
+          "alias": "shouldYawStep",
+          "confidence": "medium"
+        },
+        {
+          "original": "isAir",
+          "alias": "isAir",
+          "confidence": "medium"
+        },
+        {
+          "original": "unbreakable",
+          "alias": "unbreakable",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "class": "j2cc.internal.Loader",
+      "count": 2,
+      "alias": "Loader",
+      "confidence": "high",
+      "methods": [
+        {
+          "original": "bootstrap",
+          "alias": "bootstrapNativeRuntime",
+          "confidence": "high"
+        },
+        {
+          "original": "initClass",
+          "alias": "initializeNativeClass",
+          "confidence": "high"
+        }
+      ]
+    }
+  ]
+}

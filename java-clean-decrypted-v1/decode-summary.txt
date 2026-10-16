@@ -1,0 +1,3 @@
+AES/CBC inline calls decoded: 2886
+Java files changed: 183
+Only the normal, non-tampered branch of KBoxRuntime.a(byte[]) was emulated.

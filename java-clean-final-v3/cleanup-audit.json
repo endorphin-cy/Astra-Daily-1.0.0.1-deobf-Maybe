@@ -1,0 +1,1649 @@
+{
+  "source_directory": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-05\\src\\work\\astra-deobf\\cfr-source",
+  "input_jar": "C:\\Users\\Administrator\\Downloads\\Astra-Daily-1.0.0.1-obf.jar",
+  "input_jar_sha256": "ebfcf9a87fed77fe7a1be5e18ca3e32ef0d8fe2fc984724578205b7847fef7db",
+  "java_files_copied": 429,
+  "files_changed": 273,
+  "proven_opaque_noise_blocks_removed": 1702,
+  "policy": "Only a nearby literal integer definition and a branch containing only empty/generated cfr_ignored assignments are simplified; uncertain control flow is preserved.",
+  "changed_files": [
+    {
+      "path": "dev/Astra/api/events/Event.java",
+      "opaque_noise_blocks_removed": 7,
+      "input_sha256": "d93be4d09888ac642c26820d8c4b60956bc8e87879f5f4cc3d1e286725fe4ea6",
+      "output_sha256": "6ba396636d5c689f17643bb84cde0a20c4d4997ce13629f053127a0f7e3f83db"
+    },
+    {
+      "path": "dev/Astra/api/events/eventbus/EventBus.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "0179e120cd522a0358d4bdfc5a4beddf8c9e72648f59f748a7765fc384a2ec77",
+      "output_sha256": "09a690636645e01a4cf081b2ebda8de19fd0123bd28253415449c5ded72392a0"
+    },
+    {
+      "path": "dev/Astra/api/events/eventbus/LambdaListener.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "1230d3df112dddcb64e65f8145abc433459f1c72c248e23b37bd253075ce8aa8",
+      "output_sha256": "c4800730c4669addbe1486b319c2d9a06cd5a3f8f628813e904dd0ad7a03c27d"
+    },
+    {
+      "path": "dev/Astra/api/events/eventbus/NoLambdaFactoryException.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "4170aa9321db4ad34ddb8c6a7e3416701434ef06cd761063b7a227487c6604f4",
+      "output_sha256": "6935cf95e646aacb4d222fcbc3a9c8c0b944ca09948a816f9a7642c9a25dff9e"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/AmbientOcclusionEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "25db74e672dd178db596024a543469707071b363c9fe0d19a52a4cd38f5ab191",
+      "output_sha256": "b635e3a1fd08045dc1e8f85c32bb29e3d9668d0bd462a8ffde0cc1efb907e9c7"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/BlockBreakingProgressEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "be903cf28559600bae3738312c9f2f3c5c2afcd19f6269d49051b34c4e09b943",
+      "output_sha256": "817d77aab5a3f86b4445b38e1bb128d7f6acae6de9baea1f4fa3d7d1f944137f"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/ClickBlockEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "ff44a1c74e2edbf58e0f82603ce972ea055e5111775213d9495e42402a2651ae",
+      "output_sha256": "0490dbf1ec25960986b990e0fab8ec338ec45b5135b12bbaec22e383f5157a13"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/DoAttackEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "9092f0fdad6bc81c9ac188d696a240c589e42197022cbea6aff7a0e5e5438d74",
+      "output_sha256": "14305f8a570cb91977c0ae1249a1da3f8ca29f3dc3574065f896fb45d4b75981"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/EntitySpawnEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "86561feea5bd533d0d4a5aafb2bdcc314079964b7cb24449d3f06b3fdfa72d4a",
+      "output_sha256": "de74bfcb3d502f6e3f9adf235b221db46a99a9d5d1250d79bb49925bef3ef009"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/EntityVelocityUpdateEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "9fcc9c2d2b0d03caa32f038089cbac2f0ae2aa72cc27d3ff1bcb82a200ac8a37",
+      "output_sha256": "eae177d7544e162284782c456e3f26a5022e1654151512159a29a99a9bdf5cd8"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/FireworkShooterRotationEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "f48d8b05cc45f6c1c19e19709eda5d96fbff41be38c26678e428a12d20a7e4f5",
+      "output_sha256": "e062f606fcb2984cf235d3672e1e6cd561adb8f873f2c554d981256af5425dbd"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/HeldItemRendererEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "caa78250b171499622875052ebdcf7ca14c106dc3da9d86a5b4a2e1ae163001c",
+      "output_sha256": "0e2981cd97b7320df2afc7fa7a79b51c1475add475f8262911401b5a43186fb3"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/InteractBlockEvent.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "a21734ce2d7209b2fb31c497a8a57df118151d25fe39d2225b8c12d98ba3a7ba",
+      "output_sha256": "9666a57f0e36f95dbf48e3724caebe20c4ac9c88eee6ed3cdc7a9040be29b315"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/InteractItemEvent.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "ad65d7bac811d7b88d9d95c6779bc5cd736d526edbc57373eb2ba02507f4bff4",
+      "output_sha256": "d00be56955b963aa65bbdade97a00356c2c06e7434d8185bafcdddca3ee4973a"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/InventoryS2CPacketEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "d4ece9ca330185aa287cc099e53d527f0d862d6a2da7c347e02291405fa3ece4",
+      "output_sha256": "f8173a61f900fef30fbd5b38a2cff9d3445b2aa81e6ceba6167a02c3c08a4c31"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/KeyboardInputEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "6de1442a2a6279214f4a5a7c589d9cdf24d318cb942ff49d8b4bc00061b46d4b",
+      "output_sha256": "5f540e5b301dbaa89f8378e268fcb97c6b6972ec720197ee9f911ddb55fa3e99"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/LerpToEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "80d835efb54cc3c4f4c854496697586c4a8a54849f71b843f0c618738596f4d5",
+      "output_sha256": "589b327f062fbcee747210c4bff90c925a65fce7a2f24a90432b47a72638095c"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/LookDirectionEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "9546de3cda9811e1394852455494d9a18879adb1f5923b516c3df0c57c05dc0f",
+      "output_sha256": "143e631b41500517908c1f6228f105b86b0158c7516e7bb0e369576a81117a86"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/MoveEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "358cad026c2473c2c55542e5358a36519d1a1e78b1eb5421531490927896de29",
+      "output_sha256": "c5d1b29ec97011998fccdf47d64c6aeecf59b0c04b6a92d4dc38020a4706473e"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/OpenScreenEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "5d0402a4af4bd47e4a1fe86c6982e0f3ead46ddb43e0ad56493caf199175d1a2",
+      "output_sha256": "d1a9153cbeff2055e8dc09917410ceb4d9f6e3669a39856f0e91a238bed30267"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/PacketEvent.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "10e1b73661bdf2b178560db43356feb6312e3ae45ac87be3fb47816f2b79bab1",
+      "output_sha256": "963ad68352a9baa75a90750139b6a11f76e517c77c98bd9abbda78507163561f"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/ParticleEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "c3b9691373067245c9b876b49f91bffde8b25a669832c47ff3b29278f56344c5",
+      "output_sha256": "12aa683a9f008f40969bbe5faae9452bc0f4c6a8524abaa68c9890dba82b07e5"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/PlaceBlockEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "4d83788eaecfcc707dccc78d6378b14adda259859f8fee18c9c916c33cbc7bcc",
+      "output_sha256": "aa354c6838124f79ab961107d0a9e7bd3d4d4651b621dbdaf0570ff020a9c7de"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/PlaySoundEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "6610e295e5b3978f48709a5df43bb57953b8c05852ca1bc4765f91f6dc182997",
+      "output_sha256": "2f86026067409c51b64fcbc78299c2c29f9847ee252df41e076afc373e111644"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/RemoveEntityEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "16b8737ba9ca3d3068ac22a85721f1a47194d88053948ab79c71e7a0db897f3e",
+      "output_sha256": "106118afe0c4e5f25ba996c8ed3874ea71702eb6a728bd8ffa822005c71d0bd0"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/RemoveFireworkEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "602e1bac900c2f6dc6d4907fe0cce2a12a30715bcc963142bf9d56cd3f0695d8",
+      "output_sha256": "784dda846179fb14f1003e8df68b90098f6b06aada5cff662d8f87a65a0f93e5"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/Render2DEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "67494ebebe1be236a4a8d72c1218dbcf630bca69180e51b909570d805a6d01ce",
+      "output_sha256": "9474da112e2766764fe5a275ec3e7e2d706f18fee7343342fd1c75c2b25a24db"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/Render3DEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "806448d6cb77b286af3c113526233c8b0823d079fefaf0b1a4340abc2d1e2275",
+      "output_sha256": "8a1a7eb6adb2f2f3f9331a38f840b0c1c1927ab5e9b78f44c198393255ce4c7d"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/RenderBlockEntityEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "c613895d4373da67362d751ca90de367baed14a07988810c9b24f86e65b844d2",
+      "output_sha256": "7cdf4f0bbe7efba70a2ab3baab4f8babe2b6c448b93911059e20faaac3e07f55"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/RenderEntityEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "18fe36f08d7cd47692221bfd679d90cf51022e8540984cd446b7448754a97955",
+      "output_sha256": "8f5493368bd9932f3161e9a3feb4e7649304e73101638a52be886bb3cca9c9da"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/RotationEvent.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "86f6011a088f87d23e51d8af2ee2dfd87071a98e1e9d0abe222fc8c49f03abd7",
+      "output_sha256": "6d513d313fd97bcd938ad5324a50edd4aa7509e4557c18f43b37bfb8d0510db7"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/S2CCloseScreenEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "a56e27651c8fced2ddfee12917ba4f3e336e68cffe3e259ecfb47ef9ef2ff601",
+      "output_sha256": "cbcadea030d9e11992036ad2fc17bd7b544dab78e25fb26847704bf06d5513d0"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/SendMovementPacketsEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "8e5bbae1e2530b006ae6c4479dd5e9e365f72fc509cfda6ec117d9b312e1e25a",
+      "output_sha256": "0c3716b9e6fc560bbfb935704f81d598fb08fbbff8f930af24423f24b3fe5f13"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/ServerConnectBeginEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "c595820240126da0850171c3da830d0202428925b2ae54bbff326fdb638441d0",
+      "output_sha256": "f63678ab19a84a97bf4adb4991ed090affd1b340e02f37a0ef66af0f637d7507"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/SprintEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "42fd67cc42a388a95a112d59c080ea857afd86eb89d5ad1762803221481ea5ae",
+      "output_sha256": "387e83e072b1daaf26f817381b4077a545aef940d069b3123a2adcf7a118954d"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/TickEntityEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "c84a090e4b3436f36c495e014c87145e9de0337b5a68d7c4c1c2de0cc81ab748",
+      "output_sha256": "a00373a17a04ce0e4163fec7090968e285d18ecfe8f9b05b48e29296d96cd385"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/TimerEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "63946d4fe1b5b0f5ffce94620e77d4b8fa3c48d186c2ff704a2840acadcd6fd5",
+      "output_sha256": "3ec1c4cebe0a1a9fb7efd1c6660e98ed3cffe9ca4cb31d05f854c7bdbc3516c8"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/TotemParticleEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "bf78d6947d7796a6a3961dbb5f1a79785a5d98be0e067b87eb09224320ad7e1c",
+      "output_sha256": "08bc5f8791eba763c79aa363ae732dcaeb4b021a5e8c8d36a48e1c63ba6c9918"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/TravelEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "97d4d60c0646affcb106d912a9faa383b9b6dd4bbb2be0db0c361df1f1368d06",
+      "output_sha256": "349215502d2f7d2a642a4660f829f21382119f9468416fe255475ae96b30f8ac"
+    },
+    {
+      "path": "dev/Astra/api/events/impl/UpdateRotateEvent.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "70ba628b58685efef99d7b38bad8d0a4a3b1b3bb4537872781ea6a0b4a7433fe",
+      "output_sha256": "dd6de5c58e6a806841dbc6d107ea5acda6aa0d6f4618feed81ab4e70b7d5c598"
+    },
+    {
+      "path": "dev/Astra/api/utils/entity/à.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "6b050871ac7df15a42f1c5c556e076973db15d1a191b8e1ad55500ec7d9851fd",
+      "output_sha256": "dbad2a8a25f5b05450701764e05eaf96edbdab2bc3bd543cb4becfea93fa0618"
+    },
+    {
+      "path": "dev/Astra/api/utils/math/AnimateUtil.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "8f9b2d801c4aeddb98e15e64b42fce0f63282e39f44dec7401bfefb909c811e4",
+      "output_sha256": "51b92386994ac2a8d7ead17ad1121b42a93de9ebad33c43ec70ccbef3f94db81"
+    },
+    {
+      "path": "dev/Astra/api/utils/math/á.java",
+      "opaque_noise_blocks_removed": 29,
+      "input_sha256": "999df6cc3fabbf715df3c5d961f343f06863ad24fab89ad69d11655ec83e586a",
+      "output_sha256": "5dafbbc6e5c7ad7b6d9e4b0c1780b11f1b94efdd9391a35a5d0a4e332fa5e3f6"
+    },
+    {
+      "path": "dev/Astra/api/utils/math/ã.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "c994cbba5a5eee031cf00b62ddbc3a8bce1ccb492ea9194360978fc251e50af0",
+      "output_sha256": "1fe68085e4342f374c5bc69bacb7cc9671c4c6609c883d19e6025bd4272e5df8"
+    },
+    {
+      "path": "dev/Astra/api/utils/math/ā.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "9a207091feb1773709e76412cc18c1ad7f7af2ee6efb670bee59dc531c280a3e",
+      "output_sha256": "94078faf091700e9e71920e477800a779e1f0890d2cc40a4f8b2dc435c1df97e"
+    },
+    {
+      "path": "dev/Astra/api/utils/math/a̅.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "74af205db6c06fde05c729d7963adbec70f171c2820a943b7dec7e88eaddef26",
+      "output_sha256": "7fed3644ac8eb01baa69dc15eff8f72c89e77aa6665ca3c8c62ffc88d77bbf1b"
+    },
+    {
+      "path": "dev/Astra/api/utils/math/MathUtil.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "08d975aff11727bbf28e705d1949ae4fee0fdd3aa017b772de0742916db60cbd",
+      "output_sha256": "2842d4ca672980d39535594a6548af15fc6dfc5d3321100509f922e8f5ff8266"
+    },
+    {
+      "path": "dev/Astra/Astra.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "4a52ce72dadb65f4060357a475ab765797454155491ed96ed5e81a89471d0a42",
+      "output_sha256": "9e968d91784c8b8e4a995624fb9a02ab23d1c93336e843e5ae80a3dcf8a5e9e9"
+    },
+    {
+      "path": "dev/Astra/ā.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "fc8a50164fc644390dc1b7aaa995c705aeabefbe63a40c17153dee9d8658b84f",
+      "output_sha256": "5578697c2019a2488c27251f07095eb5722188dd6f4924389fc675450bb2a02e"
+    },
+    {
+      "path": "dev/Astra/a̅.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "0dd34616423ea08c5e90c44f5781f16776a8c8b3d3197665655af955f98b2a7a",
+      "output_sha256": "bbdf70d83e953a9ab321231bad928c615f53f7bd6ccda5cf5f4101fd00a07413"
+    },
+    {
+      "path": "dev/Astra/ă.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "8a4d5d527d0da0cda324204a26a75a38e762fccae320c0cdb7b6968d2a8f0a0c",
+      "output_sha256": "60841a92f74381dd00c83cff820a583d06b25ddf99bba3e7cde5acf31c6becbb"
+    },
+    {
+      "path": "dev/Astra/ȧ.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "1f43d3f9b53e67fd8bfee380d9ada01883fb7b170a8fd2693be7b510270c393d",
+      "output_sha256": "45a47cdadd51259ff1e96e66ed2e3c1e2e6265e43e7f483e86c30479f39393b1"
+    },
+    {
+      "path": "dev/Astra/ả.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "4bff8bfe65ce53cbae1adda51c5f307b61e67dc90c0863537562282091a64ed0",
+      "output_sha256": "b2ac98eecec965e47fe66e1f8593043d0621dd24ffc77a657f573f1c146b094c"
+    },
+    {
+      "path": "dev/Astra/å.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "a3b49f6da7144ea6c34e130a842c2d3f47b5b21828752bf423d97a0dd6669621",
+      "output_sha256": "9014f5dd292a0cf7b274dfdc1343a356d26847d4fb3956ad0a7cc1a9d989175e"
+    },
+    {
+      "path": "dev/Astra/ǎ.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "673355b9f24582ca70baba800325e9b7e8435b8467ba09f132a5dcb63a23fcca",
+      "output_sha256": "a835c1243aa63dc27dded966a4618dd18a61a79a9b6cdbe469dd6c428a4d6db8"
+    },
+    {
+      "path": "dev/Astra/a̍.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "bfde7a0cc6091423449d36e67772e784b7a902c6bf76946a12cecf3f65604a31",
+      "output_sha256": "c63d0744e5b0f491ad0b4b9ae0a5874e9fec3d779fc26c4e865f827ccb0d357a"
+    },
+    {
+      "path": "dev/Astra/ȁ.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "b6a5750cfc5c20928e1f9a0c31cb720778d034383fc7b81aae9329a8fbb7773e",
+      "output_sha256": "3c014bd3eeb7259da68463068c0b397ce8a910df472199417d7785b0c7abefd2"
+    },
+    {
+      "path": "dev/Astra/a̐.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "b21433465c9ab86d502542514fd96f3a91830db14c135c4dfab2d4b19fb4cf92",
+      "output_sha256": "7895d46a18c134bc966e411c7ed84029c78892b60997d83ada6b3339540bcf5d"
+    },
+    {
+      "path": "dev/Astra/ȃ.java",
+      "opaque_noise_blocks_removed": 8,
+      "input_sha256": "baa24ce8999a4a63e73d8f626c9e4576539c9c193cce65ec9755423497ee8def",
+      "output_sha256": "355687a6ecedef556151bd21ef089520bba51a91ae6ceffae37714f6458f7f0b"
+    },
+    {
+      "path": "dev/Astra/a̒.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "ef31c069114c23d3743e48696ff29c2f72f0dd6540f9e3cf43fe0cc1d7d53b59",
+      "output_sha256": "39fd2aebc21d256fb979f0c92266cbeca45aae0d135f58c8afe6484d960111eb"
+    },
+    {
+      "path": "dev/Astra/a̔.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "37d0d77e8d855d4f2a8f623190800b4ad92cb85223ca88738929d52cb889b882",
+      "output_sha256": "9286c1ab69be7175019e5128d845c201333fdd6df94499f55ef1348ac7be7933"
+    },
+    {
+      "path": "dev/Astra/a̕.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "71732c5594aeb7e7a195efe8c579907d102cf4f8174f455f6c38861ac064a012",
+      "output_sha256": "ee0154d2332b682c7e2d64c4c7b7738e17197cdab3c1062746aaa94f3c451812"
+    },
+    {
+      "path": "dev/Astra/a̗.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "e0d464cab1dacefdb87c9aca4356a4035c5801d5cf32ecc6fabb5cf3a9e98cee",
+      "output_sha256": "4699bfe8a678f1e2ffac4568cac01a86a46b18b900284559c67195757daf9158"
+    },
+    {
+      "path": "dev/Astra/a̘.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "61811b722580ba68e8b55d01fcc6c4327f51ef1bc343590802b127c8df63cbb8",
+      "output_sha256": "52f9da4f72493a156316c1943d302a27fa0ef6c8a31d666fd6e67119630fc497"
+    },
+    {
+      "path": "dev/Astra/a̙.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "ccfda7dbe836289799969945e8271b09494985afdeaa931836e57e62b44d0755",
+      "output_sha256": "e9643343354be906b84327ffc891cf4e98d479566addc70f9574a662f79ba0c3"
+    },
+    {
+      "path": "dev/Astra/a̚.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "6b21986f4831403992b33d64ac62fc83d74e84aef7d081e69ccf9f73a90d29a8",
+      "output_sha256": "5fdd004896d6ac81c97735820596dbd3e0547a843489bb1b8d231d5d2e9d6cb0"
+    },
+    {
+      "path": "dev/Astra/a̛.java",
+      "opaque_noise_blocks_removed": 12,
+      "input_sha256": "6c62757a4be92845991fee38a7829b15dcb536fb5bbe2fdc577021c95b2ef189",
+      "output_sha256": "3a38f9aa2441451ff47de949fc83dc32303c33093477914250be3125052ec2e1"
+    },
+    {
+      "path": "dev/Astra/a̜.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "a32b4a800384ad497726aae01748666460d1527bcd367d1ceafe7ac5904a1846",
+      "output_sha256": "5fa2dc22a3374901f6685254d2af3a397cee0672a047edd549a7eb294e5477a5"
+    },
+    {
+      "path": "dev/Astra/a̝.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "8de5ca93c7f134cc684c95737d2d69f58f98f55267ec24677d6783dd52bfdebe",
+      "output_sha256": "feab5c3104520533f9091f6981e53d0f4fc81cc0df2b51738c6a752c85e6e58c"
+    },
+    {
+      "path": "dev/Astra/a̞.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "fec36cbecc3919b6720a97479f92249a144713e2090f134f5c27fbce3c3d17e6",
+      "output_sha256": "cb0041ddd3b0e79dce8e73730fa7f1b49fa0222645afb43871a3f399ab7034e1"
+    },
+    {
+      "path": "dev/Astra/a̟.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "b1f78b734f5e2f7618f99c5fe8bd3752e95f26bf77a6949180072e836a070cfb",
+      "output_sha256": "af184dfddaa7697054c2f519f72cad291ecd6a79b029a090b80069d64306835e"
+    },
+    {
+      "path": "dev/Astra/a̠.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "5dfff935ba3241c4116ace84b0ded8ea5b230047dd199c512b860685dfa32e4d",
+      "output_sha256": "a266b4348a33e6bec4872b8f5c0074bd6e182e357ede315ea738bc570c9f0591"
+    },
+    {
+      "path": "dev/Astra/a̡.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "776b9bc1649d6c4841fdc9c9c7617b0437215098f351c447cce39dc9c8517a07",
+      "output_sha256": "a735b24fdabdf93f648c3bf1d5504eb50f75563dbea2a161ff62d5bcdd7104d4"
+    },
+    {
+      "path": "dev/Astra/a̢.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "709bab398c5a115d9aaa3a39f92eb63c9c2fd7f5ebcfe21dc6a61477b733ab12",
+      "output_sha256": "d5548e6d8065ad474173d9c61d62f0aefbfbf566eb48ff78c5cf3beb1d977ad4"
+    },
+    {
+      "path": "dev/Astra/ạ.java",
+      "opaque_noise_blocks_removed": 22,
+      "input_sha256": "cde1f409e718ce0a3e23b025bc8d9844ea8fa959d169928c7fc5589b433f78e4",
+      "output_sha256": "ed406523344852fd86ac0f7a8dfe526c4f7e222a9c8571f67be61b5b99a37b44"
+    },
+    {
+      "path": "dev/Astra/a̤.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "2c6142270be8086fade0dad7ab21d5ba3f3e4c106002744a2c2791b8f3ffc56e",
+      "output_sha256": "58e85dbdd520de40e0d8ab8b6440a904e346ed88aa1eef89426dac9042586191"
+    },
+    {
+      "path": "dev/Astra/ḁ.java",
+      "opaque_noise_blocks_removed": 20,
+      "input_sha256": "b447accb871b13e246551af5bc811ec097d7569b84a7444f6a2537cfbcf15ae9",
+      "output_sha256": "04a6c48ba2e1c0c8ad684dba714d404214b9927c80e845015ba124308ac77a8e"
+    },
+    {
+      "path": "dev/Astra/a̦.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "487d807e9a802dc63d541b9ea0a6748f6d20f65d6b8d222bba16d89beb9b2421",
+      "output_sha256": "580d0bfd0bc73ea846d2c5a01dfe6bdff5a4c0ffc8980e0570241823bf47b548"
+    },
+    {
+      "path": "dev/Astra/a̧.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "41d53f63fca5c8bdc2a776ab0b6c1c3c44b8ea46f765f0861569c4def4ed4803",
+      "output_sha256": "ffd3b7de72181df394b4f83dd755b8251dc7562c53b943df34fb093d1dc56881"
+    },
+    {
+      "path": "dev/Astra/ą.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "a7b491cea3e9d10820540f1b3fcd4599920db3795602e714e7a4c65f30ee9869",
+      "output_sha256": "a61981a5108918cd07b2b32356feffb9fe2be2d92faab35570e2c5ab698c42d0"
+    },
+    {
+      "path": "dev/Astra/a̩.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "1e3a334c62f5b99af717e17ec277a702d708c59dfb6282c4d3c8470595215e36",
+      "output_sha256": "df9c6a33f73f4052dd13c6f1458975304c3f2fc63e545bef166954c1ec53c5bb"
+    },
+    {
+      "path": "dev/Astra/a̪.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "269bbaa9a075c05f8703326d46fb8712b5ffb926f5dd16293f25a6ab2e938f8f",
+      "output_sha256": "a2711a11f031a668f5cbcebdc70009832d6539447d14d412b60ffe89b57e391e"
+    },
+    {
+      "path": "dev/Astra/a̫.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "77b5d6dd032c5df517c42eb1cbe70ff2fdfc6d4739b2c4e43c2257dbd9233e23",
+      "output_sha256": "013da9bddab27e2ea8dfe44f459e4e52ab59bd3222b266c5eb124f554aaee7b7"
+    },
+    {
+      "path": "dev/Astra/a̬.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "4168c5bba83ae71b887862c67a316e969f63ed280f99fc955eafc760e36759a5",
+      "output_sha256": "2a15573a6f45db6b6485d0c3d41a30ea8885aee958fb76704a0670a99563386b"
+    },
+    {
+      "path": "dev/Astra/a̭.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "4ace7d2d14bcf50ca2d14c8182055ecaaa7992a14bd75536888e61e75b5211af",
+      "output_sha256": "467727b7ceddb6e09ffc634360f5646d6ffa274caa678a42e8eadfbf798f6d3a"
+    },
+    {
+      "path": "dev/Astra/a̮.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "c1ab205413747d068d96d4bdb940e10e873387a34d5519519eb17b912e147bed",
+      "output_sha256": "18682f1144d220c681dc4976634fc658260fdda3a5636bc24d688ef09642a422"
+    },
+    {
+      "path": "dev/Astra/a̯.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "8fde6bf4f6c9c369d9f6dff275f1c552dfb8cffe5a994848938944b4ea868499",
+      "output_sha256": "4d4d848654f53d7519dce609e41549c9c5157c68684eabc80ccecde09e455fbe"
+    },
+    {
+      "path": "dev/Astra/a̰.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "916b5f5e718bcdd96de46f3f73df3fe004a7b75b3b06b2fb24b05ada1711cd92",
+      "output_sha256": "cd87ddee5144c294534ea02f98ea12d6089c558e3a6f61a48518c2e202540139"
+    },
+    {
+      "path": "dev/Astra/a̱.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "bac56855cb4607201487748afc8cc9cd02f55856ec9451792aa169c41b95e054",
+      "output_sha256": "1e4fc5724848c324acdbcd2d87b0d023e5b7c3c7fb6f9e903575d7fcec319e8b"
+    },
+    {
+      "path": "dev/Astra/a̳.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "03e041daf9e7cd68861bd6acc5efe4efe905a467276ca95a351b2011e0f602e0",
+      "output_sha256": "9c3f6aaa370e017556657362246bfe75a0b9e534913bc4291e226461c6577988"
+    },
+    {
+      "path": "dev/Astra/a̴.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "32020fe479e089e68630ed14c7c3c9f3455dd34f43552b1762397c7efc908b1d",
+      "output_sha256": "82f5502b600f44a92a80985465fa9769f4b40d78fa44d6eabbdd02cedf7fde90"
+    },
+    {
+      "path": "dev/Astra/a̵.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "68ed1942253561d22d871d3401f7e333d4bdcd98b19f0d639afa4c659eb26e2d",
+      "output_sha256": "5fa715470f2666825d08a0d510994d78ad97fad361d6501adcde03adaf5d2c0c"
+    },
+    {
+      "path": "dev/Astra/a̶.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "7bdd45cf50f89013b3d0cc22a514418eb5093e6f7b304f9de1762f35b8395414",
+      "output_sha256": "c9e8685719fbc9b2f8b29709d30ab48c6b4ac7625072ae024959c7c77b6ce655"
+    },
+    {
+      "path": "dev/Astra/a̷.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "7b8d8a378151cbc3ee25e2654ffdf271d697d4b4106dd858292cd49ef107916e",
+      "output_sha256": "1568c2aaf3ea419e10a170a357400994521a284019713c08369583324248c282"
+    },
+    {
+      "path": "dev/Astra/a̸.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "5c742bfcb09bd47d55864606982780d272bc092f839a16e3eeaccab4f9c543e2",
+      "output_sha256": "fcec6780903184cb73a661bcf5f974cb4cf5d573402d4ee591f74b426e6fd2bb"
+    },
+    {
+      "path": "dev/Astra/a̹.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "1877cf1de510a99256069fc9f079803b8b98e0fcf4ca793f1f69523bb620ba4b",
+      "output_sha256": "19b107b97db02339a8bc725fac11d07003fb16d5dab5834ae62f6bbdff3be004"
+    },
+    {
+      "path": "dev/Astra/a̺.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "1e60ac32e900eb9397026910e79cec05096de4b48e66107b8132be17b8173a88",
+      "output_sha256": "39ddb0efa8f08b636c3194972511f5d97b904144a21c2ffc1e27bb7c46451565"
+    },
+    {
+      "path": "dev/Astra/a̻.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "8c8303f26ae49d77bb732ff57fac7efd22881ba7476793b09a40e2175f27c99c",
+      "output_sha256": "5d4e06654016b1b91316993f96caf9462c7158f6a66f79ebf38235b1aa2fa2ba"
+    },
+    {
+      "path": "dev/Astra/a̼.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "0750141515d02b3abacde676a58c2ae2144512adcf6ae25fca3dffd0275fcf49",
+      "output_sha256": "7aa427dc973479aeb4853f5b9350dd9a19b2e14aeb2a7827b7c995062160363a"
+    },
+    {
+      "path": "dev/Astra/a̽.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "2723d123304867b678ff16eb8d5280faa7ece9a63379d84b78fdf9aac70e89fe",
+      "output_sha256": "8d6663555f809c8e152fb2100d583a6741968e41a3d2ba0c5e15f18c446591cb"
+    },
+    {
+      "path": "dev/Astra/a̾.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "3cc4caed6f5931df0e27ea54761716293f5ca1ebb31026e7802bef57a3c70c39",
+      "output_sha256": "abd80768bc7afb187d665c30d5623546dd820d899cef541da292146f99c90ed4"
+    },
+    {
+      "path": "dev/Astra/a̿.java",
+      "opaque_noise_blocks_removed": 13,
+      "input_sha256": "1d82cfac627041af9574e933b3d32b1a8fb4b7726e74b3863192680f41bf5fb9",
+      "output_sha256": "ef7a2b2dc14a5c3450e7b33a675055ea731ff54c7b27381184671a69c12d766d"
+    },
+    {
+      "path": "dev/Astra/á.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "7674b9caa04e9ab44742efe7a7e4b7d307ae03937a419bb1aff6bbe3f429ef46",
+      "output_sha256": "fbcfb556889e4dff992e9a988b0133c9bee5c9d484473d2772975af0f9e7c41d"
+    },
+    {
+      "path": "dev/Astra/a͂.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "5e9c3f1977a84939a1e74e989cb47a3315fde4366921aa67f9aabc233fd6d3f2",
+      "output_sha256": "d831d0f1bf82362670c40e2d9a4ffe6e151561418239c2ade35fa0bc075782f9"
+    },
+    {
+      "path": "dev/Astra/a̓.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "5c844c5c9786b5e05833195351fdbd8c7bb8b39029b3804f98ae7f1ce5fdcd71",
+      "output_sha256": "a3753ba41aecbc2105b2e3b7dbd6679b6df659e863052c98956637bda3bf7a80"
+    },
+    {
+      "path": "dev/Astra/ä́.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "5a2eac2ecf498aa59a50e49418b88a3dbbf89a6b7af5a53ca8276280b4edec8b",
+      "output_sha256": "7f74452eab5c859179aefdc552565818531d1a9ee474e1781ac57949564068b6"
+    },
+    {
+      "path": "dev/Astra/aͅ.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "b74dc85d1cb8e13b4a50070ea86727d681e6bcc5f7a86fef032ef7ad5a17a039",
+      "output_sha256": "6aa789ebefe3d34e3f1c0b0a96b28d8fec57ae2dcf8ca9afc695518311b76c1d"
+    },
+    {
+      "path": "dev/Astra/a͆.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "56679fb97f9ad13b87f3e95ca5b209a0d7e303a6db0cbeec107a118526eb3060",
+      "output_sha256": "1b26c3959044114dd437011ebed365dcacdbbc0d00246ec568fd00d8a0a55751"
+    },
+    {
+      "path": "dev/Astra/a͇.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "b3bfbf153e065bf6f7f3da00346ebd491cbc6bc8c241ec140cb7f3b1d5fcb817",
+      "output_sha256": "f276884db8c4337d9251c1e7046911b70d662d698240720b3af4089628785bb1"
+    },
+    {
+      "path": "dev/Astra/a͉.java",
+      "opaque_noise_blocks_removed": 10,
+      "input_sha256": "5e8992aae17d49c44be6c4c872c1c178255b62a093f6cfadf9523c395de04d10",
+      "output_sha256": "a5c63efda702f309d3ce7108ada509dcb9109ce25deb2644e4bb5b22eade85c3"
+    },
+    {
+      "path": "dev/Astra/a͊.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "b42120d6060fb43e31346383175fbbb23c8fd4ba54eb42230cfeb3806515608e",
+      "output_sha256": "c17e86e8045a27324422186a880528fc8aabf958696ab8ac8d1496272e01abe8"
+    },
+    {
+      "path": "dev/Astra/a͋.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "0d72b9f398936599b5d0f148a2da1988c104582e6374216e2caece41ea55535e",
+      "output_sha256": "02698de1b54e40425f16bcc20a2db2006443a64bc040433a10e1c9969c60582f"
+    },
+    {
+      "path": "dev/Astra/a͌.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "638d7d9eca820a804834c3094d9759676338ed00d68377b80726c8c8c4cc86bb",
+      "output_sha256": "28fa616ddc3840ff1694c820a02060a8800bca8ea43f2c9afdae991bd6ac76c7"
+    },
+    {
+      "path": "dev/Astra/a͎.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "c03418e863db6d91342ba6dd8d843bdd4444641368efab531ca0621c5ee7dbbb",
+      "output_sha256": "5306b416c6c8284c5b54c2b99065c0621803f1fd5b80be5f2458a793db6b8fcb"
+    },
+    {
+      "path": "dev/Astra/a͏.java",
+      "opaque_noise_blocks_removed": 20,
+      "input_sha256": "7cda638b58e0a043a62112b950ca4f2365bc0c025d7dedd5accb75d2bd0cf9a3",
+      "output_sha256": "661c5dbb5aa1d477b4992fa88f628a1e948853cddf9bd375040f6299669574d7"
+    },
+    {
+      "path": "dev/Astra/a͐.java",
+      "opaque_noise_blocks_removed": 17,
+      "input_sha256": "e7b041c6a077308511359f32026f3ac5941e2dc6209ca72026b57d29d0fad9a1",
+      "output_sha256": "01dd88ed901c624885c7dbff7d4eed397d4c1b21462fd1edb14a876fb66c0052"
+    },
+    {
+      "path": "dev/Astra/a͑.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "b469087dd7c8a81eb7dd8b47e9d06a2f55257bd17908777e3847abb5f2ae225d",
+      "output_sha256": "fd5c83e603b6ac80c6b9c053409e2478b30dc1ebe48443678f3135482a7b4911"
+    },
+    {
+      "path": "dev/Astra/a͒.java",
+      "opaque_noise_blocks_removed": 38,
+      "input_sha256": "901743ebcf1a6e4d8d653095fc601abb5b9162e8a0746163a20b8f6e1300cc32",
+      "output_sha256": "bb190f6ef40e201e91c000a9f211c33b64931d83072429a44e4075b36e8dd4a1"
+    },
+    {
+      "path": "dev/Astra/a͓.java",
+      "opaque_noise_blocks_removed": 21,
+      "input_sha256": "7cc30bca64958f76c0190149efba9b33c693e6b9bbc258ec8fa765653b1be402",
+      "output_sha256": "528466d79a6cefa3badbfab5e07cdc73282cf1f5ffb5ad95746aaffdaaa29428"
+    },
+    {
+      "path": "dev/Astra/a͔.java",
+      "opaque_noise_blocks_removed": 7,
+      "input_sha256": "e6ba1ae6d2c997b4c7de8308e066f9d593463522811f0121634dfb9d4f1cda9b",
+      "output_sha256": "9f294519ba4074ebeb527cc6866862d2522a6f15b2544aa0a0c4703fac2873cf"
+    },
+    {
+      "path": "dev/Astra/a͕.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "087156ee76bfb31d343e25a5f9db96f2dfc640d03c92346b2a2c0bc28bd3dc1d",
+      "output_sha256": "2ca6604c56c720fdfc7439f1f8b43553bd885ec8a3eb33c2205af66e833e16f0"
+    },
+    {
+      "path": "dev/Astra/a͖.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "9b18fa72b4c6b09b806aa5084d3eb67e4ae1b90f576cd7036b03d94e79988652",
+      "output_sha256": "d42c527220aad96b43368f0ad9cb8c62331cf9b14770a6dc1448f2c207e8cef0"
+    },
+    {
+      "path": "dev/Astra/a͗.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "d9daf97533a9edf865df774ac8c10c62c141ce58d08334e400d6fa14e476c521",
+      "output_sha256": "6a61768dbd70a8acb3187eac2a1a1902dd6c9299befbf6d1126b594be1d49bee"
+    },
+    {
+      "path": "dev/Astra/a͘.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "2973649d0663c7d44cf1e31bb30d1f92881390cda7ba29814a428247de9d6786",
+      "output_sha256": "d7aae030efa0156afe78f79348550189c5af55ededf30019520f9df68aec8cc6"
+    },
+    {
+      "path": "dev/Astra/a͙.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "adf5460af4d0cbfcd49cc03eca7867f368315be1d758384892c294862cb40919",
+      "output_sha256": "f064be42a5c3cd9f850e83311c14cbe02815193f7be7ecda27d1cfa1e272123d"
+    },
+    {
+      "path": "dev/Astra/a͚.java",
+      "opaque_noise_blocks_removed": 8,
+      "input_sha256": "749469fd94555c48f5d811983f73d41eb64008a55d9e6f1c7f4b28eb54424c74",
+      "output_sha256": "8b92dc13f40bc5d4b0ece5a08839df3c2634ebead874b00ba8fdbec4123b9dfe"
+    },
+    {
+      "path": "dev/Astra/a͛.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "d190ef4f1c7320c35845b35be4d31854b8fba0930c467db1029931c9ab2d31b5",
+      "output_sha256": "faf239a92357414387c6f76dfe3990e98ddd59e65bf03c444736a004ffe82866"
+    },
+    {
+      "path": "dev/Astra/a͜.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "b84f6a405b70d568af092d8e75c0658209f898652a97527e58f3874623b29544",
+      "output_sha256": "7c63e643d148368d38f0b9e98143a6dd553d070826eb410ca092eb1219bad224"
+    },
+    {
+      "path": "dev/Astra/a͝.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "71ec3e3c2052b54e62611f121a6a287d718f5667b3b78a34d9a8c9e05bfa8f6d",
+      "output_sha256": "21580ad0756a61c95a12ecfd445c227590667af94c0561ebfd66611a950e16f4"
+    },
+    {
+      "path": "dev/Astra/a͞.java",
+      "opaque_noise_blocks_removed": 8,
+      "input_sha256": "6c6e02e6cbd272ee0802d39101da3668688c77cfa7764bedf44b61c09a1fce25",
+      "output_sha256": "ec16cba59e423bda7eaf49ad3d97457d0be4b7d0caab5b2b8f46f6c405f4471f"
+    },
+    {
+      "path": "dev/Astra/a͟.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "c93a68529192fbfe30fcfaf8c924574541feda42258dace7a435d200b79d8c83",
+      "output_sha256": "e965511e6b4c1950e20b064fd612dec99eb91fb0a31e41bc57d64ca91561c67c"
+    },
+    {
+      "path": "dev/Astra/a͠.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "a24b21e08a80b618cf05a880a988b7a1b5cb02592a3f7c4d23a47d923ccc3b5f",
+      "output_sha256": "4e105491d50c3df6594363ce9d0034e8943f4d3513e215619b5504a4fc5e3fd2"
+    },
+    {
+      "path": "dev/Astra/a͡.java",
+      "opaque_noise_blocks_removed": 8,
+      "input_sha256": "90f72ee6a02b48652ce9ee17f217af5d0649077fb99cf3a6d286c3c59bd6a2be",
+      "output_sha256": "d4a432df5504f7c4bffd24bd8dc00306c8a561fd5d5f98e501812e81be2df2ba"
+    },
+    {
+      "path": "dev/Astra/a͢.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "0775e0b05f79537049b8db4284de034346bcf5cd36016e9fb877d9aa6a044aa5",
+      "output_sha256": "ea86c614c5494e7e36f1e3c02316c63fa68044d58baba7ec20ab5e23d4af667e"
+    },
+    {
+      "path": "dev/Astra/aͣ.java",
+      "opaque_noise_blocks_removed": 11,
+      "input_sha256": "1c4c14565ca0a34b55816bc92d7a64dbd336ce1e9b19197d0a52fbe05e65bafd",
+      "output_sha256": "6fd4e99245ce76990186a49b47f19423e59dedb0bdb40be86f1d8481726b3554"
+    },
+    {
+      "path": "dev/Astra/b̀.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "a12431885ce956df44fddb6daf7afccbc9b7fadbe1b04828cdb7df22ed15ff62",
+      "output_sha256": "2224e8ce707dd45609bf7b72688994c5454649303ab3ed05b65f7575a55a0c0b"
+    },
+    {
+      "path": "dev/Astra/b́.java",
+      "opaque_noise_blocks_removed": 14,
+      "input_sha256": "7b33673110a32974f3f01c14e0fc739d8316b233025f1a4cb9d55f8cbe9e7542",
+      "output_sha256": "8a7f5b4d3dcf9aed3b973fe836fccc07a0afeb70d2f0be21f168d6c93a9f6542"
+    },
+    {
+      "path": "dev/Astra/b̂.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "92154b70c722ae3f33ba816eda170e365f532e5b6925c3133f58c827beb3d909",
+      "output_sha256": "563127028857e8bce7b378418a37150ad9690334c8f7ed0e67ad418897c4a7c7"
+    },
+    {
+      "path": "dev/Astra/b̃.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "1f52e6e9a7b25c3d590171a33ae4ac4482381303e7c720ead6054b11b1ad17fd",
+      "output_sha256": "0a51bc8c698988241c340d285dd0533f1a9a1d938ffa281651d2fbc7fbae0cb2"
+    },
+    {
+      "path": "dev/Astra/b̄.java",
+      "opaque_noise_blocks_removed": 20,
+      "input_sha256": "2d029f86ab18c668e1924681e128f625dbf51195184ffd6ba72d8e207a0ce809",
+      "output_sha256": "343c261f30f6d24398dc11343d25c6e892ff715e77f83ce0821700044797d299"
+    },
+    {
+      "path": "dev/Astra/b̅.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "b827e2cdec652c2a266d9ea0045984f53d6af720fe229d03793ebcc005c32564",
+      "output_sha256": "d02da6d69a1b7c2fbf0597dc68a053143211ea2b9a69c432e9ea65f1bbdb9163"
+    },
+    {
+      "path": "dev/Astra/b̆.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "4686fff39bd1705a71dca37a905a3b20fbae0d1fa0c5418052e1c58a1075eae3",
+      "output_sha256": "893cb1617dab6bb44057818729b96bce3bfa1f6bd21eadd10230c55482b9f98d"
+    },
+    {
+      "path": "dev/Astra/ḃ.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "9f5f66c59ed3f359fa9067ad16c903a57df8bf423c880de4a0b4ef4544ef1aa7",
+      "output_sha256": "da894b72d91f05340cc8ae71a51b43b02e8104f8a35d055d78a6a16335f0940c"
+    },
+    {
+      "path": "dev/Astra/b̈.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "8bb9583b971e29be8f2a15f91169ec12e8376c303010113541d209504aefdd42",
+      "output_sha256": "679cfb22be45e5e324a31cb91c9c5dd63f5c10ede673e49b2d4c7e09b6d3941d"
+    },
+    {
+      "path": "dev/Astra/b̉.java",
+      "opaque_noise_blocks_removed": 7,
+      "input_sha256": "0f31022c5fafef5a7d071e9ee50aab2180a06590e3a9a238bc34456a1071f6ff",
+      "output_sha256": "ef6f8bf688d66b291423c1479445fd562b2cd0104d506fddfd2f5ab9be6e1b34"
+    },
+    {
+      "path": "dev/Astra/b̊.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "4fa4a656bde16e96d3128f7a0bec40f0561c890b6769bdc89be4fc3149bcd628",
+      "output_sha256": "b5b4d2f36b8cf34d2e529d42dae786c4f70315b6b2795553945ebcb527ebfe3b"
+    },
+    {
+      "path": "dev/Astra/b̋.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "760cfb4a037a5d84636abddba7bab6d465c2f1abd33c5e487e3c19ac3e468530",
+      "output_sha256": "765191aee4484824b18a72af7558523314691c10c0c4e5fec0e93e75b68e5661"
+    },
+    {
+      "path": "dev/Astra/b̌.java",
+      "opaque_noise_blocks_removed": 16,
+      "input_sha256": "730672c6eff20f5729ab446bb5ec363b53a3662692d450e9c021a919cca24c56",
+      "output_sha256": "331f41b623d6c47ada9511b09109467c3de09997c96cc6dc905b793bcb214d9d"
+    },
+    {
+      "path": "dev/Astra/b̍.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "154c5b4c692b4c62ab46bffeee5a246bd73f390da2d37da301877c016ae68a1b",
+      "output_sha256": "7ea9a952c68eaa504dfc727d6b1964da0b46f2fbe97f2edaa9592fb64ca4652c"
+    },
+    {
+      "path": "dev/Astra/b̎.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "43b1e8596409bba9da356ad578fbf9477d0cab55fcd92f69a5a1fa4fe87d1f9f",
+      "output_sha256": "52910317e86ede7ce204e4a6a4a741c5a0445453bb68a92af6267443304555df"
+    },
+    {
+      "path": "dev/Astra/b̏.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "5a63224195d81db9eb5879458d8e854c3bcd11ef07fb9869990c800fee219fca",
+      "output_sha256": "0f7ef1dc788fd30f0547b2d4ad424daedf393d686ba3094c1fd3488539083531"
+    },
+    {
+      "path": "dev/Astra/b̐.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "100f1989f0b6dd869eb25232d1c075102bd9fd948abc4b047baffc71b26d932f",
+      "output_sha256": "0e7aac2d478d3c00e59db0438f1186e014ec19f60f993ecf4632e61b8e497a86"
+    },
+    {
+      "path": "dev/Astra/b̑.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "d5776c9b6e8b91b3e45a52c6a3f4471bf3833a753a4b1e07e6026fa3cf006238",
+      "output_sha256": "68b6197d0778cd4884aafa7a349ac3f6b80d346a0c18fd3468e0bc769fad3a63"
+    },
+    {
+      "path": "dev/Astra/b̒.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "60aa041320b37b15cc47ae60085a1303d25e5a754865bd6d339fb3bd9ea41492",
+      "output_sha256": "5863f5c96be7c82fc246236cdcc3fc65b844e472d478546ef7f71556895b4b29"
+    },
+    {
+      "path": "dev/Astra/b̓.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "21a70634f9194eeb1b256d34d1114a6a79c793e123bf467d9c3c728ff92df906",
+      "output_sha256": "9e98ba8782667c9a877f3036024317dac2705c72dd2a4a9606e18e251f37e39b"
+    },
+    {
+      "path": "dev/Astra/b̔.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "b8ad93d7af13ab80db4cc2cb9987ac0786b5578f1857f8c5fce342d418b558e8",
+      "output_sha256": "86d6b43ea0208176fc396adb78c2da6a91d2c5d1d4fd10f19e608d89bfd7d80f"
+    },
+    {
+      "path": "dev/Astra/b̕.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "2b717e2196ad8e31917b3e5050981a8ddec04e2f3a1fed464ca5ccc8218b843b",
+      "output_sha256": "610117ee1960ba0ecf276b0e31271da8142d009e7543f3b896025cc1c93b82e5"
+    },
+    {
+      "path": "dev/Astra/b̖.java",
+      "opaque_noise_blocks_removed": 22,
+      "input_sha256": "1dae47e2c5cdb23295f3f81b5cb0696f11fc465880f820496de188f03acd1be9",
+      "output_sha256": "a3488021e91f37da38a17a4d84509c33bf28b5ea6919fa27d845d54610a961a6"
+    },
+    {
+      "path": "dev/Astra/b̗.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "482d0ee8829b15ce43e4b4014c4159880457620ddf797246ef6ca5d45835bbcc",
+      "output_sha256": "8ced4a32439069d366f418db0b27fccdb304e2706f3e026302c2666b9620f657"
+    },
+    {
+      "path": "dev/Astra/b̘.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "0de46a3e4a3802d7c88e8327c98e265dd3f9479b2431a7d986416f4d454c1751",
+      "output_sha256": "4e9be65c23a1704165024a15f73d33676444ca502f9518399cefb5ec6eb39beb"
+    },
+    {
+      "path": "dev/Astra/b̙.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "bfc3ec4ba0f4b77069eefa4f53a204ba627005db98753ab61a6d496c65714d48",
+      "output_sha256": "03eab5d6871cf7a8c631805f100573404d0be1ecad766a6a05d0e3135499dca7"
+    },
+    {
+      "path": "dev/Astra/b̚.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "96886f4a92652d8449f7c4bd48d33133df9c7793f13f3e51085cce0bc9542837",
+      "output_sha256": "6b9592ede6781749473bfd28dccf4adcc0ac9b76f11fe98706fe8962a55a824c"
+    },
+    {
+      "path": "dev/Astra/b̛.java",
+      "opaque_noise_blocks_removed": 7,
+      "input_sha256": "41071a24cf0bec9c2652e9f2679446f679032e9081e2d1527ff91982c7ab9d03",
+      "output_sha256": "51f6e00beacc72f73b2e2378019352a2d3e71bb1d2e6452473bebf80df422519"
+    },
+    {
+      "path": "dev/Astra/b̝.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "a4c941f3fc09daef29ada9223034c6c1b601f04d2225291d801deb9f0a8f5199",
+      "output_sha256": "e3449bd253b267879161fc78cc18584be150c71d9bb5d86e7e0393d94533eaa7"
+    },
+    {
+      "path": "dev/Astra/b̞.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "ed282e52a38d6486f2ad3474ea6b978050bce56b6c7c182c010ccd0de27c6df7",
+      "output_sha256": "6b62edcb3c17f00e4869b022dd8cc2d4dd549356fd8b51ae152e517f495921bc"
+    },
+    {
+      "path": "dev/Astra/b̟.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "2c67dbf344015205a263f5d39e5560ef179ec65ba7975b9e638bc45b1f128b14",
+      "output_sha256": "32abfbeefcdcc7fe979b2a7a3041dedd3ff8f94c69f31b3f624924be44608922"
+    },
+    {
+      "path": "dev/Astra/b̠.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "3615e921f572e25be7440792c74186535649b6e473b67ef3fdddbce29e252847",
+      "output_sha256": "c42499bc299ec2c245d90f9a4b3ccd2a2d24d3f707fedd577f30fdb2d53d3389"
+    },
+    {
+      "path": "dev/Astra/b̡.java",
+      "opaque_noise_blocks_removed": 35,
+      "input_sha256": "db49c83fef4df34235683934ee4189e11fd091db7c01b9a8e2ca39f23d191fd3",
+      "output_sha256": "f9ac7dfe682907f388bd5e2996d7703bf396f44466f31d8192f7611297b1a55c"
+    },
+    {
+      "path": "dev/Astra/b̢.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "a58c889ef9dfc1e6c6acdc2f675e500423a2f4112d7d90e64ae13abd7af789de",
+      "output_sha256": "e1c48f4ae7592d2b9223a272e8877c3158aa45386341ab1cbcc914536b9158c1"
+    },
+    {
+      "path": "dev/Astra/ḅ.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "f3c31cb64cc3f071fae3993018d3ea07587071380ad7c1361b910bee5ff94c22",
+      "output_sha256": "7ea2032d18d2619817121d1aa4ef47da58c18b3aab1fb04a6f442aae2c10895e"
+    },
+    {
+      "path": "dev/Astra/b̤.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "95bf1740b0b10f93b11cd3dee822baaca3bab3561337eaa276e8f74a49e11b5c",
+      "output_sha256": "210fcae913183971b05ab754fcd4359cb3d6578d2dfa45281e3997f6d35ca65a"
+    },
+    {
+      "path": "dev/Astra/b̥.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "0d0dded6440ea840dfb682e937dffcc622efbd40a2f37bc65f75d04b557d435e",
+      "output_sha256": "b18d9cc5d07c1a50990649819ce567208ab1db08eda928490eb6770ea62145f5"
+    },
+    {
+      "path": "dev/Astra/b̦.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "b6a67b4a4b6f8a389d961519f9948089b73258233c4a761c6a929f107fbe01d3",
+      "output_sha256": "d8cbed2e021bed83b1fa7195e0fafd006dcc10d1999075f25ef24d6876e493fd"
+    },
+    {
+      "path": "dev/Astra/b̧.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "64aab16a165fbb599ecb244328fe07574778a5840383877a07e36ab7700f3026",
+      "output_sha256": "f2156c0f939394da0cbf06c0cd0aec219b9fa9a578e6caca4ac1f9c07ea5cc3a"
+    },
+    {
+      "path": "dev/Astra/b̨.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "315b42806919bc628045a9991da85406ddee435ff405069206da7ef00acfb5c7",
+      "output_sha256": "317eb7d17a2e4ea19866fe2ce0ec373610c9fc56d4eaa3831c018d30b993b2cf"
+    },
+    {
+      "path": "dev/Astra/b̫.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "09b156022cf8bf8b3d60d266d321a8a35cb26426ffd7ffe8debdce660f3b82a9",
+      "output_sha256": "958737cb9872c1596ed201e156a4ffcc06fd39e52fb5d24d6be52f476ae98938"
+    },
+    {
+      "path": "dev/Astra/b̬.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "14cf930413465d8f58204cc5801c4a037df86719441b7ec691d50dd2ec3fed18",
+      "output_sha256": "2bbdfe5b6680245573af6ad10c4f8466b6060bb3991916c1d14946dabe3e289a"
+    },
+    {
+      "path": "dev/Astra/b̭.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "bbd7df274cf63d3b544be398a9f155c25fe6f8e7356434d1e5b85b7af532f12f",
+      "output_sha256": "181875b7c6ab2ae5bf05f66ac84f62e0644f17c4433c6456287d36a4ece5a0a9"
+    },
+    {
+      "path": "dev/Astra/b̮.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "ca0362ef25f3e00956fe370c8c6b3396673c3e85ccb8315053b668337f70c318",
+      "output_sha256": "8f8b6c86f61b23b04b454186fc39f181e457c6f60974ba81f56ace907d4ea817"
+    },
+    {
+      "path": "dev/Astra/b̯.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "3a6155e0db4ce4910549e06868b21f594b9dc0db6cc5bfd6c2de8c2105c20b56",
+      "output_sha256": "8ccd095f2bb584e3d8a7e2132b06585f352cb02cf069eaa5645f33b09f54360d"
+    },
+    {
+      "path": "dev/Astra/b̰.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "c3d6f0550f10d7330ea31ba686f511c99ecf91b008eaf8d8c1f5ab9ffac67415",
+      "output_sha256": "b0f2816ddd922b70e7693aff9dbfc6975cad168a829d7f34ad81c3cad31acbcd"
+    },
+    {
+      "path": "dev/Astra/ḇ.java",
+      "opaque_noise_blocks_removed": 7,
+      "input_sha256": "21963e3c5608a8d9bf47eff158a69b5391ae87e36d4db7e7196e3d4887d3b024",
+      "output_sha256": "96d3362a257a3be66bfe8153d415ed5e88b260bd3ccf1ddba13e20b8b5cb157e"
+    },
+    {
+      "path": "dev/Astra/b̲.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "b8428d0c86c46723325cfa7bf8a38877ed9be8d49bbe9fb54871621b641c0082",
+      "output_sha256": "75145398424f135a662d9d50a20c7aa12d5f6b1c4bc1c40e759678d374511015"
+    },
+    {
+      "path": "dev/Astra/b̳.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "721a41b88886ceaadebdb240b3e996e1e0a8269c78d78fd2eb5ce77d9c47db61",
+      "output_sha256": "74f3c78efbf552bceebbb3ffe9785c1679507eb2ddad9691e86886b0e0ffec4f"
+    },
+    {
+      "path": "dev/Astra/b̴.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "ea0819d0fc243c1b777bf7c8b7b2549f34d2c7b4db6cef0b572db75091688866",
+      "output_sha256": "386012e183c6ec0bb05508d792ed110408758dc0abc02cd1991fad346c50623e"
+    },
+    {
+      "path": "dev/Astra/mod/gui/clickgui/ClickGuiScreen.java",
+      "opaque_noise_blocks_removed": 28,
+      "input_sha256": "747d02b1efe917ac5ab6879c8affa27d5cca49713bdd39073021836fe55dcac9",
+      "output_sha256": "e8e5dd693cd2b3468585897439dbc31c6dbe346ee2e89715a4279a2aa154d984"
+    },
+    {
+      "path": "dev/Astra/mod/gui/clickgui/pages/ClickGuiConfigPage.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "7b4d4e524d0e1a1080181ec8cc9df4a81c8391782520525cd35929c5178973d8",
+      "output_sha256": "27c239c3cd39559fb940af63e713cae52a16a219987013e7314af55d5dcadb6c"
+    },
+    {
+      "path": "dev/Astra/mod/gui/clickgui/pages/ClickGuiModulePage.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "dacaa153a55fd579b30c0f36cf4111bbf78d4f09b4f955a99380514b7a378489",
+      "output_sha256": "9566fb0095aaeb2164fd5a51fb2e99357ed15fc66ae83ab14e37eefe05fb9ec4"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/AntiPhase.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "558fce61169ac8482fea5203598f6b681d97cd1f8c75d9a03fcac0e5e8cbe459",
+      "output_sha256": "6fd922b205e7117498e4788b24fb54e52ed43f455bf556007be0416d1fb0bda0"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/Aura.java",
+      "opaque_noise_blocks_removed": 53,
+      "input_sha256": "d32977add08df031f70731f97b7f6b007a0b0c1f7e29bde2884a75d905073c09",
+      "output_sha256": "c74b4721ce7515e97b40f6b6b7cb385765b36b30f4ff742f8541a8998142df8d"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/AutoEnderChest.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "3f20b37922f019dda6fb950b116deb712db3d14816a73a0f37415a409e0157ab",
+      "output_sha256": "2a4927b6b0cce1dac173dc76170a0a0116f178a1893cdd6c742d4924d3063a39"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/à.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "3f97643a01f2f2f38f0f4d22913092aae17b077016c62a8be7dad90367d7707d",
+      "output_sha256": "74399d9d2f7bb00f6c01ead5ee0f2e7dea9cad997ed61823b6d2f01a2797d3a0"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/á.java",
+      "opaque_noise_blocks_removed": 10,
+      "input_sha256": "606afa33946b2ea3772b2a03e99ccb1e8b83a9fcecc8bf20b86e23f776884d9e",
+      "output_sha256": "5adbf3bd6d0b70ff9ecda7172b9831513279c3073386a0f18901d89c9302d39e"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/â.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "2b33281cf65519f6ffaf2e6932c78f9f80813f4c21b5943523c92868814eeae1",
+      "output_sha256": "2485b9ca0d21c796d279b7f1c66bf87ca2d2dbffe26fe7388fd64fbf8eb72fa9"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ã.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "b4baebd2fa1f878864f338c3141f959107c2445a0c9c62f268e4b943a2742277",
+      "output_sha256": "d016568c37591c53ee5a4e214839125f95b2b3026e3cbb3ee677f53e7e98a123"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ā.java",
+      "opaque_noise_blocks_removed": 109,
+      "input_sha256": "ed4f5d42fd023cfb11227e90dd72b9a4ba8c88580e0c217000508512a9fd105e",
+      "output_sha256": "f8921d2578f24f0262c7d6a40a6ca6228dfb510020ff1ea3ac3f54973b72eb71"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/a̅.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "538c4ddb34ac3b8706e8c367a712c118f23a0aa2f5699c807576dc99e52583b0",
+      "output_sha256": "f5452f7bffdd3e3f6d192adf908c518c57429566d50cf1e75fb6e0ab88ce35aa"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ă.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "6f58d2e4bdc3628334cc822cb19ae3c46684c9c58a429492c6c3a7e3f0229ae1",
+      "output_sha256": "15f0d1a8cb2e138431cc2820aae913ba26337333175c0049689b21c313709fd4"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ȧ.java",
+      "opaque_noise_blocks_removed": 10,
+      "input_sha256": "4375ee0c13b743c53b9134db77f101fb060958064ec260e42636c1f12cf66434",
+      "output_sha256": "3f5e43be4217621947dc25a9a31e33f35f8f2f972d940c74dfa67dfca63a294a"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ä.java",
+      "opaque_noise_blocks_removed": 16,
+      "input_sha256": "2ca275cecc9dfc0e3854eb304b7700c1eae724a9e8e1461199811296be61fe7b",
+      "output_sha256": "46556df244304c97ecfdb757f7e728ab87e77ef6f43f60372d6921fc4a3c3c5b"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ả.java",
+      "opaque_noise_blocks_removed": 34,
+      "input_sha256": "1878405af8a9cc41a3d3c7dc6e0bd6527b4a270b45775ae7219aa8ceeb2b22fc",
+      "output_sha256": "d33b7c6effa651b03c9f20e85963b6c5b11c7bf4ba9a6250b21c1b3069859d52"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/å.java",
+      "opaque_noise_blocks_removed": 25,
+      "input_sha256": "a1ab9e4c6364f04bd71dbad009cc10b6de5d28c8b5e4af69b0dc588478a9a822",
+      "output_sha256": "b8b38379f01be81cdd3a23bc4c3e136035ec33661d6c746e8114f3acc912445f"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/a̋.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "b9f231e78de9ce56179ac7272f7b9e8696373cb5641836f8caa83114b2ac10d3",
+      "output_sha256": "0e61f46792bd05b3eabae8fb342693880daa0321c1c0aa9f0401e9cd7c6059ce"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ǎ.java",
+      "opaque_noise_blocks_removed": 22,
+      "input_sha256": "157efaa6a730335d29ffad839b2a50b60c94984079c7da2f0c8fc8722a56f949",
+      "output_sha256": "3f9253c6a916de8d3ecb1c104615d1c2df1197d4524fa0b02e570eae6328155e"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/a̍.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "2699d10803e42fcdda7b973e2eb9452125c7ac47dade45aa6ea6cd91b23a1037",
+      "output_sha256": "2c9c84c09766acc35663b09e43fe5ffe2461affb8afc586dc2f7fbb2f9407b14"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/a̎.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "cc9ee66bbd2c1d5874a79d9ba7ab316f0b101c46144fe135df62155fd9078a28",
+      "output_sha256": "734cbcb38f570dcc79e446129dbcf88fd414e0ffc37306c3df608c2a543089d9"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ȁ.java",
+      "opaque_noise_blocks_removed": 17,
+      "input_sha256": "555594d111d7d772734c42700747142bef945387b29e1d52900e70fa0d6ae8a2",
+      "output_sha256": "fe4dd3f5cfc2ad16413ea2f6b631e3b8d9a638e93fc53a952a09da2793ba337a"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/a̐.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "98cbafad83197db2d3ff8ae003a673f00f8555a22c887e910e6e2a1d5314163c",
+      "output_sha256": "6db8dd9862835aff99bc335ebe4879df5976290cee866a1774c72a0aa3a9b3be"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ȃ.java",
+      "opaque_noise_blocks_removed": 11,
+      "input_sha256": "cc80dcde2e83e319e60f1ca9b3c1ce48b500e2f59a578f9c78f322402a716aa9",
+      "output_sha256": "4c9f997f6d2478995d5acae78ccf8a27481c59903590347fe99278adec0ff579"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/a̒.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "b5df3e33252496d49f27458d3b2114a56b34b76315fbcb5ebbebb718f97c5e7b",
+      "output_sha256": "fa470bcaab4bf33a02738c31c23e37feaf20c6cccab4f78cecdae984d9d36620"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/Criticals.java",
+      "opaque_noise_blocks_removed": 18,
+      "input_sha256": "20262298c02816934d8bba01a59def3cbb2151ca1426937ff20d47d57522ddeb",
+      "output_sha256": "496c8e2fb7c322eae5af395232d34781e865f65930df41390e26639d3f4fdc99"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/DropAntiRegear.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "63d2ad562c79d320261295f05112c0c4a858650c29f66f86fe2465ab23bd21d2",
+      "output_sha256": "8f5ad0f45513ddb4cbf6ed4d6e4e77435c4c7748b1bf41c8877161d071c5f81a"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/Offhand.java",
+      "opaque_noise_blocks_removed": 10,
+      "input_sha256": "3778012cf524444b2e1681f74e4051875cffe80fdeb50013735d952c77093366",
+      "output_sha256": "e3e4b1c0eb158475e83f31a8df28e5fa08458dcbbf45e8e674dd46bdc6c4a859"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/SelfTrap.java",
+      "opaque_noise_blocks_removed": 15,
+      "input_sha256": "2f6daa47a9686c38b3031cd867e4eb2aa42ec7a4335ffd6518783d53ea544a22",
+      "output_sha256": "73467c0e4b51bd76af6f597d6cf22fdc2f26f7336e34c4933b624042137633fa"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/ShulkerReplenish.java",
+      "opaque_noise_blocks_removed": 8,
+      "input_sha256": "9a349a7afac9278f704c917745e52b445db5ad917bbaa98c328a410a675de14c",
+      "output_sha256": "abab89b19fa79450b2268e51dc86ba2c1bf4a025862da0c0a74dc92ac635f2f1"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/d/Surround.java",
+      "opaque_noise_blocks_removed": 14,
+      "input_sha256": "98371b3df05e7ac0cf891b861c2cf79aaa13d7523d8ae887bdad40b2f58c788d",
+      "output_sha256": "873682edd54e306d9a60b40fd08a0888521fd9aa171367a091d894835c8d83d3"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/AutoEZ.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "857780b233b3b3c10e233e07f9c3754707cb4f4dc60dbaebf3415d5fd2512dc8",
+      "output_sha256": "60f7f52f695167686dd45436164a07c1ecea97b7c8c7f2c4a1d79c98de2e1fb8"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/à.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "91cdeaca30c4693f08fdd9624c1a4df9a50aaa36944b1a51c69c159c36f8b5a0",
+      "output_sha256": "2b452f2e9938e51883ae37d54eb60b88109c62d6458662e1574e6acede7de94e"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/á.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "c5b0db9c5dd2b36845de32bf19ade63ff5141f1038a1236b058f36600bbc1c55",
+      "output_sha256": "9c81f4cfc061f73386ffc25b951d08651efb7bea22fa177ccad688945aae5ad1"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/â.java",
+      "opaque_noise_blocks_removed": 10,
+      "input_sha256": "d0dc700f27e15bee4bfa0a331eabd5ca9ed458b7b3dc205de6f5f1ee8492f1f6",
+      "output_sha256": "0d0f4f21cf6ef2cc5177a521b0125dffa0408e996f31096d2b6ab323921a2924"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/ã.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "9d1f909590e9d2998802e9f0f989a77162815beeb1861219ff369853f77f8525",
+      "output_sha256": "19e0ecb6d98dee5d91cfd0cc4743d0c1ff92a3c2a74b40b373a7533411951948"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/ā.java",
+      "opaque_noise_blocks_removed": 12,
+      "input_sha256": "913fd77d21b8d56bac0a395289d33ffcdb0cbeb2b6bd3c8800ac67759a759cbb",
+      "output_sha256": "e56f724f9fd3fe726442b7fbd569e1c7eb4877f4d3936a658f05747c67fbef7a"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/a̅.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "dc586bd325c7f1a474544a326714658e78318bca920f043a2fa2ad8aa78cecb4",
+      "output_sha256": "cc2f40f17c8e3a1aab6ab77c301c1c61a6778938baa873ce17092a65be7a11d2"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/ă.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "f414707db1ea8f8988acd48995cd39b76c57963a9097796bc8a610adc2c61b7b",
+      "output_sha256": "7eb9717e9f753ce457c4e2954b0ffbfcfe81ecf0b23c2af5bf067122ff588ca9"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/ȧ.java",
+      "opaque_noise_blocks_removed": 7,
+      "input_sha256": "42385b00c07b5cd5743e8fd7c33e563b38146f1867fb29adead9832ef50014bc",
+      "output_sha256": "805c87101e4aecc4fe3db2b937f5fd1d33468b790ad9aaf0fbe4d03a63967d67"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/ä.java",
+      "opaque_noise_blocks_removed": 29,
+      "input_sha256": "4e49f1c7f354e5be9bbfb70a2db651653ec1566eaf169a14dd75f3a5cc4b98a8",
+      "output_sha256": "198c09ee4f18f6a45bf2163b46c27fd363d97045dae14f1e939caa0aee3712f1"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/ả.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "526fe3f4de10200cbc4f7a05d8879fa2abf2240da564c6635c5e628f4a39dcc1",
+      "output_sha256": "f767184e05354ac6186c91ec51ee8301ad5ef5eee9b10059e2fefddb44facc44"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/å.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "bad64ee9954dd2be38503cf4a5b693cfb7607f0f651a74a8185d8927113a3aa8",
+      "output_sha256": "b626d3a52d0aab05696b26b73232eca7dca26a86f50c760d85d9d06d07453001"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/a̋.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "23680175ef90ab3a4f97c5f0f708b4ec4a1f70f197424cc2cb1e6c6218a9f607",
+      "output_sha256": "0e78fa35a66ba7f12b2705f7664a63b8c6a6043adc87a6b6041086456cde5353"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/ǎ.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "c67699009b3d6ae815bb4a40ad3737737bc9600dca83f0e616ebd9047a650f73",
+      "output_sha256": "6daf15077e115c9b0f7b35910cc7373c36ccef5600bb1346ec6a24e53347e1cb"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/a̍.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "d560edf0e881a8af6c18d2428ee609bc7e54ef570e6e9d3e253f1a074be37ba0",
+      "output_sha256": "a734ede49e703467da6429cd5a732df0018b289bb8aabac3f7e355e5ff1c0fd1"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/a̎.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "095c5644d9116d30e14cafd55b072d1dd5038dc8ac5a2361357e2af56018af18",
+      "output_sha256": "d97a7242bd9d2b64319b73911b2fa9bb4bcba3bfa207c1f32cc696ea978800d2"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/f/ShulkerViewer.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "4e009f88b27757de6a8498f669754374f0672025f5184e17c71bdd9b31d81b45",
+      "output_sha256": "53ee04fd0605dca2d93586f1e0ea91db237c58d8348e2b45f4698616d0d2c26b"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/à.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "d630b8891dfc2a7fbdca9a6fcce8e2f216bafa4984ca1575ebd559cf1f1dc1b0",
+      "output_sha256": "a9f5a45476dec6ccdebd470a230657d537d2a77a7db4581cd6f49929e985b2ec"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/á.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "13f290b60459f5931cd592c446e1dbf2bbd45d3dbb8b5d760780b55a595d7fb9",
+      "output_sha256": "80f2c837458c1e15d10bd9ca0b0729c8247f42ea6acefb7c71dad9c409ae2932"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/â.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "c335f72764b670f59b436995d1e50cd3885a694db44da6ed5bb0132d1bb1595d",
+      "output_sha256": "d98b22aa9a793e656475dfae70a5d1ba237759b724dae9987a6393dc3b6d3672"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ã.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "de2753b328763a42c70126246810e3968e539c6ed226fc9ae2e99d08b0cf6eef",
+      "output_sha256": "771b9ff0d1db43d9ae344298e61c5750d3125b86a37dad1666f9127791f6a684"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ā.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "96ab907cc4650a7119d9113d48558a7c3d97200705ba36a16f7909e1f151291e",
+      "output_sha256": "79ff29316bbce6ae3422b0191841fa8c00aeb7e3dfa2215851f69fd154df2ca2"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/a̅.java",
+      "opaque_noise_blocks_removed": 8,
+      "input_sha256": "c4f0604a4edcf4d1d00b8764acd37711f57bdf4c73191f100485d56bdf7d7411",
+      "output_sha256": "4cd11c95eefbea6b96693a7f7f576f161147c63d41381de0abda54ee4ccd4661"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ă.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "bb138b1cf8d35bb31d4d9cf4e876163a05fdf3230b7f0b48db7c9eee52a75a1d",
+      "output_sha256": "22f48dae00bf45d4a683d60a156e0e4ec68f6d007f6a9d62635a6dd27659c5d7"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ȧ.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "f4544960fbaf52a797bfea36f30da45f7c9d6d7784b5c129973dc296c447ed95",
+      "output_sha256": "092b29b486366bf01013a75e8747028bc3aa9cda57723590faff7fb92b258f81"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ä.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "64e0bd414752443d5edf06934eb8c322508959ee3bf1f61a33e4b2da67f05486",
+      "output_sha256": "6b11b0cd6897a0d5e131a930e633174658db94f7b220e9915e225909ae9ee088"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ả.java",
+      "opaque_noise_blocks_removed": 29,
+      "input_sha256": "9430b812e6e5531fbd23ed2f4fd4cd3cc57fcc8e203543951937b195b755fe25",
+      "output_sha256": "6f6141cad7d7d557202dc0cf19baa06e0c667cc016839a2390aa2703883848ed"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/å.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "93a89958ad9bd6fbba52b056a91cb812c676dfbe8a9c2de6f80713a9fc51465b",
+      "output_sha256": "6cbff589bc9d54c61904548a917afd17fb4ad7627992cb9df2fb6de30c531c05"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/a̋.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "e3d982adf8c7537648c79d96fcca4d2cd352efe915b09691764048180f8f3892",
+      "output_sha256": "2e6e0ee043df5049e8a55e38a3290d55eb824867d3bd4fb62ae971939b5b4111"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ǎ.java",
+      "opaque_noise_blocks_removed": 13,
+      "input_sha256": "8916bbc693c4c9df2af81f8a868cdfe6a7b7766ae906a656f09a4d090bb29705",
+      "output_sha256": "a9a33e737a4d18952935a1ae8a5f29f3545e59c7fc70ed9a17e62a0f72fb45a9"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/a̍.java",
+      "opaque_noise_blocks_removed": 10,
+      "input_sha256": "db1e562402bfd4f45ac998de239d7b9cbf83f6850f629d437290530a90516453",
+      "output_sha256": "193f5147949ba7eec94a2c726707bc07613223d02de5193dbccf647c2c7cf0cd"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/a̎.java",
+      "opaque_noise_blocks_removed": 11,
+      "input_sha256": "79dedef220f010bfd836baf0a89fd2514a27126e9ac6fc0b661f4d6792fc9fa8",
+      "output_sha256": "6ccd0a015059ee7ac7b73164ca16ea07e14bcaf490944266f11b5f2e66691c65"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ȁ.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "9b4eb96a77d4494d0881e108ff28247f613bdfcd2cbc82dce281de8f4718318c",
+      "output_sha256": "4c1ede79e78bbeb295ed640342f86aad83a88dfea991b388aaebdd28a7c163df"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/a̐.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "18c75ed7072d9da3e28f5c60ce0498c27289379008ccb1d50075421d463da77c",
+      "output_sha256": "ad9b5d3ba4ef5ecdd05214a0a9488e7411cf0a77cca83f9a77384482a708e91c"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ȃ.java",
+      "opaque_noise_blocks_removed": 5,
+      "input_sha256": "6cf3c1a703eb67c595165bcaecda75afb8a42bdde7588d37b69f426dfef4b2a2",
+      "output_sha256": "fcbbbeb95f23047183740cafdbcf2e7c9a429a9fd019e3b45ac1aca893cc337a"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/ElytraFly.java",
+      "opaque_noise_blocks_removed": 33,
+      "input_sha256": "07946a3c31fec10813b776ff21745949f71936c0d4c718ab1af242b6ac09c34d",
+      "output_sha256": "2598189f942fa11c8d3bb97e05212259a0153c745ac957fe7ffc41ace0bf5a7e"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/NoSlow.java",
+      "opaque_noise_blocks_removed": 7,
+      "input_sha256": "bab9de50e00a8bc8c070dae95d6616d5beb06cce515d0a32f2a750340dc55e5a",
+      "output_sha256": "95f88f9ccca0461db7da033268ec71e8e4a4e86e93eccf5fb7e15c3bd594a25f"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/i/Velocity.java",
+      "opaque_noise_blocks_removed": 17,
+      "input_sha256": "c387b903140c322ff26d72d4fc960f24210c953c6bc90efd0963feecb00f64d8",
+      "output_sha256": "e02427a42a6e00d1afe068b523a8a21a5d67a4903375833d9044a40bb506553f"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/AutoPot.java",
+      "opaque_noise_blocks_removed": 8,
+      "input_sha256": "01c438377749b25810e2c970ae224d7eb4a308186364ae6757f98d58985b7045",
+      "output_sha256": "2bd03ece29065d735137d352a28324d5e089065978dd25b233d078a304f7aa82"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/à.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "47c5fa8da9d585e27db34c3b7370992ac47f95e2956622cb5b9df2441ee9efa0",
+      "output_sha256": "b5694215f3bc91f9d101d2c4c7a7b3b7dc5766c6db4e33b94d940b82e89947d7"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/á.java",
+      "opaque_noise_blocks_removed": 1,
+      "input_sha256": "0caaee18148129d78fe116289aef4d023dc674e1aaaab9d0bc348096082c6472",
+      "output_sha256": "f40ce4e689503f6d65f4d4101c7ae8c639bfd45b4b1bf30e5f8e7402cf7445be"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/â.java",
+      "opaque_noise_blocks_removed": 13,
+      "input_sha256": "94c6316a04fdad783a5da48896aa0f7a0f75fb5196b9767954bae559c9a1c56b",
+      "output_sha256": "9ac4c2899d5d72f0fa96a1cd761229a16300ce6ffec5329221757ba9ad4b9a34"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/ã.java",
+      "opaque_noise_blocks_removed": 12,
+      "input_sha256": "276064c09cf9b0c69991d8f1ae6be990d8d72d2f5131e68b1b8fc744a1a8cc86",
+      "output_sha256": "5c85abe04bf375575535677bffc203d843bfb81c40a073405f05f372613222c9"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/ā.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "e89f40208bb34667a52870ab313997e45e4efda0be9beb4ab2bc25d68d38ecf5",
+      "output_sha256": "4f969d28e098c5ac59cfc7cda4ced2a97edb9e017ebc1c5957d4620310d3b95d"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/a̅.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "daacaafba24a4759a925c434b2432d4995afcffa22d3a16e1d0afd6b4e1fea21",
+      "output_sha256": "1ccde5f88c4584c978efa166ebf799cf358fc11c4265f0fe38a165041f492b4a"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/ă.java",
+      "opaque_noise_blocks_removed": 9,
+      "input_sha256": "aa83c38e47974a01c63be45cb10c136ca25768e410ea9768846a5e0f41856d37",
+      "output_sha256": "a4325c5faaf151d3952ee72ae30151144b6289a6e4416a3e56e0fd9eb52b7286"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/ȧ.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "902ac88832c368da3d2a61d923dedab5d911f77c59ff2dc87811b92ecf507b70",
+      "output_sha256": "c4ba1c00bd43e2379880b0e85822ed6130fc8a1c5ab0637930dba172124d71cb"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/ä.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "0ede3a80602d1401cc16ce3ad0909339c9ab7982fceb5ff4d3013e9c5d503a48",
+      "output_sha256": "7075e3bf232028db062d52e7c2b4aa4f91c3a169dc72d3f13ad4b307adf428b1"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/ả.java",
+      "opaque_noise_blocks_removed": 4,
+      "input_sha256": "7882a6ad5b98df5b33b4f43659ecef83da65804cc96a49bfecc8678ac81a30c8",
+      "output_sha256": "75c87265b248db34b8ba4f6ad161029e70cd38385013512901b5d9d42c45a967"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/å.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "83968a86cbbfe7ffea607ef721c55837c65ecd06c76e324efe2861442f147e8c",
+      "output_sha256": "9916dd38d8ddf1ca266aa41a74a5c009050e4d7af783f058c766a917f356e722"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/a̋.java",
+      "opaque_noise_blocks_removed": 10,
+      "input_sha256": "73fdff7ea14ea2998459db44f388380dd2981a102600b1c0b57e3569d1e3c6eb",
+      "output_sha256": "d48a71a2cb8c86247745966a59e00b7b290380cd6d51b67abbd790d71a44310c"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/ǎ.java",
+      "opaque_noise_blocks_removed": 6,
+      "input_sha256": "918c6388a2e94087d225d95a6685fbaf0950ed83822e56687e4338ab25ecabd5",
+      "output_sha256": "90227e082e3cd07f897a8ac8dc5a9acc10f80f5dcb009cf0872557d5c4f5755f"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/a̍.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "343a348bf2ddca062000c3be441a65add689510bd8731cc82429df08ec2ad671",
+      "output_sha256": "df9fab4ddb17b9e2c82db905817ec479cff3f815de195b61f32e9b89fe50719c"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/InstantReplenish.java",
+      "opaque_noise_blocks_removed": 3,
+      "input_sha256": "9243c044a611d91dd111919c16ceee89d21994610f624e117f362c70b17c1344",
+      "output_sha256": "f094873a459a4c289c0ceb333c0a0894f7db6c30014f905d1890edc8924ee593"
+    },
+    {
+      "path": "dev/Astra/mod/modules/impl/l/PacketMine.java",
+      "opaque_noise_blocks_removed": 23,
+      "input_sha256": "da6fafddc411390785ad714445ca0359cadfe64e2a34577e76bfdda3f890c127",
+      "output_sha256": "a1d876eabfbcf000b04829d413f40bba673a409781f749b311e6d96be2c6a396"
+    },
+    {
+      "path": "j2cc/internal/Loader.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "d32c0a30ca07ae5168086e7e4bef4e8e0cad3af90fb7a42fe498a537815af0ba",
+      "output_sha256": "d7835329cb3135b169fb99214c597c4876c6d9a024f24f8a67389c21c5ae94c4"
+    },
+    {
+      "path": "j2cc/internal/Platform.java",
+      "opaque_noise_blocks_removed": 2,
+      "input_sha256": "6ec321bcf14b1de489dcebd4002e76a26d094bde61e815eb430be677e53e5d55",
+      "output_sha256": "f50ccbe58adc369848683c3e3d7c5db0eecf35a5628fabcaf8e0b2a2cb030f4e"
+    }
+  ]
+}

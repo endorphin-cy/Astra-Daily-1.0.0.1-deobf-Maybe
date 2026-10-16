@@ -1,0 +1,1136 @@
+[
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.DropAntiRegear",
+    "class_string_va": "0x1800ee127",
+    "method": "dropShulkerItems",
+    "descriptor": "()V",
+    "function_va": "0x180093e30",
+    "function_rva": "0x93e30",
+    "function_end_rva": "0x95227"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.DropAntiRegear",
+    "class_string_va": "0x1800ee127",
+    "method": "findNearbyShulker",
+    "descriptor": "()Lnet/minecraft/class_2338;",
+    "function_va": "0x180095280",
+    "function_rva": "0x95280",
+    "function_end_rva": "0x95f8e"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.f.AutoEZ",
+    "class_string_va": "0x1800ede00",
+    "method": "generateRandomString",
+    "descriptor": "(I)Ljava/lang/String;",
+    "function_va": "0x180047260",
+    "function_rva": "0x47260",
+    "function_end_rva": "0x51bbd"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "selfIntersectPos",
+    "descriptor": "(Lnet/minecraft/class_2338;)Z",
+    "function_va": "0x1800802a0",
+    "function_rva": "0x802a0",
+    "function_end_rva": "0x80711"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "getRotationTo",
+    "descriptor": "(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_241;",
+    "function_va": "0x180080770",
+    "function_rva": "0x80770",
+    "function_end_rva": "0x8091d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "getRotationFromVec",
+    "descriptor": "(Lnet/minecraft/class_243;)Lnet/minecraft/class_241;",
+    "function_va": "0x180080970",
+    "function_rva": "0x80970",
+    "function_end_rva": "0x81435"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "normalizeAngle",
+    "descriptor": "(D)D",
+    "function_va": "0x180081490",
+    "function_rva": "0x81490",
+    "function_end_rva": "0x814ff"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "shouldYawStep",
+    "descriptor": "()Z",
+    "function_va": "0x180081550",
+    "function_rva": "0x81550",
+    "function_end_rva": "0x81ea3"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "doSurround",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x180081f00",
+    "function_rva": "0x81f00",
+    "function_end_rva": "0x85fbe"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "faceVector",
+    "descriptor": "(Lnet/minecraft/class_243;)Z",
+    "function_va": "0x180086010",
+    "function_rva": "0x86010",
+    "function_end_rva": "0x86a0c"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "clickDown",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x180086a60",
+    "function_rva": "0x86a60",
+    "function_end_rva": "0x89e1f"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "tryPlaceBlock",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x180089e70",
+    "function_rva": "0x89e70",
+    "function_end_rva": "0x8d940"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "doSwap",
+    "descriptor": "(I)V",
+    "function_va": "0x18008d990",
+    "function_rva": "0x8d990",
+    "function_end_rva": "0x8e011"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "getBlock",
+    "descriptor": "()I",
+    "function_va": "0x18008e070",
+    "function_rva": "0x8e070",
+    "function_end_rva": "0x8eb8c"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.SelfTrap",
+    "class_string_va": "0x1800ee37c",
+    "method": "getHelperPos",
+    "descriptor": "(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2338;",
+    "function_va": "0x18008ebe0",
+    "function_rva": "0x8ebe0",
+    "function_end_rva": "0x8f7f5"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "closeScreenSafely",
+    "descriptor": "()V",
+    "function_va": "0x18005d7b0",
+    "function_rva": "0x5d7b0",
+    "function_end_rva": "0x5dbed"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "doTake",
+    "descriptor": "()Z",
+    "function_va": "0x18005dc40",
+    "function_rva": "0x5dc40",
+    "function_end_rva": "0x60ef9"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "calculateStealCount",
+    "descriptor": "()[I",
+    "function_va": "0x180060f50",
+    "function_rva": "0x60f50",
+    "function_end_rva": "0x63dca"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "getMissing",
+    "descriptor": "(Lnet/minecraft/class_1792;)I",
+    "function_va": "0x180063e20",
+    "function_rva": "0x63e20",
+    "function_end_rva": "0x64af1"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "needSteal",
+    "descriptor": "(Lnet/minecraft/class_1799;[I)Ldev/Astra/mod/modules/impl/d/ShulkerReplenish$á;",
+    "function_va": "0x180064b50",
+    "function_rva": "0x64b50",
+    "function_end_rva": "0x6abc4"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "doPlaceOnce",
+    "descriptor": "()V",
+    "function_va": "0x18006ac20",
+    "function_rva": "0x6ac20",
+    "function_end_rva": "0x79b6d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "attemptPlace",
+    "descriptor": "()V",
+    "function_va": "0x180079bc0",
+    "function_rva": "0x79bc0",
+    "function_end_rva": "0x7a8a0"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "findPlacePos",
+    "descriptor": "()Lnet/minecraft/class_2338;",
+    "function_va": "0x18007a8f0",
+    "function_rva": "0x7a8f0",
+    "function_end_rva": "0x7c7b2"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "distanceTo",
+    "descriptor": "(Lnet/minecraft/class_2338;)D",
+    "function_va": "0x18007c810",
+    "function_rva": "0x7c810",
+    "function_end_rva": "0x7d24c"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "findShulker",
+    "descriptor": "()I",
+    "function_va": "0x18007d2a0",
+    "function_rva": "0x7d2a0",
+    "function_end_rva": "0x7dab2"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "isShulkerBox",
+    "descriptor": "(Lnet/minecraft/class_1799;)Z",
+    "function_va": "0x18007db10",
+    "function_rva": "0x7db10",
+    "function_end_rva": "0x7deb8"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "openBlock",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x18007df10",
+    "function_rva": "0x7df10",
+    "function_end_rva": "0x7f087"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.ShulkerReplenish",
+    "class_string_va": "0x1800ee3ac",
+    "method": "placeBlock",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x18007f0e0",
+    "function_rva": "0x7f0e0",
+    "function_end_rva": "0x8024c"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.Velocity",
+    "class_string_va": "0x1800ede4f",
+    "method": "isInsideBlock",
+    "descriptor": "()Z",
+    "function_va": "0x180036c90",
+    "function_rva": "0x36c90",
+    "function_end_rva": "0x383f0"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.Velocity",
+    "class_string_va": "0x1800ede4f",
+    "method": "isWallsTrapped",
+    "descriptor": "()Z",
+    "function_va": "0x180038440",
+    "function_rva": "0x38440",
+    "function_end_rva": "0x38ded"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.Velocity",
+    "class_string_va": "0x1800ede4f",
+    "method": "applyScale",
+    "descriptor": "(Ldev/Astra/api/events/impl/EntityVelocityUpdateEvent;)V",
+    "function_va": "0x180038e40",
+    "function_rva": "0x38e40",
+    "function_end_rva": "0x39725"
+  },
+  {
+    "class_internal_name": "dev.Astra.api.utils.math.DamageUtils",
+    "class_string_va": "0x1800ee0cf",
+    "method": "resistanceReduction",
+    "descriptor": "(Lnet/minecraft/class_1309;F)F",
+    "function_va": "0x1800b3c60",
+    "function_rva": "0xb3c60",
+    "function_end_rva": "0xb400a"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "updateCompleteState",
+    "descriptor": "()V",
+    "function_va": "0x180001020",
+    "function_rva": "0x1020",
+    "function_end_rva": "0x16f0"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "updateSecondPos",
+    "descriptor": "()V",
+    "function_va": "0x180001740",
+    "function_rva": "0x1740",
+    "function_end_rva": "0x2e1c"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "resetMiningState",
+    "descriptor": "()V",
+    "function_va": "0x180002e70",
+    "function_rva": "0x2e70",
+    "function_end_rva": "0x32b8"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "shouldAbortMining",
+    "descriptor": "()Z",
+    "function_va": "0x180003310",
+    "function_rva": "0x3310",
+    "function_end_rva": "0x3ec9"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "abortCurrentMining",
+    "descriptor": "()V",
+    "function_va": "0x180003f20",
+    "function_rva": "0x3f20",
+    "function_end_rva": "0x4610"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "handleUnbreakable",
+    "descriptor": "()V",
+    "function_va": "0x180004660",
+    "function_rva": "0x4660",
+    "function_end_rva": "0x4c29"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "passPreconditionChecks",
+    "descriptor": "(Lnet/minecraft/class_1657;)Z",
+    "function_va": "0x180004c80",
+    "function_rva": "0x4c80",
+    "function_end_rva": "0x6888"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "executeStopPacket",
+    "descriptor": "(Lnet/minecraft/class_1657;I)V",
+    "function_va": "0x1800068e0",
+    "function_rva": "0x68e0",
+    "function_end_rva": "0x81ab"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "doStopPacket",
+    "descriptor": "(Lnet/minecraft/class_1657;IIZ)V",
+    "function_va": "0x180008200",
+    "function_rva": "0x8200",
+    "function_end_rva": "0xbd4f"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "executeStartPacket",
+    "descriptor": "(Lnet/minecraft/class_1657;I)V",
+    "function_va": "0x18000be00",
+    "function_rva": "0xbe00",
+    "function_end_rva": "0xffe1"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "isValidAttackTarget",
+    "descriptor": "(Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;)Z",
+    "function_va": "0x180010040",
+    "function_rva": "0x10040",
+    "function_end_rva": "0x10940"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "cancelPreviousPacket",
+    "descriptor": "()V",
+    "function_va": "0x180010990",
+    "function_rva": "0x10990",
+    "function_end_rva": "0x11e37"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "resetAttackState",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x180011e90",
+    "function_rva": "0x11e90",
+    "function_end_rva": "0x127cc"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "prepareDoubleBreak",
+    "descriptor": "(Lnet/minecraft/class_1657;)V",
+    "function_va": "0x180012820",
+    "function_rva": "0x12820",
+    "function_end_rva": "0x13a51"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "sendStartPacket",
+    "descriptor": "(Lnet/minecraft/class_2350;)V",
+    "function_va": "0x180013ab0",
+    "function_rva": "0x13ab0",
+    "function_end_rva": "0x15296"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "sendFastBypassPackets",
+    "descriptor": "()V",
+    "function_va": "0x1800152f0",
+    "function_rva": "0x152f0",
+    "function_end_rva": "0x17070"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "faceVector",
+    "descriptor": "(Lnet/minecraft/class_243;)Z",
+    "function_va": "0x180017270",
+    "function_rva": "0x17270",
+    "function_end_rva": "0x17d81"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getEfficiencyLevel",
+    "descriptor": "(Lnet/minecraft/class_1799;)I",
+    "function_va": "0x180017de0",
+    "function_rva": "0x17de0",
+    "function_end_rva": "0x18958"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getFillBox",
+    "descriptor": "(Lnet/minecraft/class_2338;D)Lnet/minecraft/class_238;",
+    "function_va": "0x1800189b0",
+    "function_rva": "0x189b0",
+    "function_end_rva": "0x19bf5"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getOutlineBox",
+    "descriptor": "(Lnet/minecraft/class_2338;D)Lnet/minecraft/class_238;",
+    "function_va": "0x180019c50",
+    "function_rva": "0x19c50",
+    "function_end_rva": "0x1b16b"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "shouldBypassGround",
+    "descriptor": "()Z",
+    "function_va": "0x18001b1c0",
+    "function_rva": "0x1b1c0",
+    "function_end_rva": "0x1cb31"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "handlePlayerAction",
+    "descriptor": "(Lnet/minecraft/class_2846;)V",
+    "function_va": "0x18001cb90",
+    "function_rva": "0x1cb90",
+    "function_end_rva": "0x1dabc"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getBreakTime",
+    "descriptor": "(Lnet/minecraft/class_2338;ID)D",
+    "function_va": "0x18001db10",
+    "function_rva": "0x1db10",
+    "function_end_rva": "0x1e2fe"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getBlockStrength",
+    "descriptor": "(Lnet/minecraft/class_2338;Lnet/minecraft/class_1799;)F",
+    "function_va": "0x18001e350",
+    "function_rva": "0x1e350",
+    "function_end_rva": "0x1ef27"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getDigSpeed",
+    "descriptor": "(Lnet/minecraft/class_2680;Lnet/minecraft/class_1799;)F",
+    "function_va": "0x18001ef80",
+    "function_rva": "0x1ef80",
+    "function_end_rva": "0x21e36"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getDestroySpeed",
+    "descriptor": "(Lnet/minecraft/class_2680;Lnet/minecraft/class_1799;)F",
+    "function_va": "0x180021e90",
+    "function_rva": "0x21e90",
+    "function_end_rva": "0x2207d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getColor",
+    "descriptor": "(D)Ljava/awt/Color;",
+    "function_va": "0x1800220d0",
+    "function_rva": "0x220d0",
+    "function_end_rva": "0x2365d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getOutlineColor",
+    "descriptor": "(D)Ljava/awt/Color;",
+    "function_va": "0x1800236b0",
+    "function_rva": "0x236b0",
+    "function_end_rva": "0x24c3d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "getTool",
+    "descriptor": "(Lnet/minecraft/class_2338;)I",
+    "function_va": "0x180024c90",
+    "function_rva": "0x24c90",
+    "function_end_rva": "0x26dd2"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "shouldYawStep",
+    "descriptor": "()Z",
+    "function_va": "0x180026e30",
+    "function_rva": "0x26e30",
+    "function_end_rva": "0x27abf"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "isAir",
+    "descriptor": "(Lnet/minecraft/class_2338;)Z",
+    "function_va": "0x180027b10",
+    "function_rva": "0x27b10",
+    "function_end_rva": "0x281a9"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.PacketMine",
+    "class_string_va": "0x1800ee52c",
+    "method": "unbreakable",
+    "descriptor": "(Lnet/minecraft/class_2338;)Z",
+    "function_va": "0x180028200",
+    "function_rva": "0x28200",
+    "function_end_rva": "0x2896e"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.AutoPot",
+    "class_string_va": "0x1800ee942",
+    "method": "findPotionInventorySlot",
+    "descriptor": "(Lnet/minecraft/class_1291;)I",
+    "function_va": "0x180032e50",
+    "function_rva": "0x32e50",
+    "function_end_rva": "0x33d7b"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.AutoPot",
+    "class_string_va": "0x1800ee942",
+    "method": "findPotion",
+    "descriptor": "(Lnet/minecraft/class_1291;)I",
+    "function_va": "0x180033dd0",
+    "function_rva": "0x33dd0",
+    "function_end_rva": "0x34cf5"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.AutoPot",
+    "class_string_va": "0x1800ee942",
+    "method": "hasNearbyPlayer",
+    "descriptor": "()Z",
+    "function_va": "0x180034d50",
+    "function_rva": "0x34d50",
+    "function_end_rva": "0x35b4e"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.AutoPot",
+    "class_string_va": "0x1800ee942",
+    "method": "hasNearbyPlayerWithTotem",
+    "descriptor": "()Z",
+    "function_va": "0x180035ba0",
+    "function_rva": "0x35ba0",
+    "function_end_rva": "0x36c3a"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Aura",
+    "class_string_va": "0x1800ee9d1",
+    "method": "getTarget",
+    "descriptor": "(D)Lnet/minecraft/class_1297;",
+    "function_va": "0x1800aa190",
+    "function_rva": "0xaa190",
+    "function_end_rva": "0xb0ca9"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "findEnderChest",
+    "descriptor": "()I",
+    "function_va": "0x180095fe0",
+    "function_rva": "0x95fe0",
+    "function_end_rva": "0x9699a"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "closeScreenSafely",
+    "descriptor": "()V",
+    "function_va": "0x1800969f0",
+    "function_rva": "0x969f0",
+    "function_end_rva": "0x96e2d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "doTake",
+    "descriptor": "()Z",
+    "function_va": "0x180096e80",
+    "function_rva": "0x96e80",
+    "function_end_rva": "0x9817d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "timeoutToDisable",
+    "descriptor": "()V",
+    "function_va": "0x1800981d0",
+    "function_rva": "0x981d0",
+    "function_end_rva": "0x98652"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "distanceTo",
+    "descriptor": "(Lnet/minecraft/class_2338;)D",
+    "function_va": "0x1800986b0",
+    "function_rva": "0x986b0",
+    "function_end_rva": "0x990bf"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "findOpenableEnderChest",
+    "descriptor": "()Lnet/minecraft/class_2338;",
+    "function_va": "0x180099110",
+    "function_rva": "0x99110",
+    "function_end_rva": "0x9a364"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "doPlace",
+    "descriptor": "()V",
+    "function_va": "0x18009a3c0",
+    "function_rva": "0x9a3c0",
+    "function_end_rva": "0x9eee4"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "attemptPlace",
+    "descriptor": "()V",
+    "function_va": "0x18009ef40",
+    "function_rva": "0x9ef40",
+    "function_end_rva": "0x9fc20"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "shouldTakeFromEnder",
+    "descriptor": "(Lnet/minecraft/class_1799;)Z",
+    "function_va": "0x18009fc70",
+    "function_rva": "0x9fc70",
+    "function_end_rva": "0xa0a71"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "trySwapFromEnder",
+    "descriptor": "()Z",
+    "function_va": "0x1800a0ad0",
+    "function_rva": "0xa0ad0",
+    "function_end_rva": "0xa20c1"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "swapFromEnder",
+    "descriptor": "(Lnet/minecraft/class_1707;II)V",
+    "function_va": "0x1800a2120",
+    "function_rva": "0xa2120",
+    "function_end_rva": "0xa3369"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "pickTargetInvSlot",
+    "descriptor": "()I",
+    "function_va": "0x1800a33c0",
+    "function_rva": "0xa33c0",
+    "function_end_rva": "0xa3bbc"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "countMissingSlots",
+    "descriptor": "(Lnet/minecraft/class_1799;)I",
+    "function_va": "0x1800a3c10",
+    "function_rva": "0xa3c10",
+    "function_end_rva": "0xa7940"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "isShulkerBox",
+    "descriptor": "(Lnet/minecraft/class_1799;)Z",
+    "function_va": "0x1800a7990",
+    "function_rva": "0xa7990",
+    "function_end_rva": "0xa7d38"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "invToScreen",
+    "descriptor": "(I)I",
+    "function_va": "0x1800a7d90",
+    "function_rva": "0xa7d90",
+    "function_end_rva": "0xa7da5"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "openContainer",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x1800a7e00",
+    "function_rva": "0xa7e00",
+    "function_end_rva": "0xa8f77"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AutoEnderChest",
+    "class_string_va": "0x1800eea75",
+    "method": "placeBlock",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x1800a8fd0",
+    "function_rva": "0xa8fd0",
+    "function_end_rva": "0xaa13c"
+  },
+  {
+    "class_internal_name": "dev.Astra.api.utils.math.AnimateUtil",
+    "class_string_va": "0x1800eebd0",
+    "method": "animate",
+    "descriptor": "(DDD)D",
+    "function_va": "0x1800b4060",
+    "function_rva": "0xb4060",
+    "function_end_rva": "0xb4309"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+    "class_string_va": "0x1800eec04",
+    "method": "closeScreenSafely",
+    "descriptor": "()V",
+    "function_va": "0x1800289c0",
+    "function_rva": "0x289c0",
+    "function_end_rva": "0x28df6"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+    "class_string_va": "0x1800eec04",
+    "method": "takeItems",
+    "descriptor": "()V",
+    "function_va": "0x180028e50",
+    "function_rva": "0x28e50",
+    "function_end_rva": "0x2b242"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+    "class_string_va": "0x1800eec04",
+    "method": "moveToBox",
+    "descriptor": "(Lnet/minecraft/class_1733;I)Z",
+    "function_va": "0x18002b2a0",
+    "function_rva": "0x2b2a0",
+    "function_end_rva": "0x2c628"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+    "class_string_va": "0x1800eec04",
+    "method": "fillFromBox",
+    "descriptor": "(Lnet/minecraft/class_1733;ILnet/minecraft/class_1792;I)V",
+    "function_va": "0x18002c680",
+    "function_rva": "0x2c680",
+    "function_end_rva": "0x2e6fe"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+    "class_string_va": "0x1800eec04",
+    "method": "invToScreen",
+    "descriptor": "(I)I",
+    "function_va": "0x18002e750",
+    "function_rva": "0x2e750",
+    "function_end_rva": "0x2e765"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+    "class_string_va": "0x1800eec04",
+    "method": "readLastKitName",
+    "descriptor": "()Ljava/lang/String;",
+    "function_va": "0x18002e7c0",
+    "function_rva": "0x2e7c0",
+    "function_end_rva": "0x2f603"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.l.InstantReplenish",
+    "class_string_va": "0x1800eec04",
+    "method": "loadKitFromFile",
+    "descriptor": "(Ljava/lang/String;)Z",
+    "function_va": "0x18002f660",
+    "function_rva": "0x2f660",
+    "function_end_rva": "0x32dfd"
+  },
+  {
+    "class_internal_name": "dev.Astra.api.utils.math.MathUtil",
+    "class_string_va": "0x1800eecf6",
+    "method": "getPointToBoxFromBottom",
+    "descriptor": "(Lnet/minecraft/class_243;Lnet/minecraft/class_243;DDD)Lnet/minecraft/class_243;",
+    "function_va": "0x1800b2d40",
+    "function_rva": "0xb2d40",
+    "function_end_rva": "0xb3c0e"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "selfIntersectPos",
+    "descriptor": "(Lnet/minecraft/class_2338;)Z",
+    "function_va": "0x180051c10",
+    "function_rva": "0x51c10",
+    "function_end_rva": "0x52081"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "otherIntersectPos",
+    "descriptor": "(Lnet/minecraft/class_2338;)Z",
+    "function_va": "0x1800520e0",
+    "function_rva": "0x520e0",
+    "function_end_rva": "0x52898"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "getRotationTo",
+    "descriptor": "(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_241;",
+    "function_va": "0x1800528f0",
+    "function_rva": "0x528f0",
+    "function_end_rva": "0x52a9d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "getRotationFromVec",
+    "descriptor": "(Lnet/minecraft/class_243;)Lnet/minecraft/class_241;",
+    "function_va": "0x180052af0",
+    "function_rva": "0x52af0",
+    "function_end_rva": "0x535b5"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "normalizeAngle",
+    "descriptor": "(D)D",
+    "function_va": "0x180053610",
+    "function_rva": "0x53610",
+    "function_end_rva": "0x5367f"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "doSurround",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x1800536d0",
+    "function_rva": "0x536d0",
+    "function_end_rva": "0x55590"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "shouldYawStep",
+    "descriptor": "()Z",
+    "function_va": "0x1800555e0",
+    "function_rva": "0x555e0",
+    "function_end_rva": "0x55f64"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "tryPlaceBlock",
+    "descriptor": "(Lnet/minecraft/class_2338;)V",
+    "function_va": "0x180055fc0",
+    "function_rva": "0x55fc0",
+    "function_end_rva": "0x5ae3e"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "faceVector",
+    "descriptor": "(Lnet/minecraft/class_243;)Z",
+    "function_va": "0x18005ae90",
+    "function_rva": "0x5ae90",
+    "function_end_rva": "0x5b88c"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "doSwap",
+    "descriptor": "(I)V",
+    "function_va": "0x18005b8e0",
+    "function_rva": "0x5b8e0",
+    "function_end_rva": "0x5bf61"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "getBlock",
+    "descriptor": "()I",
+    "function_va": "0x18005bfc0",
+    "function_rva": "0x5bfc0",
+    "function_end_rva": "0x5cae3"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Surround",
+    "class_string_va": "0x1800ee193",
+    "method": "getHelperPos",
+    "descriptor": "(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2338;",
+    "function_va": "0x18005cb40",
+    "function_rva": "0x5cb40",
+    "function_end_rva": "0x5d755"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "recastElytra",
+    "descriptor": "(Lnet/minecraft/class_746;)Z",
+    "function_va": "0x18003a850",
+    "function_rva": "0x3a850",
+    "function_end_rva": "0x3b276"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "checkConditions",
+    "descriptor": "(Lnet/minecraft/class_746;)Z",
+    "function_va": "0x18003b2d0",
+    "function_rva": "0x3b2d0",
+    "function_end_rva": "0x3bac9"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "ignoreGround",
+    "descriptor": "(Lnet/minecraft/class_746;)Z",
+    "function_va": "0x18003bb20",
+    "function_rva": "0x3bb20",
+    "function_end_rva": "0x3c274"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "boost",
+    "descriptor": "()V",
+    "function_va": "0x18003c2d0",
+    "function_rva": "0x3c2d0",
+    "function_end_rva": "0x3d38c"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "getRotationVector",
+    "descriptor": "(FF)Lnet/minecraft/class_243;",
+    "function_va": "0x18003d3e0",
+    "function_rva": "0x3d3e0",
+    "function_end_rva": "0x3d823"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "getRotationVec",
+    "descriptor": "(F)Lnet/minecraft/class_243;",
+    "function_va": "0x18003d880",
+    "function_rva": "0x3d880",
+    "function_end_rva": "0x3de03"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "calculatePlayerSpeed",
+    "descriptor": "()D",
+    "function_va": "0x18003de60",
+    "function_rva": "0x3de60",
+    "function_end_rva": "0x3f0c2"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "shouldTriggerFirework",
+    "descriptor": "(D)Z",
+    "function_va": "0x18003f120",
+    "function_rva": "0x3f120",
+    "function_end_rva": "0x406a6"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "calculateFlyMotion",
+    "descriptor": "(Lnet/minecraft/class_243;DD)Lnet/minecraft/class_243;",
+    "function_va": "0x180040700",
+    "function_rva": "0x40700",
+    "function_end_rva": "0x437b3"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "calculateRotationPitch",
+    "descriptor": "()F",
+    "function_va": "0x180043810",
+    "function_rva": "0x43810",
+    "function_end_rva": "0x44792"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "getInfinitePitch",
+    "descriptor": "()V",
+    "function_va": "0x1800447f0",
+    "function_rva": "0x447f0",
+    "function_end_rva": "0x4688d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.ElytraFly",
+    "class_string_va": "0x1800edf44",
+    "method": "isFallFlying",
+    "descriptor": "()Z",
+    "function_va": "0x1800468e0",
+    "function_rva": "0x468e0",
+    "function_end_rva": "0x4720d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Offhand",
+    "class_string_va": "0x1800eea1b",
+    "method": "lethalCrystal",
+    "descriptor": "()Z",
+    "function_va": "0x18008f850",
+    "function_rva": "0x8f850",
+    "function_end_rva": "0x90d3e"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Offhand",
+    "class_string_va": "0x1800eea1b",
+    "method": "hasNearbyPlayers",
+    "descriptor": "()Z",
+    "function_va": "0x180090d90",
+    "function_rva": "0x90d90",
+    "function_end_rva": "0x91c44"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.Offhand",
+    "class_string_va": "0x1800eea1b",
+    "method": "findItemInventorySlot",
+    "descriptor": "(Lnet/minecraft/class_1792;)I",
+    "function_va": "0x180091ca0",
+    "function_rva": "0x91ca0",
+    "function_end_rva": "0x93dd7"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.NoSlow",
+    "class_string_va": "0x1800eeb76",
+    "method": "getMovementMultiplier",
+    "descriptor": "(ZZ)F",
+    "function_va": "0x180039780",
+    "function_rva": "0x39780",
+    "function_end_rva": "0x397a4"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.NoSlow",
+    "class_string_va": "0x1800eeb76",
+    "method": "shouldNoSlowGrimV3",
+    "descriptor": "()Z",
+    "function_va": "0x180039800",
+    "function_rva": "0x39800",
+    "function_end_rva": "0x3a16d"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.i.NoSlow",
+    "class_string_va": "0x1800eeb76",
+    "method": "noSlow",
+    "descriptor": "()Z",
+    "function_va": "0x18003a1c0",
+    "function_rva": "0x3a1c0",
+    "function_end_rva": "0x3a7f2"
+  },
+  {
+    "class_internal_name": "dev.Astra.mod.modules.impl.d.AntiPhase",
+    "class_string_va": "0x1800ededa",
+    "method": "targetFacing",
+    "descriptor": "(Lnet/minecraft/class_243;)Lnet/minecraft/class_2350;",
+    "function_va": "0x1800b0d00",
+    "function_rva": "0xb0d00",
+    "function_end_rva": "0xb2ce8"
+  }
+]

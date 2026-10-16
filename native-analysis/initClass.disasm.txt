@@ -1,0 +1,881 @@
+
+outputs\Astra-Daily-1.0.0.1-deobf\native-recovered\j2cc-x86_64-windows.bin:	file format coff-x86-64
+
+Disassembly of section .text:
+
+00000001800b4390 <Java_j2cc_internal_Loader_initClass>:
+1800b4390: 55                          	push	rbp
+1800b4391: 56                          	push	rsi
+1800b4392: 57                          	push	rdi
+1800b4393: 48 81 ec 40 03 00 00        	sub	rsp, 0x340
+1800b439a: 48 8d ac 24 80 00 00 00     	lea	rbp, [rsp + 0x80]
+1800b43a2: 4c 89 c6                    	mov	rsi, r8
+1800b43a5: 48 89 cf                    	mov	rdi, rcx
+1800b43a8: 48 8d 4d a0                 	lea	rcx, [rbp - 0x60]
+1800b43ac: 4c 8d 8d bf 02 00 00        	lea	r9, [rbp + 0x2bf]
+1800b43b3: 48 89 fa                    	mov	rdx, rdi
+1800b43b6: e8 35 16 00 00              	call	0x1800b59f0 <Java_j2cc_internal_Loader_bootstrap+0x2a0>
+1800b43bb: 0f b6 85 bf 02 00 00        	movzx	eax, byte ptr [rbp + 0x2bf]
+1800b43c2: 0f 10 45 a0                 	movups	xmm0, xmmword ptr [rbp - 0x60]
+1800b43c6: 0f 29 85 a0 02 00 00        	movaps	xmmword ptr [rbp + 0x2a0], xmm0
+1800b43cd: 48 8b 4d b0                 	mov	rcx, qword ptr [rbp - 0x50]
+1800b43d1: 48 89 8d b0 02 00 00        	mov	qword ptr [rbp + 0x2b0], rcx
+1800b43d8: 3c 01                       	cmp	al, 0x1
+1800b43da: 0f 85 a7 0d 00 00           	jne	0x1800b5187 <Java_j2cc_internal_Loader_initClass+0xdf7>
+1800b43e0: f6 85 a0 02 00 00 01        	test	byte ptr [rbp + 0x2a0], 0x1
+1800b43e7: 75 68                       	jne	0x1800b4451 <Java_j2cc_internal_Loader_initClass+0xc1>
+1800b43e9: 48 8d 15 37 9d 03 00        	lea	rdx, [rip + 0x39d37]    # 0x1800ee127
+1800b43f0: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b43f7: e8 84 14 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b43fc: 84 c0                       	test	al, al
+1800b43fe: 0f 84 b1 00 00 00           	je	0x1800b44b5 <Java_j2cc_internal_Loader_initClass+0x125>
+1800b4404: 48 8d 05 48 9d 03 00        	lea	rax, [rip + 0x39d48]    # 0x1800ee153
+1800b440b: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b440f: 48 8d 05 a2 9b 03 00        	lea	rax, [rip + 0x39ba2]    # 0x1800edfb8
+1800b4416: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b441a: 48 8d 05 0f fa fd ff        	lea	rax, [rip - 0x205f1]    # 0x180093e30 <.text+0x92e30>
+1800b4421: 48 89 45 b0                 	mov	qword ptr [rbp - 0x50], rax
+1800b4425: 48 8d 05 38 9d 03 00        	lea	rax, [rip + 0x39d38]    # 0x1800ee164
+1800b442c: 48 89 45 b8                 	mov	qword ptr [rbp - 0x48], rax
+1800b4430: 48 8d 05 3f 9d 03 00        	lea	rax, [rip + 0x39d3f]    # 0x1800ee176
+1800b4437: 48 89 45 c0                 	mov	qword ptr [rbp - 0x40], rax
+1800b443b: 48 8d 05 3e 0e fe ff        	lea	rax, [rip - 0x1f1c2]    # 0x180095280 <.text+0x94280>
+1800b4442: 48 89 45 c8                 	mov	qword ptr [rbp - 0x38], rax
+1800b4446: 41 b9 02 00 00 00           	mov	r9d, 0x2
+1800b444c: e9 23 0d 00 00              	jmp	0x1800b5174 <Java_j2cc_internal_Loader_initClass+0xde4>
+1800b4451: 48 8b 85 a8 02 00 00        	mov	rax, qword ptr [rbp + 0x2a8]
+1800b4458: 48 83 c0 dd                 	add	rax, -0x23
+1800b445c: 48 83 f8 03                 	cmp	rax, 0x3
+1800b4460: 77 87                       	ja	0x1800b43e9 <Java_j2cc_internal_Loader_initClass+0x59>
+1800b4462: 48 8d 0d 57 99 03 00        	lea	rcx, [rip + 0x39957]    # 0x1800eddc0
+1800b4469: 48 63 04 81                 	movsxd	rax, dword ptr [rcx + 4*rax]
+1800b446d: 48 01 c8                    	add	rax, rcx
+1800b4470: ff e0                       	jmp	rax
+1800b4472: 48 8b 8d b0 02 00 00        	mov	rcx, qword ptr [rbp + 0x2b0]
+1800b4479: 48 8d 15 80 99 03 00        	lea	rdx, [rip + 0x39980]    # 0x1800ede00
+1800b4480: 41 b8 23 00 00 00           	mov	r8d, 0x23
+1800b4486: e8 d5 3b 00 00              	call	0x1800b8060 <Java_j2cc_internal_Loader_bootstrap+0x2910>
+1800b448b: 85 c0                       	test	eax, eax
+1800b448d: 0f 85 56 ff ff ff           	jne	0x1800b43e9 <Java_j2cc_internal_Loader_initClass+0x59>
+1800b4493: 48 8d 05 8a 99 03 00        	lea	rax, [rip + 0x3998a]    # 0x1800ede24
+1800b449a: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b449e: 48 8d 05 94 99 03 00        	lea	rax, [rip + 0x39994]    # 0x1800ede39
+1800b44a5: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b44a9: 48 8d 05 b0 2d f9 ff        	lea	rax, [rip - 0x6d250]    # 0x180047260 <.text+0x46260>
+1800b44b0: e9 b5 0c 00 00              	jmp	0x1800b516a <Java_j2cc_internal_Loader_initClass+0xdda>
+1800b44b5: 48 8d 15 d7 9c 03 00        	lea	rdx, [rip + 0x39cd7]    # 0x1800ee193
+1800b44bc: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b44c3: e8 b8 13 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b44c8: 84 c0                       	test	al, al
+1800b44ca: 0f 84 94 01 00 00           	je	0x1800b4664 <Java_j2cc_internal_Loader_initClass+0x2d4>
+1800b44d0: 48 8d 05 e2 9c 03 00        	lea	rax, [rip + 0x39ce2]    # 0x1800ee1b9
+1800b44d7: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b44db: 48 8d 05 e8 9c 03 00        	lea	rax, [rip + 0x39ce8]    # 0x1800ee1ca
+1800b44e2: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b44e6: 48 8d 0d 23 d7 f9 ff        	lea	rcx, [rip - 0x628dd]    # 0x180051c10 <.text+0x50c10>
+1800b44ed: 48 89 4d b0                 	mov	qword ptr [rbp - 0x50], rcx
+1800b44f1: 48 8d 0d f0 9c 03 00        	lea	rcx, [rip + 0x39cf0]    # 0x1800ee1e8
+1800b44f8: 48 89 4d b8                 	mov	qword ptr [rbp - 0x48], rcx
+1800b44fc: 48 89 45 c0                 	mov	qword ptr [rbp - 0x40], rax
+1800b4500: 48 8d 05 d9 db f9 ff        	lea	rax, [rip - 0x62427]    # 0x1800520e0 <.text+0x510e0>
+1800b4507: 48 89 45 c8                 	mov	qword ptr [rbp - 0x38], rax
+1800b450b: 48 8d 05 e8 9c 03 00        	lea	rax, [rip + 0x39ce8]    # 0x1800ee1fa
+1800b4512: 48 89 45 d0                 	mov	qword ptr [rbp - 0x30], rax
+1800b4516: 48 8d 05 eb 9c 03 00        	lea	rax, [rip + 0x39ceb]    # 0x1800ee208
+1800b451d: 48 89 45 d8                 	mov	qword ptr [rbp - 0x28], rax
+1800b4521: 48 8d 05 c8 e3 f9 ff        	lea	rax, [rip - 0x61c38]    # 0x1800528f0 <.text+0x518f0>
+1800b4528: 48 89 45 e0                 	mov	qword ptr [rbp - 0x20], rax
+1800b452c: 48 8d 05 23 9d 03 00        	lea	rax, [rip + 0x39d23]    # 0x1800ee256
+1800b4533: 48 89 45 e8                 	mov	qword ptr [rbp - 0x18], rax
+1800b4537: 48 8d 05 2b 9d 03 00        	lea	rax, [rip + 0x39d2b]    # 0x1800ee269
+1800b453e: 48 89 45 f0                 	mov	qword ptr [rbp - 0x10], rax
+1800b4542: 48 8d 05 a7 e5 f9 ff        	lea	rax, [rip - 0x61a59]    # 0x180052af0 <.text+0x51af0>
+1800b4549: 48 89 45 f8                 	mov	qword ptr [rbp - 0x8], rax
+1800b454d: 48 8d 05 4a 9d 03 00        	lea	rax, [rip + 0x39d4a]    # 0x1800ee29e
+1800b4554: 48 89 45 00                 	mov	qword ptr [rbp], rax
+1800b4558: 48 8d 05 4e 9d 03 00        	lea	rax, [rip + 0x39d4e]    # 0x1800ee2ad
+1800b455f: 48 89 45 08                 	mov	qword ptr [rbp + 0x8], rax
+1800b4563: 48 8d 05 a6 f0 f9 ff        	lea	rax, [rip - 0x60f5a]    # 0x180053610 <.text+0x52610>
+1800b456a: 48 89 45 10                 	mov	qword ptr [rbp + 0x10], rax
+1800b456e: 48 8d 05 3d 9d 03 00        	lea	rax, [rip + 0x39d3d]    # 0x1800ee2b2
+1800b4575: 48 89 45 18                 	mov	qword ptr [rbp + 0x18], rax
+1800b4579: 48 8d 05 3d 9d 03 00        	lea	rax, [rip + 0x39d3d]    # 0x1800ee2bd
+1800b4580: 48 89 45 20                 	mov	qword ptr [rbp + 0x20], rax
+1800b4584: 48 8d 0d 45 f1 f9 ff        	lea	rcx, [rip - 0x60ebb]    # 0x1800536d0 <.text+0x526d0>
+1800b458b: 48 89 4d 28                 	mov	qword ptr [rbp + 0x28], rcx
+1800b458f: 48 8d 0d 45 9d 03 00        	lea	rcx, [rip + 0x39d45]    # 0x1800ee2db
+1800b4596: 48 89 4d 30                 	mov	qword ptr [rbp + 0x30], rcx
+1800b459a: 48 8d 0d e2 98 03 00        	lea	rcx, [rip + 0x398e2]    # 0x1800ede83
+1800b45a1: 48 89 4d 38                 	mov	qword ptr [rbp + 0x38], rcx
+1800b45a5: 48 8d 0d 34 10 fa ff        	lea	rcx, [rip - 0x5efcc]    # 0x1800555e0 <.text+0x545e0>
+1800b45ac: 48 89 4d 40                 	mov	qword ptr [rbp + 0x40], rcx
+1800b45b0: 48 8d 0d 32 9d 03 00        	lea	rcx, [rip + 0x39d32]    # 0x1800ee2e9
+1800b45b7: 48 89 4d 48                 	mov	qword ptr [rbp + 0x48], rcx
+1800b45bb: 48 89 45 50                 	mov	qword ptr [rbp + 0x50], rax
+1800b45bf: 48 8d 05 fa 19 fa ff        	lea	rax, [rip - 0x5e606]    # 0x180055fc0 <.text+0x54fc0>
+1800b45c6: 48 89 45 58                 	mov	qword ptr [rbp + 0x58], rax
+1800b45ca: 48 8d 05 26 9d 03 00        	lea	rax, [rip + 0x39d26]    # 0x1800ee2f7
+1800b45d1: 48 89 45 60                 	mov	qword ptr [rbp + 0x60], rax
+1800b45d5: 48 8d 05 26 9d 03 00        	lea	rax, [rip + 0x39d26]    # 0x1800ee302
+1800b45dc: 48 89 45 68                 	mov	qword ptr [rbp + 0x68], rax
+1800b45e0: 48 8d 05 a9 68 fa ff        	lea	rax, [rip - 0x59757]    # 0x18005ae90 <.text+0x59e90>
+1800b45e7: 48 89 45 70                 	mov	qword ptr [rbp + 0x70], rax
+1800b45eb: 48 8d 05 2d 9d 03 00        	lea	rax, [rip + 0x39d2d]    # 0x1800ee31f
+1800b45f2: 48 89 45 78                 	mov	qword ptr [rbp + 0x78], rax
+1800b45f6: 48 8d 05 29 9d 03 00        	lea	rax, [rip + 0x39d29]    # 0x1800ee326
+1800b45fd: 48 89 85 80 00 00 00        	mov	qword ptr [rbp + 0x80], rax
+1800b4604: 48 8d 05 d5 72 fa ff        	lea	rax, [rip - 0x58d2b]    # 0x18005b8e0 <.text+0x5a8e0>
+1800b460b: 48 89 85 88 00 00 00        	mov	qword ptr [rbp + 0x88], rax
+1800b4612: 48 8d 05 12 9d 03 00        	lea	rax, [rip + 0x39d12]    # 0x1800ee32b
+1800b4619: 48 89 85 90 00 00 00        	mov	qword ptr [rbp + 0x90], rax
+1800b4620: 48 8d 05 0d 9d 03 00        	lea	rax, [rip + 0x39d0d]    # 0x1800ee334
+1800b4627: 48 89 85 98 00 00 00        	mov	qword ptr [rbp + 0x98], rax
+1800b462e: 48 8d 05 8b 79 fa ff        	lea	rax, [rip - 0x58675]    # 0x18005bfc0 <.text+0x5afc0>
+1800b4635: 48 89 85 a0 00 00 00        	mov	qword ptr [rbp + 0xa0], rax
+1800b463c: 48 8d 05 f5 9c 03 00        	lea	rax, [rip + 0x39cf5]    # 0x1800ee338
+1800b4643: 48 89 85 a8 00 00 00        	mov	qword ptr [rbp + 0xa8], rax
+1800b464a: 48 8d 05 f4 9c 03 00        	lea	rax, [rip + 0x39cf4]    # 0x1800ee345
+1800b4651: 48 89 85 b0 00 00 00        	mov	qword ptr [rbp + 0xb0], rax
+1800b4658: 48 8d 05 e1 84 fa ff        	lea	rax, [rip - 0x57b1f]    # 0x18005cb40 <.text+0x5bb40>
+1800b465f: e9 aa 01 00 00              	jmp	0x1800b480e <Java_j2cc_internal_Loader_initClass+0x47e>
+1800b4664: 48 8d 15 11 9d 03 00        	lea	rdx, [rip + 0x39d11]    # 0x1800ee37c
+1800b466b: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b4672: e8 09 12 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b4677: 84 c0                       	test	al, al
+1800b4679: 0f 84 a1 01 00 00           	je	0x1800b4820 <Java_j2cc_internal_Loader_initClass+0x490>
+1800b467f: 48 8d 05 33 9b 03 00        	lea	rax, [rip + 0x39b33]    # 0x1800ee1b9
+1800b4686: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b468a: 48 8d 05 39 9b 03 00        	lea	rax, [rip + 0x39b39]    # 0x1800ee1ca
+1800b4691: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b4695: 48 8d 05 04 bc fc ff        	lea	rax, [rip - 0x343fc]    # 0x1800802a0 <.text+0x7f2a0>
+1800b469c: 48 89 45 b0                 	mov	qword ptr [rbp - 0x50], rax
+1800b46a0: 48 8d 05 53 9b 03 00        	lea	rax, [rip + 0x39b53]    # 0x1800ee1fa
+1800b46a7: 48 89 45 b8                 	mov	qword ptr [rbp - 0x48], rax
+1800b46ab: 48 8d 05 56 9b 03 00        	lea	rax, [rip + 0x39b56]    # 0x1800ee208
+1800b46b2: 48 89 45 c0                 	mov	qword ptr [rbp - 0x40], rax
+1800b46b6: 48 8d 05 b3 c0 fc ff        	lea	rax, [rip - 0x33f4d]    # 0x180080770 <.text+0x7f770>
+1800b46bd: 48 89 45 c8                 	mov	qword ptr [rbp - 0x38], rax
+1800b46c1: 48 8d 05 8e 9b 03 00        	lea	rax, [rip + 0x39b8e]    # 0x1800ee256
+1800b46c8: 48 89 45 d0                 	mov	qword ptr [rbp - 0x30], rax
+1800b46cc: 48 8d 05 96 9b 03 00        	lea	rax, [rip + 0x39b96]    # 0x1800ee269
+1800b46d3: 48 89 45 d8                 	mov	qword ptr [rbp - 0x28], rax
+1800b46d7: 48 8d 05 92 c2 fc ff        	lea	rax, [rip - 0x33d6e]    # 0x180080970 <.text+0x7f970>
+1800b46de: 48 89 45 e0                 	mov	qword ptr [rbp - 0x20], rax
+1800b46e2: 48 8d 05 b5 9b 03 00        	lea	rax, [rip + 0x39bb5]    # 0x1800ee29e
+1800b46e9: 48 89 45 e8                 	mov	qword ptr [rbp - 0x18], rax
+1800b46ed: 48 8d 05 b9 9b 03 00        	lea	rax, [rip + 0x39bb9]    # 0x1800ee2ad
+1800b46f4: 48 89 45 f0                 	mov	qword ptr [rbp - 0x10], rax
+1800b46f8: 48 8d 05 91 cd fc ff        	lea	rax, [rip - 0x3326f]    # 0x180081490 <.text+0x80490>
+1800b46ff: 48 89 45 f8                 	mov	qword ptr [rbp - 0x8], rax
+1800b4703: 48 8d 05 d1 9b 03 00        	lea	rax, [rip + 0x39bd1]    # 0x1800ee2db
+1800b470a: 48 89 45 00                 	mov	qword ptr [rbp], rax
+1800b470e: 48 8d 05 6e 97 03 00        	lea	rax, [rip + 0x3976e]    # 0x1800ede83
+1800b4715: 48 89 45 08                 	mov	qword ptr [rbp + 0x8], rax
+1800b4719: 48 8d 05 30 ce fc ff        	lea	rax, [rip - 0x331d0]    # 0x180081550 <.text+0x80550>
+1800b4720: 48 89 45 10                 	mov	qword ptr [rbp + 0x10], rax
+1800b4724: 48 8d 05 87 9b 03 00        	lea	rax, [rip + 0x39b87]    # 0x1800ee2b2
+1800b472b: 48 89 45 18                 	mov	qword ptr [rbp + 0x18], rax
+1800b472f: 48 8d 05 87 9b 03 00        	lea	rax, [rip + 0x39b87]    # 0x1800ee2bd
+1800b4736: 48 89 45 20                 	mov	qword ptr [rbp + 0x20], rax
+1800b473a: 48 8d 0d bf d7 fc ff        	lea	rcx, [rip - 0x32841]    # 0x180081f00 <.text+0x80f00>
+1800b4741: 48 89 4d 28                 	mov	qword ptr [rbp + 0x28], rcx
+1800b4745: 48 8d 0d ab 9b 03 00        	lea	rcx, [rip + 0x39bab]    # 0x1800ee2f7
+1800b474c: 48 89 4d 30                 	mov	qword ptr [rbp + 0x30], rcx
+1800b4750: 48 8d 0d ab 9b 03 00        	lea	rcx, [rip + 0x39bab]    # 0x1800ee302
+1800b4757: 48 89 4d 38                 	mov	qword ptr [rbp + 0x38], rcx
+1800b475b: 48 8d 0d ae 18 fd ff        	lea	rcx, [rip - 0x2e752]    # 0x180086010 <.text+0x85010>
+1800b4762: 48 89 4d 40                 	mov	qword ptr [rbp + 0x40], rcx
+1800b4766: 48 8d 0d 35 9c 03 00        	lea	rcx, [rip + 0x39c35]    # 0x1800ee3a2
+1800b476d: 48 89 4d 48                 	mov	qword ptr [rbp + 0x48], rcx
+1800b4771: 48 89 45 50                 	mov	qword ptr [rbp + 0x50], rax
+1800b4775: 48 8d 0d e4 22 fd ff        	lea	rcx, [rip - 0x2dd1c]    # 0x180086a60 <.text+0x85a60>
+1800b477c: 48 89 4d 58                 	mov	qword ptr [rbp + 0x58], rcx
+1800b4780: 48 8d 0d 62 9b 03 00        	lea	rcx, [rip + 0x39b62]    # 0x1800ee2e9
+1800b4787: 48 89 4d 60                 	mov	qword ptr [rbp + 0x60], rcx
+1800b478b: 48 89 45 68                 	mov	qword ptr [rbp + 0x68], rax
+1800b478f: 48 8d 05 da 56 fd ff        	lea	rax, [rip - 0x2a926]    # 0x180089e70 <.text+0x88e70>
+1800b4796: 48 89 45 70                 	mov	qword ptr [rbp + 0x70], rax
+1800b479a: 48 8d 05 7e 9b 03 00        	lea	rax, [rip + 0x39b7e]    # 0x1800ee31f
+1800b47a1: 48 89 45 78                 	mov	qword ptr [rbp + 0x78], rax
+1800b47a5: 48 8d 05 7a 9b 03 00        	lea	rax, [rip + 0x39b7a]    # 0x1800ee326
+1800b47ac: 48 89 85 80 00 00 00        	mov	qword ptr [rbp + 0x80], rax
+1800b47b3: 48 8d 05 d6 91 fd ff        	lea	rax, [rip - 0x26e2a]    # 0x18008d990 <.text+0x8c990>
+1800b47ba: 48 89 85 88 00 00 00        	mov	qword ptr [rbp + 0x88], rax
+1800b47c1: 48 8d 05 63 9b 03 00        	lea	rax, [rip + 0x39b63]    # 0x1800ee32b
+1800b47c8: 48 89 85 90 00 00 00        	mov	qword ptr [rbp + 0x90], rax
+1800b47cf: 48 8d 05 5e 9b 03 00        	lea	rax, [rip + 0x39b5e]    # 0x1800ee334
+1800b47d6: 48 89 85 98 00 00 00        	mov	qword ptr [rbp + 0x98], rax
+1800b47dd: 48 8d 05 8c 98 fd ff        	lea	rax, [rip - 0x26774]    # 0x18008e070 <.text+0x8d070>
+1800b47e4: 48 89 85 a0 00 00 00        	mov	qword ptr [rbp + 0xa0], rax
+1800b47eb: 48 8d 05 46 9b 03 00        	lea	rax, [rip + 0x39b46]    # 0x1800ee338
+1800b47f2: 48 89 85 a8 00 00 00        	mov	qword ptr [rbp + 0xa8], rax
+1800b47f9: 48 8d 05 45 9b 03 00        	lea	rax, [rip + 0x39b45]    # 0x1800ee345
+1800b4800: 48 89 85 b0 00 00 00        	mov	qword ptr [rbp + 0xb0], rax
+1800b4807: 48 8d 05 d2 a3 fd ff        	lea	rax, [rip - 0x25c2e]    # 0x18008ebe0 <.text+0x8dbe0>
+1800b480e: 48 89 85 b8 00 00 00        	mov	qword ptr [rbp + 0xb8], rax
+1800b4815: 41 b9 0c 00 00 00           	mov	r9d, 0xc
+1800b481b: e9 54 09 00 00              	jmp	0x1800b5174 <Java_j2cc_internal_Loader_initClass+0xde4>
+1800b4820: 48 8d 15 85 9b 03 00        	lea	rdx, [rip + 0x39b85]    # 0x1800ee3ac
+1800b4827: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b482e: e8 4d 10 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b4833: 84 c0                       	test	al, al
+1800b4835: 0f 84 5e 04 00 00           	je	0x1800b4c99 <Java_j2cc_internal_Loader_initClass+0x909>
+1800b483b: 48 8d 05 98 9b 03 00        	lea	rax, [rip + 0x39b98]    # 0x1800ee3da
+1800b4842: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b4846: 48 8d 05 6b 97 03 00        	lea	rax, [rip + 0x3976b]    # 0x1800edfb8
+1800b484d: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b4851: 48 8d 0d 58 8f fa ff        	lea	rcx, [rip - 0x570a8]    # 0x18005d7b0 <.text+0x5c7b0>
+1800b4858: 48 89 4d b0                 	mov	qword ptr [rbp - 0x50], rcx
+1800b485c: 48 8d 0d 89 9b 03 00        	lea	rcx, [rip + 0x39b89]    # 0x1800ee3ec
+1800b4863: 48 89 4d b8                 	mov	qword ptr [rbp - 0x48], rcx
+1800b4867: 48 8d 0d 15 96 03 00        	lea	rcx, [rip + 0x39615]    # 0x1800ede83
+1800b486e: 48 89 4d c0                 	mov	qword ptr [rbp - 0x40], rcx
+1800b4872: 48 8d 0d c7 93 fa ff        	lea	rcx, [rip - 0x56c39]    # 0x18005dc40 <.text+0x5cc40>
+1800b4879: 48 89 4d c8                 	mov	qword ptr [rbp - 0x38], rcx
+1800b487d: 48 8d 0d 6f 9b 03 00        	lea	rcx, [rip + 0x39b6f]    # 0x1800ee3f3
+1800b4884: 48 89 4d d0                 	mov	qword ptr [rbp - 0x30], rcx
+1800b4888: 48 8d 0d 78 9b 03 00        	lea	rcx, [rip + 0x39b78]    # 0x1800ee407
+1800b488f: 48 89 4d d8                 	mov	qword ptr [rbp - 0x28], rcx
+1800b4893: 48 8d 0d b6 c6 fa ff        	lea	rcx, [rip - 0x5394a]    # 0x180060f50 <.text+0x5ff50>
+1800b489a: 48 89 4d e0                 	mov	qword ptr [rbp - 0x20], rcx
+1800b489e: 48 8d 0d 67 9b 03 00        	lea	rcx, [rip + 0x39b67]    # 0x1800ee40c
+1800b48a5: 48 89 4d e8                 	mov	qword ptr [rbp - 0x18], rcx
+1800b48a9: 48 8d 0d 67 9b 03 00        	lea	rcx, [rip + 0x39b67]    # 0x1800ee417
+1800b48b0: 48 89 4d f0                 	mov	qword ptr [rbp - 0x10], rcx
+1800b48b4: 48 8d 0d 65 f5 fa ff        	lea	rcx, [rip - 0x50a9b]    # 0x180063e20 <.text+0x62e20>
+1800b48bb: 48 89 4d f8                 	mov	qword ptr [rbp - 0x8], rcx
+1800b48bf: 48 8d 0d 6f 9b 03 00        	lea	rcx, [rip + 0x39b6f]    # 0x1800ee435
+1800b48c6: 48 89 4d 00                 	mov	qword ptr [rbp], rcx
+1800b48ca: 48 8d 0d 6e 9b 03 00        	lea	rcx, [rip + 0x39b6e]    # 0x1800ee43f
+1800b48d1: 48 89 4d 08                 	mov	qword ptr [rbp + 0x8], rcx
+1800b48d5: 48 8d 0d 74 02 fb ff        	lea	rcx, [rip - 0x4fd8c]    # 0x180064b50 <.text+0x63b50>
+1800b48dc: 48 89 4d 10                 	mov	qword ptr [rbp + 0x10], rcx
+1800b48e0: 48 8d 0d aa 9b 03 00        	lea	rcx, [rip + 0x39baa]    # 0x1800ee491
+1800b48e7: 48 89 4d 18                 	mov	qword ptr [rbp + 0x18], rcx
+1800b48eb: 48 89 45 20                 	mov	qword ptr [rbp + 0x20], rax
+1800b48ef: 48 8d 0d 2a 63 fb ff        	lea	rcx, [rip - 0x49cd6]    # 0x18006ac20 <.text+0x69c20>
+1800b48f6: 48 89 4d 28                 	mov	qword ptr [rbp + 0x28], rcx
+1800b48fa: 48 8d 0d 9c 9b 03 00        	lea	rcx, [rip + 0x39b9c]    # 0x1800ee49d
+1800b4901: 48 89 4d 30                 	mov	qword ptr [rbp + 0x30], rcx
+1800b4905: 48 89 45 38                 	mov	qword ptr [rbp + 0x38], rax
+1800b4909: 48 8d 05 b0 52 fc ff        	lea	rax, [rip - 0x3ad50]    # 0x180079bc0 <.text+0x78bc0>
+1800b4910: 48 89 45 40                 	mov	qword ptr [rbp + 0x40], rax
+1800b4914: 48 8d 05 8f 9b 03 00        	lea	rax, [rip + 0x39b8f]    # 0x1800ee4aa
+1800b491b: 48 89 45 48                 	mov	qword ptr [rbp + 0x48], rax
+1800b491f: 48 8d 05 50 98 03 00        	lea	rax, [rip + 0x39850]    # 0x1800ee176
+1800b4926: 48 89 45 50                 	mov	qword ptr [rbp + 0x50], rax
+1800b492a: 48 8d 05 bf 5f fc ff        	lea	rax, [rip - 0x3a041]    # 0x18007a8f0 <.text+0x798f0>
+1800b4931: 48 89 45 58                 	mov	qword ptr [rbp + 0x58], rax
+1800b4935: 48 8d 05 7b 9b 03 00        	lea	rax, [rip + 0x39b7b]    # 0x1800ee4b7
+1800b493c: 48 89 45 60                 	mov	qword ptr [rbp + 0x60], rax
+1800b4940: 48 8d 05 7b 9b 03 00        	lea	rax, [rip + 0x39b7b]    # 0x1800ee4c2
+1800b4947: 48 89 45 68                 	mov	qword ptr [rbp + 0x68], rax
+1800b494b: 48 8d 05 be 7e fc ff        	lea	rax, [rip - 0x38142]    # 0x18007c810 <.text+0x7b810>
+1800b4952: 48 89 45 70                 	mov	qword ptr [rbp + 0x70], rax
+1800b4956: 48 8d 05 83 9b 03 00        	lea	rax, [rip + 0x39b83]    # 0x1800ee4e0
+1800b495d: 48 89 45 78                 	mov	qword ptr [rbp + 0x78], rax
+1800b4961: 48 8d 05 cc 99 03 00        	lea	rax, [rip + 0x399cc]    # 0x1800ee334
+1800b4968: 48 89 85 80 00 00 00        	mov	qword ptr [rbp + 0x80], rax
+1800b496f: 48 8d 05 2a 89 fc ff        	lea	rax, [rip - 0x376d6]    # 0x18007d2a0 <.text+0x7c2a0>
+1800b4976: 48 89 85 88 00 00 00        	mov	qword ptr [rbp + 0x88], rax
+1800b497d: 48 8d 05 68 9b 03 00        	lea	rax, [rip + 0x39b68]    # 0x1800ee4ec
+1800b4984: 48 89 85 90 00 00 00        	mov	qword ptr [rbp + 0x90], rax
+1800b498b: 48 8d 05 67 9b 03 00        	lea	rax, [rip + 0x39b67]    # 0x1800ee4f9
+1800b4992: 48 89 85 98 00 00 00        	mov	qword ptr [rbp + 0x98], rax
+1800b4999: 48 8d 05 70 91 fc ff        	lea	rax, [rip - 0x36e90]    # 0x18007db10 <.text+0x7cb10>
+1800b49a0: 48 89 85 a0 00 00 00        	mov	qword ptr [rbp + 0xa0], rax
+1800b49a7: 48 8d 05 69 9b 03 00        	lea	rax, [rip + 0x39b69]    # 0x1800ee517
+1800b49ae: 48 89 85 a8 00 00 00        	mov	qword ptr [rbp + 0xa8], rax
+1800b49b5: 48 8d 05 01 99 03 00        	lea	rax, [rip + 0x39901]    # 0x1800ee2bd
+1800b49bc: 48 89 85 b0 00 00 00        	mov	qword ptr [rbp + 0xb0], rax
+1800b49c3: 48 8d 0d 46 95 fc ff        	lea	rcx, [rip - 0x36aba]    # 0x18007df10 <.text+0x7cf10>
+1800b49ca: 48 89 8d b8 00 00 00        	mov	qword ptr [rbp + 0xb8], rcx
+1800b49d1: 48 8d 0d 49 9b 03 00        	lea	rcx, [rip + 0x39b49]    # 0x1800ee521
+1800b49d8: 48 89 8d c0 00 00 00        	mov	qword ptr [rbp + 0xc0], rcx
+1800b49df: 48 89 85 c8 00 00 00        	mov	qword ptr [rbp + 0xc8], rax
+1800b49e6: 48 8d 05 f3 a6 fc ff        	lea	rax, [rip - 0x3590d]    # 0x18007f0e0 <.text+0x7e0e0>
+1800b49ed: 48 89 85 d0 00 00 00        	mov	qword ptr [rbp + 0xd0], rax
+1800b49f4: 41 b9 0d 00 00 00           	mov	r9d, 0xd
+1800b49fa: e9 75 07 00 00              	jmp	0x1800b5174 <Java_j2cc_internal_Loader_initClass+0xde4>
+1800b49ff: 48 8b 8d b0 02 00 00        	mov	rcx, qword ptr [rbp + 0x2b0]
+1800b4a06: 48 8d 15 42 94 03 00        	lea	rdx, [rip + 0x39442]    # 0x1800ede4f
+1800b4a0d: 41 b8 25 00 00 00           	mov	r8d, 0x25
+1800b4a13: e8 48 36 00 00              	call	0x1800b8060 <Java_j2cc_internal_Loader_bootstrap+0x2910>
+1800b4a18: 85 c0                       	test	eax, eax
+1800b4a1a: 0f 85 c9 f9 ff ff           	jne	0x1800b43e9 <Java_j2cc_internal_Loader_initClass+0x59>
+1800b4a20: 48 8d 05 4e 94 03 00        	lea	rax, [rip + 0x3944e]    # 0x1800ede75
+1800b4a27: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b4a2b: 48 8d 05 51 94 03 00        	lea	rax, [rip + 0x39451]    # 0x1800ede83
+1800b4a32: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b4a36: 48 8d 0d 53 22 f8 ff        	lea	rcx, [rip - 0x7ddad]    # 0x180036c90 <.text+0x35c90>
+1800b4a3d: 48 89 4d b0                 	mov	qword ptr [rbp - 0x50], rcx
+1800b4a41: 48 8d 0d 3f 94 03 00        	lea	rcx, [rip + 0x3943f]    # 0x1800ede87
+1800b4a48: 48 89 4d b8                 	mov	qword ptr [rbp - 0x48], rcx
+1800b4a4c: 48 89 45 c0                 	mov	qword ptr [rbp - 0x40], rax
+1800b4a50: 48 8d 05 e9 39 f8 ff        	lea	rax, [rip - 0x7c617]    # 0x180038440 <.text+0x37440>
+1800b4a57: 48 89 45 c8                 	mov	qword ptr [rbp - 0x38], rax
+1800b4a5b: 48 8d 05 34 94 03 00        	lea	rax, [rip + 0x39434]    # 0x1800ede96
+1800b4a62: 48 89 45 d0                 	mov	qword ptr [rbp - 0x30], rax
+1800b4a66: 48 8d 05 34 94 03 00        	lea	rax, [rip + 0x39434]    # 0x1800edea1
+1800b4a6d: 48 89 45 d8                 	mov	qword ptr [rbp - 0x28], rax
+1800b4a71: 48 8d 05 c8 43 f8 ff        	lea	rax, [rip - 0x7bc38]    # 0x180038e40 <.text+0x37e40>
+1800b4a78: 48 89 45 e0                 	mov	qword ptr [rbp - 0x20], rax
+1800b4a7c: 41 b9 03 00 00 00           	mov	r9d, 0x3
+1800b4a82: e9 ed 06 00 00              	jmp	0x1800b5174 <Java_j2cc_internal_Loader_initClass+0xde4>
+1800b4a87: 48 8b 8d b0 02 00 00        	mov	rcx, qword ptr [rbp + 0x2b0]
+1800b4a8e: 48 8d 15 45 94 03 00        	lea	rdx, [rip + 0x39445]    # 0x1800ededa
+1800b4a95: 41 b8 26 00 00 00           	mov	r8d, 0x26
+1800b4a9b: e8 c0 35 00 00              	call	0x1800b8060 <Java_j2cc_internal_Loader_bootstrap+0x2910>
+1800b4aa0: 85 c0                       	test	eax, eax
+1800b4aa2: 0f 84 a5 06 00 00           	je	0x1800b514d <Java_j2cc_internal_Loader_initClass+0xdbd>
+1800b4aa8: 48 8b 8d b0 02 00 00        	mov	rcx, qword ptr [rbp + 0x2b0]
+1800b4aaf: 48 8d 15 8e 94 03 00        	lea	rdx, [rip + 0x3948e]    # 0x1800edf44
+1800b4ab6: 41 b8 26 00 00 00           	mov	r8d, 0x26
+1800b4abc: e8 9f 35 00 00              	call	0x1800b8060 <Java_j2cc_internal_Loader_bootstrap+0x2910>
+1800b4ac1: 85 c0                       	test	eax, eax
+1800b4ac3: 0f 85 20 f9 ff ff           	jne	0x1800b43e9 <Java_j2cc_internal_Loader_initClass+0x59>
+1800b4ac9: 48 8d 05 9b 94 03 00        	lea	rax, [rip + 0x3949b]    # 0x1800edf6b
+1800b4ad0: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b4ad4: 48 8d 05 9d 94 03 00        	lea	rax, [rip + 0x3949d]    # 0x1800edf78
+1800b4adb: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b4adf: 48 8d 0d 6a 5d f8 ff        	lea	rcx, [rip - 0x7a296]    # 0x18003a850 <.text+0x39850>
+1800b4ae6: 48 89 4d b0                 	mov	qword ptr [rbp - 0x50], rcx
+1800b4aea: 48 8d 0d a4 94 03 00        	lea	rcx, [rip + 0x394a4]    # 0x1800edf95
+1800b4af1: 48 89 4d b8                 	mov	qword ptr [rbp - 0x48], rcx
+1800b4af5: 48 89 45 c0                 	mov	qword ptr [rbp - 0x40], rax
+1800b4af9: 48 8d 0d d0 67 f8 ff        	lea	rcx, [rip - 0x79830]    # 0x18003b2d0 <.text+0x3a2d0>
+1800b4b00: 48 89 4d c8                 	mov	qword ptr [rbp - 0x38], rcx
+1800b4b04: 48 8d 0d 9a 94 03 00        	lea	rcx, [rip + 0x3949a]    # 0x1800edfa5
+1800b4b0b: 48 89 4d d0                 	mov	qword ptr [rbp - 0x30], rcx
+1800b4b0f: 48 89 45 d8                 	mov	qword ptr [rbp - 0x28], rax
+1800b4b13: 48 8d 05 06 70 f8 ff        	lea	rax, [rip - 0x78ffa]    # 0x18003bb20 <.text+0x3ab20>
+1800b4b1a: 48 89 45 e0                 	mov	qword ptr [rbp - 0x20], rax
+1800b4b1e: 48 8d 05 8d 94 03 00        	lea	rax, [rip + 0x3948d]    # 0x1800edfb2
+1800b4b25: 48 89 45 e8                 	mov	qword ptr [rbp - 0x18], rax
+1800b4b29: 48 8d 05 88 94 03 00        	lea	rax, [rip + 0x39488]    # 0x1800edfb8
+1800b4b30: 48 89 45 f0                 	mov	qword ptr [rbp - 0x10], rax
+1800b4b34: 48 8d 0d 95 77 f8 ff        	lea	rcx, [rip - 0x7886b]    # 0x18003c2d0 <.text+0x3b2d0>
+1800b4b3b: 48 89 4d f8                 	mov	qword ptr [rbp - 0x8], rcx
+1800b4b3f: 48 8d 0d 76 94 03 00        	lea	rcx, [rip + 0x39476]    # 0x1800edfbc
+1800b4b46: 48 89 4d 00                 	mov	qword ptr [rbp], rcx
+1800b4b4a: 48 8d 0d 7d 94 03 00        	lea	rcx, [rip + 0x3947d]    # 0x1800edfce
+1800b4b51: 48 89 4d 08                 	mov	qword ptr [rbp + 0x8], rcx
+1800b4b55: 48 8d 0d 84 88 f8 ff        	lea	rcx, [rip - 0x7777c]    # 0x18003d3e0 <.text+0x3c3e0>
+1800b4b5c: 48 89 4d 10                 	mov	qword ptr [rbp + 0x10], rcx
+1800b4b60: 48 8d 0d 85 94 03 00        	lea	rcx, [rip + 0x39485]    # 0x1800edfec
+1800b4b67: 48 89 4d 18                 	mov	qword ptr [rbp + 0x18], rcx
+1800b4b6b: 48 8d 0d 89 94 03 00        	lea	rcx, [rip + 0x39489]    # 0x1800edffb
+1800b4b72: 48 89 4d 20                 	mov	qword ptr [rbp + 0x20], rcx
+1800b4b76: 48 8d 0d 03 8d f8 ff        	lea	rcx, [rip - 0x772fd]    # 0x18003d880 <.text+0x3c880>
+1800b4b7d: 48 89 4d 28                 	mov	qword ptr [rbp + 0x28], rcx
+1800b4b81: 48 8d 0d 90 94 03 00        	lea	rcx, [rip + 0x39490]    # 0x1800ee018
+1800b4b88: 48 89 4d 30                 	mov	qword ptr [rbp + 0x30], rcx
+1800b4b8c: 48 8d 0d 9a 94 03 00        	lea	rcx, [rip + 0x3949a]    # 0x1800ee02d
+1800b4b93: 48 89 4d 38                 	mov	qword ptr [rbp + 0x38], rcx
+1800b4b97: 48 8d 0d c2 92 f8 ff        	lea	rcx, [rip - 0x76d3e]    # 0x18003de60 <.text+0x3ce60>
+1800b4b9e: 48 89 4d 40                 	mov	qword ptr [rbp + 0x40], rcx
+1800b4ba2: 48 8d 0d 88 94 03 00        	lea	rcx, [rip + 0x39488]    # 0x1800ee031
+1800b4ba9: 48 89 4d 48                 	mov	qword ptr [rbp + 0x48], rcx
+1800b4bad: 48 8d 0d 93 94 03 00        	lea	rcx, [rip + 0x39493]    # 0x1800ee047
+1800b4bb4: 48 89 4d 50                 	mov	qword ptr [rbp + 0x50], rcx
+1800b4bb8: 48 8d 0d 61 a5 f8 ff        	lea	rcx, [rip - 0x75a9f]    # 0x18003f120 <.text+0x3e120>
+1800b4bbf: 48 89 4d 58                 	mov	qword ptr [rbp + 0x58], rcx
+1800b4bc3: 48 8d 0d 82 94 03 00        	lea	rcx, [rip + 0x39482]    # 0x1800ee04c
+1800b4bca: 48 89 4d 60                 	mov	qword ptr [rbp + 0x60], rcx
+1800b4bce: 48 8d 0d 8a 94 03 00        	lea	rcx, [rip + 0x3948a]    # 0x1800ee05f
+1800b4bd5: 48 89 4d 68                 	mov	qword ptr [rbp + 0x68], rcx
+1800b4bd9: 48 8d 0d 20 bb f8 ff        	lea	rcx, [rip - 0x744e0]    # 0x180040700 <.text+0x3f700>
+1800b4be0: 48 89 4d 70                 	mov	qword ptr [rbp + 0x70], rcx
+1800b4be4: 48 8d 0d ab 94 03 00        	lea	rcx, [rip + 0x394ab]    # 0x1800ee096
+1800b4beb: 48 89 4d 78                 	mov	qword ptr [rbp + 0x78], rcx
+1800b4bef: 48 8d 0d b7 94 03 00        	lea	rcx, [rip + 0x394b7]    # 0x1800ee0ad
+1800b4bf6: 48 89 8d 80 00 00 00        	mov	qword ptr [rbp + 0x80], rcx
+1800b4bfd: 48 8d 0d 0c ec f8 ff        	lea	rcx, [rip - 0x713f4]    # 0x180043810 <.text+0x42810>
+1800b4c04: 48 89 8d 88 00 00 00        	mov	qword ptr [rbp + 0x88], rcx
+1800b4c0b: 48 8d 0d 9f 94 03 00        	lea	rcx, [rip + 0x3949f]    # 0x1800ee0b1
+1800b4c12: 48 89 8d 90 00 00 00        	mov	qword ptr [rbp + 0x90], rcx
+1800b4c19: 48 89 85 98 00 00 00        	mov	qword ptr [rbp + 0x98], rax
+1800b4c20: 48 8d 05 c9 fb f8 ff        	lea	rax, [rip - 0x70437]    # 0x1800447f0 <.text+0x437f0>
+1800b4c27: 48 89 85 a0 00 00 00        	mov	qword ptr [rbp + 0xa0], rax
+1800b4c2e: 48 8d 05 8d 94 03 00        	lea	rax, [rip + 0x3948d]    # 0x1800ee0c2
+1800b4c35: 48 89 85 a8 00 00 00        	mov	qword ptr [rbp + 0xa8], rax
+1800b4c3c: 48 8d 05 40 92 03 00        	lea	rax, [rip + 0x39240]    # 0x1800ede83
+1800b4c43: 48 89 85 b0 00 00 00        	mov	qword ptr [rbp + 0xb0], rax
+1800b4c4a: 48 8d 05 8f 1c f9 ff        	lea	rax, [rip - 0x6e371]    # 0x1800468e0 <.text+0x458e0>
+1800b4c51: e9 b8 fb ff ff              	jmp	0x1800b480e <Java_j2cc_internal_Loader_initClass+0x47e>
+1800b4c56: 48 8b 8d b0 02 00 00        	mov	rcx, qword ptr [rbp + 0x2b0]
+1800b4c5d: 48 8d 15 6b 94 03 00        	lea	rdx, [rip + 0x3946b]    # 0x1800ee0cf
+1800b4c64: 41 b8 24 00 00 00           	mov	r8d, 0x24
+1800b4c6a: e8 f1 33 00 00              	call	0x1800b8060 <Java_j2cc_internal_Loader_bootstrap+0x2910>
+1800b4c6f: 85 c0                       	test	eax, eax
+1800b4c71: 0f 85 72 f7 ff ff           	jne	0x1800b43e9 <Java_j2cc_internal_Loader_initClass+0x59>
+1800b4c77: 48 8d 05 76 94 03 00        	lea	rax, [rip + 0x39476]    # 0x1800ee0f4
+1800b4c7e: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b4c82: 48 8d 05 7f 94 03 00        	lea	rax, [rip + 0x3947f]    # 0x1800ee108
+1800b4c89: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b4c8d: 48 8d 05 cc ef ff ff        	lea	rax, [rip - 0x1034]     # 0x1800b3c60 <.text+0xb2c60>
+1800b4c94: e9 d1 04 00 00              	jmp	0x1800b516a <Java_j2cc_internal_Loader_initClass+0xdda>
+1800b4c99: 48 8d 15 8c 98 03 00        	lea	rdx, [rip + 0x3988c]    # 0x1800ee52c
+1800b4ca0: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b4ca7: e8 d4 0b 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b4cac: 84 c0                       	test	al, al
+1800b4cae: 0f 84 f4 04 00 00           	je	0x1800b51a8 <Java_j2cc_internal_Loader_initClass+0xe18>
+1800b4cb4: 48 8d 05 99 98 03 00        	lea	rax, [rip + 0x39899]    # 0x1800ee554
+1800b4cbb: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b4cbf: 48 8d 0d f2 92 03 00        	lea	rcx, [rip + 0x392f2]    # 0x1800edfb8
+1800b4cc6: 48 89 4d a8                 	mov	qword ptr [rbp - 0x58], rcx
+1800b4cca: 48 8d 05 4f c3 f4 ff        	lea	rax, [rip - 0xb3cb1]    # 0x180001020 <.text+0x20>
+1800b4cd1: 48 89 45 b0                 	mov	qword ptr [rbp - 0x50], rax
+1800b4cd5: 48 8d 05 8c 98 03 00        	lea	rax, [rip + 0x3988c]    # 0x1800ee568
+1800b4cdc: 48 89 45 b8                 	mov	qword ptr [rbp - 0x48], rax
+1800b4ce0: 48 89 4d c0                 	mov	qword ptr [rbp - 0x40], rcx
+1800b4ce4: 48 8d 05 55 ca f4 ff        	lea	rax, [rip - 0xb35ab]    # 0x180001740 <.text+0x740>
+1800b4ceb: 48 89 45 c8                 	mov	qword ptr [rbp - 0x38], rax
+1800b4cef: 48 8d 05 82 98 03 00        	lea	rax, [rip + 0x39882]    # 0x1800ee578
+1800b4cf6: 48 89 45 d0                 	mov	qword ptr [rbp - 0x30], rax
+1800b4cfa: 48 89 4d d8                 	mov	qword ptr [rbp - 0x28], rcx
+1800b4cfe: 48 8d 05 6b e1 f4 ff        	lea	rax, [rip - 0xb1e95]    # 0x180002e70 <.text+0x1e70>
+1800b4d05: 48 89 45 e0                 	mov	qword ptr [rbp - 0x20], rax
+1800b4d09: 48 8d 05 79 98 03 00        	lea	rax, [rip + 0x39879]    # 0x1800ee589
+1800b4d10: 48 89 45 e8                 	mov	qword ptr [rbp - 0x18], rax
+1800b4d14: 48 8d 05 68 91 03 00        	lea	rax, [rip + 0x39168]    # 0x1800ede83
+1800b4d1b: 48 89 45 f0                 	mov	qword ptr [rbp - 0x10], rax
+1800b4d1f: 48 8d 15 ea e5 f4 ff        	lea	rdx, [rip - 0xb1a16]    # 0x180003310 <.text+0x2310>
+1800b4d26: 48 89 55 f8                 	mov	qword ptr [rbp - 0x8], rdx
+1800b4d2a: 48 8d 15 6a 98 03 00        	lea	rdx, [rip + 0x3986a]    # 0x1800ee59b
+1800b4d31: 48 89 55 00                 	mov	qword ptr [rbp], rdx
+1800b4d35: 48 89 4d 08                 	mov	qword ptr [rbp + 0x8], rcx
+1800b4d39: 48 8d 15 e0 f1 f4 ff        	lea	rdx, [rip - 0xb0e20]    # 0x180003f20 <.text+0x2f20>
+1800b4d40: 48 89 55 10                 	mov	qword ptr [rbp + 0x10], rdx
+1800b4d44: 48 8d 15 63 98 03 00        	lea	rdx, [rip + 0x39863]    # 0x1800ee5ae
+1800b4d4b: 48 89 55 18                 	mov	qword ptr [rbp + 0x18], rdx
+1800b4d4f: 48 89 4d 20                 	mov	qword ptr [rbp + 0x20], rcx
+1800b4d53: 48 8d 15 06 f9 f4 ff        	lea	rdx, [rip - 0xb06fa]    # 0x180004660 <.text+0x3660>
+1800b4d5a: 48 89 55 28                 	mov	qword ptr [rbp + 0x28], rdx
+1800b4d5e: 48 8d 15 5b 98 03 00        	lea	rdx, [rip + 0x3985b]    # 0x1800ee5c0
+1800b4d65: 48 89 55 30                 	mov	qword ptr [rbp + 0x30], rdx
+1800b4d69: 48 8d 15 67 98 03 00        	lea	rdx, [rip + 0x39867]    # 0x1800ee5d7
+1800b4d70: 48 89 55 38                 	mov	qword ptr [rbp + 0x38], rdx
+1800b4d74: 48 8d 15 05 ff f4 ff        	lea	rdx, [rip - 0xb00fb]    # 0x180004c80 <.text+0x3c80>
+1800b4d7b: 48 89 55 40                 	mov	qword ptr [rbp + 0x40], rdx
+1800b4d7f: 48 8d 15 6f 98 03 00        	lea	rdx, [rip + 0x3986f]    # 0x1800ee5f5
+1800b4d86: 48 89 55 48                 	mov	qword ptr [rbp + 0x48], rdx
+1800b4d8a: 48 8d 15 76 98 03 00        	lea	rdx, [rip + 0x39876]    # 0x1800ee607
+1800b4d91: 48 89 55 50                 	mov	qword ptr [rbp + 0x50], rdx
+1800b4d95: 4c 8d 05 44 1b f5 ff        	lea	r8, [rip - 0xae4bc]     # 0x1800068e0 <.text+0x58e0>
+1800b4d9c: 4c 89 45 58                 	mov	qword ptr [rbp + 0x58], r8
+1800b4da0: 4c 8d 05 7f 98 03 00        	lea	r8, [rip + 0x3987f]     # 0x1800ee626
+1800b4da7: 4c 89 45 60                 	mov	qword ptr [rbp + 0x60], r8
+1800b4dab: 4c 8d 05 81 98 03 00        	lea	r8, [rip + 0x39881]     # 0x1800ee633
+1800b4db2: 4c 89 45 68                 	mov	qword ptr [rbp + 0x68], r8
+1800b4db6: 4c 8d 05 43 34 f5 ff        	lea	r8, [rip - 0xacbbd]     # 0x180008200 <.text+0x7200>
+1800b4dbd: 4c 89 45 70                 	mov	qword ptr [rbp + 0x70], r8
+1800b4dc1: 4c 8d 05 8c 98 03 00        	lea	r8, [rip + 0x3988c]     # 0x1800ee654
+1800b4dc8: 4c 89 45 78                 	mov	qword ptr [rbp + 0x78], r8
+1800b4dcc: 48 89 95 80 00 00 00        	mov	qword ptr [rbp + 0x80], rdx
+1800b4dd3: 48 8d 15 26 70 f5 ff        	lea	rdx, [rip - 0xa8fda]    # 0x18000be00 <.text+0xae00>
+1800b4dda: 48 89 95 88 00 00 00        	mov	qword ptr [rbp + 0x88], rdx
+1800b4de1: 48 8d 15 7f 98 03 00        	lea	rdx, [rip + 0x3987f]    # 0x1800ee667
+1800b4de8: 48 89 95 90 00 00 00        	mov	qword ptr [rbp + 0x90], rdx
+1800b4def: 48 8d 15 85 98 03 00        	lea	rdx, [rip + 0x39885]    # 0x1800ee67b
+1800b4df6: 48 89 95 98 00 00 00        	mov	qword ptr [rbp + 0x98], rdx
+1800b4dfd: 48 8d 15 3c b2 f5 ff        	lea	rdx, [rip - 0xa4dc4]    # 0x180010040 <.text+0xf040>
+1800b4e04: 48 89 95 a0 00 00 00        	mov	qword ptr [rbp + 0xa0], rdx
+1800b4e0b: 48 8d 15 a1 98 03 00        	lea	rdx, [rip + 0x398a1]    # 0x1800ee6b3
+1800b4e12: 48 89 95 a8 00 00 00        	mov	qword ptr [rbp + 0xa8], rdx
+1800b4e19: 48 89 8d b0 00 00 00        	mov	qword ptr [rbp + 0xb0], rcx
+1800b4e20: 48 8d 15 69 bb f5 ff        	lea	rdx, [rip - 0xa4497]    # 0x180010990 <.text+0xf990>
+1800b4e27: 48 89 95 b8 00 00 00        	mov	qword ptr [rbp + 0xb8], rdx
+1800b4e2e: 48 8d 15 93 98 03 00        	lea	rdx, [rip + 0x39893]    # 0x1800ee6c8
+1800b4e35: 48 89 95 c0 00 00 00        	mov	qword ptr [rbp + 0xc0], rdx
+1800b4e3c: 48 8d 15 7a 94 03 00        	lea	rdx, [rip + 0x3947a]    # 0x1800ee2bd
+1800b4e43: 48 89 95 c8 00 00 00        	mov	qword ptr [rbp + 0xc8], rdx
+1800b4e4a: 48 8d 15 3f d0 f5 ff        	lea	rdx, [rip - 0xa2fc1]    # 0x180011e90 <.text+0x10e90>
+1800b4e51: 48 89 95 d0 00 00 00        	mov	qword ptr [rbp + 0xd0], rdx
+1800b4e58: 48 8d 15 7a 98 03 00        	lea	rdx, [rip + 0x3987a]    # 0x1800ee6d9
+1800b4e5f: 48 89 95 d8 00 00 00        	mov	qword ptr [rbp + 0xd8], rdx
+1800b4e66: 48 8d 15 7f 98 03 00        	lea	rdx, [rip + 0x3987f]    # 0x1800ee6ec
+1800b4e6d: 48 89 95 e0 00 00 00        	mov	qword ptr [rbp + 0xe0], rdx
+1800b4e74: 48 8d 15 a5 d9 f5 ff        	lea	rdx, [rip - 0xa265b]    # 0x180012820 <.text+0x11820>
+1800b4e7b: 48 89 95 e8 00 00 00        	mov	qword ptr [rbp + 0xe8], rdx
+1800b4e82: 48 8d 15 81 98 03 00        	lea	rdx, [rip + 0x39881]    # 0x1800ee70a
+1800b4e89: 48 89 95 f0 00 00 00        	mov	qword ptr [rbp + 0xf0], rdx
+1800b4e90: 48 8d 15 83 98 03 00        	lea	rdx, [rip + 0x39883]    # 0x1800ee71a
+1800b4e97: 48 89 95 f8 00 00 00        	mov	qword ptr [rbp + 0xf8], rdx
+1800b4e9e: 48 8d 15 0b ec f5 ff        	lea	rdx, [rip - 0xa13f5]    # 0x180013ab0 <.text+0x12ab0>
+1800b4ea5: 48 89 95 00 01 00 00        	mov	qword ptr [rbp + 0x100], rdx
+1800b4eac: 48 8d 15 85 98 03 00        	lea	rdx, [rip + 0x39885]    # 0x1800ee738
+1800b4eb3: 48 89 95 08 01 00 00        	mov	qword ptr [rbp + 0x108], rdx
+1800b4eba: 48 89 8d 10 01 00 00        	mov	qword ptr [rbp + 0x110], rcx
+1800b4ec1: 48 8d 0d 28 04 f6 ff        	lea	rcx, [rip - 0x9fbd8]    # 0x1800152f0 <.text+0x142f0>
+1800b4ec8: 48 89 8d 18 01 00 00        	mov	qword ptr [rbp + 0x118], rcx
+1800b4ecf: 48 8d 0d 21 94 03 00        	lea	rcx, [rip + 0x39421]    # 0x1800ee2f7
+1800b4ed6: 48 89 8d 20 01 00 00        	mov	qword ptr [rbp + 0x120], rcx
+1800b4edd: 48 8d 0d 1e 94 03 00        	lea	rcx, [rip + 0x3941e]    # 0x1800ee302
+1800b4ee4: 48 89 8d 28 01 00 00        	mov	qword ptr [rbp + 0x128], rcx
+1800b4eeb: 48 8d 0d 7e 23 f6 ff        	lea	rcx, [rip - 0x9dc82]    # 0x180017270 <.text+0x16270>
+1800b4ef2: 48 89 8d 30 01 00 00        	mov	qword ptr [rbp + 0x130], rcx
+1800b4ef9: 48 8d 0d 4e 98 03 00        	lea	rcx, [rip + 0x3984e]    # 0x1800ee74e
+1800b4f00: 48 89 8d 38 01 00 00        	mov	qword ptr [rbp + 0x138], rcx
+1800b4f07: 48 8d 0d 53 98 03 00        	lea	rcx, [rip + 0x39853]    # 0x1800ee761
+1800b4f0e: 48 89 8d 40 01 00 00        	mov	qword ptr [rbp + 0x140], rcx
+1800b4f15: 48 8d 0d c4 2e f6 ff        	lea	rcx, [rip - 0x9d13c]    # 0x180017de0 <.text+0x16de0>
+1800b4f1c: 48 89 8d 48 01 00 00        	mov	qword ptr [rbp + 0x148], rcx
+1800b4f23: 48 8d 0d 55 98 03 00        	lea	rcx, [rip + 0x39855]    # 0x1800ee77f
+1800b4f2a: 48 89 8d 50 01 00 00        	mov	qword ptr [rbp + 0x150], rcx
+1800b4f31: 48 8d 0d 52 98 03 00        	lea	rcx, [rip + 0x39852]    # 0x1800ee78a
+1800b4f38: 48 89 8d 58 01 00 00        	mov	qword ptr [rbp + 0x158], rcx
+1800b4f3f: 48 8d 15 6a 3a f6 ff        	lea	rdx, [rip - 0x9c596]    # 0x1800189b0 <.text+0x179b0>
+1800b4f46: 48 89 95 60 01 00 00        	mov	qword ptr [rbp + 0x160], rdx
+1800b4f4d: 48 8d 15 6d 98 03 00        	lea	rdx, [rip + 0x3986d]    # 0x1800ee7c1
+1800b4f54: 48 89 95 68 01 00 00        	mov	qword ptr [rbp + 0x168], rdx
+1800b4f5b: 48 89 8d 70 01 00 00        	mov	qword ptr [rbp + 0x170], rcx
+1800b4f62: 48 8d 0d e7 4c f6 ff        	lea	rcx, [rip - 0x9b319]    # 0x180019c50 <.text+0x18c50>
+1800b4f69: 48 89 8d 78 01 00 00        	mov	qword ptr [rbp + 0x178], rcx
+1800b4f70: 48 8d 0d 58 98 03 00        	lea	rcx, [rip + 0x39858]    # 0x1800ee7cf
+1800b4f77: 48 89 8d 80 01 00 00        	mov	qword ptr [rbp + 0x180], rcx
+1800b4f7e: 48 89 85 88 01 00 00        	mov	qword ptr [rbp + 0x188], rax
+1800b4f85: 48 8d 0d 34 62 f6 ff        	lea	rcx, [rip - 0x99dcc]    # 0x18001b1c0 <.text+0x1a1c0>
+1800b4f8c: 48 89 8d 90 01 00 00        	mov	qword ptr [rbp + 0x190], rcx
+1800b4f93: 48 8d 0d 48 98 03 00        	lea	rcx, [rip + 0x39848]    # 0x1800ee7e2
+1800b4f9a: 48 89 8d 98 01 00 00        	mov	qword ptr [rbp + 0x198], rcx
+1800b4fa1: 48 8d 0d 4d 98 03 00        	lea	rcx, [rip + 0x3984d]    # 0x1800ee7f5
+1800b4fa8: 48 89 8d a0 01 00 00        	mov	qword ptr [rbp + 0x1a0], rcx
+1800b4faf: 48 8d 0d da 7b f6 ff        	lea	rcx, [rip - 0x98426]    # 0x18001cb90 <.text+0x1bb90>
+1800b4fb6: 48 89 8d a8 01 00 00        	mov	qword ptr [rbp + 0x1a8], rcx
+1800b4fbd: 48 8d 0d 4f 98 03 00        	lea	rcx, [rip + 0x3984f]    # 0x1800ee813
+1800b4fc4: 48 89 8d b0 01 00 00        	mov	qword ptr [rbp + 0x1b0], rcx
+1800b4fcb: 48 8d 0d 4e 98 03 00        	lea	rcx, [rip + 0x3984e]    # 0x1800ee820
+1800b4fd2: 48 89 8d b8 01 00 00        	mov	qword ptr [rbp + 0x1b8], rcx
+1800b4fd9: 48 8d 0d 30 8b f6 ff        	lea	rcx, [rip - 0x974d0]    # 0x18001db10 <.text+0x1cb10>
+1800b4fe0: 48 89 8d c0 01 00 00        	mov	qword ptr [rbp + 0x1c0], rcx
+1800b4fe7: 48 8d 0d 52 98 03 00        	lea	rcx, [rip + 0x39852]    # 0x1800ee840
+1800b4fee: 48 89 8d c8 01 00 00        	mov	qword ptr [rbp + 0x1c8], rcx
+1800b4ff5: 48 8d 0d 55 98 03 00        	lea	rcx, [rip + 0x39855]    # 0x1800ee851
+1800b4ffc: 48 89 8d d0 01 00 00        	mov	qword ptr [rbp + 0x1d0], rcx
+1800b5003: 48 8d 0d 46 93 f6 ff        	lea	rcx, [rip - 0x96cba]    # 0x18001e350 <.text+0x1d350>
+1800b500a: 48 89 8d d8 01 00 00        	mov	qword ptr [rbp + 0x1d8], rcx
+1800b5011: 48 8d 0d 71 98 03 00        	lea	rcx, [rip + 0x39871]    # 0x1800ee889
+1800b5018: 48 89 8d e0 01 00 00        	mov	qword ptr [rbp + 0x1e0], rcx
+1800b501f: 48 8d 0d 6f 98 03 00        	lea	rcx, [rip + 0x3986f]    # 0x1800ee895
+1800b5026: 48 89 8d e8 01 00 00        	mov	qword ptr [rbp + 0x1e8], rcx
+1800b502d: 48 8d 15 4c 9f f6 ff        	lea	rdx, [rip - 0x960b4]    # 0x18001ef80 <.text+0x1df80>
+1800b5034: 48 89 95 f0 01 00 00        	mov	qword ptr [rbp + 0x1f0], rdx
+1800b503b: 48 8d 15 8b 98 03 00        	lea	rdx, [rip + 0x3988b]    # 0x1800ee8cd
+1800b5042: 48 89 95 f8 01 00 00        	mov	qword ptr [rbp + 0x1f8], rdx
+1800b5049: 48 89 8d 00 02 00 00        	mov	qword ptr [rbp + 0x200], rcx
+1800b5050: 48 8d 0d 39 ce f6 ff        	lea	rcx, [rip - 0x931c7]    # 0x180021e90 <.text+0x20e90>
+1800b5057: 48 89 8d 08 02 00 00        	mov	qword ptr [rbp + 0x208], rcx
+1800b505e: 48 8d 0d 78 98 03 00        	lea	rcx, [rip + 0x39878]    # 0x1800ee8dd
+1800b5065: 48 89 8d 10 02 00 00        	mov	qword ptr [rbp + 0x210], rcx
+1800b506c: 48 8d 0d 73 98 03 00        	lea	rcx, [rip + 0x39873]    # 0x1800ee8e6
+1800b5073: 48 89 8d 18 02 00 00        	mov	qword ptr [rbp + 0x218], rcx
+1800b507a: 48 8d 15 4f d0 f6 ff        	lea	rdx, [rip - 0x92fb1]    # 0x1800220d0 <.text+0x210d0>
+1800b5081: 48 89 95 20 02 00 00        	mov	qword ptr [rbp + 0x220], rdx
+1800b5088: 48 8d 15 6b 98 03 00        	lea	rdx, [rip + 0x3986b]    # 0x1800ee8fa
+1800b508f: 48 89 95 28 02 00 00        	mov	qword ptr [rbp + 0x228], rdx
+1800b5096: 48 89 8d 30 02 00 00        	mov	qword ptr [rbp + 0x230], rcx
+1800b509d: 48 8d 0d 0c e6 f6 ff        	lea	rcx, [rip - 0x919f4]    # 0x1800236b0 <.text+0x226b0>
+1800b50a4: 48 89 8d 38 02 00 00        	mov	qword ptr [rbp + 0x238], rcx
+1800b50ab: 48 8d 0d 58 98 03 00        	lea	rcx, [rip + 0x39858]    # 0x1800ee90a
+1800b50b2: 48 89 8d 40 02 00 00        	mov	qword ptr [rbp + 0x240], rcx
+1800b50b9: 48 8d 0d 52 98 03 00        	lea	rcx, [rip + 0x39852]    # 0x1800ee912
+1800b50c0: 48 89 8d 48 02 00 00        	mov	qword ptr [rbp + 0x248], rcx
+1800b50c7: 48 8d 0d c2 fb f6 ff        	lea	rcx, [rip - 0x9043e]    # 0x180024c90 <.text+0x23c90>
+1800b50ce: 48 89 8d 50 02 00 00        	mov	qword ptr [rbp + 0x250], rcx
+1800b50d5: 48 8d 0d ff 91 03 00        	lea	rcx, [rip + 0x391ff]    # 0x1800ee2db
+1800b50dc: 48 89 8d 58 02 00 00        	mov	qword ptr [rbp + 0x258], rcx
+1800b50e3: 48 89 85 60 02 00 00        	mov	qword ptr [rbp + 0x260], rax
+1800b50ea: 48 8d 05 3f 1d f7 ff        	lea	rax, [rip - 0x8e2c1]    # 0x180026e30 <.text+0x25e30>
+1800b50f1: 48 89 85 68 02 00 00        	mov	qword ptr [rbp + 0x268], rax
+1800b50f8: 48 8d 05 31 98 03 00        	lea	rax, [rip + 0x39831]    # 0x1800ee930
+1800b50ff: 48 89 85 70 02 00 00        	mov	qword ptr [rbp + 0x270], rax
+1800b5106: 48 8d 05 bd 90 03 00        	lea	rax, [rip + 0x390bd]    # 0x1800ee1ca
+1800b510d: 48 89 85 78 02 00 00        	mov	qword ptr [rbp + 0x278], rax
+1800b5114: 48 8d 0d f5 29 f7 ff        	lea	rcx, [rip - 0x8d60b]    # 0x180027b10 <.text+0x26b10>
+1800b511b: 48 89 8d 80 02 00 00        	mov	qword ptr [rbp + 0x280], rcx
+1800b5122: 48 8d 0d 0d 98 03 00        	lea	rcx, [rip + 0x3980d]    # 0x1800ee936
+1800b5129: 48 89 8d 88 02 00 00        	mov	qword ptr [rbp + 0x288], rcx
+1800b5130: 48 89 85 90 02 00 00        	mov	qword ptr [rbp + 0x290], rax
+1800b5137: 48 8d 05 c2 30 f7 ff        	lea	rax, [rip - 0x8cf3e]    # 0x180028200 <.text+0x27200>
+1800b513e: 48 89 85 98 02 00 00        	mov	qword ptr [rbp + 0x298], rax
+1800b5145: 41 b9 20 00 00 00           	mov	r9d, 0x20
+1800b514b: eb 27                       	jmp	0x1800b5174 <Java_j2cc_internal_Loader_initClass+0xde4>
+1800b514d: 48 8d 05 ad 8d 03 00        	lea	rax, [rip + 0x38dad]    # 0x1800edf01
+1800b5154: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b5158: 48 8d 05 af 8d 03 00        	lea	rax, [rip + 0x38daf]    # 0x1800edf0e
+1800b515f: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b5163: 48 8d 05 96 bb ff ff        	lea	rax, [rip - 0x446a]     # 0x1800b0d00 <.text+0xafd00>
+1800b516a: 48 89 45 b0                 	mov	qword ptr [rbp - 0x50], rax
+1800b516e: 41 b9 01 00 00 00           	mov	r9d, 0x1
+1800b5174: 48 8b 07                    	mov	rax, qword ptr [rdi]
+1800b5177: 4c 8d 45 a0                 	lea	r8, [rbp - 0x60]
+1800b517b: 48 89 f9                    	mov	rcx, rdi
+1800b517e: 48 89 f2                    	mov	rdx, rsi
+1800b5181: ff 90 b8 06 00 00           	call	qword ptr [rax + 0x6b8]
+1800b5187: f6 85 a0 02 00 00 01        	test	byte ptr [rbp + 0x2a0], 0x1
+1800b518e: 74 0d                       	je	0x1800b519d <Java_j2cc_internal_Loader_initClass+0xe0d>
+1800b5190: 48 8b 8d b0 02 00 00        	mov	rcx, qword ptr [rbp + 0x2b0]
+1800b5197: e8 c4 25 00 00              	call	0x1800b7760 <Java_j2cc_internal_Loader_bootstrap+0x2010>
+1800b519c: 90                          	nop
+1800b519d: 48 81 c4 40 03 00 00        	add	rsp, 0x340
+1800b51a4: 5f                          	pop	rdi
+1800b51a5: 5e                          	pop	rsi
+1800b51a6: 5d                          	pop	rbp
+1800b51a7: c3                          	ret
+1800b51a8: 48 8d 15 93 97 03 00        	lea	rdx, [rip + 0x39793]    # 0x1800ee942
+1800b51af: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b51b6: e8 c5 06 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b51bb: 84 c0                       	test	al, al
+1800b51bd: 0f 84 81 00 00 00           	je	0x1800b5244 <Java_j2cc_internal_Loader_initClass+0xeb4>
+1800b51c3: 48 8d 05 9d 97 03 00        	lea	rax, [rip + 0x3979d]    # 0x1800ee967
+1800b51ca: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b51ce: 48 8d 05 aa 97 03 00        	lea	rax, [rip + 0x397aa]    # 0x1800ee97f
+1800b51d5: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b51d9: 48 8d 0d 70 dc f7 ff        	lea	rcx, [rip - 0x82390]    # 0x180032e50 <.text+0x31e50>
+1800b51e0: 48 89 4d b0                 	mov	qword ptr [rbp - 0x50], rcx
+1800b51e4: 48 8d 0d b2 97 03 00        	lea	rcx, [rip + 0x397b2]    # 0x1800ee99d
+1800b51eb: 48 89 4d b8                 	mov	qword ptr [rbp - 0x48], rcx
+1800b51ef: 48 89 45 c0                 	mov	qword ptr [rbp - 0x40], rax
+1800b51f3: 48 8d 05 d6 eb f7 ff        	lea	rax, [rip - 0x8142a]    # 0x180033dd0 <.text+0x32dd0>
+1800b51fa: 48 89 45 c8                 	mov	qword ptr [rbp - 0x38], rax
+1800b51fe: 48 8d 05 a3 97 03 00        	lea	rax, [rip + 0x397a3]    # 0x1800ee9a8
+1800b5205: 48 89 45 d0                 	mov	qword ptr [rbp - 0x30], rax
+1800b5209: 48 8d 05 73 8c 03 00        	lea	rax, [rip + 0x38c73]    # 0x1800ede83
+1800b5210: 48 89 45 d8                 	mov	qword ptr [rbp - 0x28], rax
+1800b5214: 48 8d 0d 35 fb f7 ff        	lea	rcx, [rip - 0x804cb]    # 0x180034d50 <.text+0x33d50>
+1800b521b: 48 89 4d e0                 	mov	qword ptr [rbp - 0x20], rcx
+1800b521f: 48 8d 0d 92 97 03 00        	lea	rcx, [rip + 0x39792]    # 0x1800ee9b8
+1800b5226: 48 89 4d e8                 	mov	qword ptr [rbp - 0x18], rcx
+1800b522a: 48 89 45 f0                 	mov	qword ptr [rbp - 0x10], rax
+1800b522e: 48 8d 05 6b 09 f8 ff        	lea	rax, [rip - 0x7f695]    # 0x180035ba0 <.text+0x34ba0>
+1800b5235: 48 89 45 f8                 	mov	qword ptr [rbp - 0x8], rax
+1800b5239: 41 b9 04 00 00 00           	mov	r9d, 0x4
+1800b523f: e9 30 ff ff ff              	jmp	0x1800b5174 <Java_j2cc_internal_Loader_initClass+0xde4>
+1800b5244: 48 8d 15 86 97 03 00        	lea	rdx, [rip + 0x39786]    # 0x1800ee9d1
+1800b524b: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b5252: e8 29 06 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b5257: 84 c0                       	test	al, al
+1800b5259: 74 22                       	je	0x1800b527d <Java_j2cc_internal_Loader_initClass+0xeed>
+1800b525b: 48 8d 05 91 97 03 00        	lea	rax, [rip + 0x39791]    # 0x1800ee9f3
+1800b5262: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b5266: 48 8d 05 90 97 03 00        	lea	rax, [rip + 0x39790]    # 0x1800ee9fd
+1800b526d: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b5271: 48 8d 05 18 4f ff ff        	lea	rax, [rip - 0xb0e8]     # 0x1800aa190 <.text+0xa9190>
+1800b5278: e9 ed fe ff ff              	jmp	0x1800b516a <Java_j2cc_internal_Loader_initClass+0xdda>
+1800b527d: 48 8d 15 97 97 03 00        	lea	rdx, [rip + 0x39797]    # 0x1800eea1b
+1800b5284: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b528b: e8 f0 05 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b5290: 84 c0                       	test	al, al
+1800b5292: 74 5d                       	je	0x1800b52f1 <Java_j2cc_internal_Loader_initClass+0xf61>
+1800b5294: 48 8d 05 a5 97 03 00        	lea	rax, [rip + 0x397a5]    # 0x1800eea40
+1800b529b: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b529f: 48 8d 05 dd 8b 03 00        	lea	rax, [rip + 0x38bdd]    # 0x1800ede83
+1800b52a6: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b52aa: 48 8d 0d 9f a5 fd ff        	lea	rcx, [rip - 0x25a61]    # 0x18008f850 <.text+0x8e850>
+1800b52b1: 48 89 4d b0                 	mov	qword ptr [rbp - 0x50], rcx
+1800b52b5: 48 8d 0d 92 97 03 00        	lea	rcx, [rip + 0x39792]    # 0x1800eea4e
+1800b52bc: 48 89 4d b8                 	mov	qword ptr [rbp - 0x48], rcx
+1800b52c0: 48 89 45 c0                 	mov	qword ptr [rbp - 0x40], rax
+1800b52c4: 48 8d 05 c5 ba fd ff        	lea	rax, [rip - 0x2453b]    # 0x180090d90 <.text+0x8fd90>
+1800b52cb: 48 89 45 c8                 	mov	qword ptr [rbp - 0x38], rax
+1800b52cf: 48 8d 05 89 97 03 00        	lea	rax, [rip + 0x39789]    # 0x1800eea5f
+1800b52d6: 48 89 45 d0                 	mov	qword ptr [rbp - 0x30], rax
+1800b52da: 48 8d 05 36 91 03 00        	lea	rax, [rip + 0x39136]    # 0x1800ee417
+1800b52e1: 48 89 45 d8                 	mov	qword ptr [rbp - 0x28], rax
+1800b52e5: 48 8d 05 b4 c9 fd ff        	lea	rax, [rip - 0x2364c]    # 0x180091ca0 <.text+0x90ca0>
+1800b52ec: e9 87 f7 ff ff              	jmp	0x1800b4a78 <Java_j2cc_internal_Loader_initClass+0x6e8>
+1800b52f1: 48 8d 15 7d 97 03 00        	lea	rdx, [rip + 0x3977d]    # 0x1800eea75
+1800b52f8: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b52ff: e8 7c 05 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b5304: 84 c0                       	test	al, al
+1800b5306: 0f 84 50 02 00 00           	je	0x1800b555c <Java_j2cc_internal_Loader_initClass+0x11cc>
+1800b530c: 48 8d 05 8e 97 03 00        	lea	rax, [rip + 0x3978e]    # 0x1800eeaa1
+1800b5313: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b5317: 48 8d 05 16 90 03 00        	lea	rax, [rip + 0x39016]    # 0x1800ee334
+1800b531e: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b5322: 48 8d 0d b7 0c fe ff        	lea	rcx, [rip - 0x1f349]    # 0x180095fe0 <.text+0x94fe0>
+1800b5329: 48 89 4d b0                 	mov	qword ptr [rbp - 0x50], rcx
+1800b532d: 48 8d 0d a6 90 03 00        	lea	rcx, [rip + 0x390a6]    # 0x1800ee3da
+1800b5334: 48 89 4d b8                 	mov	qword ptr [rbp - 0x48], rcx
+1800b5338: 48 8d 15 79 8c 03 00        	lea	rdx, [rip + 0x38c79]    # 0x1800edfb8
+1800b533f: 48 89 55 c0                 	mov	qword ptr [rbp - 0x40], rdx
+1800b5343: 48 8d 0d a6 16 fe ff        	lea	rcx, [rip - 0x1e95a]    # 0x1800969f0 <.text+0x959f0>
+1800b534a: 48 89 4d c8                 	mov	qword ptr [rbp - 0x38], rcx
+1800b534e: 48 8d 0d 97 90 03 00        	lea	rcx, [rip + 0x39097]    # 0x1800ee3ec
+1800b5355: 48 89 4d d0                 	mov	qword ptr [rbp - 0x30], rcx
+1800b5359: 48 8d 0d 23 8b 03 00        	lea	rcx, [rip + 0x38b23]    # 0x1800ede83
+1800b5360: 48 89 4d d8                 	mov	qword ptr [rbp - 0x28], rcx
+1800b5364: 4c 8d 05 15 1b fe ff        	lea	r8, [rip - 0x1e4eb]     # 0x180096e80 <.text+0x95e80>
+1800b536b: 4c 89 45 e0                 	mov	qword ptr [rbp - 0x20], r8
+1800b536f: 4c 8d 05 3a 97 03 00        	lea	r8, [rip + 0x3973a]     # 0x1800eeab0
+1800b5376: 4c 89 45 e8                 	mov	qword ptr [rbp - 0x18], r8
+1800b537a: 48 89 55 f0                 	mov	qword ptr [rbp - 0x10], rdx
+1800b537e: 4c 8d 05 4b 2e fe ff        	lea	r8, [rip - 0x1d1b5]     # 0x1800981d0 <.text+0x971d0>
+1800b5385: 4c 89 45 f8                 	mov	qword ptr [rbp - 0x8], r8
+1800b5389: 4c 8d 05 27 91 03 00        	lea	r8, [rip + 0x39127]     # 0x1800ee4b7
+1800b5390: 4c 89 45 00                 	mov	qword ptr [rbp], r8
+1800b5394: 4c 8d 05 27 91 03 00        	lea	r8, [rip + 0x39127]     # 0x1800ee4c2
+1800b539b: 4c 89 45 08                 	mov	qword ptr [rbp + 0x8], r8
+1800b539f: 4c 8d 05 0a 33 fe ff        	lea	r8, [rip - 0x1ccf6]     # 0x1800986b0 <.text+0x976b0>
+1800b53a6: 4c 89 45 10                 	mov	qword ptr [rbp + 0x10], r8
+1800b53aa: 4c 8d 05 10 97 03 00        	lea	r8, [rip + 0x39710]     # 0x1800eeac1
+1800b53b1: 4c 89 45 18                 	mov	qword ptr [rbp + 0x18], r8
+1800b53b5: 4c 8d 05 ba 8d 03 00        	lea	r8, [rip + 0x38dba]     # 0x1800ee176
+1800b53bc: 4c 89 45 20                 	mov	qword ptr [rbp + 0x20], r8
+1800b53c0: 4c 8d 05 49 3d fe ff        	lea	r8, [rip - 0x1c2b7]     # 0x180099110 <.text+0x98110>
+1800b53c7: 4c 89 45 28                 	mov	qword ptr [rbp + 0x28], r8
+1800b53cb: 4c 8d 05 06 97 03 00        	lea	r8, [rip + 0x39706]     # 0x1800eead8
+1800b53d2: 4c 89 45 30                 	mov	qword ptr [rbp + 0x30], r8
+1800b53d6: 48 89 55 38                 	mov	qword ptr [rbp + 0x38], rdx
+1800b53da: 4c 8d 05 df 4f fe ff        	lea	r8, [rip - 0x1b021]     # 0x18009a3c0 <.text+0x993c0>
+1800b53e1: 4c 89 45 40                 	mov	qword ptr [rbp + 0x40], r8
+1800b53e5: 4c 8d 05 b1 90 03 00        	lea	r8, [rip + 0x390b1]     # 0x1800ee49d
+1800b53ec: 4c 89 45 48                 	mov	qword ptr [rbp + 0x48], r8
+1800b53f0: 48 89 55 50                 	mov	qword ptr [rbp + 0x50], rdx
+1800b53f4: 48 8d 15 45 9b fe ff        	lea	rdx, [rip - 0x164bb]    # 0x18009ef40 <.text+0x9df40>
+1800b53fb: 48 89 55 58                 	mov	qword ptr [rbp + 0x58], rdx
+1800b53ff: 48 8d 15 da 96 03 00        	lea	rdx, [rip + 0x396da]    # 0x1800eeae0
+1800b5406: 48 89 55 60                 	mov	qword ptr [rbp + 0x60], rdx
+1800b540a: 48 8d 15 e8 90 03 00        	lea	rdx, [rip + 0x390e8]    # 0x1800ee4f9
+1800b5411: 48 89 55 68                 	mov	qword ptr [rbp + 0x68], rdx
+1800b5415: 4c 8d 05 54 a8 fe ff        	lea	r8, [rip - 0x157ac]     # 0x18009fc70 <.text+0x9ec70>
+1800b541c: 4c 89 45 70                 	mov	qword ptr [rbp + 0x70], r8
+1800b5420: 4c 8d 05 cd 96 03 00        	lea	r8, [rip + 0x396cd]     # 0x1800eeaf4
+1800b5427: 4c 89 45 78                 	mov	qword ptr [rbp + 0x78], r8
+1800b542b: 48 89 8d 80 00 00 00        	mov	qword ptr [rbp + 0x80], rcx
+1800b5432: 48 8d 0d 97 b6 fe ff        	lea	rcx, [rip - 0x14969]    # 0x1800a0ad0 <.text+0x9fad0>
+1800b5439: 48 89 8d 88 00 00 00        	mov	qword ptr [rbp + 0x88], rcx
+1800b5440: 48 8d 0d be 96 03 00        	lea	rcx, [rip + 0x396be]    # 0x1800eeb05
+1800b5447: 48 89 8d 90 00 00 00        	mov	qword ptr [rbp + 0x90], rcx
+1800b544e: 48 8d 0d be 96 03 00        	lea	rcx, [rip + 0x396be]    # 0x1800eeb13
+1800b5455: 48 89 8d 98 00 00 00        	mov	qword ptr [rbp + 0x98], rcx
+1800b545c: 48 8d 0d bd cc fe ff        	lea	rcx, [rip - 0x13343]    # 0x1800a2120 <.text+0xa1120>
+1800b5463: 48 89 8d a0 00 00 00        	mov	qword ptr [rbp + 0xa0], rcx
+1800b546a: 48 8d 0d c2 96 03 00        	lea	rcx, [rip + 0x396c2]    # 0x1800eeb33
+1800b5471: 48 89 8d a8 00 00 00        	mov	qword ptr [rbp + 0xa8], rcx
+1800b5478: 48 89 85 b0 00 00 00        	mov	qword ptr [rbp + 0xb0], rax
+1800b547f: 48 8d 05 3a df fe ff        	lea	rax, [rip - 0x120c6]    # 0x1800a33c0 <.text+0xa23c0>
+1800b5486: 48 89 85 b8 00 00 00        	mov	qword ptr [rbp + 0xb8], rax
+1800b548d: 48 8d 05 b1 96 03 00        	lea	rax, [rip + 0x396b1]    # 0x1800eeb45
+1800b5494: 48 89 85 c0 00 00 00        	mov	qword ptr [rbp + 0xc0], rax
+1800b549b: 48 8d 05 bf 92 03 00        	lea	rax, [rip + 0x392bf]    # 0x1800ee761
+1800b54a2: 48 89 85 c8 00 00 00        	mov	qword ptr [rbp + 0xc8], rax
+1800b54a9: 48 8d 05 60 e7 fe ff        	lea	rax, [rip - 0x118a0]    # 0x1800a3c10 <.text+0xa2c10>
+1800b54b0: 48 89 85 d0 00 00 00        	mov	qword ptr [rbp + 0xd0], rax
+1800b54b7: 48 8d 05 2e 90 03 00        	lea	rax, [rip + 0x3902e]    # 0x1800ee4ec
+1800b54be: 48 89 85 d8 00 00 00        	mov	qword ptr [rbp + 0xd8], rax
+1800b54c5: 48 89 95 e0 00 00 00        	mov	qword ptr [rbp + 0xe0], rdx
+1800b54cc: 48 8d 05 bd 24 ff ff        	lea	rax, [rip - 0xdb43]     # 0x1800a7990 <.text+0xa6990>
+1800b54d3: 48 89 85 e8 00 00 00        	mov	qword ptr [rbp + 0xe8], rax
+1800b54da: 48 8d 05 76 96 03 00        	lea	rax, [rip + 0x39676]    # 0x1800eeb57
+1800b54e1: 48 89 85 f0 00 00 00        	mov	qword ptr [rbp + 0xf0], rax
+1800b54e8: 48 8d 05 74 96 03 00        	lea	rax, [rip + 0x39674]    # 0x1800eeb63
+1800b54ef: 48 89 85 f8 00 00 00        	mov	qword ptr [rbp + 0xf8], rax
+1800b54f6: 48 8d 05 93 28 ff ff        	lea	rax, [rip - 0xd76d]     # 0x1800a7d90 <.text+0xa6d90>
+1800b54fd: 48 89 85 00 01 00 00        	mov	qword ptr [rbp + 0x100], rax
+1800b5504: 48 8d 05 5d 96 03 00        	lea	rax, [rip + 0x3965d]    # 0x1800eeb68
+1800b550b: 48 89 85 08 01 00 00        	mov	qword ptr [rbp + 0x108], rax
+1800b5512: 48 8d 05 a4 8d 03 00        	lea	rax, [rip + 0x38da4]    # 0x1800ee2bd
+1800b5519: 48 89 85 10 01 00 00        	mov	qword ptr [rbp + 0x110], rax
+1800b5520: 48 8d 0d d9 28 ff ff        	lea	rcx, [rip - 0xd727]     # 0x1800a7e00 <.text+0xa6e00>
+1800b5527: 48 89 8d 18 01 00 00        	mov	qword ptr [rbp + 0x118], rcx
+1800b552e: 48 8d 0d ec 8f 03 00        	lea	rcx, [rip + 0x38fec]    # 0x1800ee521
+1800b5535: 48 89 8d 20 01 00 00        	mov	qword ptr [rbp + 0x120], rcx
+1800b553c: 48 89 85 28 01 00 00        	mov	qword ptr [rbp + 0x128], rax
+1800b5543: 48 8d 05 86 3a ff ff        	lea	rax, [rip - 0xc57a]     # 0x1800a8fd0 <.text+0xa7fd0>
+1800b554a: 48 89 85 30 01 00 00        	mov	qword ptr [rbp + 0x130], rax
+1800b5551: 41 b9 11 00 00 00           	mov	r9d, 0x11
+1800b5557: e9 18 fc ff ff              	jmp	0x1800b5174 <Java_j2cc_internal_Loader_initClass+0xde4>
+1800b555c: 48 8d 15 13 96 03 00        	lea	rdx, [rip + 0x39613]    # 0x1800eeb76
+1800b5563: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b556a: e8 11 03 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b556f: 84 c0                       	test	al, al
+1800b5571: 74 5d                       	je	0x1800b55d0 <Java_j2cc_internal_Loader_initClass+0x1240>
+1800b5573: 48 8d 05 20 96 03 00        	lea	rax, [rip + 0x39620]    # 0x1800eeb9a
+1800b557a: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b557e: 48 8d 05 2b 96 03 00        	lea	rax, [rip + 0x3962b]    # 0x1800eebb0
+1800b5585: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b5589: 48 8d 05 f0 41 f8 ff        	lea	rax, [rip - 0x7be10]    # 0x180039780 <.text+0x38780>
+1800b5590: 48 89 45 b0                 	mov	qword ptr [rbp - 0x50], rax
+1800b5594: 48 8d 05 1b 96 03 00        	lea	rax, [rip + 0x3961b]    # 0x1800eebb6
+1800b559b: 48 89 45 b8                 	mov	qword ptr [rbp - 0x48], rax
+1800b559f: 48 8d 05 dd 88 03 00        	lea	rax, [rip + 0x388dd]    # 0x1800ede83
+1800b55a6: 48 89 45 c0                 	mov	qword ptr [rbp - 0x40], rax
+1800b55aa: 48 8d 0d 4f 42 f8 ff        	lea	rcx, [rip - 0x7bdb1]    # 0x180039800 <.text+0x38800>
+1800b55b1: 48 89 4d c8                 	mov	qword ptr [rbp - 0x38], rcx
+1800b55b5: 48 8d 0d 0d 96 03 00        	lea	rcx, [rip + 0x3960d]    # 0x1800eebc9
+1800b55bc: 48 89 4d d0                 	mov	qword ptr [rbp - 0x30], rcx
+1800b55c0: 48 89 45 d8                 	mov	qword ptr [rbp - 0x28], rax
+1800b55c4: 48 8d 05 f5 4b f8 ff        	lea	rax, [rip - 0x7b40b]    # 0x18003a1c0 <.text+0x391c0>
+1800b55cb: e9 a8 f4 ff ff              	jmp	0x1800b4a78 <Java_j2cc_internal_Loader_initClass+0x6e8>
+1800b55d0: 48 8d 15 f9 95 03 00        	lea	rdx, [rip + 0x395f9]    # 0x1800eebd0
+1800b55d7: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b55de: e8 9d 02 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b55e3: 84 c0                       	test	al, al
+1800b55e5: 74 22                       	je	0x1800b5609 <Java_j2cc_internal_Loader_initClass+0x1279>
+1800b55e7: 48 8d 05 07 96 03 00        	lea	rax, [rip + 0x39607]    # 0x1800eebf5
+1800b55ee: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b55f2: 48 8d 05 04 96 03 00        	lea	rax, [rip + 0x39604]    # 0x1800eebfd
+1800b55f9: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b55fd: 48 8d 05 5c ea ff ff        	lea	rax, [rip - 0x15a4]     # 0x1800b4060 <.text+0xb3060>
+1800b5604: e9 61 fb ff ff              	jmp	0x1800b516a <Java_j2cc_internal_Loader_initClass+0xdda>
+1800b5609: 48 8d 15 f4 95 03 00        	lea	rdx, [rip + 0x395f4]    # 0x1800eec04
+1800b5610: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b5617: e8 64 02 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b561c: 84 c0                       	test	al, al
+1800b561e: 0f 84 eb 00 00 00           	je	0x1800b570f <Java_j2cc_internal_Loader_initClass+0x137f>
+1800b5624: 48 8d 05 af 8d 03 00        	lea	rax, [rip + 0x38daf]    # 0x1800ee3da
+1800b562b: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b562f: 48 8d 05 82 89 03 00        	lea	rax, [rip + 0x38982]    # 0x1800edfb8
+1800b5636: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b563a: 48 8d 0d 7f 33 f7 ff        	lea	rcx, [rip - 0x8cc81]    # 0x1800289c0 <.text+0x279c0>
+1800b5641: 48 89 4d b0                 	mov	qword ptr [rbp - 0x50], rcx
+1800b5645: 48 8d 0d e6 95 03 00        	lea	rcx, [rip + 0x395e6]    # 0x1800eec32
+1800b564c: 48 89 4d b8                 	mov	qword ptr [rbp - 0x48], rcx
+1800b5650: 48 89 45 c0                 	mov	qword ptr [rbp - 0x40], rax
+1800b5654: 48 8d 05 f5 37 f7 ff        	lea	rax, [rip - 0x8c80b]    # 0x180028e50 <.text+0x27e50>
+1800b565b: 48 89 45 c8                 	mov	qword ptr [rbp - 0x38], rax
+1800b565f: 48 8d 05 d6 95 03 00        	lea	rax, [rip + 0x395d6]    # 0x1800eec3c
+1800b5666: 48 89 45 d0                 	mov	qword ptr [rbp - 0x30], rax
+1800b566a: 48 8d 05 d5 95 03 00        	lea	rax, [rip + 0x395d5]    # 0x1800eec46
+1800b5671: 48 89 45 d8                 	mov	qword ptr [rbp - 0x28], rax
+1800b5675: 48 8d 05 24 5c f7 ff        	lea	rax, [rip - 0x8a3dc]    # 0x18002b2a0 <.text+0x2a2a0>
+1800b567c: 48 89 45 e0                 	mov	qword ptr [rbp - 0x20], rax
+1800b5680: 48 8d 05 de 95 03 00        	lea	rax, [rip + 0x395de]    # 0x1800eec65
+1800b5687: 48 89 45 e8                 	mov	qword ptr [rbp - 0x18], rax
+1800b568b: 48 8d 05 df 95 03 00        	lea	rax, [rip + 0x395df]    # 0x1800eec71
+1800b5692: 48 89 45 f0                 	mov	qword ptr [rbp - 0x10], rax
+1800b5696: 48 8d 05 e3 6f f7 ff        	lea	rax, [rip - 0x8901d]    # 0x18002c680 <.text+0x2b680>
+1800b569d: 48 89 45 f8                 	mov	qword ptr [rbp - 0x8], rax
+1800b56a1: 48 8d 05 af 94 03 00        	lea	rax, [rip + 0x394af]    # 0x1800eeb57
+1800b56a8: 48 89 45 00                 	mov	qword ptr [rbp], rax
+1800b56ac: 48 8d 05 b0 94 03 00        	lea	rax, [rip + 0x394b0]    # 0x1800eeb63
+1800b56b3: 48 89 45 08                 	mov	qword ptr [rbp + 0x8], rax
+1800b56b7: 48 8d 05 92 90 f7 ff        	lea	rax, [rip - 0x86f6e]    # 0x18002e750 <.text+0x2d750>
+1800b56be: 48 89 45 10                 	mov	qword ptr [rbp + 0x10], rax
+1800b56c2: 48 8d 05 e2 95 03 00        	lea	rax, [rip + 0x395e2]    # 0x1800eecab
+1800b56c9: 48 89 45 18                 	mov	qword ptr [rbp + 0x18], rax
+1800b56cd: 48 8d 05 e7 95 03 00        	lea	rax, [rip + 0x395e7]    # 0x1800eecbb
+1800b56d4: 48 89 45 20                 	mov	qword ptr [rbp + 0x20], rax
+1800b56d8: 48 8d 05 e1 90 f7 ff        	lea	rax, [rip - 0x86f1f]    # 0x18002e7c0 <.text+0x2d7c0>
+1800b56df: 48 89 45 28                 	mov	qword ptr [rbp + 0x28], rax
+1800b56e3: 48 8d 05 e6 95 03 00        	lea	rax, [rip + 0x395e6]    # 0x1800eecd0
+1800b56ea: 48 89 45 30                 	mov	qword ptr [rbp + 0x30], rax
+1800b56ee: 48 8d 05 eb 95 03 00        	lea	rax, [rip + 0x395eb]    # 0x1800eece0
+1800b56f5: 48 89 45 38                 	mov	qword ptr [rbp + 0x38], rax
+1800b56f9: 48 8d 05 60 9f f7 ff        	lea	rax, [rip - 0x860a0]    # 0x18002f660 <.text+0x2e660>
+1800b5700: 48 89 45 40                 	mov	qword ptr [rbp + 0x40], rax
+1800b5704: 41 b9 07 00 00 00           	mov	r9d, 0x7
+1800b570a: e9 65 fa ff ff              	jmp	0x1800b5174 <Java_j2cc_internal_Loader_initClass+0xde4>
+1800b570f: 48 8d 15 e0 95 03 00        	lea	rdx, [rip + 0x395e0]    # 0x1800eecf6
+1800b5716: 48 8d 8d a0 02 00 00        	lea	rcx, [rbp + 0x2a0]
+1800b571d: e8 5e 01 00 00              	call	0x1800b5880 <Java_j2cc_internal_Loader_bootstrap+0x130>
+1800b5722: 48 8d 05 ef 95 03 00        	lea	rax, [rip + 0x395ef]    # 0x1800eed18
+1800b5729: 48 89 45 a0                 	mov	qword ptr [rbp - 0x60], rax
+1800b572d: 48 8d 05 fc 95 03 00        	lea	rax, [rip + 0x395fc]    # 0x1800eed30
+1800b5734: 48 89 45 a8                 	mov	qword ptr [rbp - 0x58], rax
+1800b5738: 48 8d 05 01 d6 ff ff        	lea	rax, [rip - 0x29ff]     # 0x1800b2d40 <.text+0xb1d40>
+1800b573f: e9 26 fa ff ff              	jmp	0x1800b516a <Java_j2cc_internal_Loader_initClass+0xdda>
+1800b5744: 66 2e 0f 1f 84 00 00 00 00 00       	nop	word ptr cs:[rax + rax]
+1800b574e: 66 90                       	nop

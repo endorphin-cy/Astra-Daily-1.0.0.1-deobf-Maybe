@@ -1,0 +1,9 @@
+COMMAND:
+java -jar C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\cfr-0.152.jar C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\raw-jar\dev\Astra\mod\modules\impl\l\a̋.class --outputdir C:\Users\Administrator\Documents\Codex\2026-10-05\src\outputs\Astra-Daily-1.0.0.1-deobf\method-recovered\dev_Astra_mod_modules_impl_l_a̋\onUpdate\pull-case --methodname onUpdate --lenient true --ignoreexceptions true --recover false --allowmalformedswitch true --decodestringswitch false --pullcodecase true --reducecondscope true --forcetopsort true --antiobf true
+
+STDOUT:
+
+
+STDERR:
+Can't load the class specified:
+org.benf.cfr.reader.util.CannotLoadClassException: C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\raw-jar\dev\Astra\mod\modules\impl\l\?.class - java.io.IOException: No such file C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\raw-jar\dev\Astra\mod\modules\impl\l\?.class

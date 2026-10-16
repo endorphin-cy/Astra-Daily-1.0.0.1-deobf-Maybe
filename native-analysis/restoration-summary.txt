@@ -1,0 +1,8 @@
+Java native declarations: 131
+J2CC recovered RegisterNatives entries: 126
+J2CC classes: 18
+KBox NativeCrypto declarations: 3
+Executed sample/native: false
+KBox second-stage sections statically decrypted: 9
+KBox stage-decrypted PE SHA-256: a1f31f79e98ed1f78dd0684c1051cf6de270cd75713584c8686739a4447ea3bf
+KBox recovered exports: Java_com_kbox_runtime_NativeCrypto_decryptByteAt0, Java_com_kbox_runtime_NativeCrypto_decryptString0, Java_com_kbox_runtime_NativeCrypto_hkdfSha2560

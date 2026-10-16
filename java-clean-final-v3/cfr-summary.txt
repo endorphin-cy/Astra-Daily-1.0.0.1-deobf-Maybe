@@ -1,0 +1,118 @@
+Summary for C:\Users\Administrator\Downloads\Astra-Daily-1.0.0.1-obf.jar
+Decompiled with CFR 0.152
+
+
+dev.Astra.api.events.eventbus.EventBus
+----------------------------
+
+à(java.util.List<dev.Astra.api.events.eventbus.IListener> java.lang.Class<?> java.lang.Object )
+  Unable to fully structure code
+
+
+dev.Astra.ạ
+----------------------------
+
+á(float float )
+  Unable to fully structure code
+
+
+dev.Astra.a̮
+----------------------------
+
+à(java.lang.String[] )
+  Exception : org.benf.cfr.reader.bytecode.analysis.opgraph.op4rewriters.SwitchStringRewriter$TooOptimisticMatchException
+
+
+dev.Astra.a̲
+----------------------------
+
+à(java.lang.String[] )
+  Unable to fully structure code
+
+
+dev.Astra.a͊
+----------------------------
+
+à(int )
+  Unable to fully structure code
+
+
+dev.Astra.b̟
+----------------------------
+
+à(net.minecraft.class_4587 )
+  Unable to fully structure code
+
+
+dev.Astra.b̤
+----------------------------
+
+onRender3D(dev.Astra.api.events.impl.Render3DEvent )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+dev.Astra.mod.modules.impl.d.Aura
+----------------------------
+
+onTick(dev.Astra.api.events.impl.ClientTickEvent )
+  Unable to fully structure code
+
+
+dev.Astra.mod.modules.impl.d.ā
+----------------------------
+
+onRender3D(dev.Astra.api.events.impl.Render3DEvent )
+  Unable to fully structure code
+
+
+dev.Astra.mod.modules.impl.d.ȧ
+----------------------------
+
+onUpdate(dev.Astra.api.events.impl.UpdateEvent )
+  Unable to fully structure code
+  Could not resolve type clashes
+à(int )
+  Unable to fully structure code
+
+
+dev.Astra.mod.modules.impl.f.ā
+----------------------------
+
+â()
+  Unable to fully structure code
+
+
+dev.Astra.mod.modules.impl.i.NoSlow
+----------------------------
+
+onUpdate(dev.Astra.api.events.impl.UpdateEvent )
+  Unable to fully structure code
+
+
+dev.Astra.mod.modules.impl.i.a̋
+----------------------------
+
+onUpdate(dev.Astra.api.events.impl.UpdateEvent )
+  Unable to fully structure code
+
+
+dev.Astra.mod.modules.impl.l.PacketMine
+----------------------------
+
+onTick(dev.Astra.api.events.impl.ClientTickEvent )
+  Unable to fully structure code
+
+
+dev.Astra.mod.modules.impl.l.a̋
+----------------------------
+
+onUpdate(dev.Astra.api.events.impl.UpdateEvent )
+  Unable to fully structure code
+
+
+j2cc.internal.Platform
+----------------------------
+
+getCanonicalArchitecture(java.lang.String )
+  Exception : org.benf.cfr.reader.bytecode.analysis.opgraph.op4rewriters.SwitchStringRewriter$TooOptimisticMatchException

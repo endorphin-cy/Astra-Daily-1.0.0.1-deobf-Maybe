@@ -1,0 +1,9 @@
+COMMAND:
+java -jar C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\cfr-0.152.jar C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\raw-jar\dev\Astra\b̟.class --outputdir C:\Users\Administrator\Documents\Codex\2026-10-05\src\outputs\Astra-Daily-1.0.0.1-deobf\method-recovered\dev_Astra_b̟\onRender3D\conservative --methodname onRender3D --lenient true --ignoreexceptions true --recover false --allowmalformedswitch true --decodestringswitch false --antiobf true
+
+STDOUT:
+
+
+STDERR:
+Can't load the class specified:
+org.benf.cfr.reader.util.CannotLoadClassException: C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\raw-jar\dev\Astra\?.class - java.io.IOException: No such file C:\Users\Administrator\Documents\Codex\2026-10-05\src\work\astra-deobf\raw-jar\dev\Astra\?.class
